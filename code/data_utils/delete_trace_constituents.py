@@ -15,17 +15,17 @@ def merge_dels(token_list):
         else: new_list.append(current_s)
     return new_list
 
-def delete_trace(args):
+def delete_trace(args,keyword="(-NONE-"):
     with open(args.infile) as fin,  open(args.outfile, 'w') as fout:
         for line in fin:
             #line_tmp = line.strip().replace('(', ' ( ').replace(')', ' ) ')
             toks = line.strip().split()
-            if "(-NONE-" not in toks:
+            if keyword not in toks:
                 new_tree = toks[:]
                 fout.write('{}\n'.format(' '.join(new_tree)))
             else:
                 tok_tmp = toks[:]
-                none_indices = [i for i, x in enumerate(toks) if x == "(-NONE-"]
+                none_indices = [i for i, x in enumerate(toks) if x == keyword]
                 for idx in none_indices:
                     tok_tmp[idx:idx+2] = ["TO_DELETE"]*2
 
@@ -58,6 +58,7 @@ if __name__ == '__main__':
     pa.add_argument('--infile', help='input tree filename')
     pa.add_argument('--outfile', help='output filename')
     args = pa.parse_args()
-    delete_trace(args)
+    #delete_trace(args,keyword="(-NONE-")
+    delete_trace(args,keyword="(-DFL-")
     sys.exit(0)
 

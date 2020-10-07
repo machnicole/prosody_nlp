@@ -28,6 +28,7 @@ vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw',
 'ay', 'ax', 'er','oy','ow', 'ae', 'uw']
 
 def process_head_tail_cases(info):
+
     word = info['text'].lower()
     word = clean_text(word)
     temp_splits = word.split("'")
@@ -44,13 +45,26 @@ def process_head_tail_cases(info):
         head_id, tail_id = split2_info[word]
     #if word in split1_info:
     elif temp_splits[1] in split1_tails:
-        head_time = phone_ends[:-1][-1] - phone_starts[:-1][0] 
+        try:
+            head_time = phone_ends[:-1][-1] - phone_starts[:-1][0]
+        except:
+            print('split1_tails: cant get head_time -- setting to 0')
+            print(phone_starts)
+            print(phone_ends)
+            head_time = 0
         tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
         #head_id = split1_info[word][0]
         #tail_id = split1_info[word][-1]
         head_id, tail_id = temp_splits
     elif temp_splits[1] in split2_tails:
-        head_time = phone_ends[:-2][-1] - phone_starts[:-2][0] 
+        try:
+            head_time = phone_ends[:-2][-1] - phone_starts[:-2][0]
+        except:
+            print('split2_tails: cant get head_time -- setting to 0')
+            print(phone_starts)
+            print(phone_ends)
+            head_time = 0
+
         tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
         head_id = word[:-3]
         tail_id = word[-3:]
@@ -74,6 +88,8 @@ def need_split(word):
 # Clean MS token to have "written" form
 def clean_text(raw_word):
     word = raw_word.lower()
+    if word == '[lard/yard]':
+        word = 'lar'
     word = word.replace("_1", "")
     if '[laughter-' in word:
         word = word.lstrip('[laughther').rstrip(']').lstrip('-')
@@ -83,10 +99,13 @@ def clean_text(raw_word):
         word = re.sub(r'\[[^)]*\]','', word)
     if "{" in word and "}" in word:
         word = word.replace("{", "").replace("}", "")
+    if word.endswith('-'):
+        word = word.rstrip('-')
     return word
 
 # get data stats from training set
 def get_data_stats(data_dir, stat_dir):
+
     # files of mean stats
     head_dict_file = os.path.join(stat_dir, 'word_head_stats.pickle')
     tail_dict_file = os.path.join(stat_dir, 'word_tail_stats.pickle')
@@ -99,13 +118,13 @@ def get_data_stats(data_dir, stat_dir):
     phone_dict = {}
 
     file_list = glob.glob(data_dir + '/word_times_sw3*.pickle') + \
-            glob.glob(data_dir + '/word_times_sw2*.pickle')
+            glob.glob(data_dir + '/word_times_sw2*.pickle') 
     for f in file_list:
         data = pickle.load(open(f))
         for k in sorted(data.keys()):
             info = data[k]
             raw_word = info['text'].lower()
-            if "[" in raw_word or "_1" in raw_word: continue
+            #if "[" in raw_word or "_1" in raw_word: continue
             word = clean_text(raw_word)
             # ignore anomalous pronunciations for purposes of getting stas
             phones = info['phones']
@@ -135,6 +154,7 @@ def get_data_stats(data_dir, stat_dir):
 
     phone_stats = {}
     for k, v in phone_dict.iteritems():
+        k = str(k) # EKN trying to get this to pickle by having it not be a unicode str
         phone_stats[k] = [len(v), np.mean(v), np.std(v)]
     pickle.dump(phone_stats, open(phone_dict_file, 'w'))
 

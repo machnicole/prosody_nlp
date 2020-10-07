@@ -286,6 +286,7 @@ def run_train(args, hparams):
         print_vocabulary("Pause", pause_vocab)
 
     feat_dict = {}
+    
     speech_features = None
     if args.speech_features is not None:
         speech_features = args.speech_features.split(',')
@@ -323,6 +324,7 @@ def run_train(args, hparams):
         info = torch_load(load_path)
         parser = parse_model.SpeechParser.from_spec(info['spec'], \
                 info['state_dict'])
+
     else:
         parser = parse_model.SpeechParser(
             tag_vocab,
@@ -465,7 +467,16 @@ def run_train(args, hparams):
                     parser.split_batch(batch_sentences, batch_trees, \
                     batch_sent_ids, args.subbatch_max_tokens):
                 subbatch_features = load_features(subbatch_sent_ids, feat_dict) 
-                
+
+                """
+                subbatch_num_tokens = [len(sentence) for sentence in subbatch_sentences]
+                for i,sent in enumerate(subbatch_features):
+                    feat_len = len(subbatch_features[sent]['partition'])
+                    tree_len = subbatch_num_tokens[i]
+                    if not feat_len == tree_len:
+                        print(sent)
+                        import pdb;pdb.set_trace()
+                """
                 _, loss = parser.parse_batch(subbatch_sentences, \
                         subbatch_sent_ids, subbatch_features, subbatch_trees)
 
@@ -796,6 +807,7 @@ def run_parse(args):
 
 
 def main():
+
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
 

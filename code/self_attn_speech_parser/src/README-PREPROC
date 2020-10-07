@@ -1,0 +1,10 @@
+1. If the phonword has no syll children (and therefore no phones) just toss that sentence.
+
+2. If a terminal is non-aligned and doesn't exist in the orth2meandur dict, then replace with empty string and do all math as though it weren't there (This is probably wrong -- think about it more)
+
+3. If a terminal is actually a split up phonword, then either find the lengths of each of those bits in the orth2meandur dict (e.g. contractions) or calculate the whole thing's average length based on phones and divide evenly into the number of divisions of that word.
+
+4. Use the aligned terminals to calculate avg duration for each word. To get the lengths for contractions, use the contraction durations as given by the ta_feats code (called 'tails'). Also include the 'heads' from the ta_feats code.
+
+5
+

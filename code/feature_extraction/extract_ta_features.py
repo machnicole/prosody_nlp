@@ -6,11 +6,14 @@ import argparse
 import glob
 import collections
 import numpy as np
-import cPickle as pickle
+#import cPickle as pickle
+import pickle
 
 # constants
-pitch_pov_dir = '/s0/ttmt001/speech_parsing/swbd_pitch_pov'
-fbank_dir = '/s0/ttmt001/speech_parsing/swbd_fbank_energy'
+#pitch_pov_dir = '/s0/ttmt001/speech_parsing/swbd_pitch_pov'
+#fbank_dir = '/s0/ttmt001/speech_parsing/swbd_fbank_energy'
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/swbd_pitch_pov'
+fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 
@@ -35,7 +38,7 @@ split2_info = {
 
 # split3 words: ending lasts 3 phones
 split3_info = {"cannot": ["ca", "not"]}
-split_set = set(split2_info.keys() + split3_info.keys())
+split_set = set(set(split2_info.keys()) | set(split3_info.keys()))
 
 # previous (NXT) skipped files:
 # skip_files = ['3655_{A,B}', '3796_{A,B}', '3798_{A,B}', '4379_{A,B}']
@@ -134,7 +137,7 @@ def preprocess_cnn_feats(file_id, speaker, file_info):
     fbanks = data_fbank.values()[0]
     
     if len(pitch_povs) != len(fbanks):
-        print "Length mismatch: ", len(pitch_povs), len(fbanks)
+        print("Length mismatch: ", len(pitch_povs), len(fbanks))
         choose_len = min(len(pitch_povs), len(fbanks))
         pitch_povs = pitch_povs[:choose_len]
         fbanks = fbanks[:choose_len]
@@ -151,14 +154,41 @@ def preprocess_cnn_feats(file_id, speaker, file_info):
       
     sframes = [int(np.floor(x*100)) for x in stimes]
     eframes = [int(np.ceil(x*100)) for x in etimes]
-    
+
     # first, get voice-active regions for normalization
     turn_fb = np.empty((fbank_dim, 0))
     for i in range(len(sframes)):
         fb_frames = fbanks[sframes[i]:eframes[i]]
-        # print i, np.array(fb_frames).T.shape, turn_fb.shape
-        turn_fb = np.hstack([turn_fb, np.array(fb_frames).T])
-    
+        #turn_fb = np.hstack([turn_fb, np.array(fb_frames).T])
+        try:
+            turn_fb = np.hstack([turn_fb, np.array(fb_frames).T])
+        except:
+            if sframes[i] == eframes[i]:
+                print('expanding frames hackily')
+                # EKN sometimes the word has 0 frames --
+                # EKN faking my way around this for now by just
+                # EKN extending these words by one frame.
+                fb_frames = fbanks[sframes[i]-1:eframes[i]]
+            elif sframes[i] > eframes[i]:
+                # EKN And if start > end, then swap them, I guess?
+                fb_frames = fbanks[eframes[i]-5:sframes[i]]
+                #print('swapping.......')
+                #print(len(fb_frames))
+                #print(turn_fb.shape)
+            else:
+                fb_frames = fbanks[sframes[i]-1:eframes[i]+1]            
+                #import pdb;pdb.set_trace()
+            #print("len(sframes)",len(sframes))
+            #print("len(eframes)",len(eframes))
+            #print("sframes[i]",sframes[i])
+            #print("eframes[i]",eframes[i])
+            #print(len(fb_frames))
+            #print(turn_fb.shape)
+            try:
+                turn_fb = np.hstack([turn_fb, np.array(fb_frames).T])
+            except:
+                turn_fb = turn_fb
+
     fbanks = np.array(fbanks).T
     e_total = fbanks[0,:]
     hi = np.max(turn_fb, 1)
@@ -225,7 +255,6 @@ def get_word_cnns(pw, ph_range, raw_cnn_feats):
 
     # empty for some reason: return all zeros
     if end_frame - start_frame <= 0:
-        print pw
         return np.zeros((feat_dim, fixed_word_length))
 
     center_frame = int((start_frame + end_frame)/2)
@@ -303,59 +332,79 @@ def extract_features(file_id, speaker, data_dir, out_dir, dictionaries):
     in_file = os.path.join(data_dir, \
             'word_times_sw{0}{1}.pickle'.format(file_id, speaker))
     info = pickle.load(open(in_file))
+    print(info.keys())
     sorted_keys = sort_keys(info.keys())
-
+    print(sorted_keys)
+    import pdb;pdb.set_trace()
     feat_dict = collections.defaultdict(dict) 
     pause_before, pause_after = get_pauses(info, sorted_keys)
     raw_cnn_feats = preprocess_cnn_feats(file_id, speaker, info)
 
     for pw in sorted_keys:
+        if pw=='sw3796_ms3796A_pw596':
+            print(pw)
+            print(info[pw])
+            import pdb;pdb.set_trace()
         v = info[pw]
         raw_word = v['text']
         word = clean_text(raw_word)
         if 'sil' in pw or raw_word in OTHER:
-            print pw, word
             exit(1)
         feat_dict[pw]['text'] = word
         feat_dict[pw]['raw_text'] = raw_word
         flat_phones = zip(v['phones'], v['phone_start_times'], \
                 v['phone_end_times'])
         
-        if len(flat_phones) < 2 and need_split(word): 
-            print pw
-            exit(1)
-        
-        if not need_split(word):
-            ph_list = [flat_phones]
+        if len(flat_phones) < 2 and need_split(word):
+            print(word)
+            print(flat_phones)
+            print(pw)
+            print('erroring')
+            #exit(1)
+            ph_list = []
+
         else:
-            temp_splits = word.split("'")
-            if word in split2_info:
-                head = flat_phones[:-2]
-                tail = flat_phones[-2:]
-                ph_list = [head, tail]
-            elif word in split3_info:
-                head = flat_phones[:-3]
-                tail = flat_phones[-3:]
-                ph_list = [head, tail]
-            elif temp_splits[1] in split1_tails:
-                head = flat_phones[:-1]
-                tail = flat_phones[-1:]
-                ph_list = [head, tail]
-            elif temp_splits[1] in split2_tails:
-                head = flat_phones[:-2]
-                tail = flat_phones[-2:]
-                ph_list = [head, tail]
-            else:
+            if not need_split(word):
                 ph_list = [flat_phones]
-       
-        # DEBUG PRINTS, useful, don't remove
+            else:
+                temp_splits = word.split("'")
+                if word in split2_info:
+                    head = flat_phones[:-2]
+                    tail = flat_phones[-2:]
+                    ph_list = [head, tail]
+                elif word in split3_info:
+                    head = flat_phones[:-3]
+                    tail = flat_phones[-3:]
+                    ph_list = [head, tail]
+                elif temp_splits[1] in split1_tails:
+                    head = flat_phones[:-1]
+                    tail = flat_phones[-1:]
+                    ph_list = [head, tail]
+                elif temp_splits[1] in split2_tails:
+                    head = flat_phones[:-2]
+                    tail = flat_phones[-2:]
+                    ph_list = [head, tail]
+                else:
+                    ph_list = [flat_phones]
+                
+                    # DEBUG PRINTS
         #print pw, raw_word, word 
         #print "\t", [x[0] for x in ph_list[0]], [x[0] for x in ph_list[-1]]
          
         # word duration features
-        word_norms, rhyme_norms = get_word_norms(word, ph_list, dictionaries)
-        feat_dict[pw]['word_norm'] = word_norms
-        feat_dict[pw]['rhyme_norm'] = rhyme_norms
+        print(ph_list)
+        if ph_list:
+            if not len(ph_list[0])==0:
+                word_norms, rhyme_norms = get_word_norms(word, ph_list, dictionaries)
+                feat_dict[pw]['word_norm'] = word_norms
+                feat_dict[pw]['rhyme_norm'] = rhyme_norms
+            else:
+                feat_dict[pw]['word_norm'] = None
+                feat_dict[pw]['rhyme_norm'] = None
+        else:
+            feat_dict[pw]['word_norm'] = None
+            feat_dict[pw]['rhyme_norm'] = None
+            
 
         # pause features
         if len(ph_list)==1:
@@ -367,14 +416,22 @@ def extract_features(file_id, speaker, data_dir, out_dir, dictionaries):
         
         # cnn features
         cnn_feats = []
-        for ph_range in ph_list:
-            speech_feats = get_word_cnns(pw, ph_range, raw_cnn_feats)
-            assert speech_feats.shape == (feat_dim, fixed_word_length)
-            cnn_feats.append(speech_feats)
-        feat_dict[pw]['cnn_feats'] = cnn_feats
-
+        if ph_list:
+            if not len(ph_list[0])==0:
+                for ph_range in ph_list:
+                    speech_feats = get_word_cnns(pw, ph_range, raw_cnn_feats)
+                    assert speech_feats.shape == (feat_dim, fixed_word_length)
+                    cnn_feats.append(speech_feats)
+                feat_dict[pw]['cnn_feats'] = cnn_feats
+            else:
+                feat_dict[pw]['cnn_feats'] = None
+        else:
+            feat_dict[pw]['cnn_feats'] = None
+            
     pickle_file = os.path.join(out_dir, \
             'sw{0}{1}.features'.format(file_id, speaker))
+    print(pickle_file)
+    print('pickling...')
     pickle.dump(feat_dict, open(pickle_file, 'w'))
 
 if __name__ == '__main__':
@@ -412,7 +469,6 @@ if __name__ == '__main__':
             #if file_id in skip_files: continue
             #if file_id <= 3442: continue
             speaker = fname[-1]
-            print file_id, speaker
             extract_features(file_id, speaker, data_dir, output_dir, \
                     dictionaries)
 

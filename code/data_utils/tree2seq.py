@@ -27,6 +27,7 @@ def tree2seq(args):
                 for line in fin:
                     if not line.strip():
                         continue
+                    if "*x*" in line: continue
                     if line[0] == '(':
                         # new tree
                         if new_tree != []:

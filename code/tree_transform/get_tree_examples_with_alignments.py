@@ -140,7 +140,8 @@ tok_map = {
         }
 
 # split1 words: ending lasts 1 phone
-split1_file = '/homes/ttmt001/transitory/prosodic-anomalies/split_case1.txt'
+#split1_file = '/homes/ttmt001/transitory/prosodic-anomalies/split_case1.txt'
+split1_file = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/split_case1.txt'
 split1_lines = open(split1_file).readlines()
 split1_words = [s.rstrip() for s in split1_lines]
 split1_words = [(s, s.split("'")) for s in split1_words]

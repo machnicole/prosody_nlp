@@ -62,7 +62,8 @@ BERT_TOKEN_MAPPING = {
 
 # Path to elmo data files
 elmo_path = "/homes/ttmt001/transitory/self-attentive-parser/data"
-bert_path = "/homes/ttmt001/transitory/self-attentive-parser/data"
+#bert_path = "/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data"
+bert_path = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
 fisher_path = "/g/ssli/projects/disfluencies/ttmt001/fisher_disf"
 glove_pretrained_path = "/homes/ttmt001/transitory/GloVe-1.2"
 
@@ -320,6 +321,7 @@ class MultiHeadAttention(nn.Module):
                 self.proj2 = nn.Linear(n_head*(d_v//2), self.d_positional, \
                     bias=False)
 
+        print('residual dropout')
         self.residual_dropout = FeatureDropout(residual_dropout)
 
     def split_qkv_packed(self, inp, qk_inp=None):
@@ -492,6 +494,7 @@ class PositionwiseFeedForward(nn.Module):
         # The t2t code on github uses relu dropout, even though the transformer
         # paper describes residual dropout only. We implement relu dropout
         # because we always have the option to set it to zero.
+        print('relu+residual dropout in positionwise FFN')
         self.relu_dropout = FeatureDropout(relu_dropout)
         self.residual_dropout = FeatureDropout(residual_dropout)
         self.relu = nn.ReLU()
@@ -527,6 +530,7 @@ class PartitionedFeedForward(nn.Module):
         # The t2t code on github uses relu dropout, even though the transformer
         # paper describes residual dropout only. We implement relu dropout
         # because we always have the option to set it to zero.
+        print('relu+residual dropout in partitioned FFN')
         self.relu_dropout = FeatureDropout(relu_dropout)
         self.residual_dropout = FeatureDropout(residual_dropout)
         self.relu = nn.ReLU()
@@ -569,6 +573,7 @@ class PartitionedPositionwiseFeedForward(nn.Module):
         # The t2t code on github uses relu dropout, even though the transformer
         # paper describes residual dropout only. We implement relu dropout
         # because we always have the option to set it to zero.
+        print('relu+residual dropout in part/pos ffn')
         self.relu_dropout = FeatureDropout(relu_dropout)
         self.residual_dropout = FeatureDropout(residual_dropout)
         self.relu = nn.ReLU()
@@ -660,16 +665,13 @@ class MultiLevelEmbedding(nn.Module):
             emb_dropout(emb(x), batch_idxs)
             for x, emb, emb_dropout in zip(xs, self.embs, self.emb_dropouts)
             ]
-        
         content_annotations = sum(content_annotations)
-
         if extra_content_annotations is not None:
             if self.extra_content_dropout is not None:
                 content_annotations += self.extra_content_dropout(\
                         extra_content_annotations, batch_idxs)
             else:
                 content_annotations += extra_content_annotations
-
         timing_signal = torch.cat([self.position_table[:seq_len,:] for \
                 seq_len in batch_idxs.seq_lens_np], dim=0)
         timing_signal = self.timing_dropout(timing_signal, batch_idxs)
@@ -816,7 +818,6 @@ def get_bert(bert_model, bert_do_lower_case, freeze=False):
     tokenizer = BertTokenizer.from_pretrained(bert_model, \
             do_lower_case=bert_do_lower_case)
     bert_model_path = os.path.join(bert_path, bert_model + ".tar.gz")
-    
     bert = BertModel.from_pretrained(bert_model_path)
     if freeze:
         for param in bert.parameters():
@@ -920,7 +921,6 @@ class Encoder(nn.Module):
         res, timing_signal, batch_idxs = emb(xs, batch_idxs, \
                 extra_content_annotations=extra_content_annotations,
                 speech_content_annotations=speech_content_annotations)
-
         for i, (attn, ff) in enumerate(self.stacks):
             if i >= self.num_layers_position_only:
                 res, current_attns = attn(res, batch_idxs)
@@ -994,7 +994,6 @@ class SpeechFeatureEncoder(nn.Module):
             conv_outputs = torch.cat(conv_outputs, -1)
             assert conv_outputs.shape[1] == self.d_conv
             all_features.append(conv_outputs)
-        
         all_features = torch.cat(all_features, -1)
         assert all_features.shape[1] == self.d_in
         res = self.speech_dropout(self.speech_projection(all_features))
@@ -1106,6 +1105,7 @@ class SpeechParser(nn.Module):
                     self.d_speech, d_pause_embedding=hparams.d_pause_emb)
 
         if hparams.use_chars_lstm:
+            print('using char lstm')
             assert not hparams.use_chars_concat, ("use_chars_lstm and \
                     use_chars_concat are mutually exclusive")
             assert not hparams.use_elmo, ("use_chars_lstm and \
@@ -1117,6 +1117,7 @@ class SpeechParser(nn.Module):
                 char_dropout=hparams.char_lstm_input_dropout,
             )
         elif hparams.use_chars_concat:
+            print('using char concat')
             assert not hparams.use_elmo, ("use_chars_concat and use_elmo \
                     are mutually exclusive")
             self.num_chars_flat = self.d_content // hparams.d_char_emb
@@ -1190,6 +1191,7 @@ class SpeechParser(nn.Module):
                     bias=False)
 
         elif hparams.use_bert or hparams.use_bert_only:
+            print('USING BERT, not char')
             self.bert_tokenizer, self.bert = get_bert(hparams.bert_model, \
                     hparams.bert_do_lower_case, hparams.freeze)
             # NOTE: original code had this, I'm not dealing with other languages
@@ -1392,7 +1394,7 @@ class SpeechParser(nn.Module):
                 sent_frame_features = [torch.Tensor(word_frames.T).unsqueeze(0)\
                         for word_frames in sent_frame_features]
                 frame_features += sent_frame_features
-        
+
         if pause_features:
             pause_features = torch.LongTensor(pause_features).to(device)
         
@@ -1480,7 +1482,7 @@ class SpeechParser(nn.Module):
             # process speeech feature: pad, extract frames etcs
             processed_features = self.prep_features(sent_ids, sfeatures)
             speech_content_annotations = self.speech_encoder(processed_features)
-
+        """ # Commenting out to make sure I realize this is unused code for my purposes    
         if self.char_encoder is not None:
             assert isinstance(self.char_encoder, CharacterLSTM)
             max_word_len = max([max([len(word) for tag, word in sentence]) \
@@ -1553,7 +1555,7 @@ class SpeechParser(nn.Module):
             extra_content_annotations = self.char_embedding(char_idxs_encoder)
             extra_content_annotations = extra_content_annotations.view(-1, \
                     self.num_chars_flat * self.char_embedding.embedding_dim)
-
+        """
         if self.elmo is not None:
             # See https://github.com/allenai/allennlp/blob/c3c3549887a6b1fb0bc8abf77bc820a3ab97f788/allennlp/data/token_indexers/elmo_indexer.py#L61
             # ELMO_START_SENTENCE = 256
@@ -1713,7 +1715,6 @@ class SpeechParser(nn.Module):
             annotations, _ = self.encoder(emb_idxs, batch_idxs, 
                 extra_content_annotations=extra_content_annotations, 
                 speech_content_annotations=speech_content_annotations)
-
             if self.partitioned:
                 # Rearrange the annotations to ensure that the transition to
                 # fenceposts captures an even split between position and content.
@@ -1728,7 +1729,7 @@ class SpeechParser(nn.Module):
                         annotations[:, 0::2],
                         annotations[:, 1::2],
                     ], 1)
-            
+
             if self.f_tag is not None:
                 tag_annotations = annotations
 

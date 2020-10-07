@@ -5,7 +5,8 @@ import sys
 import pandas
 import argparse
 import numpy as np
-import cPickle as pickle
+#import cPickle as pickle
+import pickle
 import glob
 
 
@@ -16,14 +17,15 @@ def process_feats(args):
     out_dir = args.out_dir
     split = str(args.split)
     feattype = args.feattype
-    raw_dir = os.path.join(in_dir, 'sph_splits', 'sph' + split, feattype)
+    #raw_dir = os.path.join(in_dir, 'sph_splits', 'sph' + split, feattype)
+    raw_dir = os.path.join(in_dir, feattype)
     prefix = 'swbd_' + feattype
     output_dir = os.path.join(out_dir, prefix)
-    print raw_dir
-    print output_dir
+    print(raw_dir)
+    print(output_dir)
 
     done_files = glob.glob(output_dir + '*')
-    done_files = [os.path.basename(x).split('.')[0] for x in done_files]
+    done_files = [os.path.basename(x).split('.')[0] for x in done_files]tions 
     if feattype == 'pitch_pov':
         numc = 3
     elif feattype == 'mfcc':
@@ -41,14 +43,14 @@ def process_feats(args):
             filename = raw_lines[start_idx].strip('[\n').rstrip().replace(\
                     'sw0', 'sw')
             if filename in done_files:
-                print "already done: ", filename
+                print("already done: ", filename)
                 continue
             frames = raw_lines[start_idx+1:end_idx]
             list_feats = [f.strip().split()[:numc] for f in frames]
             floated_feats = [[float(x) for x in coef] for coef in list_feats]
             feat_dict[filename] = floated_feats
             full_name = os.path.join(output_dir, filename + '.pickle') 
-            pickle.dump(feat_dict, open(full_name, 'w'))
+            pickle.dump(feat_dict, open(full_name, 'wb'))
 
 if __name__ == '__main__':
     pa = argparse.ArgumentParser(

@@ -20,3 +20,10 @@ https://github.com/shtoshni92/speech_parsing
 ## Modifications from original code cited above
 * Working with Pytorch 0.4.x instead of 0.3.x or tensorflow 
 * Incorporating speech features (CNN module) 
+
+
+## Other notes:
+
+
+* The sample data doesn't run currently, since the pause vocab in the train set doesn't include '3' (just by coincidence), but the dev set does. I fixed this by just replacing one of the pause features in the train set with a '3' -- makes the sample data bad, but it makes it possible to run the code and see if everything works.
+* In order to run the train script, you have to have the evalb stuff installed. To do this, you should copy the EVALB subdir from https://github.com/nikitakit/self-attentive-parser to https://github.com/trangham283/prosody_nlp/tree/master/code/self_attn_speech_parser/. To install evalb, cd into the EVALB dir and run the command `make`.

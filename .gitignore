@@ -1,3 +1,13 @@
+code/self_attn_speech_parser/EVALB/*
+code/self_attn_speech_parser/EVALB_SPMRL/*
+*.pt
+*.tar.gz
+data/input_features
+data/kaldi_feats
+data/ta_features
+data/swbd_word_times
+data/swb_ms98_transcriptions/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -51,7 +61,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 
 # Flask stuff:
