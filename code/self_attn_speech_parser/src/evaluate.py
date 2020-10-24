@@ -161,7 +161,6 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
         fscore.recall == 0.0 or
         fscore.precision == 0.0)
 
-    import pdb;pdb.set_trace()
     if success:
         temp_dir.cleanup()
         print("Successfully parsed in:", predicted_path)

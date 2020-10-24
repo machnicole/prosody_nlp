@@ -9,8 +9,8 @@ RESULT_DIR=output/sentence
 EVAL_DIR=output/sentence
 
 # EVALUATION EXAMPLE
-MODEL_NAME="sp_glove_dev=91.24.pt"
-#MODEL_NAME="nonsp_glove_dev=90.87.pt"
+#MODEL_NAME="sp_glove_dev=91.24.pt"
+MODEL_NAME="nonsp_glove_dev=90.87.pt"
 MODEL_PATH=${MODEL_DIR}/${MODEL_NAME}
 
 PREFIX=
