@@ -5,11 +5,11 @@
 # Data paths
 #DATA_DIR=/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/input_features
 #FEAT_DIR=/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/input_features
-DATA_DIR=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features
-FEAT_DIR=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features
-MODEL_DIR=output
-RESULT_DIR=output
-EVAL_DIR=output
+DATA_DIR=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence
+FEAT_DIR=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence
+MODEL_DIR=output/sentence
+RESULT_DIR=output/sentence
+EVAL_DIR=output/sentence
 
 # TRAINING EXAMPLE
 MODEL_NAME=sp_bert

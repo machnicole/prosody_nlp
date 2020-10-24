@@ -232,6 +232,7 @@ def run_train(args, hparams):
             pause_vocab.index(str(p))
 
     for tree in train_parse:
+
         nodes = [tree]
         while nodes:
             node = nodes.pop()
@@ -245,6 +246,7 @@ def run_train(args, hparams):
 
     char_vocab = vocabulary.Vocabulary()
 
+   
     # If codepoints are small (e.g. Latin alphabet), index by codepoint directly
     highest_codepoint = max(ord(char) for char in char_set)
     if highest_codepoint < 512:
@@ -339,9 +341,10 @@ def run_train(args, hparams):
     print("Initializing optimizer...")
     trainable_parameters = [param for param in parser.parameters() \
             if param.requires_grad]
-    print(parser)
-    for name, param in parser.named_parameters(): 
-        print(name, param.data.shape, param.requires_grad)
+    # SHORTEN PRINTING
+    #print(parser)
+    #for name, param in parser.named_parameters(): 
+    #    print(name, param.data.shape, param.requires_grad)
 
     if args.optimizer == 'SGD':
         trainer = torch.optim.SGD(trainable_parameters, lr=0.05)
@@ -407,9 +410,18 @@ def run_train(args, hparams):
 
             del _
             dev_predicted.extend([p.convert() for p in predicted])
-
+        
         dev_fscore = evaluate.evalb(args.evalb_dir, dev_treebank, dev_predicted)
 
+        with open('tmp_preds.txt','w') as f:
+            for pred in dev_predicted:
+                f.write(pred.linearize())
+                f.write('\n')
+        with open('tmp_gold.txt','w') as f:
+            for gold in dev_treebank:
+                f.write(gold.linearize())
+                f.write('\n')
+        
         print(
             "dev-fscore {} "
             "dev-elapsed {} "
@@ -419,6 +431,7 @@ def run_train(args, hparams):
                 format_elapsed(start_time),
             )
         )
+
         sys.stdout.flush()
 
         if dev_fscore.fscore > best_dev_fscore:

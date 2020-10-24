@@ -14,7 +14,7 @@ EVAL_DIR=output
 MODEL_NAME=dummy
 SEED=0
 echo "Training seeding config: " $MODEL_NAME $SEED
-python src/main_sparser.py train --use-bert --freeze \
+python src/main_sparser.py train --use-glove-pretrained --freeze \
     --train-path ${DATA_DIR}/train.trees\
     --train-sent-id-path ${DATA_DIR}/train_sent_ids.txt \
     --dev-path ${DATA_DIR}/dev.trees \

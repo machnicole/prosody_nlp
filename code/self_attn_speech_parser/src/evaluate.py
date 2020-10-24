@@ -6,6 +6,8 @@ import tempfile
 
 import trees
 
+from PYEVALB import scorer
+
 class FScore(object):
     def __init__(self, recall, precision, fscore, complete_match, tagging_accuracy=100):
         self.recall = recall
@@ -55,6 +57,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
     predicted_path = os.path.join(temp_dir.name, "predicted.txt")
     output_path = os.path.join(temp_dir.name, "output.txt")
 
+ 
     with open(gold_path, "w") as outfile:
         if ref_gold_path is None:
             for tree in gold_trees:
@@ -71,6 +74,21 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
         for tree in predicted_trees:
             outfile.write("{}\n".format(tree.linearize()))
 
+
+            
+    """
+    data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features'
+    perm_gold_path = os.path.join(data_dir, "sent_based_gold.txt")
+    perm_predicted_path = os.path.join(data_dir, "sent_based_predicted.txt")
+
+    with open(perm_gold_path, "w") as outfile:
+        for tree in gold_trees:
+            outfile.write("{}\n".format(tree.linearize()))
+    with open(perm_predicted_path, "w") as outfile:
+        for tree in predicted_trees:
+            outfile.write("{}\n".format(tree.linearize()))
+    """
+            
     command = "{} -p {} {} {} > {}".format(
         evalb_program_path,
         evalb_param_path,
@@ -78,17 +96,27 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
         predicted_path,
         output_path,
     )
-    subprocess.run(command, shell=True)
+    print(f'evalb shell command: {command}')
+    #subprocess.run(command, shell=True)
 
+    scr = scorer.Scorer()
+    scr.evalb(gold_path,predicted_path,output_path)
+    
     # debug:
     subprocess.run("wc {}".format(predicted_path), shell=True)
     subprocess.run("wc {}".format(output_path), shell=True)
 
     fscore = FScore(math.nan, math.nan, math.nan, math.nan)
+
+    """
     with open(output_path) as infile:
         for line in infile:
+            match = re.match(f"Number of sentence\s+=\s+(\d+\.\d+)", line)
+            if match:
+                print(f'Number of sentences evaled: {match.group(1)}')
             match = re.match(r"Bracketing Recall\s+=\s+(\d+\.\d+)", line)
             if match:
+                print("MATCH")
                 fscore.recall = float(match.group(1))
             match = re.match(r"Bracketing Precision\s+=\s+(\d+\.\d+)", line)
             if match:
@@ -103,12 +131,37 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
             if match:
                 fscore.tagging_accuracy = float(match.group(1))
                 break
+    """
+    with open(output_path) as infile:
+        for line in infile:
+            match = re.match(f"Number of sentence:\s+(\d+\.\d+)", line)
+            if match:
+                print(f'Number of sentences evaled: {match.group(1)}')
+            match = re.match(r"Bracketing Recall:\s+(\d+\.\d+)", line)
+            if match:
+                print("MATCH")
+                fscore.recall = float(match.group(1))
+            match = re.match(r"Bracketing Precision:\s+(\d+\.\d+)", line)
+            if match:
+                fscore.precision = float(match.group(1))
+            match = re.match(r"Bracketing FMeasure:\s+(\d+\.\d+)", line)
+            if match:
+                fscore.fscore = float(match.group(1))
+            match = re.match(r"Complete match:\s+(\d+\.\d+)", line)
+            if match:
+                fscore.complete_match = float(match.group(1))
+            match = re.match(r"Tagging accuracy:\s+(\d+\.\d+)", line)
+            if match:
+                fscore.tagging_accuracy = float(match.group(1))
+                break
+    #"""
 
     success = (
         not math.isnan(fscore.fscore) or
         fscore.recall == 0.0 or
         fscore.precision == 0.0)
 
+    import pdb;pdb.set_trace()
     if success:
         temp_dir.cleanup()
         print("Successfully parsed in:", predicted_path)
@@ -117,5 +170,5 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
         print("Gold path: {}".format(gold_path))
         print("Predicted path: {}".format(predicted_path))
         print("Output path: {}".format(output_path))
-
+        import pdb;pdb.set_trace()
     return fscore

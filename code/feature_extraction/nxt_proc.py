@@ -64,8 +64,8 @@ def prune_empty(sent):
             try:
                 node.prune()
             except:
-                print node
-                print sent
+                print(node)
+                print(sent)
                 raise
 
 
@@ -116,6 +116,9 @@ def do_section(ptb_files, out_dir, name):
             
             line = str(sent)
             new_tree = detach_brackets(line)
+            if new_tree[0]=='(S':
+                new_tree[0]='(TOP'
+
             trees.write('{}\n'.format(' '.join(new_tree)))
             # write timing info
             # filename \t speaker \t globalID \t start_time \t end_time \t length \n
@@ -123,16 +126,17 @@ def do_section(ptb_files, out_dir, name):
                 sent.globalID, start_time, end_time, len(w) )
             times.write(item)
 
-    print "Sentences without time alignment: "
-    for s in err_sents: print s
+    print("Sentences without time alignment: ")
+    for s in err_sents: print(s)
 
 
 if __name__ == '__main__':
-    nxt_loc = "/s0/ttmt001/swbd_nxt"
-    out_dir = "/s0/ttmt001/speech_parsing"
+    #nxt_loc = "/s0/ttmt001/swbd_nxt"
+    nxt_loc = "/group/corporapublic/switchboard/nxt"
+    out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/new_trees'
     corpus = Treebank.PTB.NXTSwitchboard(path=nxt_loc)
     #do_section(corpus.train_files(), out_dir, 'train')
-    do_section(corpus.dev_files(), out_dir, 'dev')
+    #do_section(corpus.dev_files(), out_dir, 'dev')
     #do_section(corpus.dev2_files(), out_dir, 'dev2')
-    #do_section(corpus.eval_files(), out_dir, 'test')
+    do_section(corpus.eval_files(), out_dir, 'test')
 

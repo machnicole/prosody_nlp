@@ -65,7 +65,8 @@ elmo_path = "/homes/ttmt001/transitory/self-attentive-parser/data"
 #bert_path = "/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data"
 bert_path = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
 fisher_path = "/g/ssli/projects/disfluencies/ttmt001/fisher_disf"
-glove_pretrained_path = "/homes/ttmt001/transitory/GloVe-1.2"
+#glove_pretrained_path = "/homes/ttmt001/transitory/GloVe-1.2"
+glove_pretrained_path =  "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
 
 class BatchIndices:
     """
@@ -672,6 +673,8 @@ class MultiLevelEmbedding(nn.Module):
                         extra_content_annotations, batch_idxs)
             else:
                 content_annotations += extra_content_annotations
+        #print('-'*50)
+        #print(f'self.position_table.shape: {self.position_table.shape}')
         timing_signal = torch.cat([self.position_table[:seq_len,:] for \
                 seq_len in batch_idxs.seq_lens_np], dim=0)
         timing_signal = self.timing_dropout(timing_signal, batch_idxs)
@@ -681,10 +684,20 @@ class MultiLevelEmbedding(nn.Module):
                 speech_content_annotations = self.extra_content_dropout(\
                         speech_content_annotations, batch_idxs)
 
+            #print(f'batch_idxs.seq_lens_np: {batch_idxs.seq_lens_np}')
+            #print(f'batch_idxs.seq_lens_np>200: {batch_idxs.seq_lens_np>200}')
+
+            #print(f'batch_idxs.seq_lens_np.sum(): {np.sum(batch_idxs.seq_lens_np)}')
+            
+                
             # Combine the content and timing signals
             if self.partitioned:
+                #print(f'content_annotations.shape: {content_annotations.shape}')
+                #print(f'speech_content_annotations.shape: {speech_content_annotations.shape}')
+                #print(f'timing_signal.shape: {timing_signal.shape}')
                 annotations = torch.cat([content_annotations, timing_signal, 
-                    speech_content_annotations], 1)
+                                             speech_content_annotations], 1)
+
             else:
                 annotations = content_annotations + timing_signal + \
                         speech_content_annotations
@@ -844,7 +857,7 @@ def get_glove(model_type='fisher', freeze=False):
 
     idx = 0
     word2idx = {}
-    f = open(model_path).readlines()
+    f = open(model_path,encoding='utf-8').readlines()
     num_vocab = len(f)
     vectors = np.zeros((num_vocab,300))
     for l in f:

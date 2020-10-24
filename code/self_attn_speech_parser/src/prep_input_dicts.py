@@ -475,6 +475,8 @@ def make_sent2fbankenergy(conv,sents,sent2fbankenergy,sent2times,fbank_dir): #,s
             fbank_dict = pickle.load(f)
         side_fbanks = np.transpose(np.array(fbank_dict[list(fbank_dict.keys())[0]]))
         normed_fbanks = norm_energy_by_side(side_fbanks,spk_sents,sent2times)
+        with open(os.path.join(fbank_dir,'normed_fbanks',f'{conv}-{spk}.pickle'),'wb') as f:
+            pickle.dump(normed_fbanks,f)
         audio_len = side_fbanks.shape[-1] - 1
         for sent in spk_sents:
             stime = sent2times[sent][0][0]
@@ -663,7 +665,8 @@ def main():
     # and mine the conversation IDs
 
     #split = 'train'
-    split = 'dev'
+    #split = 'dev'
+    split = 'test'
     split_file = f'{split}_sent_ids.txt'#_from_times_file.txt'
     
     with open(os.path.join(data_dir,split_file),'r') as f:
