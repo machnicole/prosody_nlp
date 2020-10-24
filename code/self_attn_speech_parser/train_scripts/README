@@ -1,0 +1,19 @@
+What parts of filenames mean:
+
+turn: 	   turn-based, rather than sentence-based. If it's sentence-based, it's not marked.
+
+sp: 	   includes speech features
+nonsp: 	   doesn't include speech features
+
+glove:	   uses glove embeddings
+bert: 	   uses bert embeddings
+
+long: 	   uses all training examples
+medium:	   uses training examples up to 270 tokens long
+short: 	   uses training examples up to 200 tokens long
+The sentence-based version doesn't use this distinction: it always uses all training examples,
+because they never get as long.
+
+only_mulitsent:	   This flag means that only multi-sentence turns were given an 'outer level'
+		   In this case, that was an outer layer that was labelled S. The default is
+		   to put an outer level labelled TURN on all examples.
