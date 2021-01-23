@@ -1044,13 +1044,17 @@ class SpeechParser(nn.Module):
         self.d_model = hparams.d_model
         self.partitioned = hparams.partitioned
 
+        
         if self.partitioned:
             if speech_features is not None:
                 self.d_positional = hparams.d_model // 3
                 self.d_speech = hparams.d_model // 3
             else:
+                #self.d_positional = hparams.d_model // 3 # EKN experimenting with this 13Jan2020
+                #self.d_speech = 0 # EKN experimenting with this 13Jan2020
                 self.d_positional = hparams.d_model // 2
-                self.d_speech = 0
+                self.d_speech = 0 
+
         else:
             self.d_positional = None
             if speech_features is not None:
@@ -1061,6 +1065,15 @@ class SpeechParser(nn.Module):
         self.d_content = (self.d_model - self.d_positional - self.d_speech) \
                 if self.partitioned else self.d_model
 
+        #if self.partitioned and speech_features is None: # EKN experimenting with this 13Jan2020
+        #    self.d_content = (self.d_model - (2*self.d_positional)) # EKN experimenting with this 13Jan2020
+            
+
+
+        print()
+        print(f'd_positional: {self.d_positional}')
+        print(f'd_content: {self.d_content}')        
+        print()
         num_embeddings_map = {
             'tags': tag_vocab.size,
             'words': word_vocab.size,

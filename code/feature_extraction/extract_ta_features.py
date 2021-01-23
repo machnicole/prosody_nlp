@@ -12,8 +12,8 @@ import pickle
 # constants
 #pitch_pov_dir = '/s0/ttmt001/speech_parsing/swbd_pitch_pov'
 #fbank_dir = '/s0/ttmt001/speech_parsing/swbd_fbank_energy'
-pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/swbd_pitch_pov'
-fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov'
+fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 
@@ -332,10 +332,8 @@ def extract_features(file_id, speaker, data_dir, out_dir, dictionaries):
     in_file = os.path.join(data_dir, \
             'word_times_sw{0}{1}.pickle'.format(file_id, speaker))
     info = pickle.load(open(in_file))
-    print(info.keys())
     sorted_keys = sort_keys(info.keys())
-    print(sorted_keys)
-    import pdb;pdb.set_trace()
+
     feat_dict = collections.defaultdict(dict) 
     pause_before, pause_after = get_pauses(info, sorted_keys)
     raw_cnn_feats = preprocess_cnn_feats(file_id, speaker, info)

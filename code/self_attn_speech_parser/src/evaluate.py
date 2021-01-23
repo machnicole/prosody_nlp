@@ -72,7 +72,12 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
 
     with open(predicted_path, "w") as outfile:
         for tree in predicted_trees:
-            outfile.write("{}\n".format(tree.linearize()))
+            try:
+                outfile.write("{}\n".format(tree.linearize()))
+            except:
+                import sys
+                sys.setrecursionlimit(10**6)
+                outfile.write("{}\n".format(tree.linearize()))
 
 
             
@@ -101,7 +106,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
 
     scr = scorer.Scorer()
     scr.evalb(gold_path,predicted_path,output_path)
-    
+
     # debug:
     subprocess.run("wc {}".format(predicted_path), shell=True)
     subprocess.run("wc {}".format(output_path), shell=True)
@@ -162,7 +167,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
         fscore.precision == 0.0)
 
     if success:
-        temp_dir.cleanup()
+        #temp_dir.cleanup()
         print("Successfully parsed in:", predicted_path)
     else:
         print("Error reading EVALB results.")

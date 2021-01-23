@@ -14,6 +14,6 @@ short: 	   uses training examples up to 200 tokens long
 The sentence-based version doesn't use this distinction: it always uses all training examples,
 because they never get as long.
 
-only_mulitsent:	   This flag means that only multi-sentence turns were given an 'outer level'
+S_ROOT:		   This flag means that only multi-sentence turns were given an 'outer level'
 		   In this case, that was an outer layer that was labelled S. The default is
-		   to put an outer level labelled TURN on all examples.
+		   to put an outer level labelled TOP on all examples.

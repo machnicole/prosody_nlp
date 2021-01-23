@@ -5,8 +5,8 @@ import numpy as np
 
 # 0. Set paths
 data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/'
-sent_dir = os.path.join(data_dir,'sentence')
-turn_dir = os.path.join(data_dir,'turn')
+sent_dir = os.path.join(data_dir,'sentence_pause_dur_fixed')
+turn_dir = os.path.join(data_dir,'turn_pause_dur_fixed')
 kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/'
 fbank_dir = os.path.join(kaldi_feat_dir,'swbd_fbank_energy')
 pitchpov_dir = os.path.join(kaldi_feat_dir,'swbd_pitch_pov')
@@ -30,6 +30,7 @@ term2feats = pickle.load(open(os.path.join(data_dir,f'term2feats.pickle'),'rb'))
 print('Loading sentence-based dicts ...')
 sent2part = pickle.load(open(os.path.join(sent_dir,f'{split}_partition.pickle'),'rb'))
 sent2dur = pickle.load(open(os.path.join(sent_dir,f'{split}_duration.pickle'),'rb'))
+sent2rawdur = pickle.load(open(os.path.join(sent_dir,f'{split}_raw_duration.pickle'),'rb'))
 sent2fbankenergy = pickle.load(open(os.path.join(sent_dir,f'{split}_fbank.pickle'),'rb'))
 sent2pitchpov= pickle.load(open(os.path.join(sent_dir,f'{split}_pitch.pickle'),'rb'))
 sent2pause = pickle.load(open(os.path.join(sent_dir,f'{split}_pause.pickle'),'rb'))
@@ -86,7 +87,8 @@ for sent in single_sents:
     turn2pitch[turn] = sent2pitchpov[sent]
     turn2fbank[turn] = sent2fbankenergy[sent]
     #turn2tree[turn] = f'(TURN {sent2tree[sent] })'
-    turn2tree[turn] = sent2tree[sent] 
+    tr = sent2tree[sent].replace('(TOP','')[:-1]
+    turn2tree[turn] = '(TOP (TURN '+tr+'))'
 
 
 # 6. Where there are 2+ sents per turn, create new feats for turn
@@ -102,21 +104,33 @@ for turn in multisent_turns:
               'pause_aft':[]}
     parts = []
     durs = []
-    curr_trees = ['(TOP']
+    rawdurs = []
+    curr_trees = ['(TOP (TURN']
     for sent in sents:
         pauses['pause_bef'].extend(sent2pause[sent]['pause_bef'])
         pauses['pause_aft'].extend(sent2pause[sent]['pause_aft'])
         parts.extend(sent2part[sent])
         tree_no_top = sent2tree[sent].replace('(TOP','')[:-1]
-        curr_trees.append(sent2tree[sent])
+        curr_trees.append(tree_no_top)
         durs.append(sent2dur[sent])
-    curr_trees.append(')')
+    curr_trees.append(') )')
     turn2pause[turn] = pauses
     turn2part[turn] = parts
     turn2tree[turn] = ' '.join(curr_trees)
-    turn2dur[turn] = np.concatenate(durs,axis=1)
 
-    """
+    # Duration:
+    # recompute norm by max in turn so that it's normed by max in turn, not utterance
+    normed_by_mean = np.concatenate([dur[0:1] for dur in durs],axis=1) # these are the same -- copy them over.
+    raw_durs = np.concatenate([np.array(sent2rawdur[sent]) for sent in sents])
+    print(raw_durs)
+    normed_by_max = np.expand_dims(raw_durs/np.max(raw_durs),axis=0)
+    print(normed_by_max)
+    print(np.max(raw_durs))
+    
+
+    turn2dur[turn] = np.concatenate([normed_by_mean,normed_by_max],axis=0)
+    
+
     # 6b. Create features you have to recalculate
     ssent = sents[0]
     esent = sents[-1]
@@ -143,12 +157,13 @@ pickle.dump(turn2pitch,open(os.path.join(turn_dir,f'turn_{split}_pitch.pickle'),
 pickle.dump(turn2pause,open(os.path.join(turn_dir,f'turn_{split}_pause.pickle'),'wb'))
 pickle.dump(turn2part,open(os.path.join(turn_dir,f'turn_{split}_partition.pickle'),'wb'))
 pickle.dump(turn2fbank,open(os.path.join(turn_dir,f'turn_{split}_fbank.pickle'),'wb'))
+
 with open(os.path.join(turn_dir,f'turn_{split}_sent_ids.txt'),'w') as f_id:
     with open(os.path.join(turn_dir,f'turn_{split}.trees'),'w') as f_tree:
         for turn in turn2tree:
             f_id.write(f'{turn}\n')
             f_tree.write(f'{turn2tree[turn]}\n')
-"""
+
 # 8. Write subsets of turn ids and trees as well:
 print(f'Making turn subsets of {split} ...')
 with open(os.path.join(turn_dir,f'multisent_turns_{split}_sent_ids.txt'),'w') as f_id:

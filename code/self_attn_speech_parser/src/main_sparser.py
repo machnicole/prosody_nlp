@@ -147,6 +147,13 @@ def run_train(args, hparams):
     if args.numpy_seed is not None:
         print("Setting numpy random seed to {}...".format(args.numpy_seed))
         np.random.seed(args.numpy_seed)
+
+        # EKN Extra assurance of deterministic behavior on GPU
+        #torch.manual_seed(args.numpy_seed)
+        torch.backends.cudnn.deterministic = True
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(args.numpy_seed)
+
         sys.stdout.flush()
 
     # Make sure that pytorch is actually being initialized randomly.
@@ -413,6 +420,7 @@ def run_train(args, hparams):
         
         dev_fscore = evaluate.evalb(args.evalb_dir, dev_treebank, dev_predicted)
 
+        """
         with open('tmp_preds.txt','w') as f:
             for pred in dev_predicted:
                 f.write(pred.linearize())
@@ -421,7 +429,7 @@ def run_train(args, hparams):
             for gold in dev_treebank:
                 f.write(gold.linearize())
                 f.write('\n')
-        
+        """
         print(
             "dev-fscore {} "
             "dev-elapsed {} "
@@ -576,6 +584,19 @@ def run_test(args):
 
     parser = parse_model.SpeechParser.from_spec(info['spec'], \
             info['state_dict'])
+
+    from prettytable import PrettyTable
+    total_params = 0
+    table = PrettyTable(["Modules", "Parameters"])
+    for name, parameter in parser.named_parameters():
+        if not parameter.requires_grad: continue
+        param = parameter.numel()
+        table.add_row([name, param])
+        total_params+=param
+    print(table)
+    print(f'Num model params: {total_params}')
+
+
     parser.eval() # turn off dropout at evaluation time
     label_vocab = parser.label_vocab
     #print("{} ({:,}): {}".format("label", label_vocab.size, \

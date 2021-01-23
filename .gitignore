@@ -1,5 +1,15 @@
 code/self_attn_speech_parser/EVALB/*
+code/self_attn_speech_parser/PYEVALB/*
 code/self_attn_speech_parser/EVALB_SPMRL/*
+code/self_attn_speech_parser/eval_scripts/*
+code/self_attn_speech_parser/train_scripts/*
+code/self_attn_speech_parser/output/*
+data/glove.6B.300d.txt
+code/feature_extraction/load_word_times_pickle.py
+code/self_attn_speech_parser/sample_data/load_pickle.py
+
+
+
 *.pt
 *.tar.gz
 data/input_features
@@ -7,6 +17,7 @@ data/kaldi_feats
 data/ta_features
 data/swbd_word_times
 data/swb_ms98_transcriptions/
+code/berkeley-parser-analyser
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

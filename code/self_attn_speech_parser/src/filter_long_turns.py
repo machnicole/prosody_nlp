@@ -2,13 +2,14 @@ import os
 import trees
 
 #split = 'train'
-split = 'dev'
+#split = 'dev'
+split = 'test'
 
-data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/all_TURN'
+data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
 turn_trees = os.path.join(data_dir,f'turn_{split}.trees')
 turn_ids = os.path.join(data_dir,f'turn_{split}_sent_ids.txt')
 
-trees, ids = trees.load_trees_with_idx(turn_trees,turn_ids)
+trees, ids = trees.load_trees_with_idx(turn_trees,turn_ids,strip_top=False)
 
 out_trees = []
 out_ids = []
