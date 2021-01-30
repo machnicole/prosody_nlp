@@ -98,7 +98,9 @@ baseline_f = os.path.join(output_dir,'turn_medium_sp_glove_72240_dev=91.38.pt_tu
 ids = [l.strip() for l in open(os.path.join(data_dir,'turn_dev_sent_ids_medium.txt')).readlines()]
 
     
-experiments = [os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt"),
+experiments = [os.path.join(output_dir,"turn_seg_sp_parsed_by_turn.txt")
+
+#os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt"),
                
 #               os.path.join(output_dir,"turn_medium_sp_glove_ab_pitch_72240_dev=91.43.pt_turn_dev_predicted.txt"),
 #               os.path.join(output_dir,"turn_medium_sp_glove_ab_pause_72240_dev=91.07.pt_turn_dev_predicted.txt"),

@@ -593,8 +593,7 @@ def run_test(args):
         param = parameter.numel()
         table.add_row([name, param])
         total_params+=param
-    print(table)
-    print(f'Num model params: {total_params}')
+
 
 
     parser.eval() # turn off dropout at evaluation time

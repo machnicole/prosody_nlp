@@ -104,6 +104,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
     print(f'evalb shell command: {command}')
     #subprocess.run(command, shell=True)
 
+    import pdb;pdb.set_trace()
     scr = scorer.Scorer()
     scr.evalb(gold_path,predicted_path,output_path)
 
