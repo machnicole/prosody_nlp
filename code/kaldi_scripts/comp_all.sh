@@ -1,11 +1,11 @@
 #!/bin/bash
 
-KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi
+KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi # kaldi location
 NUM=$1
-# Based on run.sh and local/eval2000_data_prep.sh
-maindir=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/dummy
-sdir=/group/corporapublic/switchboard/switchboard1/swb1
-swdir=/afs/inf.ed.ac.uk/group/project/prosody/kaldi/src/featbin
+maindir=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/dummy # output location
+sdir=/group/corporapublic/switchboard/switchboard1/swb1 # SWBD location
+
+swdir=${KALDI_ROOT}/src/featbin
 utils=${KALDI_ROOT}/egs/swbd/s5c/utils
 
 # make list of files to process
