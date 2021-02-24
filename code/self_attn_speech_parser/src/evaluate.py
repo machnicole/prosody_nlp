@@ -3,7 +3,7 @@ import os.path
 import re
 import subprocess
 import tempfile
-
+import numpy as np
 import trees
 
 from PYEVALB import scorer
@@ -24,6 +24,34 @@ class FScore(object):
             return "(Recall={:.2f}, Precision={:.2f}, FScore={:.2f}, CompleteMatch={:.2f})".format(
                 self.recall, self.precision, self.fscore, self.complete_match)
 
+def seg_fscore(golds,preds,is_train=True):
+    fscore = FScore(math.nan, math.nan, math.nan, math.nan)
+
+    pred_pos = 0
+    true_pos = 0
+    gold_pos = 0
+    for gold,pred in zip(golds,preds):
+        txt = gold[0]
+        lbl = np.array([int(l) for l in gold[1]])
+        pred = np.array([1 if i=='1' else 0 for i in pred])
+        pred_pos += np.sum(pred)
+        match = lbl==pred
+        pred1 = pred==1
+        true_pos += np.sum(match&pred1) # fixing bug: should both match the lbl and be 1
+        gold_pos += np.sum(lbl)
+        #if true_pos > 1: import pdb;pdb.set_trace()
+    fscore.recall = 100*true_pos/gold_pos
+    if pred_pos == 0:
+        fscore.precision = 0
+        fscore.fscore = 0
+    else:
+        fscore.precision = 100*true_pos/pred_pos
+        fscore.fscore = (2*fscore.precision*fscore.recall)/(fscore.precision+fscore.recall)
+    return fscore
+        
+        
+
+        
 def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=True):
     assert os.path.exists(evalb_dir)
     evalb_program_path = os.path.join(evalb_dir, "evalb")
@@ -104,7 +132,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
     print(f'evalb shell command: {command}')
     #subprocess.run(command, shell=True)
 
-    import pdb;pdb.set_trace()
+
     scr = scorer.Scorer()
     scr.evalb(gold_path,predicted_path,output_path)
 

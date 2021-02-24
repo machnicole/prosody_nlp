@@ -78,6 +78,7 @@ def make_hparams():
         use_glove_pretrained=False,
         use_glove_fisher=False,
         predict_tags=False,
+        seg=False,
 
         d_char_emb=32, # A larger value may be better for use_chars_lstm
         d_pause_emb=4,
@@ -143,6 +144,7 @@ def load_features(sent_ids, feat_dict, sp_off=False):
         batch_features[sent] = features
     return batch_features
 
+
 def run_train(args, hparams):
     if args.numpy_seed is not None:
         print("Setting numpy random seed to {}...".format(args.numpy_seed))
@@ -168,9 +170,19 @@ def run_train(args, hparams):
 
     hparams.set_from_args(args)
 
+
+
     print("Loading training trees from {}...".format(args.train_path))
-    train_treebank, train_sent_ids = trees.load_trees_with_idx(args.train_path,\
-            args.train_sent_id_path)
+    #EKN taking out SEG path for now
+    hparams.seg = False
+    if hparams.seg:
+        train_txt = [l.strip().split() for l in open(args.train_path,'r').readlines()]
+        train_lbls = [l.strip().split() for l in open(args.train_lbls,'r').readlines()]
+        train_sent_ids = [l.strip() for l in open(args.train_sent_id_path,'r').readlines()]
+        train_parse = [(txt,lbl) for txt,lbl in zip(train_txt,train_lbls)]
+    else:
+        train_treebank, train_sent_ids = trees.load_trees_with_idx(args.train_path,\
+            args.train_sent_id_path) # EKN trees get loaded in as trees here
 
     print("Processing pause features for training...")
     pause_path = os.path.join(args.feature_path, args.prefix + 'train_pause.pickle')
@@ -183,20 +195,29 @@ def run_train(args, hparams):
         assert args.speech_features is None
     to_keep = set(pause_data.keys())
     to_keep = to_keep.union(wsj_sents)
-    train_parse = [tree.convert() for tree in train_treebank]
+    if not hparams.seg:
+        train_parse = [tree.convert() for tree in train_treebank]
+        
     # Removing sentences without speech info
     to_remove = set(train_sent_ids).difference(to_keep)
     to_remove = sorted([train_sent_ids.index(i) for i in to_remove])
     for x in to_remove[::-1]:
         train_parse.pop(x)
         train_sent_ids.pop(x)
-    train_set = list(zip(train_sent_ids, train_parse))
+    train_set = list(zip(train_sent_ids, train_parse)) # EKN train_set is a list of tuples: (sent_id, tree)
     print("Loaded {:,} training examples.".format(len(train_set)))
 
     # Remove sentences without prosodic features in dev set
     print("Loading development trees from {}...".format(args.dev_path))
-    dev_treebank, dev_sent_ids = trees.load_trees_with_idx(args.dev_path, \
+    if hparams.seg:
+        dev_txt = [l.strip().split() for l in open(args.dev_path,'r').readlines()]
+        dev_lbls = [l.strip().split() for l in open(args.dev_lbls,'r').readlines()]
+        dev_sent_ids = [l.strip() for l in open(args.dev_sent_id_path,'r').readlines()]
+        dev_treebank = [(txt,lbl) for txt,lbl in zip(dev_txt,dev_lbls)]
+    else:
+        dev_treebank, dev_sent_ids = trees.load_trees_with_idx(args.dev_path, \
             args.dev_sent_id_path)
+        
     dev_pause_path = os.path.join(args.feature_path, args.prefix + \
             'dev_pause.pickle')
     with open(dev_pause_path, 'rb') as f:
@@ -239,18 +260,25 @@ def run_train(args, hparams):
             pause_vocab.index(str(p))
 
     for tree in train_parse:
-
-        nodes = [tree]
-        while nodes:
-            node = nodes.pop()
-            if isinstance(node, trees.InternalParseNode):
-                label_vocab.index(node.label)
-                nodes.extend(reversed(node.children))
-            else:
-                tag_vocab.index(node.tag)
-                word_vocab.index(node.word)
-                char_set |= set(node.word)
-
+        if hparams.seg:
+            wds = tree[0]
+            lbls = tree[1]
+            for lbl,wd in zip(lbls,wds):
+                tag_vocab.index(lbl)
+                word_vocab.index(wd)
+                char_set |= set(wd)
+        else:
+            nodes = [tree]
+            while nodes:
+                node = nodes.pop()
+                if isinstance(node, trees.InternalParseNode):
+                    label_vocab.index(node.label)
+                    nodes.extend(reversed(node.children))
+                else:
+                    tag_vocab.index(node.tag)
+                    word_vocab.index(node.word)
+                    char_set |= set(node.word)
+                
     char_vocab = vocabulary.Vocabulary()
 
    
@@ -335,6 +363,7 @@ def run_train(args, hparams):
                 info['state_dict'])
 
     else:
+
         parser = parse_model.SpeechParser(
             tag_vocab,
             word_vocab,
@@ -403,22 +432,35 @@ def run_train(args, hparams):
 
         dev_predicted = []
         eval_batch_size = args.eval_batch_size
-        for dev_start_index in range(0, len(dev_treebank), eval_batch_size):
+        for dev_start_index in range(0, len(dev_treebank), eval_batch_size): 
             subbatch_trees = dev_treebank[dev_start_index:dev_start_index \
-                    + eval_batch_size]
+                                        + eval_batch_size] 
             subbatch_sent_ids = dev_sent_ids[dev_start_index:dev_start_index \
                     + eval_batch_size]
-            subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in \
-                    tree.leaves()] for tree in subbatch_trees]
+            if hparams.seg:
+                subbatch_txt = [tree[0] for tree in subbatch_trees]
+                subbatch_lbl = [tree[1] for tree in subbatch_trees]
+                subbatch_sentences = [[(lbl,txt) for lbl,txt in zip(sent_lbl,sent_txt)] \
+                                      for sent_lbl,sent_txt in zip(subbatch_lbl,subbatch_txt)]
+            else:
+                subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in \
+                                 tree.leaves()] for tree in subbatch_trees]
+
             subbatch_features = load_features(subbatch_sent_ids, dev_feat_dict)
 
             predicted, _ = parser.parse_batch(subbatch_sentences, \
-                    subbatch_sent_ids, subbatch_features)
+                    subbatch_sent_ids, subbatch_features) 
 
             del _
-            dev_predicted.extend([p.convert() for p in predicted])
-        
-        dev_fscore = evaluate.evalb(args.evalb_dir, dev_treebank, dev_predicted)
+            if hparams.seg:
+                dev_predicted.extend(predicted)
+            else:
+                dev_predicted.extend([p.convert() for p in predicted])
+
+        if hparams.seg:
+            dev_fscore = evaluate.seg_fscore(dev_treebank,dev_predicted)
+        else:
+            dev_fscore = evaluate.evalb(args.evalb_dir, dev_treebank, dev_predicted)
 
         """
         with open('tmp_preds.txt','w') as f:
@@ -476,11 +518,17 @@ def run_train(args, hparams):
 
             batch_loss_value = 0.0
             batch_trees = [x[1] for x in \
-                    train_set[start_index:start_index + args.batch_size]]
+                    train_set[start_index:start_index + args.batch_size]] # EKN this is where the trees get batched
             batch_sent_ids = [x[0] for x in \
                     train_set[start_index:start_index + args.batch_size]]
-            batch_sentences = [[(leaf.tag, leaf.word) for leaf \
-                    in tree.leaves()] for tree in batch_trees]
+            if hparams.seg:
+                batch_txt = [turn[0] for turn in batch_trees]
+                batch_lbl = [turn[1] for turn in batch_trees]
+                batch_sentences = [[(lbl,txt) for lbl,txt in zip(sent_lbl,sent_txt)] for \
+                                   sent_lbl,sent_txt in zip(batch_lbl,batch_txt)]
+            else:
+                batch_sentences = [[(leaf.tag, leaf.word) for leaf \
+                    in tree.leaves()] for tree in batch_trees] # EKN this is where the sentences get broken into tags and words
             batch_num_tokens = sum(len(sentence) for sentence \
                     in batch_sentences)
 
@@ -496,7 +544,7 @@ def run_train(args, hparams):
                     tree_len = subbatch_num_tokens[i]
                     if not feat_len == tree_len:
                         print(sent)
-                        import pdb;pdb.set_trace()
+
                 """
                 _, loss = parser.parse_batch(subbatch_sentences, \
                         subbatch_sent_ids, subbatch_features, subbatch_trees)
@@ -559,7 +607,13 @@ def run_train(args, hparams):
 
 def run_test(args):
     print("Loading test trees from {}...".format(args.test_path))
-    test_treebank, test_sent_ids = trees.load_trees_with_idx(args.test_path, \
+    if args.test_lbls:
+        test_txt = [l.strip().split() for l in open(args.test_path,'r').readlines()]
+        test_lbls = [l.strip().split() for l in open(args.test_lbls,'r').readlines()]
+        test_sent_ids = [l.strip() for l in open(args.test_sent_id_path,'r').readlines()]
+        test_treebank = [(txt,lbl) for txt,lbl in zip(test_txt,test_lbls)]
+    else:
+        test_treebank, test_sent_ids = trees.load_trees_with_idx(args.test_path, \
             args.test_sent_id_path)
     
     if not args.new_set:
@@ -567,6 +621,7 @@ def run_test(args):
             '_pause.pickle')
         with open(test_pause_path, 'rb') as f:
             test_pause_data = pickle.load(f, encoding='latin1')
+        
         to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
         to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
         for x in to_remove[::-1]:
@@ -626,9 +681,15 @@ def run_test(args):
                     + args.eval_batch_size]
             subbatch_sent_ids = test_sent_ids[start_index:start_index \
                     + args.eval_batch_size]
-            subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in \
+            if args.test_lbls: # EKN using this instead of the seg flag bc it's an hparam
+                subbatch_txt = [turn[0] for turn in subbatch_treebank]
+                subbatch_lbl = [turn[1] for turn in subbatch_treebank]
+                subbatch_sentences = [[(lbl,txt) for lbl,txt in zip(sent_lbl,sent_txt)] for \
+                                   sent_lbl,sent_txt in zip(subbatch_lbl,subbatch_txt)]
+            else:
+                subbatch_sentences = [[(leaf.tag, leaf.word) for leaf in \
                     tree.leaves()] for tree in subbatch_treebank]
-            subbatch_trees = [t.convert() for t in subbatch_treebank]
+                subbatch_trees = [t.convert() for t in subbatch_treebank]
             subbatch_features = load_features(subbatch_sent_ids, test_feat_dict\
                     , args.sp_off)
             predicted, scores = parser.parse_batch(subbatch_sentences, \
@@ -650,7 +711,11 @@ def run_test(args):
                     pscores.append(p_score)
                     gscores.append(g_score)
                 test_scores += scores
-            test_predicted.extend([p.convert() for p in predicted])
+            if args.test_lbls:
+                test_predicted.extend(predicted)
+            else:
+                test_predicted.extend([p.convert() for p in predicted])                
+                
     
     # DEBUG
     # print(test_scores)
@@ -658,7 +723,12 @@ def run_test(args):
 
     with open(args.output_path, 'w') as output_file:
         for tree in test_predicted:
-            output_file.write("{}\n".format(tree.linearize()))
+            if args.test_lbls:
+                #import pdb;pdb.set_trace()
+                lbls = ' '.join(tree)
+                output_file.write("{}\n".format(lbls))
+            else:
+                output_file.write("{}\n".format(tree.linearize()))
     print("Output written to:", args.output_path)
 
     if args.get_scores:
@@ -695,7 +765,10 @@ def run_test(args):
         # Need this since I'm evaluating on subset
         ref_gold_path = None
 
-    test_fscore = evaluate.evalb(args.evalb_dir, test_treebank, \
+    if args.test_lbls:
+        test_fscore = evaluate.seg_fscore(test_treebank,test_predicted,is_train=False)
+    else:
+        test_fscore = evaluate.evalb(args.evalb_dir, test_treebank, \
             test_predicted, ref_gold_path=ref_gold_path, is_train=False)
 
     print(
@@ -873,6 +946,12 @@ def main():
     subparser.add_argument("--print-vocabs", action="store_true")
     subparser.add_argument("--debug", action="store_true", default=False)
 
+    subparser.add_argument("--train-lbls", \
+      default="/Users/trangtran/Misc/data/swbd_trees/swbd_train2.txt")
+    subparser.add_argument("--dev-lbls", \
+      default="/Users/trangtran/Misc/data/swbd_trees/swbd_train2.txt")
+    
+    
     subparser = subparsers.add_parser("test")
     subparser.set_defaults(callback=run_test)
     subparser.add_argument("--model-path-base", required=True)
@@ -898,6 +977,9 @@ def main():
     subparser.add_argument("--new-set", action="store_true", default=False, \
             help="Flag for a new data set (which doesn't have speech features")
 
+    subparser.add_argument("--test-lbls", default="")
+
+    
     subparser = subparsers.add_parser("viz")
     subparser.set_defaults(callback=run_viz)
     subparser.add_argument("--model-path-base", required=True)

@@ -11,8 +11,8 @@ data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_featu
 results_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/code/self_attn_speech_parser/output/turn_pause_dur_fixed'
 output_dir = os.path.join(results_dir,'length_eval')
 gold_file = os.path.join(data_dir,'turn_dev_medium.trees')
-sp_file = os.path.join(results_dir,'turn_medium_sp_glove_72240_dev=91.38.pt_turn_dev_predicted.txt')
-nonsp_file = os.path.join(results_dir,'turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt')
+sp_file = os.path.join(results_dir,'turn_sp_correct_eval_72240_dev=90.90.pt_dev_predicted.txt')
+nonsp_file = os.path.join(results_dir,'turn_nonsp_correct_eval_72240_dev=86.09.pt_dev_predicted.txt')
 gold_id_file = os.path.join(data_dir,'turn_dev_sent_ids_medium.txt')
 
 gold_trees,ids = trees.load_trees_with_idx(gold_file,gold_id_file)

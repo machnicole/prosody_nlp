@@ -13,22 +13,24 @@ id_file = os.path.join(datadir,'turn_dev_sent_ids_medium.txt')
 gold_trees = os.path.join(datadir,'turn_dev_medium.trees')
 gold_trees,all_ids = trees.load_trees_with_idx(gold_trees,id_file)
 
-prefixes = ['nonsp_',
-            'sp_',
+prefixes = [#'nonsp_',
+            #'sp_',
             'dur_only_',
             'fbank_only_',
             'pause_only_',
-            'pitch_only_']
+            'pitch_only_'
+]
             
 
 fluencies = ['fluent','disfluent']
 
-pred_trees_list = [os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt"),
-                   os.path.join(output_dir,"turn_medium_sp_glove_72240_dev=91.38.pt_turn_dev_predicted.txt"),
-                   os.path.join(output_dir,"turn_sp_glove_dur_only_72240_dev=86.96.pt_turn_dev_predicted.txt"),
-                   os.path.join(output_dir,"turn_sp_glove_fbank_only_72240_dev=90.80.pt_turn_dev_predicted.txt"),
-                   os.path.join(output_dir,"turn_sp_glove_pause_only_72240_dev=86.93.pt_turn_dev_predicted.txt"),
-                   os.path.join(output_dir,"turn_sp_glove_pitch_only_72240_dev=91.20.pt_turn_dev_predicted.txt")]
+pred_trees_list = [#os.path.join(output_dir,"turn_nonsp_correct_eval_72240_dev=86.09.pt_dev_predicted.txt"),
+                   #os.path.join(output_dir,"turn_sp_correct_eval_72240_dev=90.90.pt_dev_predicted.txt"),
+                   os.path.join(output_dir,"turn_dur_only_correct_eval_72240_dev=86.24.pt_dev_predicted.txt"),
+                   os.path.join(output_dir,"turn_fbank_only_correct_eval_72240_dev=90.29.pt_dev_predicted.txt"),
+                   os.path.join(output_dir,"turn_pause_only_correct_eval_72240_dev=86.21.pt_dev_predicted.txt"),
+                   os.path.join(output_dir,"turn_pitch_only_correct_eval_72240_dev=90.71.pt_dev_predicted.txt")
+]
 
 for fluency in fluencies:
     for pred_trees_f,prefix in zip(pred_trees_list,prefixes):

@@ -666,6 +666,8 @@ class MultiLevelEmbedding(nn.Module):
             emb_dropout(emb(x), batch_idxs)
             for x, emb, emb_dropout in zip(xs, self.embs, self.emb_dropouts)
             ]
+
+
         content_annotations = sum(content_annotations)
         if extra_content_annotations is not None:
             if self.extra_content_dropout is not None:
@@ -683,7 +685,7 @@ class MultiLevelEmbedding(nn.Module):
             if self.extra_content_dropout is not None:
                 speech_content_annotations = self.extra_content_dropout(\
                         speech_content_annotations, batch_idxs)
-
+        
             #print(f'batch_idxs.seq_lens_np: {batch_idxs.seq_lens_np}')
             #print(f'batch_idxs.seq_lens_np>200: {batch_idxs.seq_lens_np>200}')
 
@@ -1127,7 +1129,7 @@ class SpeechParser(nn.Module):
                     + hparams.d_fbank * int('fbank' in speech_features) \
                     + hparams.d_pitch * int('pitch' in speech_features)
 
-            self.speech_encoder = SpeechFeatureEncoder(feature_sizes, 
+            self.speech_encoder = SpeechFeatureEncoder(feature_sizes,
                     self.d_speech, d_pause_embedding=hparams.d_pause_emb)
 
         if hparams.use_chars_lstm:
@@ -1265,14 +1267,21 @@ class SpeechParser(nn.Module):
                 attention_dropout=hparams.attention_dropout,
             )
 
-        self.f_label = nn.Sequential(
-            nn.Linear(hparams.d_model, hparams.d_label_hidden),
-            LayerNormalization(hparams.d_label_hidden),
-            nn.ReLU(),
-            nn.Linear(hparams.d_label_hidden, label_vocab.size - 1),
+        #if hparams.seg:
+        #    self.seg = hparams.seg
+        #else:
+        #    self.seg = False
+        self.seg = False  # EKN temporarily taking out the segmentaiton code
+        hparams.seg=False #EKN temporarily taking out the segmentation code
+        if not self.seg:
+            self.f_label = nn.Sequential(
+                nn.Linear(hparams.d_model, hparams.d_label_hidden),
+                LayerNormalization(hparams.d_label_hidden),
+                nn.ReLU(),
+                nn.Linear(hparams.d_label_hidden, label_vocab.size - 1),
             )
 
-        if hparams.predict_tags:
+        if hparams.predict_tags or hparams.seg:
             assert not hparams.use_tags, ("use_tags and predict_tags are \
                     mutually exclusive")
             self.f_tag = nn.Sequential(
@@ -1282,8 +1291,10 @@ class SpeechParser(nn.Module):
                 nn.Linear(hparams.d_tag_hidden, tag_vocab.size),
                 )
             self.tag_loss_scale = hparams.tag_loss_scale
+            self.seg = True if hparams.seg else False
         else:
             self.f_tag = None
+
 
         # Put model on correponding device (cuda or cpu)
         self.to(device)
@@ -1314,6 +1325,8 @@ class SpeechParser(nn.Module):
             hparams['freeze'] = False
         if 'predict_tags' not in hparams:
             hparams['predict_tags'] = False
+        if 'segment' not in hparams:
+            hparams['segment'] = False            
         if 'bert_transliterate' not in hparams:
             hparams['bert_transliterate'] = ""
 
@@ -1474,7 +1487,8 @@ class SpeechParser(nn.Module):
         tag_idxs = np.zeros(packed_len, dtype=int)
         word_idxs = np.zeros(packed_len, dtype=int)
         batch_idxs = np.zeros(packed_len, dtype=int)
-        for snum, sentence in enumerate(sentences):
+
+        for snum, sentence in enumerate(sentences): # EKN every item in sentences is a list of tuples: (<POS>, <word>)
             for (tag, word) in [(START, START)] + sentence + [(STOP, STOP)]:
                 tag_idxs[i] = 0 if (not self.use_tags and self.f_tag is None) \
                         else self.tag_vocab.index_or_unk(tag, TAG_UNK)
@@ -1738,13 +1752,13 @@ class SpeechParser(nn.Module):
         # End of extra_content_annotation cases
         ########################################
         if self.encoder is not None:
-            annotations, _ = self.encoder(emb_idxs, batch_idxs, 
+            annotations, _ = self.encoder(emb_idxs, batch_idxs, # EKN annotations is what comes out of the encoder
                 extra_content_annotations=extra_content_annotations, 
                 speech_content_annotations=speech_content_annotations)
             if self.partitioned:
                 # Rearrange the annotations to ensure that the transition to
                 # fenceposts captures an even split between position and content.
-                if speech_content_annotations is not None:
+                if speech_content_annotations is not None: 
                     annotations = torch.cat([
                         annotations[:, 0::3],
                         annotations[:, 1::3],
@@ -1762,7 +1776,7 @@ class SpeechParser(nn.Module):
             # TT: This part just throws away the left half of bottom row 
             # and the right half of top row; and basically makes
             # left half "forward" vectors and right half "backward" vectors
-            fencepost_annotations = torch.cat([
+            fencepost_annotations = torch.cat([ # EKN create forward and backward vectors
                 annotations[:-1, :self.d_model//2],
                 annotations[1:, self.d_model//2:],
                 ], 1)
@@ -1781,20 +1795,31 @@ class SpeechParser(nn.Module):
             if is_train:
                 tag_loss = self.tag_loss_scale*nn.functional.cross_entropy(\
                         tag_logits, gold_tag_idxs, reduction='sum')
+                if self.seg:
+                    return None,tag_loss
+            ############# For utterance segmentation mode ###########
+            elif self.seg:
+                tag_idxs = torch.argmax(tag_logits, -1).cpu()
+                per_sentence_tag_idxs = torch.split_with_sizes(tag_idxs, \
+                                                               [len(sentence) + 2 for sentence in sentences])
+                per_sentence_tags = [[self.tag_vocab.value(idx) for idx \
+                                          in idxs[1:-1]] for idxs in per_sentence_tag_idxs]
+                return per_sentence_tags,None
+            #########################################################
 
         # Note that the subtraction above creates fenceposts at sentence
         # boundaries, which are not used by our parser. Hence subtract 1
         # when creating fp_endpoints
         fp_startpoints = batch_idxs.boundaries_np[:-1]
         fp_endpoints = batch_idxs.boundaries_np[1:] - 1
-
-        # Just return the charts, for ensembling
+ 
+       # Just return the charts, for ensembling
         if return_label_scores_charts:
             charts = []
             for i, (start, end) in enumerate(zip(fp_startpoints, fp_endpoints)):
                 chart = self.label_scores_from_annotations(\
                         fencepost_annotations_start[start:end,:], \
-                        fencepost_annotations_end[start:end,:])
+                        fencepost_annotations_end[start:end,:]) # EKN this is the chart part of the decoder
                 charts.append(chart.cpu().data.numpy())
             return charts
 

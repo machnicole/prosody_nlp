@@ -1,18 +1,20 @@
 #!/bin/bash
 
+KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi
 NUM=$1
 # Based on run.sh and local/eval2000_data_prep.sh
-maindir=/s0/ttmt001/speech_parsing/sph_splits/sph$NUM
-#sdir=$maindir/swbd_sph
-sdir=$maindir/audio
-swdir=/homes/ttmt001/kaldi/src/featbin
+maindir=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/dummy
+sdir=/group/corporapublic/switchboard/switchboard1/swb1
+swdir=/afs/inf.ed.ac.uk/group/project/prosody/kaldi/src/featbin
+utils=${KALDI_ROOT}/egs/swbd/s5c/utils
 
 # make list of files to process
-find $sdir -iname '*.sph' | sort > sph.flist
+#find $sdir -iname '*.sph' | sort > sph.flist
+find $sdir -iname 'sw0410*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
 
-sph2pipe=$HOME/kaldi/tools/sph2pipe_v2.5/sph2pipe
-#sph2pipe=$HOME/sw/kaldi/tools/sph2pipe_v2.5/sph2pipe
+sph2pipe=$KALDI_ROOT/tools/sph2pipe_v2.5/sph2pipe
+
 [ ! -x $sph2pipe ] \
   && echo "Could not execute the sph2pipe program at $sph2pipe" && exit 1;
 
@@ -25,13 +27,13 @@ awk -v sph2pipe=$sph2pipe '{
 awk '{print $1}' wav.scp \
   | perl -ane '$_ =~ m:^(\S+)-([AB])$: || die "bad label $_";
                print "$1-$2 $1 $2\n"; ' \
-  > reco2file_and_channel || exit 1;
+	 > reco2file_and_channel || exit 1;
 
 mfccdir=$maindir/mfcc
 pitchdir=$maindir/pitch_pov
 fbankdir=$maindir/fbank_energy
 nj=4
-cmd=utils/run.pl
+cmd=$utils/run.pl
 mfcc_config=conf/mfcc.conf
 pitch_config=conf/pitch.conf
 fbank_config=conf/fbank.conf
@@ -43,7 +45,7 @@ logdir=$maindir/log
 # use "name" as part of name of the archive.
 name=`basename $data`
 
-#mkdir -p $mfccdir || exit 1;
+mkdir -p $mfccdir || exit 1;
 mkdir -p $pitchdir || exit 1;
 mkdir -p $fbankdir || exit 1;
 mkdir -p $logdir || exit 1;
@@ -70,7 +72,7 @@ for n in $(seq $nj); do
     split_scps="$split_scps $logdir/wav_${name}.$n.scp"
 done
 
-utils/split_scp.pl $scp $split_scps || exit 1;
+$utils/split_scp.pl $scp $split_scps || exit 1;
 
 
 # You have to use the ",t" modifier on the output, for instance
@@ -94,7 +96,7 @@ if [ -f $logdir/.error.$name ]; then
   exit 1;
 fi
 
- concatenate the .scp files together.
+# concatenate the .scp files together.
 for n in $(seq $nj); do
   cat $mfccdir/raw_mfcc_$name.$n.scp || exit 1;
 done > $maindir/feats.scp

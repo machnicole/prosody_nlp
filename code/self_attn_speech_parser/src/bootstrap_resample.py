@@ -4,10 +4,15 @@ import random
 import os
 import pickle
 import time
+import string
 
 num_resamples = 10**5
 
-def get_p_value(baseline_f,experiment_f,ids):
+def tree2str(tree):
+    return ' '.join(''.join(ch for ch in tree if not ch.isupper()).replace('(','').replace(')','').translate(str.maketrans('', '', string.punctuation)).strip().split())
+
+
+def get_p_value(baseline_f,gold_f,experiment_f,ids):
     print(experiment_f.split('/')[-1])
     gold_lines = [l.strip() for l in open(gold_f).readlines()]
     experiment_lines = [l.strip() for l in open(experiment_f).readlines()]
@@ -45,6 +50,7 @@ def get_p_value(baseline_f,experiment_f,ids):
         for i,turn in enumerate(ids):
             gold_line = gold_lines[i]
             test_line = test_lines[i]
+            assert tree2str(gold_line)==tree2str(test_line)
             mat,gol,tes = scr.get_bracket_counts_from_tree(gold_line,test_line)
             id2matched[model][turn] = mat
             id2gold[model][turn] = gol
@@ -86,37 +92,36 @@ def get_p_value(baseline_f,experiment_f,ids):
 
 
 
+def main():
+    output_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/code/self_attn_speech_parser/output/turn_pause_dur_fixed'
+    data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
+    gold_f = os.path.join(data_dir,'gold.txt')
 
-output_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/code/self_attn_speech_parser/output/turn_pause_dur_fixed'
-data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
-gold_f = os.path.join(data_dir,'gold.txt')
-
-# Basic pros/nonpros comparison
-baseline_f = os.path.join(output_dir,'turn_medium_sp_glove_72240_dev=91.38.pt_turn_dev_predicted.txt')
+    # Basic pros/nonpros comparison
+    #baseline_f = os.path.join(output_dir,'turn_medium_sp_glove_72240_dev=91.38.pt_turn_dev_predicted.txt')
+    baseline_f = os.path.join(output_dir,'turn_sp_correct_eval_72240_dev=90.90.pt_dev_predicted.txt')
 
 
-ids = [l.strip() for l in open(os.path.join(data_dir,'turn_dev_sent_ids_medium.txt')).readlines()]
+    ids = [l.strip() for l in open(os.path.join(data_dir,'turn_dev_sent_ids_medium.txt')).readlines()]
 
     
-experiments = [os.path.join(output_dir,"turn_seg_sp_parsed_by_turn.txt")
+    experiments = [
 
-#os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt"),
-               
-#               os.path.join(output_dir,"turn_medium_sp_glove_ab_pitch_72240_dev=91.43.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_medium_sp_glove_ab_pause_72240_dev=91.07.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_medium_sp_glove_ab_fbank_72240_dev=91.12.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_medium_sp_glove_ab_duration_72240_dev=91.32.pt_turn_dev_predicted.txt"),
+        #os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt"),
+        
+        os.path.join(output_dir,"turn_dur_only_correct_eval_72240_dev=86.24.pt_dev_predicted.txt"),
+        os.path.join(output_dir,"turn_fbank_only_correct_eval_72240_dev=90.29.pt_dev_predicted.txt"),
+        os.path.join(output_dir,"turn_pause_only_correct_eval_72240_dev=86.21.pt_dev_predicted.txt"),
+        os.path.join(output_dir,"turn_pitch_only_correct_eval_72240_dev=90.71.pt_dev_predicted.txt")
 
-#               os.path.join(output_dir,"turn_sp_glove_dur_only_72240_dev=86.96.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_sp_glove_fbank_only_72240_dev=90.80.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_sp_glove_pause_only_72240_dev=86.93.pt_turn_dev_predicted.txt"),
-#               os.path.join(output_dir,"turn_sp_glove_pitch_only_72240_dev=91.20.pt_turn_dev_predicted.txt")
-
-]
+    ]
 
 
 
 
-for ex in experiments:
-    get_p_value(baseline_f,ex,ids)
+    for ex in experiments:
+        get_p_value(baseline_f,gold_f,ex,ids)
+
+if __name__=="__main__":
+    main()
 

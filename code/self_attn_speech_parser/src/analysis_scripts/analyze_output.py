@@ -19,16 +19,12 @@ The parser likely splits sentences
 output_dir = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/code/self_attn_speech_parser/output/turn_pause_dur_fixed"
 turndir = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed"
 datadir = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features"
-pred_tree_file = os.path.join(output_dir,"turn_medium_nonsp_glove_72240_dev=86.82.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_medium_sp_glove_72240_dev=91.38.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_medium_sp_glove_ab_duration_72240_dev=91.32.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_medium_sp_glove_ab_fbank_72240_dev=91.12.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_medium_sp_glove_ab_pause_72240_dev=91.07.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_medium_sp_glove_ab_pitch_72240_dev=91.43.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_sp_glove_dur_only_72240_dev=86.96.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_sp_glove_fbank_only_72240_dev=90.80.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_sp_glove_pause_only_72240_dev=86.93.pt_turn_dev_predicted.txt")
-#pred_tree_file = os.path.join(output_dir,"turn_sp_glove_pitch_only_72240_dev=91.20.pt_turn_dev_predicted.txt")
+#pred_tree_file = os.path.join(output_dir,"turn_nonsp_correct_eval_72240_dev=86.09.pt_dev_predicted.txt")
+#pred_tree_file = os.path.join(output_dir,"turn_sp_correct_eval_72240_dev=90.90.pt_dev_predicted.txt")
+#pred_tree_file = os.path.join(output_dir,"turn_dur_only_correct_eval_72240_dev=86.24.pt_dev_predicted.txt")
+#pred_tree_file = os.path.join(output_dir,"turn_fbank_only_correct_eval_72240_dev=90.29.pt_dev_predicted.txt")
+#pred_tree_file = os.path.join(output_dir,"turn_pause_only_correct_eval_72240_dev=86.21.pt_dev_predicted.txt")
+pred_tree_file = os.path.join(output_dir,"turn_pitch_only_correct_eval_72240_dev=90.71.pt_dev_predicted.txt")
 
 gold_tree_file = os.path.join(turndir,'turn_dev_medium.trees')
 id_file = os.path.join(turndir,'turn_dev_sent_ids_medium.txt')
@@ -39,8 +35,8 @@ turn2pitch = pickle.load(open(os.path.join(turndir,'turn_dev_pitch.pickle'),'rb'
 turn2fbank = pickle.load(open(os.path.join(turndir,'turn_dev_fbank.pickle'),'rb'))
 turn2pause = pickle.load(open(os.path.join(turndir,'turn_dev_pause.pickle'),'rb'))
 turn2dur = pickle.load(open(os.path.join(turndir,'turn_dev_duration.pickle'),'rb'))
-turn_ids = [l.strip() for l in open(os.path.join(turndir,'turn_dev_sent_ids.txt'),'r').readlines()]
-turn_trees = [l.strip() for l in open(os.path.join(turndir,'turn_dev.trees'),'r').readlines()]
+turn_ids = [l.strip() for l in open(os.path.join(turndir,'turn_dev_sent_ids_medium.txt'),'r').readlines()]
+turn_trees = [l.strip() for l in open(os.path.join(turndir,'turn_dev_medium.trees'),'r').readlines()]
 sent2turn = pickle.load(open(os.path.join(datadir,'sent2turn.pickle'),'rb'))
 turn2sent = pickle.load(open(os.path.join(datadir,'turn2sent.pickle'),'rb'))
 
