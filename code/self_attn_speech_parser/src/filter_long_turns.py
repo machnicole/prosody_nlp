@@ -5,13 +5,10 @@ import trees
 #split = 'dev'
 split = 'test'
 
-var = '.UTT_SEG'
 
 data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
-#turn_trees = os.path.join(data_dir,f'turn_{split}.UTT_SEG.trees')
-turn_trees = os.path.join(data_dir,f'turn_{split}{var}.trees')
-#turn_ids = os.path.join(data_dir,f'turn_{split}_sent_ids.UTT_SEG.txt')
-turn_ids = os.path.join(data_dir,f'turn_{split}_sent_ids{var}.txt')
+turn_trees = os.path.join(data_dir,f'turn_{split}.trees')
+turn_ids = os.path.join(data_dir,f'turn_{split}_sent_ids.txt')
 
 trees, ids = trees.load_trees_with_idx(turn_trees,turn_ids,strip_top=False)
 
@@ -49,8 +46,8 @@ for tree,id_num in zip(trees,ids):
         long_turns += 1
 
 ## Step 3: Output to new files
-out_trees_f = os.path.join(data_dir,f'turn_{split}_medium{var}.trees')
-out_ids_f = os.path.join(data_dir,f'turn_{split}_sent_ids_medium{var}.txt')
+out_trees_f = os.path.join(data_dir,f'turn_{split}_medium.trees')
+out_ids_f = os.path.join(data_dir,f'turn_{split}_sent_ids_medium.txt')
 
 with open(out_trees_f,'w') as f:
     for tree in out_trees:

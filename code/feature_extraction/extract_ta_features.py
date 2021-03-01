@@ -10,9 +10,8 @@ import numpy as np
 import pickle
 
 # constants
-#pitch_pov_dir = '/s0/ttmt001/speech_parsing/swbd_pitch_pov'
-#fbank_dir = '/s0/ttmt001/speech_parsing/swbd_fbank_energy'
-pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov'
+
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
 fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
