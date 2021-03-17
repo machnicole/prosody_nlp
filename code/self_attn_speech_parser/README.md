@@ -66,11 +66,20 @@ or
 
 #### Text features:
 
-Generate PTB-style trees with nested parentheses.
+Generate PTB-style trees with nested parentheses:
 
 1. `cd prosody_nlp/code/feature_extraction`
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
 3. `python nxt_proc.py` for each split (train,dev,test).
+
+Generate corresponding sentence id files:
+
+4. Change file paths in `make_sent_ids.py`
+5. `python make_sent_ids.py`
+
+Download GloVe vectors: 
+
+6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
 
 ### Feature preparation
 
@@ -80,6 +89,7 @@ Put all the features you have generated into a form the parser can use. Even if 
 2. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
 
 Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
+
 3. `cd prosody_nlp/code/self_attn_speech_parser/src/`
 4. Change data and output paths in `filter_long_turns.py` and make sure it is set to the train split.
 5. `python filter_long_turns.py`

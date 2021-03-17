@@ -1,6 +1,3 @@
-# prosody_nlp
-Cleaned up scripts of misc prosody/parsing-related projects
+Forked from https://github.com/trangham283/prosody_nlp 
 
-TODO:
-- data preprocessing stuff
-- unified parsing pipeline
+We only used the parsing code, so I have removed code that wasn't relevant to this. For details on how to run the parser, see `code/self_attn_speech_parser/README.md`
