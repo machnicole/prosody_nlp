@@ -96,7 +96,7 @@ python src/main_sparser.py train --use-glove-pretrained --freeze \
 			   	--train-sent-id-path ${DATA_DIR}/train_sent_ids.txt \
 				--dev-path ${DATA_DIR}/dev.trees \
 				--dev-sent-id-path ${DATA_DIR}/dev_sent_ids.txt \
-			        --prefix ${PREFIX} \
+			        --prefix ${PREFIX} \ 
 				--feature-path ${FEAT_DIR} \
 				--model-path-base ${MODEL_DIR}/${MODEL_NAME} \
 				--speech-features duration,pause,partition,pitch,fbank \
@@ -109,6 +109,8 @@ python src/main_sparser.py train --use-glove-pretrained --freeze \
 				--epochs 50 \
 				--numpy-seed $SEED  >> ${RESULT_DIR}/${MODEL_NAME}.log
 ```
+
+Note: `main_sparser.py` will look for a given speech feature (e.g., pause) at the path `${FEAT_DIR}/train_pause.pickle`; if you want to create subsections of the data, you can use the $PREFIX valiable to point to data at `${FEAT_DIR}/${PREFIX}train_pause.pickle`. Set this variable to '' otherwise. 
 
 ## Predicting
 
