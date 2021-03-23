@@ -19,6 +19,7 @@ or
 Use pre-installed version on DICE:
 
 `ln -s /afs/inf.ed.ac.uk/group/teaching/asr/tools/labs/path.sh .`
+
 `source path.sh`
 
 To see whether it is set and where it points to, run:
@@ -28,7 +29,6 @@ To see whether it is set and where it points to, run:
 It is a good idea to call the `path.sh` at the beginning of all Kaldi scripts.
 
 Not necessary, as already installed on DICE:
-------------------------
 1. Clone the Kaldi repo: `git clone https://github.com/kaldi-asr/kaldi`
 2. Install by following the instructions in the `INSTALL` file.
 ------------------------
