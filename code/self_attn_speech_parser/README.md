@@ -18,14 +18,14 @@ or
 
 Use pre-installed version on DICE:
 
-ln -s /afs/inf.ed.ac.uk/group/teaching/asr/tools/labs/path.sh .
-source path.sh
+`ln -s /afs/inf.ed.ac.uk/group/teaching/asr/tools/labs/path.sh .`
+`source path.sh`
 
 To see whether it is set and where it points to, run:
 
-echo $KALDI_ROOT
+`echo $KALDI_ROOT`
 
-It is a good idea to call the path.sh at the beginning of all Kaldi scripts
+It is a good idea to call the `path.sh` at the beginning of all Kaldi scripts.
 
 Not necessary, as already installed on DICE:
 ------------------------
