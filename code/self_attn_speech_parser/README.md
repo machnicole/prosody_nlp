@@ -8,16 +8,30 @@
 2. Create conda environment or virtual environment and activate it.
 3. Install requirements:
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt` (better to delete pytorch, as the correct version for CUDA should be selected manually.)
 
 or
 
-`conda install --file requirements.txt`
+`conda install --file requirements.txt` (kaldi-io can only be installed via pip for me)
 
 ### Kaldi: for feature extraction
 
+Use pre-installed version on DICE:
+
+ln -s /afs/inf.ed.ac.uk/group/teaching/asr/tools/labs/path.sh .
+source path.sh
+
+To see whether it is set and where it points to, run:
+
+echo $KALDI_ROOT
+
+It is a good idea to call the path.sh at the beginning of all Kaldi scripts
+
+Not necessary, as already installed on DICE:
+------------------------
 1. Clone the Kaldi repo: `git clone https://github.com/kaldi-asr/kaldi`
 2. Install by following the instructions in the `INSTALL` file.
+------------------------
 
 ### PYEVALB: for parser evaluation
 
