@@ -6,6 +6,7 @@ cython>=0.25.2
 kaldi-io
 pandas
 beautifulsoup4==4.9.3
+numpy==1.19.1
 
 # needed for ELMo
 #allennlp==0.7.0
