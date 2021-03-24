@@ -4,8 +4,11 @@
 
 ### Python packages:
 
-1. Install Python 3.6
-2. Create conda environment or virtual environment and activate it.
+1. Create conda environment with python3.6 (or virtual environment) and activate it.
+2. Install Pytorch 0.4.1 (command from https://pytorch.org/get-started/previous-versions/):
+	
+	`conda install pytorch=0.4.1 cuda80 -c pytorch`
+
 3. Install requirements:
 
 `pip install -r requirements.txt`
