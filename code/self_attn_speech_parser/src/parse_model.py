@@ -66,7 +66,8 @@ elmo_path = "/homes/ttmt001/transitory/self-attentive-parser/data"
 bert_path = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
 fisher_path = "/g/ssli/projects/disfluencies/ttmt001/fisher_disf"
 #glove_pretrained_path = "/homes/ttmt001/transitory/GloVe-1.2"
-glove_pretrained_path =  "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
+#glove_pretrained_path =  "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data"
+glove_pretrained_path = "/home/s2096077/prosody_nlp/data"
 
 class BatchIndices:
     """
