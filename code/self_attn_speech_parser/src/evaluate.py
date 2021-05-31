@@ -124,14 +124,14 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
             outfile.write("{}\n".format(tree.linearize()))
     """
             
-    command = "{} -p {} {} {} > {}".format(
-        evalb_program_path,
-        evalb_param_path,
-        gold_path,
-        predicted_path,
-        output_path,
-    )
-    print(f'evalb shell command: {command}')
+#    command = "{} -p {} {} {} > {}".format(
+#       evalb_program_path,
+#        evalb_param_path,
+#        gold_path,
+#        predicted_path,
+#        output_path,
+#    )
+#   print(f'evalb shell command: {command}')
     #subprocess.run(command, shell=True)
 
 
