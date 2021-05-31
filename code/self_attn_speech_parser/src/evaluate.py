@@ -53,6 +53,7 @@ def seg_fscore(golds,preds,is_train=True):
 
         
 def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=True):
+    """
     assert os.path.exists(evalb_dir)
     evalb_program_path = os.path.join(evalb_dir, "evalb")
     evalb_spmrl_program_path = os.path.join(evalb_dir, "evalb_spmrl")
@@ -66,6 +67,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None, is_train=T
 
     assert os.path.exists(evalb_program_path)
     assert os.path.exists(evalb_param_path)
+    """
     
     temp_dir = tempfile.TemporaryDirectory(prefix="evalb-")
     print("Temporary dir", temp_dir)

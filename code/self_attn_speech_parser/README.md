@@ -4,8 +4,11 @@
 
 ### Python packages:
 
-1. Install Python 3.6
-2. Create conda environment or virtual environment and activate it.
+1. Create conda environment with python3.6 (or virtual environment) and activate it.
+2. Install Pytorch 0.4.1 (command from https://pytorch.org/get-started/previous-versions/):
+	
+	`conda install pytorch=0.4.1 cuda80 -c pytorch`
+
 3. Install requirements:
 
 `pip install -r requirements.txt` (better to delete pytorch, as the correct version for CUDA should be selected manually.)
@@ -43,6 +46,24 @@ Not necessary, as already installed on DICE:
 
 ### Feature extraction
 
+#### Text features:
+
+Generate PTB-style trees with nested parentheses:
+
+1. `cd prosody_nlp/code/feature_extraction`
+2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
+3. `python nxt_proc.py` for each split (train,dev,test).
+
+Generate corresponding sentence id files:
+
+4. Change file paths in `make_sent_ids.py`
+5. `python make_sent_ids.py`
+
+Download GloVe vectors: 
+
+6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
+
+
 #### Pitch and intensity
 
 1. `cd prosody_nlp/code/kaldi_scripts`
@@ -78,22 +99,6 @@ Not necessary, as already installed on DICE:
 4. `python extract_ta_features.py`
 5. `python get_ta_stats.py`
 
-#### Text features:
-
-Generate PTB-style trees with nested parentheses:
-
-1. `cd prosody_nlp/code/feature_extraction`
-2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
-3. `python nxt_proc.py` for each split (train,dev,test).
-
-Generate corresponding sentence id files:
-
-4. Change file paths in `make_sent_ids.py`
-5. `python make_sent_ids.py`
-
-Download GloVe vectors: 
-
-6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
 
 ### Feature preparation
 
