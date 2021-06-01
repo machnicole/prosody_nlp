@@ -117,6 +117,8 @@ Next, filter out turns over 270 tokens (see paper). This should be two turns in 
 
 ## Training
 
+For the training to work, it's necessary to create a `models` and a `results` directory.
+
 Train script example:
 
 ```
@@ -129,12 +131,6 @@ python src/main_sparser.py train --use-glove-pretrained --freeze \
 				--feature-path ${FEAT_DIR} \
 				--model-path-base ${MODEL_DIR}/${MODEL_NAME} \
 				--speech-features duration,pause,partition,pitch,fbank \
-				--sentence-max-len 270 \
-				--d-model 1536 \
-				--d-kv 96 \
-				--morpho-emb-dropout 0.3 \
-				--num-layers 4 \
-				--num-heads 8 \
 				--epochs 50 \
 				--numpy-seed $SEED  >> ${RESULT_DIR}/${MODEL_NAME}.log
 ```
