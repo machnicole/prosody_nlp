@@ -38,7 +38,7 @@ Generate PTB-style trees with nested parentheses:
 
 1. `cd prosody_nlp/code/feature_extraction`
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
-3. `python nxt_proc.py` for each split (train,dev,test).
+3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script (and only this script) requires python2*
 
 Generate corresponding sentence id files:
 
@@ -55,11 +55,6 @@ Download GloVe vectors:
 1. `cd prosody_nlp/code/kaldi_scripts`
 2. Set the paths in `comp_all.sh` and `paths.sh` to point to the Switchboard data, the kaldi installation, and the directory where you want to output the data.
 3. Run `./comp_all.sh`
-
-#### Pause
-
-1. cd `prosody_nlp/code/self_attn_speech_parser/src`
-2. `python calculate_pauses.py`
 
 #### Duration:
 
@@ -84,6 +79,11 @@ Download GloVe vectors:
 3. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats.
 4. `python extract_ta_features.py`
 5. `python get_ta_stats.py`
+
+#### Pause
+
+1. cd `prosody_nlp/code/self_attn_speech_parser/src`
+2. `python calculate_pauses.py`
 
 
 ### Feature preparation
