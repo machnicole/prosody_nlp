@@ -8,6 +8,9 @@ pandas
 beautifulsoup4==4.9.3
 numpy==1.19.1
 
+# needed at testing time
+prettytable
+
 # needed for ELMo
 #allennlp==0.7.0
 
