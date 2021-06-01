@@ -46,6 +46,10 @@ Not necessary, as already installed on DICE:
 
 ### Feature extraction
 
+Need to use Python 2 with nltk installed for this.
+
+`conda create --name py2 python=2.7`
+
 #### Text features:
 
 Generate PTB-style trees with nested parentheses:
