@@ -6,7 +6,8 @@ import trees
 split = 'test'
 
 
-data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
+# data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/turn_pause_dur_fixed'
+data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed'
 turn_trees = os.path.join(data_dir,f'turn_{split}.trees')
 turn_ids = os.path.join(data_dir,f'turn_{split}_sent_ids.txt')
 

@@ -1,16 +1,17 @@
 #!/bin/bash
+source kaldi_path.sh # contains KALDI_ROOT
 
-KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi # kaldi location
+#KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi # kaldi location
 NUM=$1
-maindir=/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/dummy # output location
+maindir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput # output location
 sdir=/group/corporapublic/switchboard/switchboard1/swb1 # SWBD location
 
 swdir=${KALDI_ROOT}/src/featbin
 utils=${KALDI_ROOT}/egs/swbd/s5c/utils
 
 # make list of files to process
-#find $sdir -iname '*.sph' | sort > sph.flist
-find $sdir -iname 'sw0410*.sph' | sort > sph.flist
+find $sdir -iname '*.sph' | sort > sph.flist
+#find $sdir -iname 'sw0410*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
 
 sph2pipe=$KALDI_ROOT/tools/sph2pipe_v2.5/sph2pipe
@@ -79,27 +80,28 @@ $utils/split_scp.pl $scp $split_scps || exit 1;
 # copy-feats scp:feats.scp ark,t:-
 
 # compute mfccs here
-$cmd JOB=1:$nj $logdir/make_mfcc_${name}.JOB.log \
-$swdir/compute-mfcc-feats --verbose=2 --config=$mfcc_config \
-scp,p:$logdir/wav_${name}.JOB.scp ark:- \| \
-$swdir/copy-feats --compress=$compress ark:- \
-ark,scp:$mfccdir/raw_mfcc_$name.JOB.ark,$mfccdir/raw_mfcc_$name.JOB.scp \
-|| exit 1;
 
-$cmd JOB=1:$nj $logdir/copy_text_${name}.JOB.log \
-$swdir/copy-feats ark:$mfccdir/raw_mfcc_$name.JOB.ark ark,t:$mfccdir/raw_mfcc_$name.JOB.txt \
-|| exit 1;
-
-if [ -f $logdir/.error.$name ]; then
-  echo "Error producing MFCC features for $name:"
-  tail $logdir/make_mfcc_${name}.1.log
-  exit 1;
-fi
-
-# concatenate the .scp files together.
-for n in $(seq $nj); do
-  cat $mfccdir/raw_mfcc_$name.$n.scp || exit 1;
-done > $maindir/feats.scp
+#$cmd JOB=1:$nj $logdir/make_mfcc_${name}.JOB.log \
+#$swdir/compute-mfcc-feats --verbose=2 --config=$mfcc_config \
+#scp,p:$logdir/wav_${name}.JOB.scp ark:- \| \
+#$swdir/copy-feats --compress=$compress ark:- \
+#ark,scp:$mfccdir/raw_mfcc_$name.JOB.ark,$mfccdir/raw_mfcc_$name.JOB.scp \
+#|| exit 1;
+#
+#$cmd JOB=1:$nj $logdir/copy_text_${name}.JOB.log \
+#$swdir/copy-feats ark:$mfccdir/raw_mfcc_$name.JOB.ark ark,t:$mfccdir/raw_mfcc_$name.JOB.txt \
+#|| exit 1;
+#
+#if [ -f $logdir/.error.$name ]; then
+#  echo "Error producing MFCC features for $name:"
+#  tail $logdir/make_mfcc_${name}.1.log
+#  exit 1;
+#fi
+#
+## concatenate the .scp files together.
+#for n in $(seq $nj); do
+#  cat $mfccdir/raw_mfcc_$name.$n.scp || exit 1;
+#done > $maindir/feats.scp
 
 # compute pitch feats (+pov) here
 $cmd JOB=1:$nj $logdir/make_pitch_${name}.JOB.log \

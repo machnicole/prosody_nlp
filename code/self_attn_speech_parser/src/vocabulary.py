@@ -28,7 +28,9 @@ class Vocabulary(object):
             return self.indices[value]
 
         else:
-            raise ValueError("Unknown value: {}".format(value))
+            print("Unknown value: {}".format(value))
+            pass
+            # raise ValueError("Unknown value: {}".format(value))
 
     def index_or_unk(self, value, unk_value):
         assert self.frozen

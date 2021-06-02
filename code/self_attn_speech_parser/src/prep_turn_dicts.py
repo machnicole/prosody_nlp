@@ -4,10 +4,13 @@ from prep_input_dicts import times2frames,norm_energy_by_side
 import numpy as np
 
 # 0. Set paths
-data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/'
-sent_dir = os.path.join(data_dir,'sentence_pause_dur_fixed')
+# data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/'
+data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features'
+# sent_dir = os.path.join(data_dir,'sentence_pause_dur_fixed')
+sent_dir = data_dir
 turn_dir = os.path.join(data_dir,'turn_pause_dur_fixed')
-kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/'
+# kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/'
+kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput'
 fbank_dir = os.path.join(kaldi_feat_dir,'swbd_fbank_energy')
 pitchpov_dir = os.path.join(kaldi_feat_dir,'swbd_pitch_pov')
 
@@ -36,7 +39,7 @@ sent2pitchpov= pickle.load(open(os.path.join(sent_dir,f'{split}_pitch.pickle'),'
 sent2pause = pickle.load(open(os.path.join(sent_dir,f'{split}_pause.pickle'),'rb'))
 with open(os.path.join(sent_dir,f'{split}_sent_ids.txt'),'r') as f:
     sent_ids = [l.strip() for l in f.readlines()]
-with open(os.path.join(sent_dir,f'{split}.trees'),'r') as f:
+with open(os.path.join(sent_dir, "new_trees", f'{split}.trees'),'r') as f:
     trees = [l.strip() for l in f.readlines()]
 
 sent2tree = dict(zip(sent_ids,trees))
