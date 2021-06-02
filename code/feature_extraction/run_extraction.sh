@@ -1,6 +1,7 @@
 #!/bin/bash
 
-data_dir=/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data
+#data_dir=/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data
+data_dir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data
 
 while read line; do
     echo $line

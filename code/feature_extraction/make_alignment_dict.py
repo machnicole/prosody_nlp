@@ -1,20 +1,23 @@
 import os
 from bs4 import BeautifulSoup
 import cPickle as pickle
+# import pickle
 import pandas as pd
 import sys
 
 sys.setrecursionlimit(100000)
 
 nxt_dir = '/group/corporapublic/switchboard/nxt/xml/'
-mstate_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swb_ms98_transcriptions'
+# mstate_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swb_ms98_transcriptions'
+mstate_dir = '/afs/inf.ed.ac.uk/group/corpora/large/switchboard/switchboard1/transcriptions/swb_ms98_transcriptions'
 
 pw_dir = os.path.join(nxt_dir,'phonwords')
 phone_dir = os.path.join(nxt_dir,'phones')
 syll_dir = os.path.join(nxt_dir,'syllables')
 
-#out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swbd_word_times'
-out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swbd_word_times/tree_aligned/'
+out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/swbd_word_times"
+# out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swbd_word_times'
+# out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/swbd_word_times/tree_aligned/'
 
 non_pw = ['[silence]','[noise]','[laughter]','[vocalized-noise]','<b_aside>','<e_aside>']
 
@@ -35,7 +38,8 @@ def find_ids_in_range(href_ids,conv):
 def flatten_list(lst):
     return [item for sublist in lst for item in sublist]
 
-for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
+# for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
+for pw_file in os.listdir(pw_dir):
 
     pw_dict = {} # Make one dict per conversation/speaker pair.
 
@@ -45,7 +49,7 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
     pw2phon = {}
     
     conv,spk,_,_ = pw_file.split('.')
-    print(conv,spk)
+    # print(conv,spk)
 
     outfile = os.path.join(out_dir,'word_times_'+conv+spk+'.pickle')
     #if os.path.exists(outfile):
@@ -59,6 +63,8 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
     phone_soup = BeautifulSoup(phone_contents,'lxml')
     phones = phone_soup.find_all('ph')
 
+    print("works until here 1")
+
     # Make dict where key = phonword id, value = phones
     #     Each phone is a tuple: (start,end,contents)
     for ph in phones:
@@ -66,11 +72,13 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
         start = float(ph['nite:start'])
         end = float(ph['nite:end'])
         contents = ph.contents[0]
+        print("works until here 2")
         if ph_id in ph2info:
             print('duplicate phone!')
             import pdb;pdb.set_trace()
         else:
             ph2info[ph_id] = (start,end,contents)
+    print("works until here 3")
 
     # Open syll file (to make syllable-to-phone dict)
     syll_file = conv+'.'+spk+'.syllables.xml'
@@ -85,7 +93,7 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
         href_ids = phon_child['href'].split('#')[-1]
         phon_ids = find_ids_in_range(href_ids,conv)
         syll2phon[syll_id] = phon_ids
-
+    print("works until here 4")
     # Load corrected phonword start/stop times
     mstate_path = os.path.join(mstate_dir,conv[2:4],conv[2:],conv+spk+'-ms98-a-word.text')
     corrected_times = []
@@ -97,6 +105,8 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
         end = float(end)
         if not orth in non_pw: # discard silences and noises etc
             corrected_times.append((orth,start,end))
+
+    print("works until here 5")
         
 
     print('loaded syll and msstate files')
@@ -144,7 +154,7 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
         corrected_end = corrected_times[i][2]
         corrected_orth = corrected_times[i][0]
 
-        
+        print("works until here 6")
         if orth==corrected_orth:
             start = corrected_start
             end = corrected_end
@@ -153,6 +163,7 @@ for pw_file in ['sw3796.A.phonwords.xml']:#os.listdir(pw_dir):
             print(orth)
             print(corrected_orth)
             import pdb;pdb.set_trace()
+        print("works until here 7")
         pw_info = {'text':orth,
                    'start_time':start,
                    'end_time':end,

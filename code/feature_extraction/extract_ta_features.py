@@ -1,18 +1,20 @@
 #!/usr/bin/env python
-
+# Note: need to run with python 2
 import os
 import re
 import argparse
 import glob
 import collections
 import numpy as np
-#import cPickle as pickle
+# import cPickle as pickle
 import pickle
 
 # constants
 
-pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
-fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
+pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_pitch_pov' # Kaldi features
+# fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
+fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 
@@ -104,13 +106,13 @@ def make_array(frames):
 # load files of mean stats
 def load_stats(stat_dir):
     head_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_head_stats.pickle')))
+            'word_head_stats.pickle'), "rb"))
     tail_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_tail_stats.pickle')))
+            'word_tail_stats.pickle'), "rb"))
     word_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_raw_stats.pickle')))
+            'word_raw_stats.pickle'), "rb"))
     phone_dict = pickle.load(open(os.path.join(stat_dir, \
-            'phone_raw_stats.pickle')))
+            'phone_raw_stats.pickle'), "rb"))
     return word_dict, phone_dict, head_dict, tail_dict
 
 def sort_keys(pw_names):
@@ -129,7 +131,7 @@ def preprocess_cnn_feats(file_id, speaker, file_info):
     fbank_file = os.path.join(fbank_dir, \
             'sw{0}-{1}.pickle'.format(file_id, speaker))
      
-    data_pitch_pov = pickle.load(open(pitch_pov_file))
+    data_pitch_pov = pickle.load(open(pitch_pov_file, "rb"))
     pitch_povs = data_pitch_pov.values()[0]
              
     data_fbank = pickle.load(open(fbank_file))
@@ -435,8 +437,8 @@ if __name__ == '__main__':
     pa = argparse.ArgumentParser(description='Extract prosodic features')
     pa.add_argument('--input_dir', help='input directory', \
         default='/g/ssli/projects/disfluencies/forced_alignments')
-    pa.add_argument('--data_type', help='treebank or ms', \
-        default='tree_aligned')
+    # pa.add_argument('--data_type', help='treebank or ms', \
+    #     default='tree_aligned')
     pa.add_argument('--output_dir', help='output directory', \
         default='/s0/ttmt001/speech_parsing/ta_features')
     pa.add_argument('--file_id', help='swbd conversation id', \
@@ -446,11 +448,15 @@ if __name__ == '__main__':
     args = pa.parse_args()
 
     input_dir = args.input_dir
-    data_type = args.data_type
+    # input_dir = "/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/"
+    # data_type = args.data_type
     output_dir = args.output_dir
-    stat_dir = os.path.join(output_dir, 'stats', data_type)
-    output_dir = os.path.join(output_dir, data_type)
-    data_dir = os.path.join(input_dir, data_type)
+    # stat_dir = os.path.join(output_dir, 'stats', data_type)
+    # output_dir = os.path.join(output_dir, data_type)
+    # data_dir = os.path.join(input_dir, data_type)
+    stat_dir = os.path.join(output_dir, 'stats')
+    output_dir = os.path.join(output_dir)
+    data_dir = os.path.join(input_dir)
     dictionaries = load_stats(stat_dir)
 
     if args.file_id != 0:

@@ -6,7 +6,8 @@ import argparse
 import glob
 import collections
 import numpy as np
-import cPickle as pickle
+# import cPickle as pickle
+import pickle
 
 split1_tails = ["ll", "m", "re", "ve", "s", "d"]
 split2_tails = ["t"]
@@ -47,25 +48,29 @@ def process_head_tail_cases(info):
     elif temp_splits[1] in split1_tails:
         try:
             head_time = phone_ends[:-1][-1] - phone_starts[:-1][0]
+            tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
         except:
             print('split1_tails: cant get head_time -- setting to 0')
             print(phone_starts)
             print(phone_ends)
             head_time = 0
-        tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
+            tail_time = 0
+        # tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
         #head_id = split1_info[word][0]
         #tail_id = split1_info[word][-1]
         head_id, tail_id = temp_splits
     elif temp_splits[1] in split2_tails:
         try:
             head_time = phone_ends[:-2][-1] - phone_starts[:-2][0]
+            tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
         except:
             print('split2_tails: cant get head_time -- setting to 0')
             print(phone_starts)
             print(phone_ends)
             head_time = 0
+            tail_time = 0
 
-        tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
+        # tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
         head_id = word[:-3]
         tail_id = word[-3:]
     return head_id, head_time, tail_id, tail_time
@@ -171,17 +176,21 @@ def get_data_stats(data_dir, stat_dir):
 if __name__ == '__main__':
     pa = argparse.ArgumentParser(description='Get stats on durations')
     pa.add_argument('--input_dir', help='input directory', \
-        default='/g/ssli/projects/disfluencies/forced_alignments')
-    pa.add_argument('--data_type', help='treebank or ms', \
-        default='tree_aligned')
+                    default='/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/swbd_word_times')
+        # default='/g/ssli/projects/disfluencies/forced_alignments')
+    # pa.add_argument('--data_type', help='treebank or ms', \
+    #     default='tree_aligned')
     pa.add_argument('--output_dir', help='output directory', \
-        default='/s0/ttmt001/speech_parsing/ta_features')
+                    default='/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/ta_features')
+        # default='/s0/ttmt001/speech_parsing/ta_features')
     args = pa.parse_args()
 
     input_dir = args.input_dir
-    data_type = args.data_type
+    # data_type = args.data_type
     output_dir = args.output_dir
 
-    data_dir = os.path.join(input_dir, data_type)
-    stat_dir = os.path.join(output_dir, 'stats', data_type)
+    # data_dir = os.path.join(input_dir, data_type)
+    data_dir = os.path.join(input_dir)
+    # stat_dir = os.path.join(output_dir, 'stats', data_type)
+    stat_dir = os.path.join(output_dir, 'stats')
     get_data_stats(data_dir, stat_dir)

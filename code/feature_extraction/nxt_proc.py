@@ -132,9 +132,10 @@ def do_section(ptb_files, out_dir, name):
 
 if __name__ == '__main__':
     nxt_loc = "/group/corporapublic/switchboard/nxt"
-    out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/new_trees'
+    # out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/new_trees'
+    out_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/new_trees'
     corpus = Treebank.PTB.NXTSwitchboard(path=nxt_loc)
-    #do_section(corpus.train_files(), out_dir, 'train')
-    #do_section(corpus.dev_files(), out_dir, 'dev')
-    do_section(corpus.eval_files(), out_dir, 'test')
+    do_section(corpus.train_files(), out_dir, 'train')
+    # do_section(corpus.dev_files(), out_dir, 'dev')
+    # do_section(corpus.eval_files(), out_dir, 'test')
 

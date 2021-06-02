@@ -14,8 +14,12 @@ def extract_ids_from_time_file(infile,outfile):
             f.write('\n')
         
 def main():
-    in_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/trees'
-    out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/input_features'
+    # in_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/trees'
+    # Not sure whether it's actually correct to specify trees here - the data in trees existed already
+    # (we are not replicating something here)
+    in_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/trees'
+    # out_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/input_features'
+    out_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features'
     splits = ['train','dev','test']
     for spl in splits:
         extract_ids_from_time_file(os.path.join(in_dir,spl+'.times'),os.path.join(out_dir,spl+'_sent_ids.txt'))

@@ -25,7 +25,7 @@ def process_feats(args):
     print(output_dir)
 
     done_files = glob.glob(output_dir + '*')
-    done_files = [os.path.basename(x).split('.')[0] for x in done_files]tions 
+    done_files = [os.path.basename(x).split('.')[0] for x in done_files]
     if feattype == 'pitch_pov':
         numc = 3
     elif feattype == 'mfcc':
@@ -34,7 +34,8 @@ def process_feats(args):
         numc = 41
     for i in range(1, nsplit+1):
         suffix = feattype.split('_')[0]
-        raw_file = os.path.join(raw_dir, 'raw_%s_audio.%d.txt' %(suffix,i) )
+        # raw_file = os.path.join(raw_dir, 'raw_%s_audio.%d.txt' %(suffix,i) )
+        raw_file = os.path.join(raw_dir, 'raw_%s_swb1.%d.txt' % (suffix, i))
         raw_lines = open(raw_file).readlines()
         sindices = [i for i,x in enumerate(raw_lines) if 'sw' in x]
         eindices = sindices[1:] + [len(raw_lines)]
@@ -50,7 +51,7 @@ def process_feats(args):
             floated_feats = [[float(x) for x in coef] for coef in list_feats]
             feat_dict[filename] = floated_feats
             full_name = os.path.join(output_dir, filename + '.pickle') 
-            pickle.dump(feat_dict, open(full_name, 'wb'))
+            pickle.dump(feat_dict, open(full_name, 'wb'), protocol=2)
 
 if __name__ == '__main__':
     pa = argparse.ArgumentParser(
