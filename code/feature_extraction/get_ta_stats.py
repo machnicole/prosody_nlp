@@ -48,29 +48,36 @@ def process_head_tail_cases(info):
     elif temp_splits[1] in split1_tails:
         try:
             head_time = phone_ends[:-1][-1] - phone_starts[:-1][0]
-            tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
         except:
             print('split1_tails: cant get head_time -- setting to 0')
             print(phone_starts)
             print(phone_ends)
             head_time = 0
+
+        try:
+            tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
+        except:
+            print('split1_tails: cant get tail_time -- setting to 0')
             tail_time = 0
-        # tail_time = phone_ends[-1:][-1] - phone_starts[-1:][0]
+
         #head_id = split1_info[word][0]
         #tail_id = split1_info[word][-1]
         head_id, tail_id = temp_splits
     elif temp_splits[1] in split2_tails:
         try:
             head_time = phone_ends[:-2][-1] - phone_starts[:-2][0]
-            tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
         except:
             print('split2_tails: cant get head_time -- setting to 0')
             print(phone_starts)
             print(phone_ends)
             head_time = 0
+
+        try:
+            tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
+        except:
+            print('split2_tails: cant get tail_time --setting to 0')
             tail_time = 0
 
-        # tail_time = phone_ends[-2:][-1] - phone_starts[-2:][0]
         head_id = word[:-3]
         tail_id = word[-3:]
     return head_id, head_time, tail_id, tail_time

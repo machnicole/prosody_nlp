@@ -12,6 +12,8 @@ import glob
 
 nsplit = 4 # number of splits when kaldi was called
 
+KALDI_SUFFIX = 'swb1'
+
 def process_feats(args):
     in_dir = args.in_dir
     out_dir = args.out_dir
@@ -21,6 +23,8 @@ def process_feats(args):
     raw_dir = os.path.join(in_dir, feattype)
     prefix = 'swbd_' + feattype
     output_dir = os.path.join(out_dir, prefix)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     print(raw_dir)
     print(output_dir)
 
@@ -34,6 +38,7 @@ def process_feats(args):
         numc = 41
     for i in range(1, nsplit+1):
         suffix = feattype.split('_')[0]
+
         # raw_file = os.path.join(raw_dir, 'raw_%s_audio.%d.txt' %(suffix,i) )
         raw_file = os.path.join(raw_dir, 'raw_%s_swb1.%d.txt' % (suffix, i))
         raw_lines = open(raw_file).readlines()

@@ -4,20 +4,37 @@
 
 ### Python packages:
 
-1. Install Python 3.6
-2. Create conda environment or virtual environment and activate it.
+1. Create conda environment with python3.6 (or virtual environment) and activate it.
+2. Install Pytorch 0.4.1 (command from https://pytorch.org/get-started/previous-versions/):
+	
+	`conda install pytorch=0.4.1 cuda80 -c pytorch`
+
 3. Install requirements:
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt` (better to delete pytorch, as the correct version for CUDA should be selected manually.)
 
 or
 
-`conda install --file requirements.txt`
+`conda install --file requirements.txt` (kaldi-io can only be installed via pip for me)
 
 ### Kaldi: for feature extraction
 
+Use pre-installed version on DICE:
+
+`ln -s /afs/inf.ed.ac.uk/group/teaching/asr/tools/labs/path.sh .`
+
+`source path.sh`
+
+To see whether it is set and where it points to, run:
+
+`echo $KALDI_ROOT`
+
+It is a good idea to call the `path.sh` at the beginning of all Kaldi scripts.
+
+Not necessary, as already installed on DICE:
 1. Clone the Kaldi repo: `git clone https://github.com/kaldi-asr/kaldi`
 2. Install by following the instructions in the `INSTALL` file.
+------------------------
 
 ### PYEVALB: for parser evaluation
 
@@ -29,20 +46,43 @@ or
 
 ### Feature extraction
 
+Need to use Python 2 with nltk and pandas installed for this.
+
+`conda create --name py2 python=2.7`
+
+#### Text features:
+
+Generate PTB-style trees with nested parentheses:
+
+1. `cd prosody_nlp/code/feature_extraction`
+2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
+3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script requires python2*
+4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations. *NOTE: if you encounter errors with this script, try running with python2*
+5. run `make_alignment_dicts.py`
+
+Generate corresponding sentence id files:
+
+4. Change file paths in `make_sent_ids.py`
+5. `python make_sent_ids.py`
+
+Download GloVe vectors: 
+
+6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
+
+
 #### Pitch and intensity
 
 1. `cd prosody_nlp/code/kaldi_scripts`
 2. Set the paths in `comp_all.sh` and `paths.sh` to point to the Switchboard data, the kaldi installation, and the directory where you want to output the data.
 3. Run `./comp_all.sh`
-
-#### Pause
-
-1. cd `prosody_nlp/code/self_attn_speech_parser/src`
-2. `python calculate_pauses.py`
+4. `cd prosody_nlp/code/feature_extraction`
+5. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
+6. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
 
 #### Duration:
 
-1. Create a JSON file of the average duration of each token type in the train set. Since this is based on the SWBD-NXT data, we don't include it. In order to replicate it, create a JSON of the following format using the train set (numbers are dummy values):
+1. Place the `avg_word_stats.json` file into the data directory or create it as follows:
+Create a JSON file of the average duration of each token type in the train set. Since this is based on the SWBD-NXT data, we don't include it. In order to replicate it, create a JSON of the following format using the train set (numbers are dummy values):
 
 ```
 {
@@ -60,33 +100,31 @@ or
 }						
 ```
 2. `cd prosody_nlp/code/feature_extraction`
-3. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats.
-4. `python extract_ta_features.py`
-5. `python get_ta_stats.py`
+3. `python get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
+4. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
+5. `python extract_ta_features.py` (run this with python 2) [I run this by calling run_extraction.sh]
 
-#### Text features:
 
-Generate PTB-style trees with nested parentheses:
+#### Pause
+`calculate_pauses.py` has two requirements:
+- there has to exist a directoy `swbd_word_times` (this should have been created by calling `make_alignment_dicts.py` above)
+- there has to exist the file `term2pw.pickle` in the directory `data/input_features`
+- to create `term2pw.pickle` run `python prep_input_dicts.py` (with correct file paths to data). This could throw an error about a missing `avg_word_stats.json` file (it should be located in the data directory). It will probably throw other errors, too - but the pickle file is all we want at the moment. So, just ignore these.
 
-1. `cd prosody_nlp/code/feature_extraction`
-2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
-3. `python nxt_proc.py` for each split (train,dev,test).
-
-Generate corresponding sentence id files:
-
-4. Change file paths in `make_sent_ids.py`
-5. `python make_sent_ids.py`
-
-Download GloVe vectors: 
-
-6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
+1. cd `prosody_nlp/code/self_attn_speech_parser/src`
+2. `python calculate_pauses.py`
 
 ### Feature preparation
 
 Put all the features you have generated into a form the parser can use. Even if you are planning on only using turn-based features, you will need to generate both sets -- the turn-based features draw on the sentence-based features.
 
+To run `python prep_input_dicts.py` in a proper way (without error messages), do these 2 things:
+1) create `phone2meandur.pickle`by running `gen_phon2meandur.py`.
+2) create a directory `normed_fbanks` in the `swbd_fbank_energy` directory (in my case `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_fbank_energy/normed_fbanks`)
+
 1. To generate sentence-level features, run `python prep_input_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
-2. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+2. Generate a directory for the turn-level features. In my case: `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed`
+3. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
 
 Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
 
@@ -97,6 +135,8 @@ Next, filter out turns over 270 tokens (see paper). This should be two turns in 
 
 
 ## Training
+
+For the training to work, it's necessary to create a `models` and a `results` directory.
 
 Train script example:
 
@@ -110,12 +150,6 @@ python src/main_sparser.py train --use-glove-pretrained --freeze \
 				--feature-path ${FEAT_DIR} \
 				--model-path-base ${MODEL_DIR}/${MODEL_NAME} \
 				--speech-features duration,pause,partition,pitch,fbank \
-				--sentence-max-len 270 \
-				--d-model 1536 \
-				--d-kv 96 \
-				--morpho-emb-dropout 0.3 \
-				--num-layers 4 \
-				--num-heads 8 \
 				--epochs 50 \
 				--numpy-seed $SEED  >> ${RESULT_DIR}/${MODEL_NAME}.log
 ```
