@@ -80,9 +80,10 @@ Download GloVe vectors:
 }						
 ```
 2. `cd prosody_nlp/code/feature_extraction`
-3. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats.
-4. `python extract_ta_features.py`
-5. `python get_ta_stats.py`
+3. `python get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
+4. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats.
+5. `python extract_ta_features.py`
+
 
 #### Pause
 
