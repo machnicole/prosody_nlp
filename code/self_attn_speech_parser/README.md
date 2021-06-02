@@ -46,7 +46,7 @@ Not necessary, as already installed on DICE:
 
 ### Feature extraction
 
-Need to use Python 2 with nltk installed for this.
+Need to use Python 2 with nltk and pandas installed for this.
 
 `conda create --name py2 python=2.7`
 
@@ -58,6 +58,7 @@ Generate PTB-style trees with nested parentheses:
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
 3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script requires python2*
 4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations. *NOTE: if you encounter errors with this script, try running with python2*
+5. run `make_alignment_dicts.py`
 
 Generate corresponding sentence id files:
 
@@ -100,15 +101,14 @@ Download GloVe vectors:
 2. `cd prosody_nlp/code/feature_extraction`
 3. `python get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
 4. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
-5. `python extract_ta_features.py`
+5. `python extract_ta_features.py` (run this with python 2) [I run this by calling run_extraction.sh]
 
 
 #### Pause
-
-1. cd `prosody_nlp/code/self_attn_speech_parser/src`
-2. `python calculate_pauses.py`
-
-#### Pause
+`calculate_pauses.py` has two requirements:
+- there has to exist a directoy `swbd_word_times` (this should have been created by calling `make_alignment_dicts.py` above)
+- there has to exist the file `term2pw.pickle` in the directory `data/input_features`
+- to create `term2pw.pickle` run `python prep_input_dicts.py` (with correct file paths to data). It will throw an error about the missing `avg_word_stats.json` file.
 
 1. cd `prosody_nlp/code/self_attn_speech_parser/src`
 2. `python calculate_pauses.py`
