@@ -38,7 +38,8 @@ Generate PTB-style trees with nested parentheses:
 
 1. `cd prosody_nlp/code/feature_extraction`
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
-3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script (and only this script) requires python2*
+3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script requires python2*
+4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations.
 
 Generate corresponding sentence id files:
 
@@ -57,7 +58,7 @@ Download GloVe vectors:
 3. Run `./comp_all.sh`
 4. `cd prosody_nlp/code/feature_extraction`
 5. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
-6. Run `process_kaldi_feats_splits.py`. If you saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output -out_dir output`.
+6. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
 
 #### Duration:
 
