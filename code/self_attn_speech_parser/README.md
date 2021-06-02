@@ -81,7 +81,8 @@ Download GloVe vectors:
 
 #### Duration:
 
-1. Create a JSON file of the average duration of each token type in the train set. Since this is based on the SWBD-NXT data, we don't include it. In order to replicate it, create a JSON of the following format using the train set (numbers are dummy values):
+1. Place the `avg_word_stats.json` file into the data directory or create it as follows:
+Create a JSON file of the average duration of each token type in the train set. Since this is based on the SWBD-NXT data, we don't include it. In order to replicate it, create a JSON of the following format using the train set (numbers are dummy values):
 
 ```
 {
@@ -108,7 +109,7 @@ Download GloVe vectors:
 `calculate_pauses.py` has two requirements:
 - there has to exist a directoy `swbd_word_times` (this should have been created by calling `make_alignment_dicts.py` above)
 - there has to exist the file `term2pw.pickle` in the directory `data/input_features`
-- to create `term2pw.pickle` run `python prep_input_dicts.py` (with correct file paths to data). It will throw an error about the missing `avg_word_stats.json` file.
+- to create `term2pw.pickle` run `python prep_input_dicts.py` (with correct file paths to data). This could throw an error about a missing `avg_word_stats.json` file (it should be located in the data directory). It will probably throw other errors, too - but the pickle file is all we want at the moment. So, just ignore these.
 
 1. cd `prosody_nlp/code/self_attn_speech_parser/src`
 2. `python calculate_pauses.py`
@@ -117,8 +118,13 @@ Download GloVe vectors:
 
 Put all the features you have generated into a form the parser can use. Even if you are planning on only using turn-based features, you will need to generate both sets -- the turn-based features draw on the sentence-based features.
 
+To run `python prep_input_dicts.py` in a proper way (without error messages), do these 2 things:
+1) create `phone2meandur.pickle`by running `gen_phon2meandur.py`.
+2) create a directory `normed_fbanks` in the `swbd_fbank_energy` directory (in my case `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_fbank_energy/normed_fbanks`)
+
 1. To generate sentence-level features, run `python prep_input_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
-2. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+2. Generate a directory for the turn-level features. In my case: `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed`
+3. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
 
 Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
 
