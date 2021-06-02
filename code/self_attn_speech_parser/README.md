@@ -56,7 +56,8 @@ Generate PTB-style trees with nested parentheses:
 
 1. `cd prosody_nlp/code/feature_extraction`
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
-3. `python nxt_proc.py` for each split (train,dev,test).
+3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script requires python2*
+4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations. *NOTE: if you encounter errors with this script, try running with python2*
 
 Generate corresponding sentence id files:
 
@@ -73,7 +74,9 @@ Download GloVe vectors:
 1. `cd prosody_nlp/code/kaldi_scripts`
 2. Set the paths in `comp_all.sh` and `paths.sh` to point to the Switchboard data, the kaldi installation, and the directory where you want to output the data.
 3. Run `./comp_all.sh`
-
+4. `cd prosody_nlp/code/feature_extraction`
+5. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
+6. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
 
 #### Duration:
 
@@ -95,9 +98,15 @@ Download GloVe vectors:
 }						
 ```
 2. `cd prosody_nlp/code/feature_extraction`
-3. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats.
-4. `python extract_ta_features.py`
-5. `python get_ta_stats.py`
+3. `python get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
+4. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
+5. `python extract_ta_features.py`
+
+
+#### Pause
+
+1. cd `prosody_nlp/code/self_attn_speech_parser/src`
+2. `python calculate_pauses.py`
 
 #### Pause
 
