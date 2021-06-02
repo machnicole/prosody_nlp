@@ -39,7 +39,7 @@ Generate PTB-style trees with nested parentheses:
 1. `cd prosody_nlp/code/feature_extraction`
 2. Change file paths in `nxt_proc.py` to point to correct data and output locations.
 3. `python2 nxt_proc.py` for each split (train,dev,test). *NOTE: this script requires python2*
-4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations.
+4. Change file paths in `make_alignment_dicts.py` to correct data and output locations. This includes the data directory `swb_ms98_transcriptions`, which is part of the original switchboard1 release and not included with the Switchboard NXT annotations. *NOTE: if this script causes errors, try running with python2*
 
 Generate corresponding sentence id files:
 
