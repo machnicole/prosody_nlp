@@ -55,6 +55,9 @@ Download GloVe vectors:
 1. `cd prosody_nlp/code/kaldi_scripts`
 2. Set the paths in `comp_all.sh` and `paths.sh` to point to the Switchboard data, the kaldi installation, and the directory where you want to output the data.
 3. Run `./comp_all.sh`
+4. `cd prosody_nlp/code/feature_extraction`
+5. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
+6. Run `process_kaldi_feats_splits.py`. If you saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output -out_dir output`.
 
 #### Duration:
 
