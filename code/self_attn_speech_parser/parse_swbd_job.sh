@@ -99,10 +99,10 @@ echo "Moving input data to the compute node's scratch space: $SCRATCH_DISK"
 
 # input data directory path on the DFS - change line below if loc different
 repo_home=/home/${USER}/prosody_nlp
-src_path=${repo_home}/code/self_attn_speech_parser/sample_data/rewrite
+src_path=${repo_home}/data/input_features
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/sample_data/rewrite
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/input_features
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
@@ -118,7 +118,7 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 # * for more about the (endless) rsync options, see the docs:
 #       https://download.samba.org/pub/rsync/rsync.html
 
-rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
+rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 
 # ==============================
