@@ -46,7 +46,7 @@ Not necessary, as already installed on DICE:
 
 ### Feature extraction
 
-Need to use Python 2 with nltk and pandas installed for this.
+Need to use Python 2 with nltk and pandas installed for this (when doing the feature extraction on SWBD data).
 
 `conda create --name py2 python=2.7`
 
@@ -68,6 +68,14 @@ Generate corresponding sentence id files:
 Download GloVe vectors: 
 
 6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
+
+#### Text features Verbmobil data:
+
+Generate PTB-style trees with nested parentheses and corresponding sentence id files:
+
+1.  `cd prosody_nlp/code/feature_extraction`
+2.  run `sentenceIDs_recordings.py` to get a pickle file of a dictionary which maps sentenceIDs to the paths of their recordings (also prints out some corpus statistics).
+3.  run `vm_make_trees.py`
 
 
 #### Pitch and intensity
