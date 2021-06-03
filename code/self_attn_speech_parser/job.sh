@@ -99,14 +99,14 @@ echo "Moving input data to the compute node's scratch space: $SCRATCH_DISK"
 
 # input data directory path on the DFS - change line below if loc different
 repo_home=/home/${USER}/prosody_nlp
-src_path=${repo_home}/code/self_attn_speech_parser/sample_data
+src_path=${repo_home}/code/self_attn_speech_parser/sample_data/rewrite
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/sample_data
+dest_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/sample_data/rewrite
 mkdir -p ${dest_path}  # make it if required
 
-mkdir ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
-mkdir ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
+mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
+mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 
 # Important notes about rsync:
 # * the --compress option is going to compress the data before transfer to send
@@ -133,7 +133,7 @@ experiment_text_file=$1
 COMMAND="`sed \"${SLURM_ARRAY_TASK_ID}q;d\" ${experiment_text_file}`"
 echo "Running provided command: ${COMMAND}"
 eval "${COMMAND}"
-echo "Command ran successfully!"
+echo "Command ran successfully."
 
 
 # ======================================
@@ -148,6 +148,7 @@ src_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 dest_path=${repo_home}/code/self_attn_speech_parser/results
 rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
 
+#This can take very long time
 src_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 dest_path=${repo_home}/code/self_attn_speech_parser/models
 rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
