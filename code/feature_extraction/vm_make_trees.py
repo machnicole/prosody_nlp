@@ -3,9 +3,12 @@ import re
 import pickle
 
 
-def do_section(out_dir, name):
-    trees_file =os.path.join(out_dir, '%s.trees' % name)
+def do_section(out_dir_trees, out_dir_ids, name):
+    trees_file =os.path.join(out_dir_trees, '%s.trees' % name)
     trees = open(trees_file, 'w')
+
+    ids_file = os.path.join(out_dir_ids, '%s_sent_ids.txt' % name)
+    sentence_ids = open(ids_file, 'w')
 
     with open('sentence_id2recording_eng.pickle', 'rb') as handle:
         sentence_id2recording = pickle.load(handle)
@@ -25,6 +28,7 @@ def do_section(out_dir, name):
                     # only if there is also a recording for it
                     if id_prefix+"_"+sentence_id in sentence_id2recording:
                         tree = []
+                        sentence_ids.write('{}\n'.format(id_prefix+"_"+sentence_id))
                         continue
                     else:
                         tree = None
@@ -61,6 +65,7 @@ if __name__ == '__main__':
     path_to_vm_penn_files = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
     filename = "cd6_00.penn"
     path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/export_files/export_files"
-    out_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees'
+    out_dir_trees = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees'
+    out_dir_ids = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/'
     # TODO: Add something to specify train, test, and dev
-    do_section(out_dir, "all")
+    do_section(out_dir_trees, out_dir_ids, "all")
