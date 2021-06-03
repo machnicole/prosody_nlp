@@ -71,4 +71,7 @@ if __name__ == '__main__':
     args = pa.parse_args()
     process_feats(args)
     sys.exit(0)
-
+# run with
+# python process_kaldi_feats_splits.py --in_dir '/afs/inf.ed.ac.uk/user/s20/s209
+# 6077/prosody_nlp/data/testoutput' --out_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput' --feattype
+#  pitch_pov
