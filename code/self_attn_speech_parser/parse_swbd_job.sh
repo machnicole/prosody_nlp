@@ -37,8 +37,11 @@
 # Number of CPUs to use. Check `cluster-status` for node configurations
 #SBATCH --cpus-per-task=2
 
+# Partition
+#SBATCH --partition Teach-LongJobs
+
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=01:00:00
+#SBATCH --time=10:00:00
 
 
 # =====================
@@ -119,7 +122,7 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 #       https://download.samba.org/pub/rsync/rsync.html
 
 rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
-
+ls ${dest_path}
 
 # ==============================
 # Finally, run the experiment!
