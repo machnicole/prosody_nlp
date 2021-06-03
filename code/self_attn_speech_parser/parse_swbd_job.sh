@@ -38,7 +38,7 @@
 #SBATCH --cpus-per-task=2
 
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=10:00:00
+#SBATCH --time=01:00:00
 
 
 # =====================
@@ -102,7 +102,7 @@ repo_home=/home/${USER}/prosody_nlp
 src_path=${repo_home}/data/input_features
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp//data/input_features
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/input_features
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
