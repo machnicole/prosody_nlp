@@ -118,7 +118,7 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 # * for more about the (endless) rsync options, see the docs:
 #       https://download.samba.org/pub/rsync/rsync.html
 
-rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
+rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 
 # ==============================
