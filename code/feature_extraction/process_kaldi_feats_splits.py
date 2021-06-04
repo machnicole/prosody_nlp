@@ -12,7 +12,8 @@ import glob
 
 nsplit = 4 # number of splits when kaldi was called
 
-KALDI_SUFFIX = 'swb1'
+# KALDI_SUFFIX = 'swb1'
+KALDI_SUFFIX = 'testsph'
 
 def process_feats(args):
     in_dir = args.in_dir
@@ -40,7 +41,7 @@ def process_feats(args):
         suffix = feattype.split('_')[0]
 
         # raw_file = os.path.join(raw_dir, 'raw_%s_audio.%d.txt' %(suffix,i) )
-        raw_file = os.path.join(raw_dir, 'raw_%s_swb1.%d.txt' % (suffix, i))
+        raw_file = os.path.join(raw_dir, 'raw_%s_%s.%d.txt' % (suffix, KALDI_SUFFIX, i))
         raw_lines = open(raw_file).readlines()
         sindices = [i for i,x in enumerate(raw_lines) if 'sw' in x]
         eindices = sindices[1:] + [len(raw_lines)]
@@ -72,6 +73,4 @@ if __name__ == '__main__':
     process_feats(args)
     sys.exit(0)
 # run with
-# python process_kaldi_feats_splits.py --in_dir '/afs/inf.ed.ac.uk/user/s20/s209
-# 6077/prosody_nlp/data/testoutput' --out_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput' --feattype
-#  pitch_pov
+# python process_kaldi_feats_splits.py --in_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput' --out_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput' --feattype  pitch_pov
