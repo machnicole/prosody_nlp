@@ -182,7 +182,7 @@ def run_train(args, hparams):
         train_parse = [(txt,lbl) for txt,lbl in zip(train_txt,train_lbls)]
     else:
         train_treebank, train_sent_ids = trees.load_trees_with_idx(args.train_path,\
-            args.train_sent_id_path) # EKN trees get loaded in as trees here
+            args.train_sent_id_path, strip_top=False) # EKN trees get loaded in as trees here
     # Note strip_top=True for SWBD
     print("Processing pause features for training...")
     pause_path = os.path.join(args.feature_path, args.prefix + 'train_pause.pickle')
@@ -218,7 +218,7 @@ def run_train(args, hparams):
         dev_treebank = [(txt,lbl) for txt,lbl in zip(dev_txt,dev_lbls)]
     else:
         dev_treebank, dev_sent_ids = trees.load_trees_with_idx(args.dev_path, \
-            args.dev_sent_id_path)
+            args.dev_sent_id_path, strip_top=False)
         # Note strip_top=True for SWBD
         
     dev_pause_path = os.path.join(args.feature_path, args.prefix + \
