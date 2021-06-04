@@ -165,7 +165,13 @@ def load_trees_with_idx(path, sent_id_path, strip_top=True):
 
             while paren_count > 0:
                 #print(tokens[index-3:index+3])
-                assert tokens[index] == ")"
+                try:
+                    assert tokens[index] == ")"
+                except AssertionError:
+                    print("tokens", tokens[index-3:index+3])
+                    print("index", index)
+                    print("tokens[index]", tokens[index])
+                    raise
                 index += 1
                 paren_count -= 1
 
@@ -177,7 +183,8 @@ def load_trees_with_idx(path, sent_id_path, strip_top=True):
     if strip_top:
         for i, tree in enumerate(trees):
             if tree.label in ("TOP", "ROOT"):
-                #print(i, tree.linearize())
+                print(i, tree.linearize())
+                print(tree.children)
                 assert len(tree.children) == 1
                 trees[i] = tree.children[0]
 
