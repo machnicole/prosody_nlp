@@ -60,9 +60,17 @@ def do_section(out_dir_trees, out_dir_ids, name):
                                 clean_entry = entry
                             tree.append(clean_entry)
 
+def check_tree(tree):
+    try:
+        assert tree.count("(") == tree.count(")")
+        assert tree.count("(") > 1 # tree must contain more than (TOP )
+    except AssertionError:
+        return False
+    return True
+
+
 def split(out_dir_trees, out_dir_ids):
     test_sentence_ids = ["cd6_00_"+str(number) for number in range(1, 1251)]
-    print(test_sentence_ids)
     dev_sentence_ids = ["cd8_00_" + str(number) for number in range(1, 1251)]
 
     test_trees_file =os.path.join(out_dir_trees, '%s.trees' % "test")
@@ -86,15 +94,17 @@ def split(out_dir_trees, out_dir_ids):
             all_trees = trees_file.readlines()
             for i, sentence_id in enumerate(all_sentence_ids):
                 if sentence_id.strip() in test_sentence_ids:
-                    print("test")
-                    test_trees.write(all_trees[i])
-                    test_sentence_id_file_open.write(sentence_id)
+                    if check_tree(all_trees[i]):
+                        test_trees.write(all_trees[i])
+                        test_sentence_id_file_open.write(sentence_id)
                 elif sentence_id.strip() in dev_sentence_ids:
-                    dev_trees.write(all_trees[i])
-                    dev_sentence_id_file_open.write(sentence_id)
+                    if check_tree(all_trees[i]):
+                        dev_trees.write(all_trees[i])
+                        dev_sentence_id_file_open.write(sentence_id)
                 else:
-                    train_trees.write(all_trees[i])
-                    train_sentence_id_file_open.write(sentence_id)
+                    if check_tree(all_trees[i]):
+                        train_trees.write(all_trees[i])
+                        train_sentence_id_file_open.write(sentence_id)
 
 
 
@@ -112,3 +122,7 @@ if __name__ == '__main__':
     # TODO: Add something to specify train, test, and dev
     do_section(out_dir_trees, out_dir_ids, "all")
     split(out_dir_trees, out_dir_ids)
+
+# run this to test the parser:
+# python src/main_sparser.py train --use-glove-pretrained --freeze --train-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/train.trees --train-sent-id-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/train_sent_ids.txt --dev-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/dev.trees --dev-sent-id-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/dev_sent_ids.txt --prefix '' --feature-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features --model-path-base /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/code/self_attn_speech_parser/models/vm_eng_no_speech_model --sentence-max-len 200 --d-model 1536 --d-kv 96 --morpho-emb-dropout 0.3 --num-layers 4 --num-heads 8 --epochs 50 --numpy-seed 1234
+# problem: line 168 AssertionError in trees.py
