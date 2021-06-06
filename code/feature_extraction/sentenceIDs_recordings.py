@@ -8,6 +8,7 @@ import pickle
 
 def get_stats_eng(lang, time):
     sentence_id2recording = dict()
+    sentence_id2speaker = dict()
 
     wor_counter = 0
     mau_counter = 0
@@ -140,12 +141,15 @@ def get_stats_eng(lang, time):
                             link_to_wav_file = file[:-4]
                             if glob.glob(link_to_wav_file + ".wav"):
                                 sentence_id2recording[id_prefix+"_"+assumed_sentence_id] = link_to_wav_file + ".wav"
+                                sentence_id2speaker[id_prefix+"_"+assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
                             elif glob.glob(link_to_wav_file + "_ENG.wav"):
                                 sentence_id2recording[
                                     id_prefix + "_" + assumed_sentence_id] = link_to_wav_file + "_ENG.wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -188,6 +192,8 @@ def get_stats_eng(lang, time):
                             link_to_wav_file = file[:-4]
                             if glob.glob(link_to_wav_file + ".wav"):
                                 sentence_id2recording[id_prefix+"_"+assumed_sentence_id] = link_to_wav_file + ".wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -195,6 +201,8 @@ def get_stats_eng(lang, time):
                             elif glob.glob(link_to_wav_file + "_ENG.wav"):
                                 sentence_id2recording[
                                     id_prefix + "_" + assumed_sentence_id] = link_to_wav_file + "_ENG.wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -218,6 +226,10 @@ def get_stats_eng(lang, time):
     print("Pickling sentence_id2recording dictionary...")
     with open('sentence_id2recording_eng.pickle', 'wb') as handle:
         pickle.dump(sentence_id2recording, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    print("Pickling sentence_id2speaker dictionary...")
+    with open('sentence_id2speaker_eng.pickle', 'wb') as handle:
+        pickle.dump(sentence_id2speaker, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     # this information is not really relevant
     print("Total syntactic trees/sentences:", total_syntactic_trees)
