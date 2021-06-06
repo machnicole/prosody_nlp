@@ -150,6 +150,15 @@ Create a JSON file of the average duration of each token type in the train set. 
 1. cd `prosody_nlp/code/self_attn_speech_parser/src`
 2. `python calculate_pauses.py`
 
+#### Pause Verbmobil data:
+`vm_calculate_pauses.py` has two requirements:
+- there has to exist a directoy `vm_word_times` (this should have been created by calling `make_alignment_dict_from_tg.py` above)
+- there has to exist the file `term2pw.pickle` in the directory `data/input_features`
+- to create `term2pw.pickle` run `python vm_prep_input_dicts.py` (with correct file paths to data). This could throw an error about a missing `avg_word_stats.json` file (it should be located in the data directory). It will probably throw other errors, too - but the pickle file is all we want at the moment. So, just ignore these.
+
+1. cd `prosody_nlp/code/self_attn_speech_parser/src`
+2. `python vm_calculate_pauses.py`
+
 ### Feature preparation
 
 Put all the features you have generated into a form the parser can use. Even if you are planning on only using turn-based features, you will need to generate both sets -- the turn-based features draw on the sentence-based features.
