@@ -116,7 +116,7 @@ def clean_text(raw_word):
     return word
 
 # get data stats from training set
-def get_data_stats(data_dir, stat_dir):
+def get_data_stats(data_dir, stat_dir, file_list):
 
     # files of mean stats
     head_dict_file = os.path.join(stat_dir, 'word_head_stats.pickle')
@@ -129,8 +129,6 @@ def get_data_stats(data_dir, stat_dir):
     word_dict = {}
     phone_dict = {}
 
-    file_list = glob.glob(data_dir + '/word_times_sw3*.pickle') + \
-            glob.glob(data_dir + '/word_times_sw2*.pickle') 
     for f in file_list:
         data = pickle.load(open(f))
         for k in sorted(data.keys()):
@@ -190,6 +188,7 @@ if __name__ == '__main__':
     pa.add_argument('--output_dir', help='output directory', \
                     default='/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/ta_features')
         # default='/s0/ttmt001/speech_parsing/ta_features')
+
     args = pa.parse_args()
 
     input_dir = args.input_dir
@@ -200,4 +199,10 @@ if __name__ == '__main__':
     data_dir = os.path.join(input_dir)
     # stat_dir = os.path.join(output_dir, 'stats', data_type)
     stat_dir = os.path.join(output_dir, 'stats')
-    get_data_stats(data_dir, stat_dir)
+    # for SWBD
+    # file_list = glob.glob(data_dir + '/word_times_sw3*.pickle') + \
+    #         glob.glob(data_dir + '/word_times_sw2*.pickle')
+    # for VM
+    file_list = glob.glob(data_dir + '/word_times_*.pickle')
+
+    get_data_stats(data_dir, stat_dir, file_list)
