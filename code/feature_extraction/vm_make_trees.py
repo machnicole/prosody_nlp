@@ -80,12 +80,18 @@ def split(out_dir_trees, out_dir_ids):
     dev_trees_file =os.path.join(out_dir_trees, '%s.trees' % "dev")
     dev_trees = open(dev_trees_file, 'w')
 
+    all_clean_trees_file =os.path.join(out_dir_trees, '%s.trees' % "all_clean")
+    all_clean_trees = open(all_clean_trees_file, 'w')
+
     test_sentence_id_file =os.path.join(out_dir_ids, '%s_sent_ids.txt' % "test")
     test_sentence_id_file_open = open(test_sentence_id_file, 'w')
     train_sentence_id_file =os.path.join(out_dir_ids, '%s_sent_ids.txt' % "train")
     train_sentence_id_file_open = open(train_sentence_id_file, 'w')
     dev_sentence_id_file =os.path.join(out_dir_ids, '%s_sent_ids.txt' % "dev")
     dev_sentence_id_file_open = open(dev_sentence_id_file, 'w')
+
+    all_clean_sentence_id_file =os.path.join(out_dir_ids, '%s_sent_ids.txt' % "all_clean")
+    all_clean_sentence_id_file_open = open(all_clean_sentence_id_file, 'w')
 
     with open(os.path.join(out_dir_ids, 'all_sent_ids.txt')) as sentence_id_file:
         with open(os.path.join(out_dir_trees,
@@ -97,14 +103,20 @@ def split(out_dir_trees, out_dir_ids):
                     if check_tree(all_trees[i]):
                         test_trees.write(all_trees[i])
                         test_sentence_id_file_open.write(sentence_id)
+                        all_clean_trees.write(all_trees[i])
+                        all_clean_sentence_id_file_open.write(sentence_id)
                 elif sentence_id.strip() in dev_sentence_ids:
                     if check_tree(all_trees[i]):
                         dev_trees.write(all_trees[i])
                         dev_sentence_id_file_open.write(sentence_id)
+                        all_clean_trees.write(all_trees[i])
+                        all_clean_sentence_id_file_open.write(sentence_id)
                 else:
                     if check_tree(all_trees[i]):
                         train_trees.write(all_trees[i])
                         train_sentence_id_file_open.write(sentence_id)
+                        all_clean_trees.write(all_trees[i])
+                        all_clean_sentence_id_file_open.write(sentence_id)
 
 
 
