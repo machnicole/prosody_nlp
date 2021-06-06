@@ -77,6 +77,13 @@ Generate PTB-style trees with nested parentheses and corresponding sentence id f
 2.  run `sentenceIDs_recordings.py` to get a pickle file of a dictionary which maps sentenceIDs to the paths of their recordings (also prints out some corpus statistics).
 3.  run `vm_make_trees.py`
 
+The equivalent to running `make_alignment_dicts.py` as above (necessary for extracting time-aligned features lateron) is a bit more complicated:
+
+1. The majority of Verbmobil data doesn't have alignments. Install and use Montreal Forced Aligner (MFA) to obtain word and phone alignments.
+2. MFA requires the corpus to be of a specific shape. Run `zip_wavs.py` to obtain a zip of the corpus that has the right directory organisation and data.
+3. Unzip the corpus.zip and use the MFA to obtain alignments (in the form of TextGrid files): ` mfa align archive english.dict.txt english.zip output`. MFA requires a pronunciation dictionary (downloadable, but can create from VM data) and an acoustic model (pretrained) for the alignment. 
+4. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`.
+5. Run `make_alignment_dict_from_tg.py`
 
 #### Pitch and intensity
 
@@ -85,7 +92,20 @@ Generate PTB-style trees with nested parentheses and corresponding sentence id f
 3. Run `./comp_all.sh`
 4. `cd prosody_nlp/code/feature_extraction`
 5. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
-6. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
+6. Set the variable `KALDI_SUFFIX` in `process_kaldi_feats_splits.py` to the directory of sph files.
+7. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
+
+#### Pitch and intensity Verbmobil data:
+1. `cd prosody_nlp/code/feature_extraction`
+2. run `create_sph_files.py` to create sph files out of the wav files (takes a lot of memory). TODO: maybe kaldi scripts are executable on wav files, too?
+3. `cd prosody_nlp/code/kaldi_scripts`
+4. Set the paths in `comp_all_vm.sh` to point to the VM data (sph files), the kaldi installation, and the directory where you want to output the data.
+5. Run `./comp_all_vm.sh`
+6. `cd prosody_nlp/code/feature_extraction`
+7. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
+8. Set the variable `KALDI_SUFFIX` in `process_kaldi_feats_splits.py` to the directory of sph files.
+9. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
+
 
 #### Duration:
 
