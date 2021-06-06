@@ -102,9 +102,9 @@ The equivalent to running `make_alignment_dicts.py` as above (necessary for extr
 4. Set the paths in `comp_all_vm.sh` to point to the VM data (sph files), the kaldi installation, and the directory where you want to output the data.
 5. Run `./comp_all_vm.sh`
 6. `cd prosody_nlp/code/feature_extraction`
-7. Set the variable `nsplit` in `process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
-8. Set the variable `KALDI_SUFFIX` in `process_kaldi_feats_splits.py` to the directory of sph files.
-9. Run `process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
+7. Set the variable `nsplit` in `vm_process_kaldi_feats_splits.py` to the number of splits used to generate your kaldi features.
+8. Set the variable `KALDI_SUFFIX` in `vm_process_kaldi_feats_splits.py` to the directory of sph files.
+9. Run `vm_process_kaldi_feats_splits.py`. If you had (for example) saved the kaldi features to `raw_output` and want to save the processed kaldi features to `output`, you would use the command: `python process_kaldi_feats_splits.py --in_dir raw_output --out_dir output`.
 
 
 #### Duration:
@@ -128,9 +128,17 @@ Create a JSON file of the average duration of each token type in the train set. 
 }						
 ```
 2. `cd prosody_nlp/code/feature_extraction`
-3. `python get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
+3. `python2 get_ta_stats.py --input_dir <output of make_alignment_dicts.py> --output_dir <desired output dir>`
 4. Change file paths in `extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
 5. `python extract_ta_features.py` (run this with python 2) [I run this by calling run_extraction.sh]
+
+#### Duration Verbmobil data:
+
+1. `cd prosody_nlp/code/feature_extraction`
+2. `mkdir -r ta_features/stats`
+3. `python2 get_ta_stats.py --input_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times' --output_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features'` 
+4. Change file paths in `vm_extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
+5. `python vm_extract_ta_features.py` (run this with python 2) [I run this by calling vm_run_extraction.sh]
 
 
 #### Pause
