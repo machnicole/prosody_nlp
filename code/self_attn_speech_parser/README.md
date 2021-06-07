@@ -178,6 +178,28 @@ Next, filter out turns over 270 tokens (see paper). This should be two turns in 
 5. `python filter_long_turns.py`
 6. Make sure that the filtered train sent_id and trees files are the files that you use in the subsequent steps.
 
+### Feature preparation Verbmobil data:
+
+Put all the features you have generated into a form the parser can use. Even if you are planning on only using turn-based features, you will need to generate both sets -- the turn-based features draw on the sentence-based features.
+
+To run `python vm_prep_input_dicts.py` in a proper way (without error messages), do these 2 things:
+1. cd `prosody_nlp/code/feature_extraction`
+2. Run `python2 get_mean_dur.py` to create `phone2meandur.pickle` and `avg_word_stats.json`
+3. create a directory `normed_fbanks` in the `vm_fbank_energy` directory (in my case `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_fbank_energy/normed_fbanks`)
+4. `cd prosody_nlp/code/self_attn_speech_parser/src/`
+
+1. To generate sentence-level features, run `python vm_prep_input_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+[ # TODO: Turn-based features
+3. Generate a directory for the turn-level features. In my case: `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed`
+4. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+
+Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
+
+3. `cd prosody_nlp/code/self_attn_speech_parser/src/`
+4. Change data and output paths in `filter_long_turns.py` and make sure it is set to the train split.
+5. `python filter_long_turns.py`
+6. Make sure that the filtered train sent_id and trees files are the files that you use in the subsequent steps.]
+
 
 ## Training
 
