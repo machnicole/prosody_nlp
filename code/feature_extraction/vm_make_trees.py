@@ -1,7 +1,8 @@
 import os
 import re
 import pickle
-
+import trees
+import string
 
 def do_section(out_dir_trees, out_dir_ids, name):
     trees_file =os.path.join(out_dir_trees, '%s.trees' % name)
@@ -68,6 +69,52 @@ def check_tree(tree):
         return False
     return True
 
+def clean_tree(tree): # remove punctuation and lower-case terminals
+    def clean_terminal(terminal):
+        terminal = terminal.lower()
+        terminal = terminal.translate(str.maketrans('', '', string.punctuation))
+        return terminal
+
+    tokens = tree.replace("(", " ( ").replace(")", " ) ").split()
+
+    def helper(index):
+        nodes = []
+
+        while index < len(tokens) and tokens[index] == "(":
+            paren_count = 0
+            while tokens[index] == "(":
+                index += 1
+                paren_count += 1
+
+            label = tokens[index]
+            index += 1
+
+            if tokens[index] == "(":
+                children, index = helper(index)
+                nodes.append(trees.InternalTreebankNode(label, children))
+            else:
+                word = tokens[index]
+                index += 1
+                nodes.append(trees.LeafTreebankNode(label, clean_terminal(word)))
+
+            while paren_count > 0:
+                #print(tokens[index-3:index+3])
+                try:
+                    assert tokens[index] == ")"
+                except AssertionError:
+                    print("tokens", tokens[index-3:index+3])
+                    print("index", index)
+                    print("tokens[index]", tokens[index])
+                    raise
+                index += 1
+                paren_count -= 1
+
+        return nodes, index
+
+    nodes, index = helper(0)
+    assert index == len(tokens)
+
+    return nodes[0].linearize()
 
 def split(out_dir_trees, out_dir_ids):
     test_sentence_ids = ["cd6_00_"+str(number) for number in range(1, 1251)]
@@ -101,21 +148,21 @@ def split(out_dir_trees, out_dir_ids):
             for i, sentence_id in enumerate(all_sentence_ids):
                 if sentence_id.strip() in test_sentence_ids:
                     if check_tree(all_trees[i]):
-                        test_trees.write(all_trees[i])
+                        test_trees.write(clean_tree(all_trees[i])+"\n")
                         test_sentence_id_file_open.write(sentence_id)
-                        all_clean_trees.write(all_trees[i])
+                        all_clean_trees.write(clean_tree(all_trees[i])+"\n")
                         all_clean_sentence_id_file_open.write(sentence_id)
                 elif sentence_id.strip() in dev_sentence_ids:
                     if check_tree(all_trees[i]):
-                        dev_trees.write(all_trees[i])
+                        dev_trees.write(clean_tree(all_trees[i])+"\n")
                         dev_sentence_id_file_open.write(sentence_id)
-                        all_clean_trees.write(all_trees[i])
+                        all_clean_trees.write(clean_tree(all_trees[i])+"\n")
                         all_clean_sentence_id_file_open.write(sentence_id)
                 else:
                     if check_tree(all_trees[i]):
-                        train_trees.write(all_trees[i])
+                        train_trees.write(clean_tree(all_trees[i])+"\n")
                         train_sentence_id_file_open.write(sentence_id)
-                        all_clean_trees.write(all_trees[i])
+                        all_clean_trees.write(clean_tree(all_trees[i])+"\n")
                         all_clean_sentence_id_file_open.write(sentence_id)
 
 
