@@ -41,7 +41,7 @@
 #SBATCH --partition Teach-LongJobs
 
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=10:00:00
+#SBATCH --time=12:00:00
 
 
 # =====================

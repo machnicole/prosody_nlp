@@ -81,9 +81,10 @@ The equivalent to running `make_alignment_dicts.py` as above (necessary for extr
 
 1. The majority of Verbmobil data doesn't have alignments. Install and use Montreal Forced Aligner (MFA) to obtain word and phone alignments.
 2. MFA requires the corpus to be of a specific shape. Run `zip_wavs.py` to obtain a zip of the corpus that has the right directory organisation and data.
-3. Unzip the corpus.zip and use the MFA to obtain alignments (in the form of TextGrid files): ` mfa align archive english.dict.txt english.zip output`. MFA requires a pronunciation dictionary (downloadable, but can create from VM data) and an acoustic model (pretrained) for the alignment. 
-4. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`.
-5. Run `make_alignment_dict_from_tg.py`
+3. Note: if MFA throws a weird error message, try this: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/aligner/lib/` 
+4. Unzip the corpus.zip and use the MFA to obtain alignments (in the form of TextGrid files): ` mfa align archive english.dict.txt english.zip output`. MFA requires a pronunciation dictionary (downloadable, but can create from VM data) and an acoustic model (pretrained) for the alignment. 
+5. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`.
+6. Run `make_alignment_dict_from_tg.py`
 
 #### Pitch and intensity
 

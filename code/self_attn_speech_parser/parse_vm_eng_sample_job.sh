@@ -41,7 +41,7 @@
 # #SBATCH --partition Teach-LongJobs
 
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=08:00:00
+#SBATCH --time=01:00:00
 
 
 # =====================
@@ -102,10 +102,10 @@ echo "Moving input data to the compute node's scratch space: $SCRATCH_DISK"
 
 # input data directory path on the DFS - change line below if loc different
 repo_home=/home/${USER}/prosody_nlp
-src_path=${repo_home}/data/vm/input_features
+src_path=${repo_home}/data/vm/input_features/sample_data
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/input_features
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/input_features/sample_data
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
