@@ -1442,7 +1442,7 @@ class SpeechParser(nn.Module):
                 frame_features += sent_frame_features
 
         if pause_features:
-            print("pause features", pause_features)
+            # print("pause features", pause_features)
             pause_features = torch.LongTensor(pause_features).to(device)
         
         if frame_features:

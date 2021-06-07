@@ -5,7 +5,7 @@ import trees
 from collections import defaultdict
 
 
-path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/archive.zip'
+path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/vm_eng_sample.zip'
 
 fantasy_zip = zipfile.ZipFile(path_to_zip, 'w')
 
@@ -15,7 +15,7 @@ with open('sentence_id2recording_eng.pickle', 'rb') as handle:
 with open('sentence_id2speaker_eng.pickle', 'rb') as handle:
     sentence_id2speaker = pickle.load(handle)
 
-wav_files = list(sentence_id2recording.items())[:10]
+wav_files = list(sentence_id2recording.items())[:150]
 
 path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
 path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"

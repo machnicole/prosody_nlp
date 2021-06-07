@@ -14,7 +14,7 @@ import string
 nsplit = 4 # number of splits when kaldi was called
 
 # KALDI_SUFFIX = 'swb1'
-KALDI_SUFFIX = 'testsph'
+KALDI_SUFFIX = 'sample_sph_files'
 
 def process_feats(args):
     in_dir = args.in_dir

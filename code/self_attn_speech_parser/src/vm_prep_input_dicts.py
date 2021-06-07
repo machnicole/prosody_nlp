@@ -311,7 +311,8 @@ def make_sent2dur(sents,sent2dur,sent2part,sent2times,sent2term,term2pw,pw2feats
                         mean_durs.append(raw_dur)
             else:
                 if term in term2pw: # not in orth2meandur but I can find the phones so I'll use those
-                    print('term in term2pw but not orth2freq')
+                    print('term in term2pw but not orth2freq: ', term)
+                    # this probably occurs because orth contains an apostroph
                     pw = term2pw[term]
                     mean_durs.append(phonebased_dur(pw,pw2feats,phone2meandur))
                 else:
@@ -608,9 +609,9 @@ def main():
     
     # Second: load the sentence ids that we're generating output features for
     # and mine the conversation IDs
-
-    # split = 'train'
-    split = 'dev'
+    #
+    split = 'train'
+    # split = 'dev'
     # split = 'test'
 
     split_file = f'{split}_sent_ids.txt'#_from_times_file.txt'
@@ -620,8 +621,9 @@ def main():
 
     # subset for testing purposes
     # sent_ids = ["cd13_00_1", "cd13_00_2", "cd13_00_3"]
-    sent_ids = ["cd13_00_4", "cd13_00_5"]
-
+    # sent_ids = ["cd13_00_4", "cd13_00_5"]
+    sent_ids = ["cd13_00_{}".format(str(number)) for number in range(1,101)]
+    # sent_ids = ["cd13_00_{}".format(str(number)) for number in range(100,151)]
 
     
     # Third: load dict of orth form to avg len of word; also heads and tails

@@ -6,8 +6,8 @@ import argparse
 import glob
 import collections
 import numpy as np
-# import cPickle as pickle
-import pickle
+import cPickle as pickle
+# import pickle
 
 split1_tails = ["ll", "m", "re", "ve", "s", "d"]
 split2_tails = ["t"]
@@ -130,7 +130,11 @@ def get_data_stats(data_dir, stat_dir, file_list):
     phone_dict = {}
 
     for f in file_list:
-        data = pickle.load(open(f))
+        try:
+            data = pickle.load(open(f))
+        except EOFError:
+            print(f)
+            raise
         for k in sorted(data.keys()):
             info = data[k]
             raw_word = info['text'].lower()
