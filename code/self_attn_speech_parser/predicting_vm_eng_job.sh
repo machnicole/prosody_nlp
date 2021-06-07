@@ -121,8 +121,8 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 #This can take very long time
-dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
-src_path2=${repo_home}/code/self_attn_speech_parser/models
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/vm_eng_no_speech_model_dev=93.09.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/vm_eng_no_speech_model_dev=93.09.pt
 rsync --archive --update --compress --progress ${src_path2}/ ${dest_path2}
 
 # ==============================
