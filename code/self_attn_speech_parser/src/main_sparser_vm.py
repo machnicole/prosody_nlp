@@ -619,7 +619,7 @@ def run_test(args):
         test_treebank = [(txt,lbl) for txt,lbl in zip(test_txt,test_lbls)]
     else:
         test_treebank, test_sent_ids = trees.load_trees_with_idx(args.test_path, \
-            args.test_sent_id_path)
+            args.test_sent_id_path, strip_top=False)
     
     if not args.new_set:
         test_pause_path = os.path.join(args.feature_path, args.test_prefix + \
