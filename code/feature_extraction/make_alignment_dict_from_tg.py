@@ -35,9 +35,9 @@ out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times
 
 path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
 path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
-path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/textgridoutput"
+path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/sample_textgridoutput"
 
-wav_files = list(sentence_id2recording.items())[:10]
+wav_files = list(sentence_id2recording.items())[:150]
 trees, sent_ids = trees.load_trees_with_idx(path_to_trees, path_to_sent_ids, strip_top=False)
 
 
@@ -75,64 +75,90 @@ for sentence_id, file in wav_files:
             if label != "":
                 alignments.append(word)
         save_alignments = False
+
+        transcription_index = 0
+        alignment_index_match = 0
+        for i, word in enumerate(alignments):
+            word_label = word.text.transcode()
+            if i + 1 < len(alignments):
+                next_word_label = alignments[i + 1].text.transcode()
+            else:
+                next_word_label = ""
+            if transcription_index < len(transcription):
+                if word_label == transcription[transcription_index].lower() or (
+                        (word_label == "<unk>") and next_word_label ==
+                        transcription[transcription_index+1].lower()):
+                    transcription_index += 1
+                else:
+                    transcription_index = 0
+                    alignment_index_match = i
+
         # get alignments for transcription (based on the tree)
-        for word in alignments:
-            if transcription:
-                word_label = word.text.transcode()
-                if word_label == transcription[0].lower() or word_label == "<unk>":
-                    transcription.pop(0)
-                    index += 1
-                    pw_id = sentence_id + "_" + str(index).zfill(4)
-                    phones = []
-                    phone_starts = []
-                    phone_ends = []
-                    for phone in grid["phones"]:
-                        # word consists of only one phone:
-                        if phone.xmin == word.xmin and phone.xmax == word.xmax:
-                            label = phone.text.transcode()
-                            phones.append(label)
-                            phone_starts.append(phone.xmin)
-                            phone_ends.append(phone.xmax)
-                        # phone is at the beginning of a word
-                        elif phone.xmin == word.xmin:
-                            label = phone.text.transcode()
-                            phones.append(label)
-                            phone_starts.append(phone.xmin)
-                            phone_ends.append(phone.xmax)
-                        # phone is in the middle of a word
-                        elif phone.xmin > word.xmin and phone.xmax < word.xmax:
-                            label = phone.text.transcode()
-                            phones.append(label)
-                            phone_starts.append(phone.xmin)
-                            phone_ends.append(phone.xmax)
-                        # phone is at the end of a word
-                        elif phone.xmax == word.xmax:
-                            label = phone.text.transcode()
-                            phones.append(label)
-                            phone_starts.append(phone.xmin)
-                            phone_ends.append(phone.xmax)
+        for i, word in enumerate(alignments):
+            if i >= alignment_index_match:
+                if transcription:
+                    word_label = word.text.transcode()
+                    # TODO this is a hacky way to handle UNKs - can fix this by having a proper pronunciation dict
+                    if i+1 < len(alignments):
+                        next_word_label = alignments[i + 1].text.transcode()
+                    else:
+                        next_word_label = ""
+                    if word_label == transcription[0].lower() or ((word_label == "<unk>") and next_word_label == transcription[1].lower()):
+                        word_from_transcription = transcription.pop(0)
+                        index += 1
+                        pw_id = sentence_id + "_" + str(index).zfill(4)
+                        phones = []
+                        phone_starts = []
+                        phone_ends = []
+                        for phone in grid["phones"]:
+                            # word consists of only one phone:
+                            if phone.xmin == word.xmin and phone.xmax == word.xmax:
+                                label = phone.text.transcode()
+                                phones.append(label)
+                                phone_starts.append(phone.xmin)
+                                phone_ends.append(phone.xmax)
+                            # phone is at the beginning of a word
+                            elif phone.xmin == word.xmin:
+                                label = phone.text.transcode()
+                                phones.append(label)
+                                phone_starts.append(phone.xmin)
+                                phone_ends.append(phone.xmax)
+                            # phone is in the middle of a word
+                            elif phone.xmin > word.xmin and phone.xmax < word.xmax:
+                                label = phone.text.transcode()
+                                phones.append(label)
+                                phone_starts.append(phone.xmin)
+                                phone_ends.append(phone.xmax)
+                            # phone is at the end of a word
+                            elif phone.xmax == word.xmax:
+                                label = phone.text.transcode()
+                                phones.append(label)
+                                phone_starts.append(phone.xmin)
+                                phone_ends.append(phone.xmax)
+                            else:
+                                continue
+
+                        pw_info = {'text': word_from_transcription,
+                                   'start_time': word.xmin,
+                                   'end_time': word.xmax,
+                                   'phone_start_times': phone_starts,
+                                   'phone_end_times': phone_ends,
+                                   'phones': phones}
+                        pw_dict[pw_id] = pw_info
+                        save_alignments = True
+                    else:
+                        if save_alignments == True:
+                            print(transcription)
+                            print(word_label)
+                            print(textgrid_file)
+                            print(sentence_id)
+                            raise ValueError("Timestamps in TextGrid don't match with words in tree.")
                         else:
                             continue
-
-                    pw_info = {'text': word_label,
-                               'start_time': word.xmin,
-                               'end_time': word.xmax,
-                               'phone_start_times': phone_starts,
-                               'phone_end_times': phone_ends,
-                               'phones': phones}
-                    pw_dict[pw_id] = pw_info
-                    save_alignments = True
-                else:
-                    if save_alignments == True:
-                        print(transcription)
-                        print(word_label)
-                        raise ValueError("Timestamps in TextGrid don't match with words in tree.")
-                    else:
-                        continue
         else:
             assert transcription == []
 
-        # print(pw_dict)
+        print(pw_dict)
 
         with open(outfile, 'wb') as f:
             pickle.dump(pw_dict, f, protocol=2)
