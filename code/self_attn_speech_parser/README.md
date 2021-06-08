@@ -86,7 +86,7 @@ The equivalent to running `make_alignment_dicts.py` as above (necessary for extr
 2. MFA requires the corpus to be of a specific shape. Run `zip_wavs.py` to obtain a zip of the corpus that has the right directory organisation and data.
 3. Note: if MFA throws a weird error message, try this: `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/aligner/lib/` 
 4. Unzip the corpus.zip and use the MFA to obtain alignments (in the form of TextGrid files): ` mfa align archive english.dict.txt english.zip output`. MFA requires a pronunciation dictionary (downloadable, but can create from VM data) and an acoustic model (pretrained) for the alignment. 
-5. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`.
+5. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`. Specify the language.
 6. Run `make_alignment_dict_from_tg.py`
 
 #### Pitch and intensity
@@ -155,13 +155,10 @@ Create a JSON file of the average duration of each token type in the train set. 
 2. `python calculate_pauses.py`
 
 #### Pause Verbmobil data:
-`vm_calculate_pauses.py` has two requirements:
-- there has to exist a directoy `vm_word_times` (this should have been created by calling `make_alignment_dict_from_tg.py` above)
-- there has to exist the file `term2pw.pickle` in the directory `data/input_features`
-- to create `term2pw.pickle` run `python vm_prep_input_dicts.py` (with correct file paths to data). This could throw an error about a missing `avg_word_stats.json` file (it should be located in the data directory). It will probably throw other errors, too - but the pickle file is all we want at the moment. So, just ignore these.
 
 1. cd `prosody_nlp/code/self_attn_speech_parser/src`
-2. `python vm_calculate_pauses.py`
+2. Run `python vm_prep_input_dicts.py` (with correct file paths to data). This will throw some errors, but the pickle file `term2pw.pickle` is all we want at the moment. So, just ignore these.
+3. `python vm_calculate_pauses.py`
 
 ### Feature preparation
 
