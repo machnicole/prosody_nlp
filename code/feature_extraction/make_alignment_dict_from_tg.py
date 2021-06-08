@@ -25,17 +25,29 @@ import textgrids
 # with open(outfile, 'wb') as f:
 #     pickle.dump(pw_dict, f, protocol=2)
 
-with open('sentence_id2recording_eng.pickle', 'rb') as handle:
+# English data
+# lang = "eng"
+#
+# out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times"
+#
+# path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
+# path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
+# path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/sample_textgridoutput"
+
+# German data
+lang = "ger"
+
+out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/vm_word_times"
+
+path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/new_trees/all_clean.trees"
+path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/all_clean_sent_ids.txt"
+path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/ger_sample_textgrids"
+
+with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
     sentence_id2recording = pickle.load(handle)
 
-with open('sentence_id2speaker_eng.pickle', 'rb') as handle:
+with open('sentence_id2speaker_{}.pickle'.format(lang), 'rb') as handle:
     sentence_id2speaker = pickle.load(handle)
-
-out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times"
-
-path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
-path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
-path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/sample_textgridoutput"
 
 wav_files = list(sentence_id2recording.items())[:150]
 trees, sent_ids = trees.load_trees_with_idx(path_to_trees, path_to_sent_ids, strip_top=False)
@@ -78,20 +90,46 @@ for sentence_id, file in wav_files:
 
         transcription_index = 0
         alignment_index_match = 0
+
         for i, word in enumerate(alignments):
             word_label = word.text.transcode()
+
             if i + 1 < len(alignments):
                 next_word_label = alignments[i + 1].text.transcode()
+
+                try:
+                    if (word_label == "<unk>") and next_word_label == transcription[transcription_index+1].lower():
+                        next_word_label_condition = True
+                    elif (word_label == "<unk>") and next_word_label == "<unk>":
+                        next_word_label_condition = True
+                    else:
+                        next_word_label_condition = False
+                except IndexError:
+                    # last word in tree is unk
+                    if (word_label == "<unk>") and (transcription_index+1 == len(transcription)):
+                        next_word_label_condition = True
+                    else:
+                        next_word_label_condition = False
+            elif len(alignments) == i+1:
+                # last word in tree is unk
+                if (word_label == "<unk>") and (
+                        transcription_index + 1 == len(transcription)):
+                    next_word_label_condition = True
+                else:
+                    next_word_label_condition = False
+
             else:
                 next_word_label = ""
+                next_word_label_condition = False
+
             if transcription_index < len(transcription):
-                if word_label == transcription[transcription_index].lower() or (
-                        (word_label == "<unk>") and next_word_label ==
-                        transcription[transcription_index+1].lower()):
+                if word_label == transcription[transcription_index].lower() or next_word_label_condition:
                     transcription_index += 1
                 else:
                     transcription_index = 0
                     alignment_index_match = i
+                    if [word.text.transcode() for word in alignments[alignment_index_match:]] == transcription:
+                        break
 
         # get alignments for transcription (based on the tree)
         for i, word in enumerate(alignments):
@@ -103,7 +141,10 @@ for sentence_id, file in wav_files:
                         next_word_label = alignments[i + 1].text.transcode()
                     else:
                         next_word_label = ""
-                    if word_label == transcription[0].lower() or ((word_label == "<unk>") and next_word_label == transcription[1].lower()):
+                    if word_label == transcription[0].lower() or \
+                            ((word_label == "<unk>") and len(transcription) == 1)\
+                            or ((word_label == "<unk>") and next_word_label == transcription[1].lower())\
+                            or (word_label == "<unk>") and next_word_label == "<unk>":
                         word_from_transcription = transcription.pop(0)
                         index += 1
                         pw_id = sentence_id + "_" + str(index).zfill(4)
@@ -156,9 +197,20 @@ for sentence_id, file in wav_files:
                         else:
                             continue
         else:
-            assert transcription == []
+            try:
+                assert transcription == []
+            except AssertionError:
+                print(transcription)
+                print(textgrid_file)
+                print(sentence_id)
+                print(pw_dict)
+                print(alignment_index_match)
+                print(alignments)
+                # print(alignments[36])
+                raise
 
         print(pw_dict)
+        print(textgrid_file)
 
         with open(outfile, 'wb') as f:
             pickle.dump(pw_dict, f, protocol=2)
