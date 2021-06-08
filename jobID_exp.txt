@@ -1,0 +1,13 @@
+1296410 parse_swbd (stopped after 10 hours)
+1296691 parse_swbd (limited to 12 hours)
+1296475 parse_swbd (limited to 8 hours)
+1296901 parse_swbd_35 epochs (limited to 8 hours)
+1297022 parse_swbd_35+15 epochs
+1296500 parse_vm_eng (limited to 8 hours)
+1296875 parse_vm_eng (new, correct trees)
+1296897 predicting_parse_vm_eng (new, correct trees)
+1296859 parse_vm_eng_sample_speech
+1296861 sample_data (rewrite) with speech
+1296988 parse_vm_ger
+1297007 parse_vm_ger_sample_speech
+
