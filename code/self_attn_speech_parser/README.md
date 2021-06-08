@@ -74,8 +74,11 @@ Download GloVe vectors:
 Generate PTB-style trees with nested parentheses and corresponding sentence id files:
 
 1.  `cd prosody_nlp/code/feature_extraction`
-2.  run `sentenceIDs_recordings.py` to get a pickle file of a dictionary which maps sentenceIDs to the paths of their recordings (also prints out some corpus statistics).
-3.  run `vm_make_trees.py`
+2.  Set the paths in `sentenceIDs_recordings.py` to point to the correct data and call a language-specific function (eng or ger).
+3.  run `sentenceIDs_recordings.py` to get a pickle file of a dictionary which maps sentenceIDs to the paths of their recordings (also prints out some corpus statistics).
+4.  Set the paths in `vm_make_trees.py` to point to the correct data and specify the language (eng or ger).
+5.  Make sure to create the output directories you specify.
+6.  run `vm_make_trees.py`
 
 The equivalent to running `make_alignment_dicts.py` as above (necessary for extracting time-aligned features lateron) is a bit more complicated:
 
