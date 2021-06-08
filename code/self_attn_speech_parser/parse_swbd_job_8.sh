@@ -111,6 +111,11 @@ mkdir -p ${dest_path}  # make it if required
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 
+# Copy model that we want to load
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/swbd_no_speech_model_dev=89.54.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/swbd_no_speech_model_dev=89.54.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
+
 # Important notes about rsync:
 # * the --compress option is going to compress the data before transfer to send
 #   as a stream. THIS IS IMPORTANT - transferring many files is very very slow
