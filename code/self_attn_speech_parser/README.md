@@ -89,6 +89,14 @@ The equivalent to running `make_alignment_dicts.py` as above (necessary for extr
 5. Change file paths in `make_alignment_dict_from_tg.py`. Make sure to create the directory that is specified in `outdir`. Specify the language.
 6. Run `make_alignment_dict_from_tg.py`
 
+Download GloVe vectors: 
+
+7. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/ for English data.
+8. OR German glove vectors from here:https://int-emb-glove-de-wiki.s3.eu-central-1.amazonaws.com/vectors.txt (rename to `glove.6B.300d.txt` as this is hard-coded)
+9. `cd prosody_nlp/code/self_attn_speech_parser/src`
+10. Change `glove_pretrained_path` in `parse_model.py` such that it points to the correct directory.
+
+
 #### Pitch and intensity
 
 1. `cd prosody_nlp/code/kaldi_scripts`
