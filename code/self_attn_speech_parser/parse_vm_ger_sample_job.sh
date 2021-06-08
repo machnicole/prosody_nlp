@@ -41,7 +41,7 @@
 # #SBATCH --partition Teach-LongJobs
 
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=08:00:00
+#SBATCH --time=01:00:00
 
 
 # =====================
@@ -102,19 +102,14 @@ echo "Moving input data to the compute node's scratch space: $SCRATCH_DISK"
 
 # input data directory path on the DFS - change line below if loc different
 repo_home=/home/${USER}/prosody_nlp
-src_path=${repo_home}/data/input_features
+src_path=${repo_home}/data/vm/ger/input_features/sample_data
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp/data/input_features
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/ger/input_features/sample_data
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
-
-# Copy model that we want to load
-dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/swbd_no_speech_model_35_dev=90.09.pt
-src_path2=${repo_home}/code/self_attn_speech_parser/models/swbd_no_speech_model_35_dev=90.09.pt
-rsync --update --compress --progress ${src_path2} ${dest_path2}
 
 # Important notes about rsync:
 # * the --compress option is going to compress the data before transfer to send
@@ -127,6 +122,15 @@ rsync --update --compress --progress ${src_path2} ${dest_path2}
 #       https://download.samba.org/pub/rsync/rsync.html
 
 rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
+ls ${dest_path}
+
+repo_home=/home/${USER}/prosody_nlp
+src_path2=${repo_home}/data/vm/ger/input_features
+
+# input data directory path on the scratch disk of the node
+dest_path2=${SCRATCH_HOME}/prosody_nlp/data/vm/ger/input_features
+mkdir -p ${dest_path}  # make it if required
+rsync -r --archive --update --compress --progress ${src_path2}/ ${dest_path2}
 ls ${dest_path}
 
 # ==============================
