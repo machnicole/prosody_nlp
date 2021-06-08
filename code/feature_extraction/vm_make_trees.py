@@ -4,14 +4,14 @@ import pickle
 import trees
 import string
 
-def do_section(out_dir_trees, out_dir_ids, name):
+def do_section(out_dir_trees, out_dir_ids, name, lang):
     trees_file =os.path.join(out_dir_trees, '%s.trees' % name)
     trees = open(trees_file, 'w')
 
     ids_file = os.path.join(out_dir_ids, '%s_sent_ids.txt' % name)
     sentence_ids = open(ids_file, 'w')
 
-    with open('sentence_id2recording_eng.pickle', 'rb') as handle:
+    with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
         sentence_id2recording = pickle.load(handle)
 
     for tree_filename in os.listdir(path_to_vm_penn_files):
@@ -116,9 +116,15 @@ def clean_tree(tree): # remove punctuation and lower-case terminals
 
     return nodes[0].linearize()
 
-def split(out_dir_trees, out_dir_ids):
-    test_sentence_ids = ["cd6_00_"+str(number) for number in range(1, 1251)]
-    dev_sentence_ids = ["cd8_00_" + str(number) for number in range(1, 1251)]
+def split(out_dir_trees, out_dir_ids, lang):
+    if lang == "eng":
+        test_sentence_ids = ["cd6_00_"+str(number) for number in range(1, 1251)]
+        dev_sentence_ids = ["cd8_00_" + str(number) for number in range(1, 1251)]
+    elif lang == "ger":
+        test_sentence_ids = ["cd15_"+str(number) for number in range(1, 1246)]
+        dev_sentence_ids = ["cd20_" + str(number) for number in range(1, 1246)]
+    else:
+        raise TypeError
 
     test_trees_file =os.path.join(out_dir_trees, '%s.trees' % "test")
     test_trees = open(test_trees_file, 'w')
@@ -173,14 +179,23 @@ def split(out_dir_trees, out_dir_ids):
 
 
 if __name__ == '__main__':
-    path_to_vm_penn_files = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
-    filename = "cd6_00.penn"
-    path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/export_files/export_files"
-    out_dir_trees = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees'
-    out_dir_ids = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/'
-    # TODO: Add something to specify train, test, and dev
-    do_section(out_dir_trees, out_dir_ids, "all")
-    split(out_dir_trees, out_dir_ids)
+    # English data
+    # lang = "eng"
+    # path_to_vm_penn_files = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
+    # # filename = "cd6_00.penn"
+    # path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/export_files/export_files"
+    # out_dir_trees = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees'
+    # out_dir_ids = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/'
+
+    # German data
+    lang = "ger"
+    path_to_vm_penn_files = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/penn_files/penn_files"
+    path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/export_files/export_files"
+    out_dir_trees = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/new_trees'
+    out_dir_ids = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/'
+
+    do_section(out_dir_trees, out_dir_ids, "all", lang)
+    split(out_dir_trees, out_dir_ids, lang)
 
 # run this to test the parser:
 # python src/main_sparser.py train --use-glove-pretrained --freeze --train-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/train.trees --train-sent-id-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/train_sent_ids.txt --dev-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/dev.trees --dev-sent-id-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/dev_sent_ids.txt --prefix '' --feature-path /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features --model-path-base /afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/code/self_attn_speech_parser/models/vm_eng_no_speech_model --sentence-max-len 200 --d-model 1536 --d-kv 96 --morpho-emb-dropout 0.3 --num-layers 4 --num-heads 8 --epochs 50 --numpy-seed 1234

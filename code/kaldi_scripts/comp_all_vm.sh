@@ -4,8 +4,9 @@ source kaldi_path.sh # contains KALDI_ROOT
 #KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi # kaldi location
 NUM=$1
 
-maindir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput # output location
-sdir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/testsph # VM location
+maindir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput # output location
+#sdir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/sample_sph_files # VM location
+sdir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/sample_sph_files # VM location
 
 swdir=${KALDI_ROOT}/src/featbin
 utils=${KALDI_ROOT}/egs/swbd/s5c/utils

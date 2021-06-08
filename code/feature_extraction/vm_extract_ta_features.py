@@ -11,10 +11,15 @@ import pickle
 
 # constants
 
-# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
-pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_pitch_pov' # Kaldi features
-# fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
-fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_fbank_energy'
+# English data
+# # pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_pitch_pov' # Kaldi features
+# # fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
+# fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_fbank_energy'
+
+# German data
+pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_pitch_pov' # Kaldi features
+fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 

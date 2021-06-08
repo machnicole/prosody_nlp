@@ -7,6 +7,17 @@ import pickle
 
 
 def get_stats_eng(lang, time):
+    """
+    Get corpus statistics for English Verbmobil data and create two dictionaries:
+    sentence_id2recording: maps from sentence ID to recording link
+    sentence_id2speaker: maps from sentence ID to speaker ID
+    Args:
+        lang: should be "eng"
+        time: if True, only files with time info will be considered
+
+    Returns:
+
+    """
     sentence_id2recording = dict()
     sentence_id2speaker = dict()
 
@@ -283,6 +294,7 @@ def get_stats_eng(lang, time):
 
 def get_stats(lang, time):
     sentence_id2recording = dict()
+    sentence_id2speaker = dict()
 
     wor_counter = 0
     mau_counter = 0
@@ -412,12 +424,16 @@ def get_stats(lang, time):
                             link_to_wav_file = file[:-4]
                             if glob.glob(link_to_wav_file + ".wav"):
                                 sentence_id2recording[id_prefix+"_"+assumed_sentence_id] = link_to_wav_file + ".wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
                             elif glob.glob(link_to_wav_file + "_GER.wav"):
                                 sentence_id2recording[
                                     id_prefix + "_" + assumed_sentence_id] = link_to_wav_file + "_GER.wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -464,6 +480,8 @@ def get_stats(lang, time):
 
                             if glob.glob(link_to_wav_file + ".wav"):
                                 sentence_id2recording[id_prefix+"_"+assumed_sentence_id] = link_to_wav_file + ".wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -471,6 +489,8 @@ def get_stats(lang, time):
                             elif glob.glob(link_to_wav_file + "_GER.wav"):
                                 sentence_id2recording[
                                     id_prefix + "_" + assumed_sentence_id] = link_to_wav_file + "_GER.wav"
+                                sentence_id2speaker[
+                                    id_prefix + "_" + assumed_sentence_id] = speakerID
                                 dialogs.add(dialog_name)
                                 speaker.add(speakerID)
                                 total_tokens_with_time_info += token_number
@@ -490,6 +510,14 @@ def get_stats(lang, time):
                 total_sentences += int(sentences)
                 total_phrases += int(phrases)
                 total_tokens += int(tokens)
+
+    print("Pickling sentence_id2recording dictionary...")
+    with open('sentence_id2recording_ger.pickle', 'wb') as handle:
+        pickle.dump(sentence_id2recording, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    print("Pickling sentence_id2speaker dictionary...")
+    with open('sentence_id2speaker_ger.pickle', 'wb') as handle:
+        pickle.dump(sentence_id2speaker, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     # this information is not really relevant
     print("Total syntactic trees/sentences:", total_syntactic_trees)
@@ -772,23 +800,24 @@ if __name__ == '__main__':
 
     path_to_vm_spr_2 = "/group/corpora/large4/verbmobil/2.3/spr"
 
-    # lang = "ger"
-    lang = "eng"
+    lang = "ger"
+    # lang = "eng"
+
     # German data
-    # path_to_vm_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/penn_files/penn_files"
-    # path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/export_files/export_files"
+    path_to_vm_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/penn_files/penn_files"
+    path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/ger/export_files/export_files"
     # path_to_vm_trees = "verbmobil_treebank/ger/penn_files/penn_files"
     # path_to_vm_exports = "verbmobil_treebank/ger/export_files/export_files"
 
     # English data
     # path_to_vm_trees = "verbmobil_treebank/eng/penn_files/penn_files"
     # path_to_vm_exports = "verbmobil_treebank/eng/export_files/export_files"
-    path_to_vm_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
-    path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/export_files/export_files"
+    # path_to_vm_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
+    # path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/export_files/export_files"
 
     # Japanese data
     # path_to_vm_exports = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/jap/export_files/export_files"
 
-    get_stats_eng("eng", time=False)
-    # get_stats("ger", time=True)
+    # get_stats_eng("eng", time=False)
+    get_stats("ger", time=False)
     # get_stats_jap("jap", time=True)

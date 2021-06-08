@@ -39,10 +39,13 @@ if __name__=="__main__":
 
     for split in splits:
         # sent_f = f'/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence/{split}_sent_ids.txt'
-        sent_f = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/{split}_sent_ids.txt'
+        # sent_f = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/{split}_sent_ids.txt'
+        sent_f = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/{split}_sent_ids.txt'
+
         sent_ids = [l.strip() for l in open(sent_f,'r').readlines()]
         # term2pw_path = f'/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/term2pw.pickle'
-        term2pw_path = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/term2pw.pickle'
+        # term2pw_path = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/term2pw.pickle'
+        term2pw_path = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/term2pw.pickle'
 
         term2pw = pickle.load(open(term2pw_path,'rb'))
         mapped_pws = term2pw.values()
@@ -53,7 +56,9 @@ if __name__=="__main__":
         all_before = {}
         all_after = {}
 
-        word_times_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times'
+        # word_times_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times'
+        word_times_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/vm_word_times'
+
 
         for picklefile in os.listdir(word_times_dir):
             word_times = pickle.load(
@@ -95,7 +100,8 @@ if __name__=="__main__":
             pw2pause[pw]['pause_after'] = all_after[pw]
 
         # outfile = f'/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence2/{split}_pw2pause.pickle'
-        outfile = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/{split}_pw2pause.pickle'
+        # outfile = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/{split}_pw2pause.pickle'
+        outfile = f'/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/{split}_pw2pause.pickle'
 
         with open(outfile,'wb') as f:
             pickle.dump(pw2pause,f)

@@ -546,13 +546,19 @@ def discard_no_phone_sents(sents,sent2pw,pw2feats):
     
 def main():
     nxt_dir = '/group/corporapublic/switchboard/nxt/xml/'
-    # data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence2'
-    data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features'
-    # ta_stats_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/ta_features/stats/tree_aligned'
-    ta_stats_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features/stats'
-    # alignment_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/swbd_word_times'
-    alignment_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times'
 
+    # English data
+    # # data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence2'
+    # data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features'
+    # # ta_stats_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/ta_features/stats/tree_aligned'
+    # ta_stats_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features/stats'
+    # # alignment_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/swbd_word_times'
+    # alignment_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times'
+
+    # German data
+    data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features'
+    ta_stats_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/ta_features/stats'
+    alignment_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/vm_word_times'
 
     # First: make or load the big dictionaries that map from sentence to terminal to phonword
     
@@ -610,8 +616,8 @@ def main():
     # Second: load the sentence ids that we're generating output features for
     # and mine the conversation IDs
     #
-    split = 'train'
-    # split = 'dev'
+    # split = 'train'
+    split = 'dev'
     # split = 'test'
 
     split_file = f'{split}_sent_ids.txt'#_from_times_file.txt'
@@ -619,13 +625,17 @@ def main():
     with open(os.path.join(data_dir,split_file),'r') as f:
         sent_ids = [l.strip() for l in f.readlines()]
 
-    # subset for testing purposes
+    # English subsets for testing purposes
     # sent_ids = ["cd13_00_1", "cd13_00_2", "cd13_00_3"]
     # sent_ids = ["cd13_00_4", "cd13_00_5"]
-    sent_ids = ["cd13_00_{}".format(str(number)) for number in range(1,101)]
+    # sent_ids = ["cd13_00_{}".format(str(number)) for number in range(1,101)]
     # sent_ids = ["cd13_00_{}".format(str(number)) for number in range(100,151)]
 
-    
+    # German subsets for testing purposes
+    # sent_ids = ["cd15_{}".format(str(number)) for number in range(1,101)]
+    sent_ids = ["cd15_{}".format(str(number)) for number in range(100,151)]
+
+
     # Third: load dict of orth form to avg len of word; also heads and tails
     """
     with open(os.path.join(data_dir,'avg_word_stats.pickle'),'rb') as f:
@@ -640,7 +650,9 @@ def main():
     #avg_dur_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data'
     """
     
-    avg_dur_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data'
+    # avg_dur_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data'
+    # avg_dur_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm'
+    avg_dur_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger'
     wordstats_json = 'avg_word_stats.json'
     orth2meandur,orth2freq = load_orth2meandur_json(avg_dur_dir,wordstats_json)
 
@@ -674,7 +686,9 @@ def main():
 
     #kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/'
     # kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/'
-    kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput'
+    # kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput'
+    kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput'
+
     # mfcc_dir = os.path.join(kaldi_feat_dir,'vm_mfcc')
     fbank_dir = os.path.join(kaldi_feat_dir,'vm_fbank_energy')
     pitchpov_dir = os.path.join(kaldi_feat_dir,'vm_pitch_pov')

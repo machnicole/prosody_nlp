@@ -2,9 +2,10 @@ import pickle
 import subprocess
 import os
 
-out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/sample_sph_files"
+out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/sample_sph_files"
+lang = "ger"
 
-with open('sentence_id2recording_eng.pickle', 'rb') as handle:
+with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
     sentence_id2recording = pickle.load(handle)
 
 for sentence_id, path_to_wav_file in list(sentence_id2recording.items())[:150]:
