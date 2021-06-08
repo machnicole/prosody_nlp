@@ -112,8 +112,8 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 
 # Copy model that we want to load
-dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/swbd_no_speech_model_dev=89.54.pt
-src_path2=${repo_home}/code/self_attn_speech_parser/models/swbd_no_speech_model_dev=89.54.pt
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/swbd_no_speech_model_35_dev=90.09.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/swbd_no_speech_model_35_dev=90.09.pt
 rsync --update --compress --progress ${src_path2} ${dest_path2}
 
 # Important notes about rsync:
