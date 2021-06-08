@@ -182,7 +182,7 @@ def run_train(args, hparams):
         train_parse = [(txt,lbl) for txt,lbl in zip(train_txt,train_lbls)]
     else:
         train_treebank, train_sent_ids = trees.load_trees_with_idx(args.train_path,\
-            args.train_sent_id_path) # EKN trees get loaded in as trees here
+            args.train_sent_id_path, strip_top=False) # EKN trees get loaded in as trees here
     # Note strip_top=True for SWBD
     print("Processing pause features for training...")
     pause_path = os.path.join(args.feature_path, args.prefix + 'train_pause.pickle')
@@ -218,7 +218,7 @@ def run_train(args, hparams):
         dev_treebank = [(txt,lbl) for txt,lbl in zip(dev_txt,dev_lbls)]
     else:
         dev_treebank, dev_sent_ids = trees.load_trees_with_idx(args.dev_path, \
-            args.dev_sent_id_path)
+            args.dev_sent_id_path, strip_top=False)
         # Note strip_top=True for SWBD
         
     dev_pause_path = os.path.join(args.feature_path, args.prefix + \
@@ -619,7 +619,7 @@ def run_test(args):
         test_treebank = [(txt,lbl) for txt,lbl in zip(test_txt,test_lbls)]
     else:
         test_treebank, test_sent_ids = trees.load_trees_with_idx(args.test_path, \
-            args.test_sent_id_path)
+            args.test_sent_id_path, strip_top=False)
     
     if not args.new_set:
         test_pause_path = os.path.join(args.feature_path, args.test_prefix + \
@@ -627,11 +627,11 @@ def run_test(args):
         with open(test_pause_path, 'rb') as f:
             test_pause_data = pickle.load(f, encoding='latin1')
         
-        to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
-        to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
-        for x in to_remove[::-1]:
-            test_treebank.pop(x)
-            test_sent_ids.pop(x)
+        # to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
+        # to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
+        # for x in to_remove[::-1]:
+        #     test_treebank.pop(x)
+        #     test_sent_ids.pop(x)
 
     print("Loaded {:,} test examples.".format(len(test_treebank)))
 
