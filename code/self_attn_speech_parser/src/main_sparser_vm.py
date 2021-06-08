@@ -362,7 +362,7 @@ def run_train(args, hparams):
 
     load_path = args.load_path
     if load_path is not None:
-        print("Loading parameters from ".format(load_path))
+        print("Loading parameters from {}".format(load_path))
         info = torch_load(load_path)
         parser = parse_model.SpeechParser.from_spec(info['spec'], \
                 info['state_dict'])
