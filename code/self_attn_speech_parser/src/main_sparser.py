@@ -626,12 +626,14 @@ def run_test(args):
             '_pause.pickle')
         with open(test_pause_path, 'rb') as f:
             test_pause_data = pickle.load(f, encoding='latin1')
+
+        # comment this back in when using speech features
         
-        to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
-        to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
-        for x in to_remove[::-1]:
-            test_treebank.pop(x)
-            test_sent_ids.pop(x)
+        # to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
+        # to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
+        # for x in to_remove[::-1]:
+        #     test_treebank.pop(x)
+        #     test_sent_ids.pop(x)
 
     print("Loaded {:,} test examples.".format(len(test_treebank)))
 
