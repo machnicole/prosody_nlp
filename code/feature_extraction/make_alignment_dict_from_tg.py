@@ -26,22 +26,22 @@ import textgrids
 #     pickle.dump(pw_dict, f, protocol=2)
 
 # English data
-# lang = "eng"
+lang = "eng"
+
+out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times"
+
+path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
+path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
+path_to_textgrids = "/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_textgrids"
+
+# # German data
+# lang = "ger"
 #
-# out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times"
+# out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/vm_word_times"
 #
-# path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
-# path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
-# path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/sample_textgridoutput"
-
-# German data
-lang = "ger"
-
-out_dir = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/vm_word_times"
-
-path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/new_trees/all_clean.trees"
-path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/all_clean_sent_ids.txt"
-path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/ger_sample_textgrids"
+# path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/new_trees/all_clean.trees"
+# path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/all_clean_sent_ids.txt"
+# path_to_textgrids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/ger_sample_textgrids"
 
 with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
     sentence_id2recording = pickle.load(handle)
@@ -49,13 +49,14 @@ with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
 with open('sentence_id2speaker_{}.pickle'.format(lang), 'rb') as handle:
     sentence_id2speaker = pickle.load(handle)
 
-wav_files = list(sentence_id2recording.items())[:150]
+# take [:150] for sample data
+wav_files = list(sentence_id2recording.items())
 trees, sent_ids = trees.load_trees_with_idx(path_to_trees, path_to_sent_ids, strip_top=False)
 
 
 
 for sentence_id, file in wav_files:
-    if file.endswith('.wav'):
+    if file.endswith('.wav') and sentence_id in sent_ids:
         index_of_sent_id = sent_ids.index(sentence_id)
         tree = trees[index_of_sent_id]
         transcription = []
@@ -124,11 +125,24 @@ for sentence_id, file in wav_files:
 
             if transcription_index < len(transcription):
                 if word_label == transcription[transcription_index].lower() or next_word_label_condition:
+                    if sentence_id == "cd13_00_270":
+                        print("transcription_index +1")
+                        print("match", word_label, transcription[transcription_index].lower())
                     transcription_index += 1
                 else:
+                    if sentence_id == "cd13_00_270":
+                        print("no match", transcription_index)
+                        print("alignment index", i)
+                        print(transcription)
+                        eos_index = i + len(
+                            transcription)
+                        print(eos_index, len(transcription), i)
+                        print("i", i)
+                        print([word.text.transcode() for word in alignments[i:eos_index]])
                     transcription_index = 0
                     alignment_index_match = i
-                    if [word.text.transcode() for word in alignments[alignment_index_match:]] == transcription:
+                    eos_index = alignment_index_match + len(transcription)
+                    if [word.text.transcode() for word in alignments[alignment_index_match:eos_index]] == transcription:
                         break
 
         # get alignments for transcription (based on the tree)
@@ -205,7 +219,10 @@ for sentence_id, file in wav_files:
                 print(sentence_id)
                 print(pw_dict)
                 print(alignment_index_match)
-                print(alignments)
+                print([word.text.transcode() for word in
+                 alignments[alignment_index_match:]])
+                print([word.text.transcode() for word in
+                 alignments])
                 # print(alignments[36])
                 raise
 

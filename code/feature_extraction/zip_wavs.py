@@ -4,15 +4,15 @@ import pickle
 import trees
 from collections import defaultdict
 
-# English
-# path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/vm_eng_sample.zip'
+# # English
+# path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/vm_eng.zip'
 # path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/new_trees/all_clean.trees"
 # path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/all_clean_sent_ids.txt"
 # path_to_transcriptions = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/transcriptions"
 # lang = "eng"
 
 # German
-path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/vm_ger_sample.zip'
+path_to_zip = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/vm_ger.zip'
 path_to_trees = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/new_trees/all_clean.trees"
 path_to_sent_ids = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/all_clean_sent_ids.txt"
 path_to_transcriptions = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/transcriptions"
@@ -26,7 +26,10 @@ with open('sentence_id2speaker_{}.pickle'.format(lang), 'rb') as handle:
 
 corpus_zip = zipfile.ZipFile(path_to_zip, 'w')
 
-wav_files = list(sentence_id2recording.items())[:150]
+# This is for creating sample data:
+# wav_files = list(sentence_id2recording.items())[:150]
+
+wav_files = list(sentence_id2recording.items())
 
 trees, sent_ids = trees.load_trees_with_idx(path_to_trees, path_to_sent_ids, strip_top=False)
 
@@ -34,7 +37,7 @@ transcriptions = defaultdict(list)
 recording2speaker = dict()
 
 for sentence_id, file in wav_files:
-    if file.endswith('.wav'):
+    if file.endswith('.wav') and sentence_id in sent_ids:
         index_of_sent_id = sent_ids.index(sentence_id)
         tree = trees[index_of_sent_id]
         transcription = []
