@@ -77,7 +77,7 @@ Note 2): It's crucial that ALL words are aligned, i.e. that all word are in your
 
 1. Prevent bugs from happening by `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/aligner/lib/` 
 2. Validate your data by calling: `mfa validate corpus_directory dictionary_path [optional_acoustic_model_path]` - this will summarize all OOV words in your data in one .txt file.
-3. Use a pre-trained G2P model (from MFA) to obtain an extended pronunciation model: `mfa g2p g2p_model_path input_oov_file.txt output_oov_dict_file.txt`
+3. Use a pre-trained G2P model (from MFA) to obtain an extended pronunciation model: `mfa g2p g2p_model_path input_oov_file.txt output_oov_dict_file.txt` - Take care: all your data (acoustic model, g2p model, lexicon, must share the same phone set)
 4. Merge `output_oov_dict_file.txt` with your existing pronunciation dictionary (located in `dictionary_path`)
 5. Align your data ` mfa align archive english.dict.txt english.zip output` (can take a couple of hours)
 
