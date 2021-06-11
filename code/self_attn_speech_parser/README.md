@@ -69,6 +69,18 @@ Download GloVe vectors:
 
 6. Download glove.6B.300d.txt from https://nlp.stanford.edu/projects/glove/
 
+## Notes on running the aligner
+
+It's crucial that your data has time alignments. To obtain alignments for Verbmobil, use Montreal Forced Aligner (MFA). 
+Note 1): MFA won't be able to align all your data (some utterance are just too hard..) - run `removed_unaligned_ids.py` before continuing making trees, etc.
+Note 2): It's crucial that ALL words are aligned, i.e. that all word are in your pronunciation dictionary. To obtain this, do the following:
+
+1. Prevent bugs from happening by `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/aligner/lib/` 
+2. Validate your data by calling: `mfa validate corpus_directory dictionary_path [optional_acoustic_model_path]` - this will summarize all OOV words in your data in one .txt file.
+3. Use a pre-trained G2P model (from MFA) to obtain an extended pronunciation model: `mfa g2p g2p_model_path input_oov_file.txt output_oov_dict_file.txt` - Take care: all your data (acoustic model, g2p model, lexicon, must share the same phone set)
+4. Merge `output_oov_dict_file.txt` with your existing pronunciation dictionary (located in `dictionary_path`)
+5. Align your data ` mfa align archive english.dict.txt english.zip output` (can take a couple of hours)
+
 #### Text features Verbmobil data:
 
 Generate PTB-style trees with nested parentheses and corresponding sentence id files:
@@ -76,9 +88,10 @@ Generate PTB-style trees with nested parentheses and corresponding sentence id f
 1.  `cd prosody_nlp/code/feature_extraction`
 2.  Set the paths in `sentenceIDs_recordings.py` to point to the correct data and call a language-specific function (eng or ger).
 3.  run `sentenceIDs_recordings.py` to get a pickle file of a dictionary which maps sentenceIDs to the paths of their recordings (also prints out some corpus statistics).
-4.  Set the paths in `vm_make_trees.py` to point to the correct data and specify the language (eng or ger).
-5.  Make sure to create the output directories you specify.
-6.  run `vm_make_trees.py`
+4.  Remove sentence IDs for utterances that don't have alignments (see above).
+5.  Set the paths in `vm_make_trees.py` to point to the correct data and specify the language (eng or ger).
+6.  Make sure to create the output directories you specify.
+7.  run `vm_make_trees.py`
 
 The equivalent to running `make_alignment_dicts.py` as above (necessary for extracting time-aligned features lateron) is a bit more complicated:
 
