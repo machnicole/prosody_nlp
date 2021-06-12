@@ -1391,6 +1391,7 @@ class SpeechParser(nn.Module):
                     except IndexError:
                         print("Mask",  mask.shape)
                         print("include", len(include))
+                        print("print(mask[include])", mask[include])
                         print("raw count", raw_count)
                         print("self.fixed_word_length", self.fixed_word_length)
                 this_word_frames = this_word_frames[:, mask]
