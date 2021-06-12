@@ -1386,7 +1386,13 @@ class SpeechParser(nn.Module):
                         not_include = include[num_start:num_start+sub_extra]
                         for ni in not_include:
                             include.remove(ni)
-                    mask[include] = True
+                    try:
+                        mask[include] = True
+                    except IndexError:
+                        print("Mask",  mask.shape)
+                        print("include", len(include))
+                        print("raw count", raw_count)
+                        print("self.fixed_word_length", self.fixed_word_length)
                 this_word_frames = this_word_frames[:, mask]
             else:  # not enough frames, choose frames extending from center
                 this_word_frames = sent_frames[:, max(0, start_idx):end_idx]
