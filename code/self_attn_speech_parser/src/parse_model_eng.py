@@ -1376,8 +1376,8 @@ class SpeechParser(nn.Module):
                     mask[not_include] = False
                 else:  # too big, just sample
                     mask = np.zeros(raw_count, dtype=bool)
-                    include1 = range(frame_idx[0], frame_idx[1])[::extra_ratio]
-                    include = [x-frame_idx[0] for x in include1]
+                    include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
+                    include = [x-frame_idx[0] for x in include]
                     if len(include) > self.fixed_word_length:
                         # still too many frames
                         num_current = len(include)
@@ -1391,7 +1391,8 @@ class SpeechParser(nn.Module):
                     except IndexError:
                         print("Mask",  mask.shape)
                         print("include", len(include))
-                        print("include1", len(include1))
+                        print("include", type(include))
+                        print("include", include)
                         print("raw count", raw_count)
                         print("self.fixed_word_length", self.fixed_word_length)
                         print("print(mask[include])", mask[include])
