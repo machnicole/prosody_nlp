@@ -125,14 +125,19 @@ def load_features(sent_ids, feat_dict, sp_off=False):
                                 np.zeros(feat_dict[k][sent].shape)])
                     else:
                         try:
-                            features['frames'] = np.vstack([features['frames'], \
-                                    feat_dict[k][sent]])
+                            # features['frames'] = np.vstack([features['frames'], \
+                            #         feat_dict[k][sent]])
+                            frames = feat_dict[k][sent].shape[1]
+                            features['frames'] = np.vstack([features['frames'][:,:frames], \
+                                                            feat_dict[k][
+                                                                sent]])
                         except ValueError:
                             print(k, sent)
                             print("Shape 1", feat_dict[k][sent].shape)
                             print("Trying to stack: ", feat_dict[k][sent])
                             print("Shape 2", features['frames'].shape)
                             print("On top of:", features['frames'])
+                            raise
             elif k in ['duration', 'f0coefs']:
                 if 'scalars' not in features.keys():
                     features['scalars'] = feat_dict[k][sent]
