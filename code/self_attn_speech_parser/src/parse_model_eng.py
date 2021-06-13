@@ -1375,6 +1375,7 @@ class SpeechParser(nn.Module):
                     not_include = [x-frame_idx[0] for x in not_include]
                     mask[not_include] = False
                 else:  # too big, just sample
+                    print("too big, just sample")
                     mask = np.zeros(raw_count, dtype=bool)
                     include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
                     include = [x-frame_idx[0] for x in include]
@@ -1389,6 +1390,7 @@ class SpeechParser(nn.Module):
                     try:
                         mask[include] = True
                     except IndexError:
+                        print(frame_idx[0], frame_idx[1])
                         print("Mask",  mask.shape)
                         print("include", len(include))
                         print("include", type(include))
