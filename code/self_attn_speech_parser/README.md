@@ -122,7 +122,7 @@ Download GloVe vectors:
 
 #### Pitch and intensity Verbmobil data:
 1. `cd prosody_nlp/code/feature_extraction`
-2. run `create_sph_files.py` to create sph files out of the wav files (takes a lot of memory). TODO: maybe kaldi scripts are executable on wav files, too?
+2. run `create_wav_dir.py` to create a directory of all wav files (takes a lot of memory).
 3. `cd prosody_nlp/code/kaldi_scripts`
 4. Set the paths in `comp_all_vm.sh` to point to the VM data (sph files), the kaldi installation, and the directory where you want to output the data.
 5. Run `./comp_all_vm.sh`
