@@ -1379,6 +1379,12 @@ class SpeechParser(nn.Module):
                     mask = np.zeros(raw_count, dtype=bool)
                     include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
                     include = [x-frame_idx[0] for x in include]
+                    print(frame_idx[0], frame_idx[1])
+                    print("Mask", mask.shape)
+                    print("include", len(include))
+                    print("include", type(include))
+                    print("include", include)
+                    print("raw count", raw_count)
                     if len(include) > self.fixed_word_length:
                         # still too many frames
                         num_current = len(include)
