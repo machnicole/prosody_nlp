@@ -1407,8 +1407,12 @@ class SpeechParser(nn.Module):
                         print("self.fixed_word_length", self.fixed_word_length)
                         print("print(mask[include])", mask[include])
                 this_word_frames = this_word_frames[:, mask]
+
             else:  # not enough frames, choose frames extending from center
+                print("not enough frames. raw count:", raw_count)
                 this_word_frames = sent_frames[:, max(0, start_idx):end_idx]
+                print("this_word_Frames", this_word_frames.shape)
+                print("start", start_idx)
                 if this_word_frames.shape[1] == 0:
                     # make 0 if no frame info
                     this_word_frames = np.zeros((feat_dim,
@@ -1468,7 +1472,8 @@ class SpeechParser(nn.Module):
         
         if frame_features:
             # need frame feats of shape: [batch, 1, fixed_word_length, feat_dim]
-            # second dimension is num input channel, defaults to 1        
+            # second dimension is num input channel, defaults to 1
+            print("frame_features.shape", np.array(frame_features).shape)
             frame_features = torch.cat(frame_features, 0)
             frame_features = frame_features.unsqueeze(1).to(device)
 
