@@ -1407,6 +1407,11 @@ class SpeechParser(nn.Module):
                         print("self.fixed_word_length", self.fixed_word_length)
                         print("print(mask[include])", mask[include])
                 this_word_frames = this_word_frames[:, mask]
+                # still not enough frames
+                if this_word_frames.shape[1] < self.fixed_word_length:
+                    num_more = self.fixed_word_length-this_word_frames.shape[1]
+                    this_word_frames = np.hstack(
+                        [this_word_frames, np.zeros((feat_dim, num_more))])
 
             else:  # not enough frames, choose frames extending from center
                 print("not enough frames. raw count:", raw_count)
