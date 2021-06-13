@@ -1394,6 +1394,7 @@ class SpeechParser(nn.Module):
                         for ni in not_include:
                             include.remove(ni)
                     try:
+                        print("len include after remove", len(include))
                         mask[include] = True
                     except IndexError:
                         print(frame_idx[0], frame_idx[1])
@@ -1452,6 +1453,7 @@ class SpeechParser(nn.Module):
                         ("Must provide partition as a feature")
                 sent_partition = sent_features['partition']
                 sent_frames = sent_features['frames']
+                print(sent)
                 sent_frame_features = self.process_sent_frames(sent_partition, \
                         sent_frames)
                 # sent_frame_features: list of [feat_dim, fixed_word_length]
