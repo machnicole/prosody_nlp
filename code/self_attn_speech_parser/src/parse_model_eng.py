@@ -1427,6 +1427,8 @@ class SpeechParser(nn.Module):
                     num_more = self.fixed_word_length-this_word_frames.shape[1]
                     this_word_frames = np.hstack(
                         [this_word_frames, np.zeros((feat_dim, num_more))])
+
+            print("this_word_Frames", this_word_frames.shape)
             # flip frames within word
             speech_frames.append(this_word_frames)
         
@@ -1473,7 +1475,7 @@ class SpeechParser(nn.Module):
         if frame_features:
             # need frame feats of shape: [batch, 1, fixed_word_length, feat_dim]
             # second dimension is num input channel, defaults to 1
-            # print("frame_features", np.array(frame_features).shape)
+            print("frame_features", [x.shape for x in frame_features])
             frame_features = torch.cat(frame_features, 0)
             frame_features = frame_features.unsqueeze(1).to(device)
 
