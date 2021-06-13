@@ -1378,7 +1378,8 @@ class SpeechParser(nn.Module):
                     print("too big, just sample")
                     mask = np.zeros(raw_count, dtype=bool)
                     include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
-                    include = [x-frame_idx[0] for x in include]
+                    # include = [x-frame_idx[0] for x in include]
+                    include = [x - frame_idx[0] if x - frame_idx[0] != raw_count else raw_count-1 for x in include]
                     print(frame_idx[0], frame_idx[1])
                     print("Mask", mask.shape)
                     print("include", len(include))
