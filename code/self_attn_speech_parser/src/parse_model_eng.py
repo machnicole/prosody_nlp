@@ -1473,7 +1473,7 @@ class SpeechParser(nn.Module):
         if frame_features:
             # need frame feats of shape: [batch, 1, fixed_word_length, feat_dim]
             # second dimension is num input channel, defaults to 1
-            print("frame_features.shape", np.array(frame_features).shape)
+            # print("frame_features", np.array(frame_features).shape)
             frame_features = torch.cat(frame_features, 0)
             frame_features = frame_features.unsqueeze(1).to(device)
 
