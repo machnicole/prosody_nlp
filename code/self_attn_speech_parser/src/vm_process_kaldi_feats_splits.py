@@ -12,11 +12,11 @@ import string
 
 
 # nsplit = 4 # number of splits when kaldi was called
-nsplit = 8 # number of splits when kaldi was called
+nsplit = 1 # number of splits when kaldi was called
 # KALDI_SUFFIX = 'swb1'
 # KALDI_SUFFIX = 'sample_sph_files'
-KALDI_SUFFIX = "vm_ger_wavs"
-# KALDI_SUFFIX = "vm_eng_ch1"
+KALDI_SUFFIX = "vm_eng_sphfiles"
+# KALDI_SUFFIX = "vm_ger_sphfiles"
 
 def process_feats(args):
     in_dir = args.in_dir

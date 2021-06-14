@@ -11,7 +11,7 @@ def do_section(out_dir_trees, out_dir_ids, name, lang):
     ids_file = os.path.join(out_dir_ids, '%s_sent_ids.txt' % name)
     sentence_ids = open(ids_file, 'w')
 
-    with open('sentence_id2recording_{}.pickle'.format(lang), 'rb') as handle:
+    with open('sentence_id2recording_{}_new.pickle'.format(lang), 'rb') as handle:
         sentence_id2recording = pickle.load(handle)
 
     for tree_filename in os.listdir(path_to_vm_penn_files):
@@ -179,7 +179,7 @@ def split(out_dir_trees, out_dir_ids, lang):
 
 
 if __name__ == '__main__':
-    # English data
+    # # English data
     # lang = "eng"
     # path_to_vm_penn_files = "/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/verbmobil/verbmobil_treebank/eng/penn_files/penn_files"
     # # filename = "cd6_00.penn"

@@ -3,8 +3,13 @@ source kaldi_path.sh # contains KALDI_ROOT
 
 #KALDI_ROOT=/afs/inf.ed.ac.uk/group/project/prosody/kaldi # kaldi location
 NUM=$1
-maindir=/afs/inf.ed.ac.uk/group/msc-projects/s2096077/swbd_kaldi_output # output location
-sdir=/group/corporapublic/switchboard/switchboard1/swb1 # SWBD location
+
+#maindir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput # output location
+##sdir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features/sample_sph_files # VM location
+#sdir=/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features/sample_sph_files # VM location
+
+maindir=/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output # output location
+sdir=/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_sphfiles # VM location
 
 swdir=${KALDI_ROOT}/src/featbin
 utils=${KALDI_ROOT}/egs/swbd/s5c/utils
@@ -20,13 +25,12 @@ sph2pipe=$KALDI_ROOT/tools/sph2pipe_v2.5/sph2pipe
   && echo "Could not execute the sph2pipe program at $sph2pipe" && exit 1;
 
 awk -v sph2pipe=$sph2pipe '{
-  printf("%s-A %s -f wav -p -c 1 %s |\n", $1, sph2pipe, $2); 
-  printf("%s-B %s -f wav -p -c 2 %s |\n", $1, sph2pipe, $2);
+  printf("%s %s -f wav -p -c 1 %s |\n", $1, sph2pipe, $2);
 }' < sph.scp | sort > wav.scp || exit 1;
 #side A - channel 1, side B - channel 2
 
 awk '{print $1}' wav.scp \
-  | perl -ane '$_ =~ m:^(\S+)-([AB])$: || die "bad label $_";
+  | perl -ane '$_ =~ m:^(\S+)$: || die "bad label $_";
                print "$1-$2 $1 $2\n"; ' \
 	 > reco2file_and_channel || exit 1;
 
@@ -35,9 +39,9 @@ pitchdir=$maindir/pitch_pov
 fbankdir=$maindir/fbank_energy
 nj=4
 cmd=$utils/run.pl
-mfcc_config=conf/mfcc.conf
-pitch_config=conf/pitch.conf
-fbank_config=conf/fbank.conf
+mfcc_config=conf_vm/mfcc.conf
+pitch_config=conf_vm/pitch.conf
+fbank_config=conf_vm/fbank.conf
 compress=true
 
 data=$sdir

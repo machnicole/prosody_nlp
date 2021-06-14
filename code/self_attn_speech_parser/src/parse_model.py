@@ -1377,7 +1377,9 @@ class SpeechParser(nn.Module):
                 else:  # too big, just sample
                     mask = np.zeros(raw_count, dtype=bool)
                     include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
-                    include = [x-frame_idx[0] for x in include]
+                    # include = [x-frame_idx[0] for x in include]
+                    include = [x - frame_idx[0] if x - frame_idx[0] < raw_count else raw_count-1 for x in include]
+
                     if len(include) > self.fixed_word_length:
                         # still too many frames
                         num_current = len(include)
@@ -1388,6 +1390,13 @@ class SpeechParser(nn.Module):
                             include.remove(ni)
                     mask[include] = True
                 this_word_frames = this_word_frames[:, mask]
+                # still not enough frames
+                if this_word_frames.shape[1] < self.fixed_word_length:
+                    num_more = self.fixed_word_length - this_word_frames.shape[
+                        1]
+                    this_word_frames = np.hstack(
+                        [this_word_frames, np.zeros((feat_dim, num_more))])
+
             else:  # not enough frames, choose frames extending from center
                 this_word_frames = sent_frames[:, max(0, start_idx):end_idx]
                 if this_word_frames.shape[1] == 0:

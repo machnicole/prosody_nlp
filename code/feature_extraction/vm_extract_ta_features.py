@@ -17,9 +17,19 @@ import pickle
 # # fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 # fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_fbank_energy'
 
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_pitch_pov' # Kaldi features
+# fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_fbank_energy'
+
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_exp_output/vm_pitch_pov' # Kaldi features
+# fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_exp_output/vm_fbank_energy'
+
 # German data
-pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_pitch_pov' # Kaldi features
-fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_fbank_energy'
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_pitch_pov' # Kaldi features
+# fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_fbank_energy'
+
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_pitch_pov' # Kaldi features
+fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_fbank_energy'
+
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 
@@ -152,7 +162,8 @@ def preprocess_cnn_feats(sentence_id, file_info):
     stimes = []
     etimes = []
 
-    sorted_keys = sort_keys(file_info.keys())
+    # sorted_keys = sort_keys(file_info.keys())
+    sorted_keys = sorted(file_info.keys())
     for pw in sorted_keys:
         v = file_info[pw]
         stimes.append(v['start_time'])
@@ -338,7 +349,8 @@ def extract_features(sentence_id, data_dir, out_dir, dictionaries):
     in_file = os.path.join(data_dir, \
             'word_times_{}.pickle'.format(sentence_id))
     info = pickle.load(open(in_file))
-    sorted_keys = sort_keys(info.keys())
+    # sorted_keys = sort_keys(info.keys())
+    sorted_keys = sorted(info.keys())
 
     feat_dict = collections.defaultdict(dict)
     # should also work for VM
@@ -444,7 +456,7 @@ if __name__ == '__main__':
     pa.add_argument('--output_dir', help='output directory', \
         default='/s0/ttmt001/speech_parsing/ta_features')
     pa.add_argument('--sentence_id', help='sentence id', \
-        type=int, default=2005)
+        type=str, default=2005)
 
     args = pa.parse_args()
 
@@ -460,7 +472,7 @@ if __name__ == '__main__':
     data_dir = os.path.join(input_dir)
     dictionaries = load_stats(stat_dir)
 
-    if args.sentence_id != 0:
+    if args.sentence_id != '0':
         sentence_id = args.sentence_id
         # extract_features(file_id, speaker, data_dir, output_dir, dictionaries)
         extract_features(sentence_id, data_dir, output_dir, dictionaries)
