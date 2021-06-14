@@ -359,13 +359,21 @@ def make_sent2pitchpov(sents,sent2pitchpov,sent2times,pitchpov_dir):
         pitchpov_file = f'{sent}.pickle'
         with open(os.path.join(pitchpov_dir,pitchpov_file),'rb') as f:
             pitchpov_dict = pickle.load(f)
+
         pitchpov = np.transpose(np.array(pitchpov_dict[list(pitchpov_dict.keys())[0]]))
+        print("pitchpov", pitchpov.shape)
         audio_len = pitchpov.shape[-1]-1
+        # print("audio len pitch", audio_len)
         # for sent in spk_sents:
         stime = sent2times[sent][0][0]
         etime = sent2times[sent][-1][-1]
         sframe,eframe = times2frames(stime,etime,audio_len)
+        # print("sframe,eframe pitch", sframe,eframe)
         sent_pitchpov = pitchpov[:,sframe:eframe]
+
+        # sent_pitchpov = pitchpov[:, sframe:]
+
+        print("sent_pitchpov", sent_pitchpov.shape)
         sent2pitchpov[sent] = sent_pitchpov
     return sent2pitchpov
 
@@ -373,13 +381,18 @@ def norm_energy_by_side(side_fbanks,spk_sents,sent2times):
     feat_dim = 41
     all_turns = np.empty((feat_dim,0))
     audio_len = side_fbanks.shape[-1]
+    # print("audio len", audio_len)
     for sent in spk_sents:
         stime = sent2times[sent][0][0]
         etime = sent2times[sent][-1][-1]
         sframe,eframe =  times2frames(stime,etime,audio_len)
+        # print("sframe,eframe",sframe,eframe)
         curr_frames = side_fbanks[:,sframe:eframe]
+        # curr_frames = side_fbanks[:, sframe:]
+        # print("side_fbanks[:,sframe:eframe]", side_fbanks[:,sframe:eframe].shape)
         all_turns = np.hstack([all_turns, curr_frames])
     hi = np.max(all_turns, 1)
+    # hi = np.max(curr_frames, 1)
     e0 = side_fbanks[0, :]/hi[0]
     exp_fbank = np.exp(side_fbanks)
     e_total = exp_fbank[0, :]
@@ -406,14 +419,18 @@ def make_sent2fbankenergy(sents,sent2fbankenergy,sent2times,fbank_dir): #,sent2t
         with open(os.path.join(fbank_dir,fbank_file),'rb') as f:
             fbank_dict = pickle.load(f)
         side_fbanks = np.transpose(np.array(fbank_dict[list(fbank_dict.keys())[0]]))
+        print("side fbanks", side_fbanks.shape)
         normed_fbanks = norm_energy_by_side(side_fbanks,sents,sent2times)
+        # print("normed fbanks", normed_fbanks.shape)
         with open(os.path.join(fbank_dir,'normed_fbanks',f'{sent}.pickle'),'wb') as f:
             pickle.dump(normed_fbanks,f)
-        audio_len = side_fbanks.shape[-1] - 1
+        audio_len = side_fbanks.shape[-1]-1
+        # print("audio len", audio_len)
         # for sent in spk_sents:
         stime = sent2times[sent][0][0]
         etime = sent2times[sent][-1][-1]
         sframe,eframe = times2frames(stime,etime,audio_len)
+        # print("sframe", sframe, eframe)
 
         """ # (undebugged) code for doing normalization by turn
         sent_fbanks = conv_fbanks[:,sframe:eframe]
@@ -428,8 +445,9 @@ def make_sent2fbankenergy(sents,sent2fbankenergy,sent2times,fbank_dir): #,sent2t
             turn_fbanks = sent_fbanks
         norm_energy = norm_energy_by_turn(sent_fbanks,turn_fbanks)
         """
-
+        print("normed_fbanks[:,sframe:eframe]", normed_fbanks[:,sframe:eframe].shape)
         sent2fbankenergy[sent] = normed_fbanks[:,sframe:eframe]
+        # sent2fbankenergy[sent] = normed_fbanks[:, sframe:]
     return sent2fbankenergy
 
 def pause2cat(p):
@@ -548,11 +566,11 @@ def main():
     nxt_dir = '/group/corporapublic/switchboard/nxt/xml/'
 
     # English data
-    # # data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence2'
+    # # # data_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/input_features/sentence2'
     # data_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features'
-    # # ta_stats_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/ta_features/stats/tree_aligned'
+    # # # ta_stats_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/ta_features/stats/tree_aligned'
     # ta_stats_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features/stats'
-    # # alignment_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/swbd_word_times'
+    # # # alignment_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/swbd_word_times'
     # alignment_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times'
 
     # German data
@@ -562,26 +580,28 @@ def main():
 
     # First: make or load the big dictionaries that map from sentence to terminal to phonword
     
-    print('making term2pw...')
+
     term2pw_path = os.path.join(data_dir,'term2pw.pickle')
     term2feats_path = os.path.join(data_dir,'term2feats.pickle')
     if not (os.path.exists(term2pw_path) and os.path.exists(term2feats_path)):
+        print('making term2pw...')
         term2pw,term2feats = make_term2pw_feats(alignment_dir)
         with open(term2pw_path,'wb') as f:
             pickle.dump(term2pw,f)
         with open(term2feats_path,'wb') as f:
             pickle.dump(term2feats,f)
     else:
+        print("Loading term2pw...")
         with open(term2pw_path,'rb') as f:
             term2pw = pickle.load(f)
         with open(term2feats_path,'rb') as f:
             term2feats = pickle.load(f)
 
 
-    print('making sent2pw and sent2term...')
     sent2pw_path = os.path.join(data_dir,'sent2pw.pickle')
     sent2term_path = os.path.join(data_dir,'sent2term.pickle')
     if not (os.path.exists(sent2pw_path) and os.path.exists(sent2term_path)):
+        print('making sent2pw and sent2term...')
         sent2pw,sent2term = make_sent2pw_term(term2pw,term2feats)
         with open(sent2pw_path,'wb') as f:
             pickle.dump(sent2pw,f)
@@ -589,6 +609,7 @@ def main():
             pickle.dump(sent2term,f)
 
     else:
+        print("Loading sent2pw...")
         with open(sent2pw_path,'rb') as f:
             sent2pw = pickle.load(f)
         with open(sent2term_path,'rb') as f:
@@ -616,8 +637,8 @@ def main():
     # Second: load the sentence ids that we're generating output features for
     # and mine the conversation IDs
     #
-    # split = 'train'
-    split = 'dev'
+    split = 'train'
+    # split = 'dev'
     # split = 'test'
 
     split_file = f'{split}_sent_ids.txt'#_from_times_file.txt'
@@ -626,6 +647,8 @@ def main():
         sent_ids = [l.strip() for l in f.readlines()]
 
     # English subsets for testing purposes
+    # sent_ids = ['cd42_00_787', 'cd42_00_2306']
+    # sent_ids = ["cd43_00_166", 'cd42_00_787', 'cd42_00_2306']
     # sent_ids = ["cd13_00_1", "cd13_00_2", "cd13_00_3"]
     # sent_ids = ["cd13_00_4", "cd13_00_5"]
     # sent_ids = ["cd13_00_{}".format(str(number)) for number in range(1,101)]
@@ -633,8 +656,7 @@ def main():
 
     # German subsets for testing purposes
     # sent_ids = ["cd15_{}".format(str(number)) for number in range(1,101)]
-    sent_ids = ["cd15_{}".format(str(number)) for number in range(100,151)]
-
+    # sent_ids = ["cd15_{}".format(str(number)) for number in range(100,151)]
 
     # Third: load dict of orth form to avg len of word; also heads and tails
     """
@@ -687,7 +709,10 @@ def main():
     #kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/parsing/prosody_nlp/data/kaldi_feats/'
     # kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/'
     # kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput'
-    kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput'
+    # kaldi_feat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput'
+    # kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output'
+    # kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_exp_output'
+    kaldi_feat_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output'
 
     # mfcc_dir = os.path.join(kaldi_feat_dir,'vm_mfcc')
     fbank_dir = os.path.join(kaldi_feat_dir,'vm_fbank_energy')

@@ -7,7 +7,7 @@ import pickle
 # out_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/input_features'
 # phone2meandur_file = os.path.join(out_dir,'phone2meandur.pickle')
 
-# German
+# # German
 avg_dur_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger'
 stat_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/ta_features/stats'
 out_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/input_features'
