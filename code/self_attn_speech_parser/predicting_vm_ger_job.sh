@@ -37,6 +37,8 @@
 # Number of CPUs to use. Check `cluster-status` for node configurations
 #SBATCH --cpus-per-task=2
 
+#SBATCH --partition Teach-Short
+
 # Maximum time for the job to run, format: days-hours:minutes:seconds
 #SBATCH --time=01:00:00
 
@@ -106,7 +108,7 @@ dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/ger/input_features
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
-
+mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 
 # Important notes about rsync:
 # * the --compress option is going to compress the data before transfer to send
