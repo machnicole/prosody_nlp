@@ -200,11 +200,11 @@ def run_train(args, hparams):
 
     # comment this back in, when using speech features:
     # Removing sentences without speech info
-    # to_remove = set(train_sent_ids).difference(to_keep)
-    # to_remove = sorted([train_sent_ids.index(i) for i in to_remove])
-    # for x in to_remove[::-1]:
-    #     train_parse.pop(x)
-    #     train_sent_ids.pop(x)
+    to_remove = set(train_sent_ids).difference(to_keep)
+    to_remove = sorted([train_sent_ids.index(i) for i in to_remove])
+    for x in to_remove[::-1]:
+        train_parse.pop(x)
+        train_sent_ids.pop(x)
 
     train_set = list(zip(train_sent_ids, train_parse)) # EKN train_set is a list of tuples: (sent_id, tree)
     print("Loaded {:,} training examples.".format(len(train_set)))
@@ -224,13 +224,13 @@ def run_train(args, hparams):
     dev_pause_path = os.path.join(args.feature_path, args.prefix + \
             'dev_pause.pickle')
     # comment this back in, when using speech features:
-    # with open(dev_pause_path, 'rb') as f:
-    #     dev_pause_data = pickle.load(f, encoding='latin1')
-    # to_remove = set(dev_sent_ids).difference(set(dev_pause_data.keys()))
-    # to_remove = sorted([dev_sent_ids.index(i) for i in to_remove])
-    # for x in to_remove[::-1]:
-    #     dev_treebank.pop(x)
-    #     dev_sent_ids.pop(x)
+    with open(dev_pause_path, 'rb') as f:
+        dev_pause_data = pickle.load(f, encoding='latin1')
+    to_remove = set(dev_sent_ids).difference(set(dev_pause_data.keys()))
+    to_remove = sorted([dev_sent_ids.index(i) for i in to_remove])
+    for x in to_remove[::-1]:
+        dev_treebank.pop(x)
+        dev_sent_ids.pop(x)
 
     #if hparams.max_len_dev > 0:
     #    dev_treebank = [tree for tree in dev_treebank if \
@@ -629,11 +629,11 @@ def run_test(args):
 
         # comment this back in when using speech features
         
-        # to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
-        # to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
-        # for x in to_remove[::-1]:
-        #     test_treebank.pop(x)
-        #     test_sent_ids.pop(x)
+        to_remove = set(test_sent_ids).difference(set(test_pause_data.keys()))
+        to_remove = sorted([test_sent_ids.index(i) for i in to_remove])
+        for x in to_remove[::-1]:
+            test_treebank.pop(x)
+            test_sent_ids.pop(x)
 
     print("Loaded {:,} test examples.".format(len(test_treebank)))
 
