@@ -118,11 +118,11 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 # * for more about the (endless) rsync options, see the docs:
 #       https://download.samba.org/pub/rsync/rsync.html
 
-rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
+rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 #This can take very long time
-dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/vm_eng_no_speech_model_new_dev=94.75.pt
-src_path2=${repo_home}/code/self_attn_speech_parser/models/vm_eng_no_speech_model_new_dev=94.75.pt
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/vm_eng_no_speech_model_dev=94.45.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/vm_eng_no_speech_model_dev=94.45.pt
 rsync --update --compress --progress ${src_path2} ${dest_path2}
 
 # ==============================
