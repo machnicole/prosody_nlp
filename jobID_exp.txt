@@ -3,11 +3,32 @@
 1296475 parse_swbd (limited to 8 hours)
 1296901 parse_swbd_35 epochs (limited to 8 hours)
 1297022 parse_swbd_35+15 epochs
+1297162 predicting_swbd
 1296500 parse_vm_eng (limited to 8 hours)
 1296875 parse_vm_eng (new, correct trees)
 1296897 predicting_parse_vm_eng (new, correct trees)
 1296859 parse_vm_eng_sample_speech
 1296861 sample_data (rewrite) with speech
 1296988 parse_vm_ger
+1297159 predicting_vm_ger
 1297007 parse_vm_ger_sample_speech
+1297559 parse_vm_eng (no speech, all data has alignments) F=94.45(dev)
+1298182 parse_vm_eng (with speech) F=94.71(dev)
+1298500 predict_vm_eng (no speech, all data has alignments) F=91.78(test)
+1298506 predict_vm_eng (with speech) F=92.30(test)
+1298507 parse_vm_ger (no speech, all data has alignments) F=94.15(dev)
+1298508 parse_vm_ger (with speech) F=94.29(dev)
+1298634 predict_vm_ger (no speech, all data has alignments) F=94.14(test)
+1298635 predict_vm_ger (with speech) F=94.39(test)
+1298633 parse_swbd (with speech)
+1298641 turn_parse_vm_eng (no speech) F=91.75(dev)
+1298642 turn_parse_vm_eng (with speech) F=94.28(dev)
+1298666 turn_predict_vm_eng (no speech) F=90.07(test)
+1298669 turn_predict_vm_eng (with speech) F=92.15(test)
+1298643 turn_parse_vm_ger (no speech) F=92.85(dev)
+1298644 turn_parse_vm_ger (with speech) F=94.08(dev)
+1298727 turn_predict_vm_ger (no speech) F=93.16(test)
+1298730 turn_predict_vm_ger (with speech) F=94.55(test)
+1298813 parse_swbd_reduced (no speech)
+1298814 parse_swbd_reduced (with speech)
 
