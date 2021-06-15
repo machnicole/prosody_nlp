@@ -192,6 +192,7 @@ To run `python prep_input_dicts.py` in a proper way (without error messages), do
 1. To generate sentence-level features, run `python prep_input_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
 2. Generate a directory for the turn-level features. In my case: `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed`
 3. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+**Note:** This can take a lot of RAM! Better create turn trees, ids + dur,pause and part first (i.e. comment out 6B), then pitch in a second call (comment out 6A and fbank in 6B).
 
 Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
 
@@ -211,16 +212,16 @@ To run `python vm_prep_input_dicts.py` in a proper way (without error messages),
 4. `cd prosody_nlp/code/self_attn_speech_parser/src/`
 
 1. To generate sentence-level features, run `python vm_prep_input_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
-[ # TODO: Turn-based features
-3. Generate a directory for the turn-level features. In my case: `/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/input_features/turn_pause_dur_fixed`
-4. To generate turn-level features, run `python prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
+ Turn-based features
+3. Generate a directory for the turn-level features.
+4. To generate turn-level features, run `python vm_prep_turn_dicts.py` for each split (train,dev,test). Be sure to change file paths to data.
 
-Next, filter out turns over 270 tokens (see paper). This should be two turns in the train set, none in other sets.
+Next, filter out turns over 270 tokens (see paper). This should be no turns in VMENG and VMGER, so just skip this step.
 
 3. `cd prosody_nlp/code/self_attn_speech_parser/src/`
 4. Change data and output paths in `filter_long_turns.py` and make sure it is set to the train split.
 5. `python filter_long_turns.py`
-6. Make sure that the filtered train sent_id and trees files are the files that you use in the subsequent steps.]
+6. Make sure that the filtered train sent_id and trees files are the files that you use in the subsequent steps.
 
 
 ## Training

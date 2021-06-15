@@ -37,11 +37,10 @@
 # Number of CPUs to use. Check `cluster-status` for node configurations
 #SBATCH --cpus-per-task=2
 
-# Partition
 #SBATCH --partition Teach-Short
 
 # Maximum time for the job to run, format: days-hours:minutes:seconds
-#SBATCH --time=04:00:00
+#SBATCH --time=01:00:00
 
 
 # =====================
@@ -102,14 +101,14 @@ echo "Moving input data to the compute node's scratch space: $SCRATCH_DISK"
 
 # input data directory path on the DFS - change line below if loc different
 repo_home=/home/${USER}/prosody_nlp
-src_path=${repo_home}/data/vm/input_features
+src_path=${repo_home}/data/vm/ger/vm_ger_turns
 
 # input data directory path on the scratch disk of the node
-dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/input_features
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/vm/ger/vm_ger_turns
 mkdir -p ${dest_path}  # make it if required
 
 mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
-mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
+
 
 # Important notes about rsync:
 # * the --compress option is going to compress the data before transfer to send
@@ -122,7 +121,11 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 #       https://download.samba.org/pub/rsync/rsync.html
 
 rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
-ls ${dest_path}
+
+#This can take very long time
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_no_speech_model_dev=92.85.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_no_speech_model_dev=92.85.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
 
 # ==============================
 # Finally, run the experiment!
@@ -149,11 +152,6 @@ echo "Moving output data back to DFS"
 
 src_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 dest_path=${repo_home}/code/self_attn_speech_parser/results
-rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
-
-#This can take very long time
-src_path=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
-dest_path=${repo_home}/code/self_attn_speech_parser/models
 rsync --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 # =========================

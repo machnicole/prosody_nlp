@@ -37,6 +37,8 @@
 # Number of CPUs to use. Check `cluster-status` for node configurations
 #SBATCH --cpus-per-task=2
 
+#SBATCH --partition Teach-Short
+
 # Maximum time for the job to run, format: days-hours:minutes:seconds
 #SBATCH --time=01:00:00
 
