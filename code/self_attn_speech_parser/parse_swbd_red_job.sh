@@ -124,6 +124,15 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models
 rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
 ls ${dest_path}
 
+repo_home=/home/${USER}/prosody_nlp
+src_path=${repo_home}/data/input_features
+
+# input data directory path on the scratch disk of the node
+dest_path=${SCRATCH_HOME}/prosody_nlp/data/input_features
+mkdir -p ${dest_path}  # make it if required
+rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
+
+
 # ==============================
 # Finally, run the experiment!
 # ==============================
