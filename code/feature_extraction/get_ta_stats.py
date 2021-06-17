@@ -192,13 +192,14 @@ if __name__ == '__main__':
     pa.add_argument('--output_dir', help='output directory', \
                     default='/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/ta_features')
         # default='/s0/ttmt001/speech_parsing/ta_features')
-
+    pa.add_argument('--lang', help='language', \
+                    default='')
     args = pa.parse_args()
 
     input_dir = args.input_dir
     # data_type = args.data_type
     output_dir = args.output_dir
-
+    lang = args.lang
     # data_dir = os.path.join(input_dir, data_type)
     data_dir = os.path.join(input_dir)
     # stat_dir = os.path.join(output_dir, 'stats', data_type)
@@ -207,6 +208,33 @@ if __name__ == '__main__':
     # file_list = glob.glob(data_dir + '/word_times_sw3*.pickle') + \
     #         glob.glob(data_dir + '/word_times_sw2*.pickle')
     # for VM
+    if lang == "eng":
+        test_sentence_ids = ["cd6_00_"+str(number) for number in range(1, 1251)]
+        dev_sentence_ids = ["cd8_00_" + str(number) for number in range(1, 1251)]
+    elif lang == "ger":
+        test_sentence_ids = ["cd15_"+str(number) for number in range(1, 1246)]
+        dev_sentence_ids = ["cd20_" + str(number) for number in range(1, 1246)]
+    else:
+        pass
+
     file_list = glob.glob(data_dir + '/word_times_*.pickle')
+    removed = 0
+    for id in test_sentence_ids:
+        try:
+            file_list.remove(data_dir + '/word_times_{}.pickle'.format(id))
+        except ValueError:
+            print(id)
+            print(data_dir + '/word_times_{}.pickle'.format(id))
+
+        removed += 1
+    for id in dev_sentence_ids:
+        try:
+            file_list.remove(data_dir + '/word_times_{}.pickle'.format(id))
+        except ValueError:
+            print(id)
+            print(data_dir + '/word_times_{}.pickle'.format(id))
+        removed += 1
+
+    print("Removed {} files from file list.".format(str(removed)))
 
     get_data_stats(data_dir, stat_dir, file_list)
