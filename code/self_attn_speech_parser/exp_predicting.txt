@@ -1,2 +1,0 @@
-python src/main_sparser.py test --test-path /disk/scratch/s2096077/prosody_nlp/code/self_attn_speech_parser/sample_data/rewrite/sample_dev.txt --test-sent-id-path /disk/scratch/s2096077/prosody_nlp/code/self_attn_speech_parser/sample_data/rewrite/sample_dev_sent_ids.txt --output-path /disk/scratch/s2096077/prosody_nlp/code/self_attn_speech_parser/results/sample_dev_output.txt --feature-path sample_data/rewrite --test-prefix sample_dev --model-path-base /disk/scratch/s2096077/prosody_nlp/code/self_attn_speech_parser/models/sample_model_dev=3.62.pt 
-
