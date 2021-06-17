@@ -1,0 +1,22 @@
+# requirements inherited from the self-attentive parser code
+
+# python>=3.6
+# pytorch==0.4.1 # Install this version of pytorch with CUDA support using instructions at https://pytorch.org/get-started/locally/
+
+cython>=0.25.2
+nltk==3.4.5
+
+kaldi-io
+pandas
+beautifulsoup4==4.9.3
+numpy==1.19.1
+lxml==4.5.2
+
+# needed at testing time
+prettytable
+
+# needed for ELMo
+#allennlp==0.7.0
+
+# needed for BERT
+#pytorch-pretrained-bert==0.4.0
