@@ -161,7 +161,7 @@ Create a JSON file of the average duration of each token type in the train set. 
 
 1. `cd prosody_nlp/code/feature_extraction`
 2. `mkdir -r ta_features/stats`
-3. `python2 get_ta_stats.py --input_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times' --output_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features'` 
+3. `python2 get_ta_stats.py --input_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/vm_word_times' --output_dir '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ta_features' --lang "eng"` 
 4. Change file paths in `vm_extract_ta_features.py` to point to extracted kaldi feats. *NOTE: if you encounter errors with this script, try running with python2*
 5. `python vm_extract_ta_features.py` (run this with python 2) [I run this by calling vm_run_extraction.sh]
 

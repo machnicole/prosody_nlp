@@ -12,9 +12,9 @@ import pickle
 # constants
 
 # pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
-pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_pitch_pov' # Kaldi features
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_pitch_pov' # Kaldi features
 # fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
-fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/testoutput/swbd_fbank_energy'
+fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
 vowels = ['aa', 'iy', 'eh', 'el', 'ah', 'ao', 'ih', 'en', 'ey', 'aw', 
@@ -106,13 +106,13 @@ def make_array(frames):
 # load files of mean stats
 def load_stats(stat_dir):
     head_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_head_stats.pickle'), "rb"))
+            'word_head_stats.pickle')))
     tail_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_tail_stats.pickle'), "rb"))
+            'word_tail_stats.pickle')))
     word_dict = pickle.load(open(os.path.join(stat_dir, \
-            'word_raw_stats.pickle'), "rb"))
+            'word_raw_stats.pickle')))
     phone_dict = pickle.load(open(os.path.join(stat_dir, \
-            'phone_raw_stats.pickle'), "rb"))
+            'phone_raw_stats.pickle')))
     return word_dict, phone_dict, head_dict, tail_dict
 
 def sort_keys(pw_names):
@@ -131,7 +131,7 @@ def preprocess_cnn_feats(file_id, speaker, file_info):
     fbank_file = os.path.join(fbank_dir, \
             'sw{0}-{1}.pickle'.format(file_id, speaker))
      
-    data_pitch_pov = pickle.load(open(pitch_pov_file, "rb"))
+    data_pitch_pov = pickle.load(open(pitch_pov_file))
     pitch_povs = data_pitch_pov.values()[0]
              
     data_fbank = pickle.load(open(fbank_file))

@@ -1375,17 +1375,17 @@ class SpeechParser(nn.Module):
                     not_include = [x-frame_idx[0] for x in not_include]
                     mask[not_include] = False
                 else:  # too big, just sample
-                    print("too big, just sample")
+                    # print("too big, just sample")
                     mask = np.zeros(raw_count, dtype=bool)
                     include = range(frame_idx[0], frame_idx[1])[::extra_ratio]
                     # include = [x-frame_idx[0] for x in include]
                     include = [x - frame_idx[0] if x - frame_idx[0] < raw_count else raw_count-1 for x in include]
-                    print(frame_idx[0], frame_idx[1])
-                    print("Mask", mask.shape)
-                    print("include", len(include))
-                    print("include", type(include))
-                    print("include", include)
-                    print("raw count", raw_count)
+                    # print(frame_idx[0], frame_idx[1])
+                    # print("Mask", mask.shape)
+                    # print("include", len(include))
+                    # print("include", type(include))
+                    # print("include", include)
+                    # print("raw count", raw_count)
                     if len(include) > self.fixed_word_length:
                         # still too many frames
                         num_current = len(include)
@@ -1395,17 +1395,18 @@ class SpeechParser(nn.Module):
                         for ni in not_include:
                             include.remove(ni)
                     try:
-                        print("len include after remove", len(include))
+                        # print("len include after remove", len(include))
                         mask[include] = True
                     except IndexError:
-                        print(frame_idx[0], frame_idx[1])
-                        print("Mask",  mask.shape)
-                        print("include", len(include))
-                        print("include", type(include))
-                        print("include", include)
-                        print("raw count", raw_count)
-                        print("self.fixed_word_length", self.fixed_word_length)
-                        print("print(mask[include])", mask[include])
+                        raise
+                        # print(frame_idx[0], frame_idx[1])
+                        # print("Mask",  mask.shape)
+                        # print("include", len(include))
+                        # print("include", type(include))
+                        # print("include", include)
+                        # print("raw count", raw_count)
+                        # print("self.fixed_word_length", self.fixed_word_length)
+                        # print("print(mask[include])", mask[include])
                 this_word_frames = this_word_frames[:, mask]
                 # still not enough frames
                 if this_word_frames.shape[1] < self.fixed_word_length:
@@ -1414,10 +1415,10 @@ class SpeechParser(nn.Module):
                         [this_word_frames, np.zeros((feat_dim, num_more))])
 
             else:  # not enough frames, choose frames extending from center
-                print("not enough frames. raw count:", raw_count)
+                # print("not enough frames. raw count:", raw_count)
                 this_word_frames = sent_frames[:, max(0, start_idx):end_idx]
-                print("this_word_Frames", this_word_frames.shape)
-                print("start", start_idx)
+                # print("this_word_Frames", this_word_frames.shape)
+                # print("start", start_idx)
                 if this_word_frames.shape[1] == 0:
                     # make 0 if no frame info
                     this_word_frames = np.zeros((feat_dim,
@@ -1433,7 +1434,7 @@ class SpeechParser(nn.Module):
                     this_word_frames = np.hstack(
                         [this_word_frames, np.zeros((feat_dim, num_more))])
 
-            print("this_word_Frames", this_word_frames.shape)
+            # print("this_word_Frames", this_word_frames.shape)
             # flip frames within word
             speech_frames.append(this_word_frames)
         
@@ -1465,7 +1466,7 @@ class SpeechParser(nn.Module):
                         ("Must provide partition as a feature")
                 sent_partition = sent_features['partition']
                 sent_frames = sent_features['frames']
-                print(sent)
+                # print(sent)
                 sent_frame_features = self.process_sent_frames(sent_partition, \
                         sent_frames)
                 # sent_frame_features: list of [feat_dim, fixed_word_length]
@@ -1480,7 +1481,7 @@ class SpeechParser(nn.Module):
         if frame_features:
             # need frame feats of shape: [batch, 1, fixed_word_length, feat_dim]
             # second dimension is num input channel, defaults to 1
-            print("frame_features", [x.shape for x in frame_features])
+            # print("frame_features", [x.shape for x in frame_features])
             frame_features = torch.cat(frame_features, 0)
             frame_features = frame_features.unsqueeze(1).to(device)
 
