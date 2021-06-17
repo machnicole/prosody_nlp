@@ -17,8 +17,8 @@ import pickle
 # # fbank_dir = '/afs/inf.ed.ac.uk/group/project/prosody/prosody_nlp/data/kaldi_feats/swbd_fbank_energy'
 # fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/testoutput/vm_fbank_energy'
 
-# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_pitch_pov' # Kaldi features
-# fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_fbank_energy'
+pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_pitch_pov' # Kaldi features
+fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_output/vm_fbank_energy'
 
 # pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_exp_output/vm_pitch_pov' # Kaldi features
 # fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_eng_kaldi_exp_output/vm_fbank_energy'
@@ -27,8 +27,8 @@ import pickle
 # pitch_pov_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_pitch_pov' # Kaldi features
 # fbank_dir = '/afs/inf.ed.ac.uk/user/s20/s2096077/prosody_nlp/data/vm/ger/testoutput/vm_fbank_energy'
 
-pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_pitch_pov' # Kaldi features
-fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_fbank_energy'
+# pitch_pov_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_pitch_pov' # Kaldi features
+# fbank_dir = '/afs/inf.ed.ac.uk/group/msc-projects/s2096077/vm_ger_kaldi_output/vm_fbank_energy'
 
 
 OTHER = ["[silence]", "[noise]", "[laughter]", "[vocalized-noise]"]
