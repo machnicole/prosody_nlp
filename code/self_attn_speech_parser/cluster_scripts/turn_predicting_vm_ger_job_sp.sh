@@ -123,10 +123,25 @@ mkdir -p ${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/results
 rsync -r --archive --update --compress --progress ${src_path}/ ${dest_path}
 
 #This can take very long time
-dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_with_speech_model_dev=94.08.pt
-src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_with_speech_model_dev=94.08.pt
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_sp_model_dev=93.81.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_sp_model_dev=93.81.pt
 rsync --update --compress --progress ${src_path2} ${dest_path2}
 
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_pitch_model_dev=93.53.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_pitch_model_dev=93.53.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
+
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_fbank_model_dev=93.66.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_fbank_model_dev=93.66.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
+
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_d_model_dev=93.29.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_d_model_dev=93.29.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
+
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_ger_p_model_dev=93.61.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_ger_p_model_dev=93.61.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
 # ==============================
 # Finally, run the experiment!
 # ==============================
