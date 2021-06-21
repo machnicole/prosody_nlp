@@ -1435,10 +1435,13 @@ class SpeechParser(nn.Module):
             if 'scalars' in sent_features.keys():
                 sent_scalars = sent_features['scalars']
                 feat_dim = sent_scalars.shape[0]
-                sent_scalar_feat = np.hstack([np.zeros((feat_dim, 1)), \
-                        sent_scalars, \
-                        np.zeros((feat_dim, 1))])
-                scalar_features.append(sent_scalar_feat)
+                try:
+                    sent_scalar_feat = np.hstack([np.zeros((feat_dim, 1)), \
+                            sent_scalars, \
+                            np.zeros((feat_dim, 1))])
+                    scalar_features.append(sent_scalar_feat)
+                except ValueError:
+                    print(sent_scalars.shape)
             if 'frames' in sent_features.keys():
                 assert 'partition' in sent_features.keys(), \
                         ("Must provide partition as a feature")
