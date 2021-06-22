@@ -1442,6 +1442,9 @@ class SpeechParser(nn.Module):
                     scalar_features.append(sent_scalar_feat)
                 except ValueError:
                     print(sent_scalars.shape)
+                    print(sent)
+                    print(sent_scalars)
+                    raise
             if 'frames' in sent_features.keys():
                 assert 'partition' in sent_features.keys(), \
                         ("Must provide partition as a feature")
