@@ -127,17 +127,17 @@ dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_
 src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_sp_model_fixed_pause_dev=94.16.pt
 rsync --update --compress --progress ${src_path2} ${dest_path2}
 
-#dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_pitch_model_dev=93.92.pt
-#src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_pitch_model_dev=93.92.pt
-#rsync --update --compress --progress ${src_path2} ${dest_path2}
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_pitch_model_dev=93.92.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_pitch_model_dev=93.92.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
 
-#dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_fbank_model_dev=94.02.pt
-#src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_fbank_model_dev=94.02.pt
-#rsync --update --compress --progress ${src_path2} ${dest_path2}
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_fbank_model_dev=94.02.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_fbank_model_dev=94.02.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
 
-#dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_d_model_dev=91.85.pt
-#src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_d_model_dev=91.85.pt
-#rsync --update --compress --progress ${src_path2} ${dest_path2}
+dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_d_model_dev=91.85.pt
+src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_d_model_dev=91.85.pt
+rsync --update --compress --progress ${src_path2} ${dest_path2}
 
 dest_path2=${SCRATCH_HOME}/prosody_nlp/code/self_attn_speech_parser/models/turn_vm_eng_p_model_fixed_pause_dev=92.07.pt
 src_path2=${repo_home}/code/self_attn_speech_parser/models/turn_vm_eng_p_model_fixed_pause_dev=92.07.pt
