@@ -1,0 +1,228 @@
+---
+title: "plots"
+author: "Nicole"
+date: "26 6 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## R Markdown
+
+
+```{r cars}
+df_ger_disfluent <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.22058823529411764,
+                             0.03676470588235294,
+                             0.09558823529411764,
+                             0.49264705882352944,
+                             0.15441176470588236,
+                             0.3364485981308411,
+                             0.102803738317757,
+                             0.09345794392523364,
+                             0.40186915887850466,
+                             0.06542056074766354)
+)
+df_ger_disfluent
+```
+
+
+```{r}
+df_ger_dev <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.23713235294117646,
+                             0.03676470588235294,
+                             0.10477941176470588,
+                             0.3915441176470588,
+                             0.22977941176470587,
+                             0.3364485981308411,
+                             0.102803738317757,
+                             0.09345794392523364,
+                             0.40186915887850466,
+                             0.06542056074766354)
+)
+df_ger_dev
+```
+
+
+```{r cars}
+df_ger_train <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.26536763914307243,
+                             0.034449348692001294,
+                             0.07568091290774034,
+                             0.346215954354613,
+                             0.2762407148239854,
+                             0.26345878989995236,
+                             0.10576464983325393,
+                             0.11576941400666985,
+                             0.2977608384945212,
+                             0.21724630776560266
+                             )
+)
+df_ger_train
+```
+
+
+```{r cars}
+df_eng_train <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.35271917940778014,
+                             0.07925295142248887,
+                             0.09957422101799884,
+                             0.3146893748790401,
+                             0.15008709115540933,
+                             0.384011953679492,
+                             0.13672020918939112,
+                             0.14904744116548374,
+                             0.20395965633171462,
+                             0.12551363466567053
+                             )
+)
+df_eng_train
+```
+
+```{r cars}
+df_eng_disfluent <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.3582089552238806,
+                             0.07462686567164178,
+                             0.11940298507462686,
+                             0.3880597014925373,
+                             0.05970149253731343,
+                             0.3333333333333333,
+                             0.16666666666666666,
+                             0.16666666666666666,
+                             0.25,
+                             0.08333333333333333)
+)
+df_eng_disfluent
+```
+
+
+```{r cars}
+df_eng_dev <- data.frame(type=rep(c("SUB", "IP"), each=5),
+                pause_category=rep(c("1", "2", "3", "4", "5"),2),
+                proportion=c(0.40350877192982454,
+                             0.08333333333333333,
+                             0.10818713450292397,
+                             0.40350877192982454,
+                             0.07017543859649122,
+                             0.3333333333333333,
+                             0.16666666666666666,
+                             0.16666666666666666,
+                             0.25,
+                             0.08333333333333333)
+)
+df_eng_dev
+```
+
+```{r cars}
+errors_eng <- data.frame(type=rep(c("SU, prosody", "SU, no prosody", "turn, prosody", "turn, no prosody"), each=9),
+                error_category=rep(c("Different label",
+                                    "NP internal",
+                                    "VP attachment",
+                                    "Clause attachment",
+                                    "PP attachment",
+                                    "Modifier attachment",
+                                    "NP attachment",
+                                    "Single word phrase",
+                                    "Unary"),4),
+                errors=c(46, # diff label
+                             8, # np internal
+                             5, # vp attachment
+                             100, # clause 
+                             149, # pp
+                             79, # mod
+                             45, # np
+                             193, # single
+                             59, # unary ###
+                  47, # diff label
+                             16, # np internal
+                             5, # vp attachment
+                             98, # clause 
+                             154, # pp
+                             80, # mod
+                             54, # np
+                             189, # single
+                             65, # unary ###
+                  50, # diff label
+                             16, # np internal
+                             6, # vp attachment
+                             114, # clause 
+                             168, # pp
+                             75, # mod
+                             60, # np
+                             186, # single
+                             45, # unary ###
+                             39, # diff label
+                             14, # np internal
+                             9, # vp attachment
+                             167, # clause 
+                             271, # pp
+                             84, # mod
+                             96, # np
+                             197, # single
+                             56 # unary ####
+                              )
+)
+errors_eng$type <- factor(errors_eng$type, levels = c("SU, prosody", "SU, no prosody", "turn, prosody", "turn, no prosody"))
+errors_eng
+```
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+ggplot(data=df_ger_disfluent, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in disfluent German turns (dev set)")
+```
+
+```{r pressure, echo=FALSE}
+ggplot(data=df_ger_dev, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in German turns (full dev set)") + ylim(0, 0.5)
+```
+
+```{r pressure, echo=FALSE}
+ggplot(data=df_eng_disfluent, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in disfluent English turns (dev set)") + ylim(0, 0.5)
+```
+```{r pressure, echo=FALSE}
+ggplot(data=df_eng_dev, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in English turns (full dev set)") + ylim(0, 0.5)
+```
+
+```{r pressure, echo=FALSE}
+ggplot(data=df_ger_train, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in German turns (train set)") + ylim(0, 0.5)
+```
+
+```{r pressure, echo=FALSE}
+ggplot(data=df_eng_train, aes(x=pause_category, y=proportion, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() +
+  xlab("Pause category") + ylab("Proportion of pauses at IP/SUB") + labs(title ="Distribution of pause categories in English turns (train set)") + ylim(0, 0.5)
+```
+
+```{r pressure, echo=FALSE}
+ggplot(data=errors_eng, aes(x=error_category, y=errors, fill=type)) +
+geom_bar(stat="identity", position=position_dodge()) + theme_minimal() + ylab("Num. errors") + labs(title ="Error types in English dev set.")+
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  xlab("Error category") + scale_fill_manual(values=c("darkred", "red1", "darkblue", "blue1")) + scale_x_discrete(limits=(c("Different label",
+                                    "NP internal",
+                                    "VP attachment",
+                                    "Clause attachment",
+                                    "PP attachment",
+                                    "Modifier attachment",
+                                    "NP attachment",
+                                    "Single word phrase",
+                                    "Unary")))
+```
