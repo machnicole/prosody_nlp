@@ -1,0 +1,5 @@
+# Time of run:
+# Sun Jul  4 13:15:21 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/dev.trees sample_data/dev.trees classified.vm_eng.test
+#

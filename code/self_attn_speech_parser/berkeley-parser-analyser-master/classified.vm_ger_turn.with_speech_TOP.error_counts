@@ -1,0 +1,18 @@
+# Time of run:
+# Sat Jul 31 12:12:27 2021
+# Command:
+# ./berkeley_parse_analyser/classify_german_vm.py sample_data/turn_vm_ger_with_speech_output_top.txt sample_data/turn_dev_top_ger.trees classified.vm_ger_turn.with_speech_TOP
+#
+272 272 Unary
+215 303 Single Word Phrase
+200 200 UNSET remove
+135 232 Modifier Attachment
+106 166 PP Attachment
+102 102 UNSET add
+83 225 UNSET move
+76 152 Different label
+69 109 Clause Attachment
+56 173 NP Attachment
+50 84 Co-ordination
+26 34 NP Internal Structure
+6 24 VP Attachment

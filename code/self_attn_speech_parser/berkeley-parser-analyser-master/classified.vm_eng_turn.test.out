@@ -1,0 +1,2258 @@
+# Time of run:
+# Sun Jul  4 15:01:56 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/turn_dev.trees sample_data/turn_dev.trees classified.vm_eng_turn.test
+#
+Printing tree transformations
+Sentence 1:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 2:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 3:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 4:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 5:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 6:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 7:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 8:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 9:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 10:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 11:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 12:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 13:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 14:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 15:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 16:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 17:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 18:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 19:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 20:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 21:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 22:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 23:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 24:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 25:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 26:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 27:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 28:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 29:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 30:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 31:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 32:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 33:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 34:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 35:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 36:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 37:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 38:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 39:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 40:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 41:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 42:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 43:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 44:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 45:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 46:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 47:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 48:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 49:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 50:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 51:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 52:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 53:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 54:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 55:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 56:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 57:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 58:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 59:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 60:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 61:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 62:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 63:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 64:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 65:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 66:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 67:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 68:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 69:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 70:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 71:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 72:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 73:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 74:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 75:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 76:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 77:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 78:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 79:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 80:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 81:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 82:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 83:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 84:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 85:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 86:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 87:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 88:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 89:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 90:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 91:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 92:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 93:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 94:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 95:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 96:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 97:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 98:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 99:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 100:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 101:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 102:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 103:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 104:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 105:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 106:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 107:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 108:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 109:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 110:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 111:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 112:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 113:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 114:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 115:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 116:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 117:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 118:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 119:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 120:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 121:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 122:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 123:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 124:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 125:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 126:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 127:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 128:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 129:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 130:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 131:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 132:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 133:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 134:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 135:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 136:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 137:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 138:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 139:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 140:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 141:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 142:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 143:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 144:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 145:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 146:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 147:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 148:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 149:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 150:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 151:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 152:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 153:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 154:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 155:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 156:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 157:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 158:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 159:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 160:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 161:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 162:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 163:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 164:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 165:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 166:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 167:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 168:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 169:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 170:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 171:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 172:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 173:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 174:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 175:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 176:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 177:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 178:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 179:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 180:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 181:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 182:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 183:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 184:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 185:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 186:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 187:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 188:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 189:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 190:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 191:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 192:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 193:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 194:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 195:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 196:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 197:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 198:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 199:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 200:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 201:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 202:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 203:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 204:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 205:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 206:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 207:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 208:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 209:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 210:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 211:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 212:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 213:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 214:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 215:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 216:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 217:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 218:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 219:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 220:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 221:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 222:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 223:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 224:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 225:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 226:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 227:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 228:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 229:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 230:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 231:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 232:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 233:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 234:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 235:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 236:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 237:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 238:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 239:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 240:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 241:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 242:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 243:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 244:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 245:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 246:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 247:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 248:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 249:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 250:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 251:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 252:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 253:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 254:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 255:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 256:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 257:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 258:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 259:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 260:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 261:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 262:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 263:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 264:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 265:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 266:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 267:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 268:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 269:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 270:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 271:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 272:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 273:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 274:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 275:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 276:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 277:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 278:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 279:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 280:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 281:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 282:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 283:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 284:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 285:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 286:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 287:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 288:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 289:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 290:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 291:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 292:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 293:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 294:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 295:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 296:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 297:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 298:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 299:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 300:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 301:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 302:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 303:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 304:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 305:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 306:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 307:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 308:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 309:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 310:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 311:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 312:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 313:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 314:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 315:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 316:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 317:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 318:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 319:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 320:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 321:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 322:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 323:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 324:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 325:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 326:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 327:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 328:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 329:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 330:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 331:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 332:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 333:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 334:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 335:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 336:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 337:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 338:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 339:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 340:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 341:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 342:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 343:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 344:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 345:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 346:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 347:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 348:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 349:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 350:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 351:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 352:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 353:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 354:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 355:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 356:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 357:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 358:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 359:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 360:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 361:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 362:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 363:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 364:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 365:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 366:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 367:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 368:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 369:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 370:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 371:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 372:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 373:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 374:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 375:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 376:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 377:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 378:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 379:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 380:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 381:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 382:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 383:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 384:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 385:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 386:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 387:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 388:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 389:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 390:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 391:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 392:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 393:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 394:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 395:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 396:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 397:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 398:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 399:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 400:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 401:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 402:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 403:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 404:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 405:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 406:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 407:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 408:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 409:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 410:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 411:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 412:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 413:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 414:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 415:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 416:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 417:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 418:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 419:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 420:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 421:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 422:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 423:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 424:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 425:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 426:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 427:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 428:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 429:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 430:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 431:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 432:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 433:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 434:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 435:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 436:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 437:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 438:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 439:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 440:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 441:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 442:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 443:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 444:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 445:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 446:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 447:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 448:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 449:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 450:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 451:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 452:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 453:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 454:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 455:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 456:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 457:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 458:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 459:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 460:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 461:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 462:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 463:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 464:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 465:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 466:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 467:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 468:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 469:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 470:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 471:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 472:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 473:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 474:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 475:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 476:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 477:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 478:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 479:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 480:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 481:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 482:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 483:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 484:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 485:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 486:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 487:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 488:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 489:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 490:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 491:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 492:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 493:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 494:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 495:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 496:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 497:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 498:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 499:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 500:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 501:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 502:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 503:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 504:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 505:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 506:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 507:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 508:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 509:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 510:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 511:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 512:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 513:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 514:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 515:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 516:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 517:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 518:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 519:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 520:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 521:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 522:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 523:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 524:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 525:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 526:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 527:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 528:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 529:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 530:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 531:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 532:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 533:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 534:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 535:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 536:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 537:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 538:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 539:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 540:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 541:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 542:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 543:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 544:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 545:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 546:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 547:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 548:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 549:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 550:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 551:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 552:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 553:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 554:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 555:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 556:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 557:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 558:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 559:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 560:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 561:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 562:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 563:
+0 Initial errors
+0 on fringe, 0 iterations
+

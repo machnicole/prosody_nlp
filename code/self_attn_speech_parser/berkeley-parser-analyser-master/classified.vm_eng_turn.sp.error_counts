@@ -1,0 +1,18 @@
+# Time of run:
+# Sun Jul  4 15:38:35 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/turn_vm_eng_sp_output_dev.txt sample_data/turn_dev.trees classified.vm_eng_turn.sp
+#
+186 213 Single Word Phrase
+168 304 PP Attachment
+117 117 UNSET remove
+114 217 Clause Attachment
+75 124 Modifier Attachment
+70 70 UNSET add
+60 155 NP Attachment
+50 100 Different label
+45 98 UNSET move
+45 45 Unary
+16 17 NP Internal Structure
+6 23 VP Attachment
+1 1 Co-ordination

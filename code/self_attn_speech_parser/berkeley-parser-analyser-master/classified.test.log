@@ -1,0 +1,9 @@
+# Time of run:
+# Sun Jul  4 15:28:38 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/test.txt sample_data/test_gold.txt classified.test
+#
+Printing tree transformations
+Sentence 1:
+
+End of both input files

@@ -1,0 +1,6 @@
+# Time of run:
+# Sun Jul  4 15:28:38 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/test.txt sample_data/test_gold.txt classified.test
+#
+(TOP (TURN (UH okay) (S (NP (PR (WP what))) (VBP do) (NP (PP you)) (VP (VB say) (S (NP (PP we)) (VBP meet) (PP (IN on) (NP (NP monday) (PP (IN around) (NP (CNUM (CD two))))))))) (NN pm)))

@@ -1,0 +1,618 @@
+# Time of run:
+# Sun Jul  4 11:58:51 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english.py sample_data/wsj01.mrg sample_data/berkeley.mrg classified.english.berkeley
+#
+Printing tree transformations
+Sentence 1:
+4 Initial errors
+0 on fringe, 3 iterations
+2 Error:Different label
+1 Error:Single Word Phrase
+1 Error:Single Word Phrase
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		(PP For six years)
+		(NP T. Marshall Hahn Jr.)
+		(VP
+			(VBZ has)
+			(VP
+				(VBN made)
+				(NP corporate acquisitions)
+				(PP
+					(IN in)
+					(NP
+						(NP the George Bush mode)
+						[01;36m(ADJP[00m [01;31m(NP[00m
+							[01;31m(NP[00m
+								([01;36mJJ[00m [01;31mNN[00m kind)[01;31m)[00m
+							(CC and)
+							[01;31m(NP[00m
+								(JJ gentle)[01;31m)[00m[01;31m)[00m[01;36m)[00m))))))
+Step:Different label
+{'family': ['NP', 'ADJP'], 'auto preterminal span': (16, 19), 'span': (16, 19), 'subtrees': ['NP', 'CC', 'NP'], 'parent': 'NP', 'over_word': False, 'auto preterminals': ('NN', 'CC', 'JJ'), 'classified_type': 'Different label', 'type': 'relabel', 'change': ('NP', 'ADJP')}
+(ROOT
+	(S
+		(PP For six years)
+		(NP T. Marshall Hahn Jr.)
+		(VP
+			(VBZ has)
+			(VP
+				(VBN made)
+				(NP corporate acquisitions)
+				(PP
+					(IN in)
+					(NP
+						(NP the George Bush mode)
+						(ADJP
+							[01;31m(NP[00m
+								([01;36mJJ[00m [01;31mNN[00m kind)[01;31m)[00m
+							(CC and)
+							[01;31m(NP[00m
+								(JJ gentle)[01;31m)[00m)))))))
+Step:Single Word Phrase
+{'subtrees': ['NN'], 'family': ['NP', 'CC', 'NP'], 'over_word': True, 'over words': True, 'auto preterminals': ('NN', 'CC', 'JJ'), 'right siblings': ['CC', 'NP'], 'parent': 'ADJP', 'auto preterminal span': (16, 19), 'span': (16, 17), 'left siblings': [], 'label': 'NP', 'classified_type': 'Single Word Phrase', 'type': 'remove'}
+(ROOT
+	(S
+		(PP For six years)
+		(NP T. Marshall Hahn Jr.)
+		(VP
+			(VBZ has)
+			(VP
+				(VBN made)
+				(NP corporate acquisitions)
+				(PP
+					(IN in)
+					(NP
+						(NP the George Bush mode)
+						(ADJP
+							([01;36mJJ[00m [01;31mNN[00m kind)
+							(CC and)
+							[01;31m(NP[00m
+								(JJ gentle)[01;31m)[00m)))))))
+Step:Single Word Phrase
+{'subtrees': ['JJ'], 'family': ['NN', 'CC', 'NP'], 'over_word': True, 'over words': True, 'auto preterminals': ('NN', 'CC', 'JJ'), 'right siblings': [], 'parent': 'ADJP', 'auto preterminal span': (16, 19), 'span': (18, 19), 'left siblings': ['NN', 'CC'], 'label': 'NP', 'classified_type': 'Single Word Phrase', 'type': 'remove'}
+(ROOT
+	(S
+		(PP For six years)
+		(NP T. Marshall Hahn Jr.)
+		(VP
+			(VBZ has)
+			(VP
+				(VBN made)
+				(NP corporate acquisitions)
+				(PP
+					(IN in)
+					(NP
+						(NP the George Bush mode)
+						(ADJP
+							([01;36mJJ[00m [01;31mNN[00m kind)
+							(CC and)
+							(JJ gentle))))))))
+
+Sentence 2:
+7 Initial errors
+0 on fringe, 4 iterations
+2 Error:Different label
+2 Error:Different label
+2 Error:Modifier Attachment
+1 Error:Modifier Attachment
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+[01;36m(NP[00m
+	(ROOT
+		[01;31m(S[00m
+			[01;36m(NP[00m
+				(NP The question)
+				(ADVP now)[01;36m)[00m
+			[01;36m(SQ[00m [01;31m(SINV[00m
+				(MD Can)
+				(NP he)
+				(VP
+					(VB act)
+					[01;36m(PP[00m
+						(ADVP more)
+						[01;31m(PP[00m
+							(IN like)
+							(NP
+								([01;36mJJ[00m [01;31mNN[00m hard-charging)
+								(NNP Teddy)
+								(NNP Roosevelt))[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;36m)[00m[01;31m)[00m)[01;36m)[00m
+Step:Different label
+{'family': ['NP'], 'auto preterminal span': (0, 11), 'span': (0, 11), 'subtrees': ['NP', 'ADVP', 'SINV'], 'parent': 'ROOT', 'over_word': False, 'auto preterminals': ('DT', 'NN', 'RB', 'MD', 'PRP', 'VB', 'RBR', 'IN', 'NN', 'NNP', 'NNP'), 'classified_type': 'Different label', 'type': 'relabel', 'change': ('S', 'NP')}
+(ROOT
+	(NP
+		[01;36m(NP[00m
+			(NP The question)
+			(ADVP now)[01;36m)[00m
+		[01;36m(SQ[00m [01;31m(SINV[00m
+			(MD Can)
+			(NP he)
+			(VP
+				(VB act)
+				[01;36m(PP[00m
+					(ADVP more)
+					[01;31m(PP[00m
+						(IN like)
+						(NP
+							([01;36mJJ[00m [01;31mNN[00m hard-charging)
+							(NNP Teddy)
+							(NNP Roosevelt))[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;36m)[00m))
+Step:Different label
+{'family': ['NP', 'ADVP', 'SQ'], 'auto preterminal span': (3, 11), 'span': (3, 11), 'subtrees': ['MD', 'NP', 'VP'], 'parent': 'NP', 'over_word': False, 'auto preterminals': ('MD', 'PRP', 'VB', 'RBR', 'IN', 'NN', 'NNP', 'NNP'), 'classified_type': 'Different label', 'type': 'relabel', 'change': ('SINV', 'SQ')}
+(ROOT
+	(NP
+		[01;36m(NP[00m
+			(NP The question)
+			(ADVP now)[01;36m)[00m
+		(SQ
+			(MD Can)
+			(NP he)
+			(VP
+				(VB act)
+				[01;36m(PP[00m
+					(ADVP more)
+					[01;31m(PP[00m
+						(IN like)
+						(NP
+							([01;36mJJ[00m [01;31mNN[00m hard-charging)
+							(NNP Teddy)
+							(NNP Roosevelt))[01;31m)[00m[01;36m)[00m))))
+Step:Modifier Attachment
+{'new_parent': 'PP', 'new_family': ['ADVP', 'IN', 'NP'], 'mover info': [('ADVP', (6, 7))], 'old_family': ['VB', 'ADVP', 'PP'], 'start left siblings': ['VB'], 'auto preterminals': ('VB', 'RBR', 'IN', 'NN', 'NNP', 'NNP'), 'start right siblings': ['PP'], 'end left siblings': [], 'auto preterminal span': (5, 11), 'movers': ['ADVP'], 'old_parent': 'VP', 'POS confusion': ('RBR', 'RBR'), 'end right siblings': ['IN', 'NP'], 'classified_type': 'Modifier Attachment', 'type': 'move'}
+(ROOT
+	(NP
+		[01;36m(NP[00m
+			(NP The question)
+			(ADVP now)[01;36m)[00m
+		(SQ
+			(MD Can)
+			(NP he)
+			(VP
+				(VB act)
+				(PP
+					(ADVP more)
+					(IN like)
+					(NP
+						([01;36mJJ[00m [01;31mNN[00m hard-charging)
+						(NNP Teddy)
+						(NNP Roosevelt)))))))
+Step:Modifier Attachment
+{'subtrees': ['NP', 'ADVP'], 'family': ['NP', 'SQ'], 'over_word': False, 'over words': False, 'auto preterminals': ('DT', 'NN', 'RB'), 'right siblings': [(SQ (MD Can) (NP (PRP he)) (VP (VB act) (PP (ADVP (RBR more)) (IN like) (NP (NN hard-charging) (NNP Teddy) (NNP Roosevelt)))))], 'left siblings': [], 'auto preterminal span': (0, 3), 'span': (0, 3), 'parent': 'NP', 'label': 'NP', 'classified_type': 'Modifier Attachment', 'type': 'add'}
+(ROOT
+	(NP
+		(NP The question now)
+		(SQ
+			(MD Can)
+			(NP he)
+			(VP
+				(VB act)
+				(PP
+					(ADVP more)
+					(IN like)
+					(NP
+						([01;36mJJ[00m [01;31mNN[00m hard-charging)
+						(NNP Teddy)
+						(NNP Roosevelt)))))))
+
+Sentence 3:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 4:
+0 Initial errors
+0 on fringe, 0 iterations
+
+Sentence 5:
+12 Initial errors
+0 on fringe, 1 iterations
+12 Error:Clause Attachment
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		(ADVP
+			([01;36mIN[00m [01;31mRB[00m So)
+			(RB far))
+		(NP Mr. Hahn)
+		(VP
+			(VBZ is)
+			(VP
+				(VBG trying)
+				[01;31m(S[00m [01;33m(VP (S[00m
+					[01;31m(VP[00m
+						(TO to)
+						[01;31m(VP[00m [01;33m(VP[00m
+							(VB entice)
+							(NP Nekoosa)
+							[01;31m(PP[00m [01;33m(PP[00m
+								(IN into)
+								[01;31m(S[00m
+									[01;31m(VP[00m
+										[01;36m(VP[00m
+											[01;36m(S[00m
+												(VBG negotiating)
+												(NP a friendly surrender) [01;33mPP) VP) S) VP)[00m[01;36m)[00m[01;36m)[00m
+										(SBAR while talking tough)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m))))
+Step:Clause Attachment
+{'new_parent': 'VP', 'new_family': ['VBG', 'S', 'SBAR'], 'mover info': [('SBAR', (14, 17))], 'old_family': ['VBG', 'NP', 'SBAR'], 'start left siblings': ['VBG', 'NP'], 'auto preterminals': ('VBG', 'TO', 'VB', 'NNP', 'IN', 'VBG', 'DT', 'JJ', 'NN', 'IN', 'VBG', 'JJ'), 'start right siblings': [], 'end left siblings': ['VBG', 'S'], 'auto preterminal span': (5, 17), 'movers': ['SBAR'], 'old_parent': 'VP', 'end right siblings': [], 'classified_type': 'Clause Attachment', 'type': 'move'}
+(ROOT
+	(S
+		(ADVP
+			([01;36mIN[00m [01;31mRB[00m So)
+			(RB far))
+		(NP Mr. Hahn)
+		(VP is trying to entice Nekoosa into negotiating a friendly surrender while talking tough)))
+
+Sentence 6:
+2 Initial errors
+0 on fringe, 1 iterations
+2 Error:Different label
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		(S
+			(NP We)
+			(VP
+				(VBP are)
+				[01;36m(VP[00m [01;31m(ADJP[00m
+					([01;36mVBN[00m [01;31mJJ[00m prepared)
+					(S to pursue aggressively completion of this transaction)[01;31m)[00m[01;36m)[00m))
+		(NP he)
+		(VP says)))
+Step:Different label
+{'family': ['VBP', 'VP'], 'auto preterminal span': (2, 10), 'span': (2, 10), 'subtrees': ['JJ', 'S'], 'parent': 'VP', 'over_word': False, 'auto preterminals': ('JJ', 'TO', 'VB', 'RB', 'NN', 'IN', 'DT', 'NN'), 'classified_type': 'Different label', 'type': 'relabel', 'change': ('ADJP', 'VP')}
+(ROOT
+	(S
+		(S
+			(NP We)
+			(VP
+				(VBP are)
+				(VP
+					([01;36mVBN[00m [01;31mJJ[00m prepared)
+					(S to pursue aggressively completion of this transaction))))
+		(NP he)
+		(VP says)))
+
+Sentence 7:
+9 Initial errors
+0 on fringe, 3 iterations
+5 Error:PP Attachment
+2 Error:Single Word Phrase
+2 Error:NP Attachment
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		(CC But)
+		(NP a takeover battle)
+		(VP
+			(VBZ opens)
+			(ADVP up)
+			[01;36m(NP[00m
+				[01;31m(NP[00m
+					(NP the possibility)
+					[01;31m(PP[00m [01;33m(PP[00m
+						(IN of)
+						[01;33m(NP[00m (NP a bidding war)[01;31m)[00m[01;31m)[00m
+				(PP
+					(IN with)
+					(NP
+						(NP all)
+						[01;36m(S[00m
+							(SBAR
+								[01;36m(NP[00m [01;31m(WHNP[00m
+									([01;36mDT[00m [01;31mWDT[00m that)[01;31m)[00m[01;36m)[00m
+								[01;31m(S[00m
+									(VP
+										(VBZ implies))[01;31m)[00m)[01;36m)[00m))[01;36m)[00m))) [01;33mNP) PP)[00m
+Step:PP Attachment
+{'new_parent': 'PP', 'new_family': ['IN', 'NP', 'PP'], 'mover info': [('PP', (12, 16))], 'old_family': ['VBZ', 'ADVP', 'NP', 'PP'], 'start left siblings': ['VBZ', 'ADVP', 'NP'], 'auto preterminals': ('VBZ', 'RP', 'DT', 'NN', 'IN', 'DT', 'NN', 'NN', 'IN', 'DT', 'WDT', 'VBZ'), 'start right siblings': [], 'end left siblings': ['IN', 'NP'], 'auto preterminal span': (4, 16), 'adding node already present': False, 'movers': ['PP'], 'old_parent': 'VP', 'added and moved': True, 'end right siblings': [], 'classified_type': 'PP Attachment', 'type': 'move', 'added label': 'S'}
+(ROOT
+	(S
+		(CC But)
+		(NP a takeover battle)
+		(VP
+			(VBZ opens)
+			(ADVP up)
+			(NP
+				(NP the possibility)
+				(PP
+					(IN of)
+					(NP
+						(NP a bidding war)
+						(PP
+							(IN with)
+							(NP
+								(NP all)
+								[01;36m(S[00m
+									(SBAR
+										[01;36m(NP[00m [01;31m(WHNP[00m
+											([01;36mDT[00m [01;31mWDT[00m that)[01;31m)[00m[01;36m)[00m
+										[01;31m(S[00m
+											(VP
+												(VBZ implies))[01;31m)[00m)[01;36m)[00m))))))))
+Step:Single Word Phrase
+{'family': ['NP', 'S'], 'auto preterminal span': (14, 15), 'span': (14, 15), 'subtrees': ['WDT'], 'parent': 'SBAR', 'over_word': True, 'auto preterminals': ('WDT',), 'classified_type': 'Single Word Phrase', 'type': 'relabel', 'change': ('WHNP', 'NP')}
+(ROOT
+	(S
+		(CC But)
+		(NP a takeover battle)
+		(VP
+			(VBZ opens)
+			(ADVP up)
+			(NP
+				(NP the possibility)
+				(PP
+					(IN of)
+					(NP
+						(NP a bidding war)
+						(PP
+							(IN with)
+							(NP
+								(NP all)
+								[01;36m(S[00m
+									(SBAR
+										(NP
+											([01;36mDT[00m [01;31mWDT[00m that))
+										[01;31m(S[00m
+											(VP
+												(VBZ implies))[01;31m)[00m)[01;36m)[00m))))))))
+Step:NP Attachment
+{'new_parent': 'S', 'new_family': ['NP', 'VP'], 'mover info': [('NP', (14, 15))], 'old_family': ['NP', 'S'], 'start left siblings': [], 'auto preterminals': ('WDT', 'VBZ'), 'start right siblings': ['S'], 'end left siblings': [], 'auto preterminal span': (14, 16), 'movers': ['NP'], 'old_parent': 'SBAR', 'POS confusion': ('WDT', 'DT'), 'end right siblings': ['VP'], 'classified_type': 'NP Attachment', 'type': 'move'}
+(ROOT
+	(S
+		(CC But)
+		(NP a takeover battle)
+		(VP
+			(VBZ opens)
+			(ADVP up)
+			(NP
+				(NP the possibility)
+				(PP
+					(IN of)
+					(NP
+						(NP a bidding war)
+						(PP
+							(IN with)
+							(NP
+								(NP all)
+								(SBAR
+									(S
+										(NP
+											([01;36mDT[00m [01;31mWDT[00m that))
+										(VP implies)))))))))))
+
+Sentence 8:
+1 Initial errors
+0 on fringe, 1 iterations
+1 Error:PP Attachment
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		(SBAR If a competitor enters the game)
+		(PP for example)
+		(NP Mr. Hahn)
+		(VP
+			(MD could)
+			(VP
+				(VB face)
+				(NP
+					(NP the dilemma)
+					(PP
+						(IN of)
+						(S
+							(VP
+								(VP
+									(VBG paying)
+									[01;31m(NP[00m
+										(NP a premium)
+										(PP for Nekoosa)[01;31m)[00m)
+								(CC or)
+								(VP
+									(VBG seeing)
+									(S
+										(NP the company)
+										(VP
+											([01;36mNN[00m [01;31mVB[00m fall)
+											(PP into the arms of a rival))))))))))))
+Step:PP Attachment
+{'subtrees': ['NP', 'PP'], 'family': ['VBG', 'NP'], 'over_word': False, 'over words': False, 'auto preterminals': ('VBG', 'DT', 'NN', 'IN', 'NNP'), 'right siblings': [], 'parent': 'VP', 'auto preterminal span': (15, 20), 'span': (16, 20), 'left siblings': ['VBG'], 'label': 'NP', 'classified_type': 'PP Attachment', 'type': 'remove'}
+(ROOT
+	(S
+		(SBAR If a competitor enters the game)
+		(PP for example)
+		(NP Mr. Hahn)
+		(VP
+			(MD could)
+			(VP
+				(VB face)
+				(NP
+					(NP the dilemma)
+					(PP
+						(IN of)
+						(S
+							(VP
+								(VP paying a premium for Nekoosa)
+								(CC or)
+								(VP
+									(VBG seeing)
+									(S
+										(NP the company)
+										(VP
+											([01;36mNN[00m [01;31mVB[00m fall)
+											(PP into the arms of a rival))))))))))))
+
+Sentence 9:
+7 Initial errors
+0 on fringe, 4 iterations
+3 Error:Co-ordination
+2 Error:Different label
+1 Error:Unary
+1 Error:PP Attachment
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(S
+		[01;36m(VP[00m [01;36m(S[00m [01;31m(PP[00m
+			(VBN Given)
+			(NP that choice)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+		(NP [01;33m(NP[00m
+			(NP associates)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN of)
+				[01;31m(NP[00m
+					(NP Mr. Hahn) [01;33mPP) NP)[00m
+					(CC and)
+					(NP industry observers)[01;31m)[00m[01;31m)[00m)
+		(VP say the former university president who has developed a reputation for not overpaying for anything would fold)))
+Step:Co-ordination
+{'new_parent': 'NP', 'new_family': ['NP', 'PP', 'CC', 'NP'], 'mover info': [('CC', (7, 8)), ('NP', (8, 10))], 'old_family': ['NP', 'CC', 'NP'], 'start left siblings': ['NP'], 'auto preterminals': ('NNS', 'IN', 'NNP', 'NNP', 'CC', 'NN', 'NNS'), 'start right siblings': [], 'end left siblings': ['NP', 'PP'], 'auto preterminal span': (3, 10), 'movers': ['CC', 'NP'], 'old_parent': 'NP', 'end right siblings': [], 'classified_type': 'Co-ordination', 'type': 'move'}
+(ROOT
+	(S
+		[01;36m(VP[00m [01;36m(S[00m [01;31m(PP[00m
+			(VBN Given)
+			(NP that choice)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+		(NP
+			[01;36m(NP[00m
+				(NP associates)
+				(PP of Mr. Hahn)[01;36m)[00m
+			(CC and)
+			(NP industry observers))
+		(VP say the former university president who has developed a reputation for not overpaying for anything would fold)))
+Step:Different label
+{'family': ['S', 'NP', 'VP'], 'auto preterminal span': (0, 3), 'span': (0, 3), 'subtrees': ['VBN', 'NP'], 'parent': 'S', 'over_word': False, 'auto preterminals': ('VBN', 'DT', 'NN'), 'classified_type': 'Different label', 'type': 'relabel', 'change': ('PP', 'S')}
+(ROOT
+	(S
+		[01;36m(VP[00m
+			(S
+				(VBN Given)
+				(NP that choice))[01;36m)[00m
+		(NP
+			[01;36m(NP[00m
+				(NP associates)
+				(PP of Mr. Hahn)[01;36m)[00m
+			(CC and)
+			(NP industry observers))
+		(VP say the former university president who has developed a reputation for not overpaying for anything would fold)))
+Step:Unary
+{'subtrees': ['S'], 'family': ['VP', 'NP', 'VP'], 'over_word': False, 'over words': False, 'auto preterminals': ('VBN', 'DT', 'NN'), 'right siblings': [(NP (NP (NNS associates)) (PP (IN of) (NP (NNP Mr.) (NNP Hahn))) (CC and) (NP (NN industry) (NNS observers))), (VP (VBP say) (SBAR (S (NP (NP (DT the) (JJ former) (NN university) (NN president)) (PRN (SBAR (WHNP (WP who)) (S (VP (VBZ has) (VP (VBN developed) (NP (NP (DT a) (NN reputation)) (PP (IN for) (S (RB not) (VP (VBG overpaying) (PP (IN for) (NP (NN anything))))))))))))) (VP (MD would) (VP (VB fold))))))], 'left siblings': [], 'auto preterminal span': (0, 3), 'span': (0, 3), 'parent': 'S', 'label': 'VP', 'classified_type': 'Unary', 'type': 'add'}
+(ROOT
+	(S
+		(VP Given that choice)
+		(NP
+			[01;36m(NP[00m
+				(NP associates)
+				(PP of Mr. Hahn)[01;36m)[00m
+			(CC and)
+			(NP industry observers))
+		(VP say the former university president who has developed a reputation for not overpaying for anything would fold)))
+Step:PP Attachment
+{'subtrees': ['NP', 'PP'], 'family': ['NP', 'CC', 'NP'], 'over_word': False, 'over words': False, 'auto preterminals': ('NNS', 'IN', 'NNP', 'NNP'), 'right siblings': [(CC and), (NP (NN industry) (NNS observers))], 'left siblings': [], 'auto preterminal span': (3, 7), 'span': (3, 7), 'parent': 'NP', 'label': 'NP', 'classified_type': 'PP Attachment', 'type': 'add'}
+(ROOT Given that choice associates of Mr. Hahn and industry observers say the former university president who has developed a reputation for not overpaying for anything would fold)
+
+Sentence 10:
+2 Initial errors
+0 on fringe, 2 iterations
+1 Error:NP Internal Structure
+1 Error:Unary
+Step:UNSET init
+{'classified_type': 'UNSET init', 'type': 'init'}
+(ROOT
+	(SINV
+		(S
+			(NP There)
+			(VP
+				(VBZ 's)
+				(NP
+					(NP a price)
+					(SBAR
+						(WHPP above which)
+						(S
+							(NP I)
+							(VP
+								(VBP 'm)
+								(ADJP
+									(JJ positive)
+									(SBAR
+										(S
+											(NP Marshall)
+											(VP
+												(VBZ has)
+												(NP
+													[01;36m(NP[00m
+														(DT the)
+														(NN courage)[01;36m)[00m
+													[01;36m(SBAR[00m
+														(S
+															(RB not)
+															(VP to pay))[01;36m)[00m)))))))))))
+		(VP says)
+		(NP
+			(NP A.D. Correll)
+			(NP
+				(NP
+					(NP Georgia-Pacific 's)
+					([01;36mJJ[00m [01;31mNN[00m executive)
+					(NN vice)
+					(NN president))
+				(PP for pulp and paper)))))
+Step:NP Internal Structure
+{'subtrees': ['DT', 'NN'], 'family': ['NP', 'S'], 'over_word': False, 'over words': True, 'auto preterminals': ('DT', 'NN'), 'right siblings': [(S (RB not) (VP (TO to) (VP (VB pay))))], 'left siblings': [], 'auto preterminal span': (11, 13), 'span': (11, 13), 'parent': 'NP', 'label': 'NP', 'classified_type': 'NP Internal Structure', 'type': 'add'}
+(ROOT
+	(SINV
+		(S
+			(NP There)
+			(VP
+				(VBZ 's)
+				(NP
+					(NP a price)
+					(SBAR
+						(WHPP above which)
+						(S
+							(NP I)
+							(VP
+								(VBP 'm)
+								(ADJP
+									(JJ positive)
+									(SBAR
+										(S
+											(NP Marshall)
+											(VP
+												(VBZ has)
+												(NP
+													(NP the courage)
+													[01;36m(SBAR[00m
+														(S
+															(RB not)
+															(VP to pay))[01;36m)[00m)))))))))))
+		(VP says)
+		(NP
+			(NP A.D. Correll)
+			(NP
+				(NP
+					(NP Georgia-Pacific 's)
+					([01;36mJJ[00m [01;31mNN[00m executive)
+					(NN vice)
+					(NN president))
+				(PP for pulp and paper)))))
+Step:Unary
+{'subtrees': ['S'], 'family': ['NP', 'SBAR'], 'over_word': False, 'over words': False, 'auto preterminals': ('RB', 'TO', 'VB'), 'right siblings': [], 'left siblings': [(NP (DT the) (NN courage))], 'auto preterminal span': (13, 16), 'span': (13, 16), 'parent': 'NP', 'label': 'SBAR', 'classified_type': 'Unary', 'type': 'add'}
+(ROOT
+	(SINV
+		(S There 's a price above which I 'm positive Marshall has the courage not to pay)
+		(VP says)
+		(NP
+			(NP A.D. Correll)
+			(NP
+				(NP
+					(NP Georgia-Pacific 's)
+					([01;36mJJ[00m [01;31mNN[00m executive)
+					(NN vice)
+					(NN president))
+				(PP for pulp and paper)))))
+

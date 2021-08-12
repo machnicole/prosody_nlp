@@ -1,0 +1,10135 @@
+# Time of run:
+# Sun Jul  4 17:24:12 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/vm_eng_no_speech_output_dev.txt sample_data/dev.trees classified.vm_eng.no_speech
+#
+Sentence 1:
+(TOP maybe we should get together to talk further about this)
+
+
+Sentence 2:
+(TOP ah how about some time in the next couple of weeks)
+
+
+Sentence 3:
+(TOP
+	(UH okay)
+	(UH well)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB be)
+			[01;31m(PP[00m
+				[01;36m(PP[00m
+					(IN on)
+					(NP vacation)[01;36m)[00m
+				(PP for the next two weeks)[01;31m)[00m))
+	(UH ah)
+	(SUGG how about friday the twenty first))
+
+
+Sentence 4:
+(TOP
+	(S
+		(NP friday the twenty first)
+		(VBZ is)
+		(VP
+			(V scheduled)
+			[01;31m(PP[00m
+				(PP from early morning)
+				(PP to late afternoon)[01;31m)[00m)))
+
+
+Sentence 5:
+(TOP ah could you perhaps choose another day)
+
+
+Sentence 6:
+(TOP a morning on a wednesday)
+
+
+Sentence 7:
+(TOP or early afternoon on a tuesday)
+
+
+Sentence 8:
+(TOP mornings on wednesdays seem bad)
+
+
+Sentence 9:
+(TOP ah how about the twenty seventh twenty eighth or thirty first)
+
+
+Sentence 10:
+(TOP do any of those three days suit you)
+
+
+Sentence 11:
+(TOP
+	(S
+		(S
+			(NP i)
+			(VBP have)
+			(UH ahm)
+			[01;36m(NP[00m [01;31m(VP[00m
+				(NP
+					(DTP an)
+					[01;36m(N[00m
+						(NP
+							[01;31m(AP[00m
+								(JJ indefinite)[01;31m)[00m
+							(NN length))
+						(NN thing)[01;36m)[00m)
+				[01;36m(VP[00m
+					(V scheduled)
+					(PP at ten am on the twenty seventh)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+		(CNJ but)
+		(S
+			(NP i)
+			(MD should)
+			(VP
+				(-- be able)
+				(VP
+					(TO to)
+					(VP
+						(VB get)
+						[01;31m(ADVP[00m
+							[01;36m(ADVP[00m
+								(RB away)[01;36m)[00m
+							(PP from that)[01;31m)[00m
+						(PP
+							[01;31m(PP[00m
+								(IN within)
+								[01;33m(NP[00m (NP an hour)[01;31m)[00m
+							(CNJ or)
+							(ADVP so))))))) [01;33mNP)[00m
+	[01;31m(SUGG[00m
+		(WRB how)
+		(RB about)
+		(UH ah)
+		[01;36m(NP[00m [01;31m(PP[00m
+			[01;31m(ADVP[00m
+				(RB shortly)[01;31m)[00m
+			[01;36m(PP[00m
+				[01;36m(PP[00m
+					(IN after)
+					(NP noon)[01;36m)[00m
+				(PP on the twenty seventh)[01;36m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 12:
+(TOP
+	(UH okay)
+	(S
+		(NP the twenty seventh)
+		[01;31m(VP[00m
+			(VB sound)[01;31m)[00m
+		(VBZ sounds)
+		(AP fine)))
+
+
+Sentence 13:
+(TOP ah pick a time)
+
+
+Sentence 14:
+(TOP how about one pm of the twenty seventh)
+
+
+Sentence 15:
+(TOP where do you think we should meet)
+
+
+Sentence 16:
+(TOP we will meet at my office if you do not mind)
+
+
+Sentence 17:
+(TOP sounds good to me what is your office)
+
+
+Sentence 18:
+(TOP what number)
+
+
+Sentence 19:
+(TOP would it be)
+
+
+Sentence 20:
+(TOP
+	(S
+		(NP it)
+		(VBZ is)
+		(NP
+			(DTP the)
+			(N
+				[01;36m(AP[00m
+					(JJ interact)[01;36m)[00m
+				(NN lab)))))
+
+
+Sentence 21:
+(TOP
+	[01;31m(PP[00m
+		(ADVP here)
+		(IN in)
+		[01;36m(VP[00m [01;31m(NP[00m
+			[01;31m(N[00m
+				(NP wean)
+				[01;36m(NP[00m
+					(NP hall)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 22:
+(TOP good i will meet you there)
+
+
+Sentence 23:
+(TOP
+	(S
+		(NP this)
+		(VBZ is)
+		(NP
+			[01;36m(NP[00m
+				(CNUM one)
+				(NN pm)[01;36m)[00m
+			(PP on the twenty seventh))))
+
+
+Sentence 24:
+(TOP maybe we should get together some time and talk about this a little longer)
+
+
+Sentence 25:
+(TOP
+	(S
+		(VBP do)
+		(NP you)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN anything)[01;36m)[00m
+				(AP free)
+				(PP in your schedule)[01;31m)[00m
+			(UH ah)
+			(PP [01;33m(PP[00m
+				[01;36m(PP[00m
+					(IN from)
+					[01;31m(NP[00m
+						[01;31m(N[00m
+							(NN day)
+							[01;36m(PP[00m
+								(IN after) [01;33mPP)[00m[01;36m)[00m
+							(NN tomorrow)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+				(PP on)))))
+
+
+Sentence 26:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB be)
+			(PP on vacation)
+			(NP
+				(DTP the)
+				(UH ah)
+				(ONUM
+					[01;36m(NP[00m
+						(ONUM
+							(JJ second))[01;36m)[00m
+					(ONUM third)
+					(CNJ and)
+					(ONUM fourth))))))
+
+
+Sentence 27:
+(TOP i am taking the family to cancun)
+
+
+Sentence 28:
+(TOP ahm how about the seventh)
+
+
+Sentence 29:
+(TOP or the ninth)
+
+
+Sentence 30:
+(TOP or maybe even the fourteenth or seventeenth)
+
+
+Sentence 31:
+(TOP
+	(UH well)
+	(S
+		(S
+			(NP it)
+			(VBZ looks)
+			(PP
+				(IN like)
+				(S
+					(NP i)
+					(VBP am)
+					(PP out of town)
+					(PP
+						[01;31m(PP[00m
+							(IN on)
+							[01;33m(NP[00m (NP the seventh)[01;31m)[00m
+						(CNJ and)
+						(NP the ninth))))) [01;33mNP)[00m
+		(CNJ but)
+		(S the fourteenth is open))
+	(UH ah)
+	(S what time suits you then))
+
+
+Sentence 32:
+(TOP how about two oclock in the afternoon)
+
+
+Sentence 33:
+(TOP two oclock in the afternoon sounds fine)
+
+
+Sentence 34:
+(TOP where would you like to meet)
+
+
+Sentence 35:
+(TOP we will meet at your office if you do not mind)
+
+
+Sentence 36:
+(TOP
+	(S
+		(VBP do)
+		(NP you)
+		(ADVP still)
+		(VP
+			(VB know)
+			[01;36m(S[00m
+				[01;31m(S[00m
+					(ADVP where)
+					(NP it)
+					(VBZ is)[01;31m)[00m
+				(PP from last time)[01;36m)[00m)))
+
+
+Sentence 37:
+(TOP
+	(S
+		(CNJ or)
+		(S
+			(VBZ is)
+			[01;36m(DT[00m [01;36m(DTP[00m [01;31m(NP[00m
+				[01;31m(PR[00m
+					(DT this)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			[01;31m(NP[00m
+				(NN something)
+				(AP new)[01;31m)[00m)))
+
+
+Sentence 38:
+(TOP nope i still remember where it is)
+
+
+Sentence 39:
+(TOP i will see you there)
+
+
+Sentence 40:
+(TOP see you there)
+
+
+Sentence 41:
+(TOP
+	(UH ah)
+	(S
+		(ADVP maybe)
+		(NP you)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB meet)
+					[01;36m(ADVP[00m
+						[01;31m(ADVP[00m
+							(RBR further)[01;31m)[00m
+						(PP on this)[01;36m)[00m)))))
+
+
+Sentence 42:
+(TOP
+	(UH ahm)
+	(S unfortunately it looks like i am going to be going on vacation shortly)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH [01;33m(S[00m so)[01;36m)[00m
+		[01;31m(S[00m
+			[01;31m(S[00m
+				(CMP if)
+				(NP we)
+				(MD could)
+				(VP
+					(VB schedule)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(DTP some)
+							(NN time)[01;36m)[00m
+						(NP this afternoon)[01;31m)[00m)[01;31m)[00m [01;33mS)[00m
+			(NP that)
+			(MD would)
+			(VP be good)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 43:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP that)
+			(VBZ does)
+			(RB not)
+			(VP seem very possible)[01;36m)[00m
+		(UH ahm)
+		(S if you are going to be on vacation here in the next few days and i will be out of town next week)[01;31m)[00m)
+
+
+Sentence 44:
+(TOP
+	(UH ah)
+	(SUGG
+		(WP what)
+		(IN if)
+		[01;31m(S[00m
+			(NP we)
+			(VBP schedule)
+			(NP it)
+			(PP for the twenty seventh or twenty eighth)[01;31m)[00m))
+
+
+Sentence 45:
+(TOP do either of those two days suit you)
+
+
+Sentence 46:
+(TOP the twenty seventh does not work but i have all of the twenty eighth open)
+
+
+Sentence 47:
+(TOP is there a time you would like)
+
+
+Sentence 48:
+(TOP
+	(S
+		(NP i)
+		(VBP prefer)
+		[01;36m(NP[00m
+			(NP afternoon meetings)
+			(NP myself)[01;36m)[00m)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		(UH ah)
+		[01;31m(S[00m
+			(VBP pick)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN time)[01;36m)[00m
+				(PP in the afternoon)[01;31m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 49:
+(TOP one oclock would probably be good ah how about your ah lab)
+
+
+Sentence 50:
+(TOP okay)
+
+
+Sentence 51:
+(TOP sounds good)
+
+
+Sentence 52:
+(TOP i will see you then)
+
+
+Sentence 53:
+(TOP see you then)
+
+
+Sentence 54:
+(TOP okay)
+
+
+Sentence 55:
+(TOP
+	(S
+		(NP i)
+		(VBP guess)
+		(S
+			(NP we)
+			(MD should)
+			(UH ah)
+			(VP
+				(VP try)
+				(CNJ and)
+				(VP
+					(VB get)
+					(ADVP together)
+					[01;36m(PP[00m
+						[01;31m(PP[00m
+							(IN on)
+							[01;33m(NP[00m (NP this)[01;31m)[00m
+						(UH ah)
+						(NP some time in august)[01;36m)[00m)))) [01;33mNP)[00m
+	(UH ah)
+	(S do you have any time on the second))
+
+
+Sentence 56:
+(TOP
+	(NP
+		(CNJ or)
+		(NP
+			(DTP the)
+			(NN week)
+			[01;36m(ADVP[00m [01;31m(VP[00m
+				[01;31m(V[00m
+					(VBG following)[01;31m)[00m[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 57:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB be)
+					(VP
+						(V taking)
+						(NP a vacation)
+						(PP
+							(IN to)
+							(UH ah)
+							[01;31m(NP[00m
+								(AP sunny)
+								(NP pittsburgh)[01;31m)[00m)))))))
+
+
+Sentence 58:
+(TOP between the second and the sixth ah but the next week seems fairly free)
+
+
+Sentence 59:
+(TOP how about the ninth eleventh or twelfth)
+
+
+Sentence 60:
+(TOP
+	[01;31m(S[00m
+		(PP on the ninth)
+		(UH ah)
+		(NP i)
+		(MD could)
+		(ADVP probably)
+		(UH ah)
+		[01;31m(VP[00m
+			(VB pencil)
+			(NP you)
+			(RP in)
+			[01;33m(PP[00m (PP for one pm)[01;31m)[00m[01;31m)[00m
+	(UH ah)
+	(S the eleventh is busy))
+
+
+Sentence 61:
+(TOP
+	[01;31m(S[00m
+		(CNJ and)
+		[01;31m(S[00m [01;33m(S[00m
+			(NP the twelfth)
+			(MD would)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB be)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(UH ah)
+	[01;31m(VP[00m
+		(VBP tuck)
+		(NP it)
+		[01;36m(PP[00m
+			[01;31m(PP[00m
+				(IN in)
+				[01;31m(NP[00m [01;33m(NP[00m
+					(DTP a)
+					[01;36m(AP[00m
+						(NN crack)[01;36m)[00m[01;31m)[00m[01;31m)[00m
+			(PP around noon)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 62:
+(TOP you say one oclock on the ninth is good for you)
+
+
+Sentence 63:
+(TOP yes)
+
+
+Sentence 64:
+(TOP
+	(S
+		(NP i)
+		(VBP think)
+		(S
+			(NP i)
+			(MD could)
+			(VP [01;33m(VP[00m
+				(VB make)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(CNUM one)
+						(RB oclock)
+						(PP on the ninth) [01;33mVP)[00m[01;36m)[00m
+					(S that suits you)[01;31m)[00m)))
+	(S where would you like to meet))
+
+
+Sentence 65:
+(TOP we will meet here in the lab if that is okay with you)
+
+
+Sentence 66:
+(TOP yeah)
+
+
+Sentence 67:
+(TOP that is fine with me)
+
+
+Sentence 68:
+(TOP meet you in the lab then ah one oclock on the ninth of august)
+
+
+Sentence 69:
+(TOP i will see you then)
+
+
+Sentence 70:
+(TOP thank you)
+
+
+Sentence 71:
+(TOP you are welcome)
+
+
+Sentence 72:
+(TOP see you then)
+
+
+Sentence 73:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(ADVP maybe)
+		(NP we)
+		(MD should)
+		(VP
+			(VB figure)
+			(RP out)
+			(NP a way)
+			(VP
+				(TO to)
+				(VP
+					[01;31m(--[00m
+						(VB get)
+						(RP back)[01;31m)[00m
+					(ADVP together)
+					(ADVP again))))[01;31m)[00m)
+
+
+Sentence 74:
+(TOP perhaps in the next two weeks)
+
+
+Sentence 75:
+(TOP okay well how does the seventeenth look on your calendar)
+
+
+Sentence 76:
+(TOP seventeenth looks pretty full)
+
+
+Sentence 77:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(AP[00m
+				(RBR less)[01;36m)[00m
+			[01;31m(PP[00m
+				[01;36m(ADVP[00m
+					(IN then)[01;36m)[00m
+				(NP
+					(DTP a)
+					[01;36m(NP[00m
+						[01;36m(DT[00m
+							[01;36m(DTP[00m
+								(NN half)[01;36m)[00m[01;36m)[00m
+						(NP an hour)[01;36m)[00m)[01;31m)[00m
+			[01;31m(AP[00m [01;33m(VP[00m
+				(V
+					(VBN left))[01;31m)[00m[01;31m)[00m
+		(PP at the end of the day)))
+
+
+Sentence 78:
+(TOP before five oclock)
+
+
+Sentence 79:
+(TOP how about the eighteenth)
+
+
+Sentence 80:
+(TOP in the afternoon)
+
+
+Sentence 81:
+(TOP
+	(S
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(AP two)
+					(NNS hours)[01;36m)[00m
+				(AP free)
+				(PP on the eighteenth)[01;31m)[00m))
+	(S
+		(NP there)
+		(VBZ is)
+		[01;31m(NP[00m
+			(ADVP only)
+			[01;36m(NP[00m
+				[01;36m(NP[00m
+					[01;31m(AP[00m
+						(CD one)[01;31m)[00m
+					(NN hour)[01;36m)[00m
+				(PP at three pm)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 82:
+(TOP how about the afternoon of the sixteenth)
+
+
+Sentence 83:
+(TOP okay that sounds good to me)
+
+
+Sentence 84:
+(TOP shall we meet at say two oclock)
+
+
+Sentence 85:
+(TOP two oclock on the sixteenth)
+
+
+Sentence 86:
+(TOP seems pretty good to me)
+
+
+Sentence 87:
+(TOP i will write that in)
+
+
+Sentence 88:
+(TOP okay)
+
+
+Sentence 89:
+(TOP i will see you then)
+
+
+Sentence 90:
+(TOP okay very good)
+
+
+Sentence 91:
+(TOP
+	(S
+		(VBP do)
+		(NP you)
+		(VP
+			(VB think)
+			(S
+				(NP we)
+				(MD could)
+				(VP
+					(VB arrange)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(DTP a)
+							(NN meeting)[01;36m)[00m
+						(NP some time in the near future)[01;31m)[00m)))))
+
+
+Sentence 92:
+(TOP maybe even this afternoon)
+
+
+Sentence 93:
+(TOP it will be impossible for me to make a meeting this afternoon)
+
+
+Sentence 94:
+(TOP ahm how about toward the end of next week)
+
+
+Sentence 95:
+(TOP
+	(SUGG
+		(VB say)
+		[01;31m(NP[00m
+			(DTP the)
+			[01;36m(NP[00m
+				(NP friday)
+				(NP the sixteenth)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 96:
+(TOP friday the sixteenth looks good as long as i can get away by four pm)
+
+
+Sentence 97:
+(TOP
+	[01;36m(ADVP[00m
+		(UH then)[01;36m)[00m
+	[01;31m(SUGG[00m
+		(WRB how)
+		(RB about)
+		(NP a one oclock meeting)[01;31m)[00m)
+
+
+Sentence 98:
+(TOP
+	(UH ah)
+	[01;36m(S[00m
+		(S you said you would like to meet for two hours)
+		(S is that good)[01;36m)[00m)
+
+
+Sentence 99:
+(TOP
+	(UH okay)
+	[01;36m(NP[00m
+		[01;36m(ADVP[00m
+			(UH [01;33m(ADVP[00m then)[01;36m)[00m
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(NP friday) [01;33mADVP)[00m[01;36m)[00m
+			[01;31m(NP[00m
+				(CNUM one)
+				(RB oclock)[01;31m)[00m
+			[01;31m(NP[00m
+				(AP two)
+				(NNS hours)[01;31m)[00m
+			(PP with sam helwig)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 100:
+(TOP i will write it in)
+
+
+Sentence 101:
+(TOP where would you like to meet)
+
+
+Sentence 102:
+(TOP
+	(UH well)
+	(S
+		(S
+			(NP we)
+			(VBP have)
+			(VP
+				(VBN got)
+				[01;36m(NP[00m
+					[01;31m(NP[00m
+						(NN space)[01;31m)[00m
+					(PP in my office)[01;36m)[00m))
+		(CNJ but)
+		(S
+			(NP there)
+			(VBZ is)
+			(NP
+				(AP other)
+				(NNS people)
+				(S
+					(NP that)
+					(MD might)
+					(VP
+						(VB get)
+						[01;36m(AP[00m [01;31m(VP[00m
+							[01;31m(V[00m
+								(JJ disturbed)[01;31m)[00m[01;31m)[00m[01;36m)[00m)))))
+	(SUGG how about your office))
+
+
+Sentence 103:
+(TOP okay that sounds fine)
+
+
+Sentence 104:
+(TOP i will meet you at your office at one oclock on friday the sixteenth of april)
+
+
+Sentence 105:
+(TOP
+	(S
+		(NP my office)
+		(VBZ is)
+		(NP
+			(CNUM
+				[01;36m(NP[00m
+					[01;36m(CNUM[00m
+						(CD forty)
+						(CD six)[01;36m)[00m[01;36m)[00m
+				(CD oh)
+				(CD seven)))))
+
+
+Sentence 106:
+(TOP see you then)
+
+
+Sentence 107:
+(TOP
+	(S i am sorry)
+	(S
+		(NP your time)
+		(VBZ is)
+		[01;36m(ADVP[00m [01;31m(AP[00m
+			(JJ up)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 108:
+(TOP
+	(S we can)
+	(S
+		(NP we)
+		(MD can)
+		(VP
+			(VB continue)
+			(NP this conversation)
+			(UH ah)
+			[01;36m(PP[00m
+				(ADVP sometimes)
+				(IN in)
+				(NP sometime in the next two weeks)[01;36m)[00m)))
+
+
+Sentence 109:
+(TOP it will have be before the end of two weeks)
+
+
+Sentence 110:
+(TOP
+	(PP
+		[01;36m(CMP[00m
+			(IN because)[01;36m)[00m
+		(PP of the deadline)))
+
+
+Sentence 111:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(VBP do)
+		(NP you)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP any)
+					(NN time)[01;36m)[00m
+				(AP free)[01;31m)[00m
+			(NP next week))[01;31m)[00m)
+
+
+Sentence 112:
+(TOP or the week after)
+
+
+Sentence 113:
+(TOP
+	(UH well)
+	[01;31m(S[00m [01;33m(S[00m
+		(NP there)
+		(VBZ is)
+		(NP a slight problem)
+		[01;31m(PP[00m [01;33m(PP[00m
+			(IN in)
+			[01;31m(S[00m
+				[01;36m(NP[00m [01;36m(PR[00m [01;31m(CMP[00m
+					(IN that)[01;31m)[00m [01;33mPP) S)[00m[01;36m)[00m[01;36m)[00m
+				[01;36m(S[00m
+					(NP i)
+					(VBP am)
+					(PP on vacation)
+					(PP from the third to the fourteenth)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 114:
+(TOP
+	(NP which)
+	(VB seem)
+	(S
+		(NP which)
+		(VBP seem)
+		(VP
+			(TO to)
+			(VP
+				(VB bring)
+				(NP us)
+				(PP
+					(IN to)
+					(NP
+						(DTP the)
+						[01;31m(NP[00m
+							(NN end)
+							[01;31m(PP[00m [01;33m(PP[00m
+								(IN of)
+								[01;33m(NP[00m (NP our)[01;31m)[00m[01;31m)[00m
+						(NN end)
+						(PP
+							(IN of)
+							(NP
+								(NP our)
+								[01;31m(AP[00m
+									(JJ allotted)[01;31m)[00m
+								(NN time)))))))))
+
+
+Sentence 115:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP i)
+		(VBP think)
+		[01;36m(S[00m
+			[01;31m(S[00m
+				(NP we)
+				(VBP are)
+				[01;31m(VP[00m [01;33m(VP[00m
+					(V going)
+					[01;31m(VP[00m [01;33m(VP[00m
+						(TO to)
+						[01;31m(VP[00m [01;33m(VP[00m
+							(VB have)
+							[01;31m(VP[00m [01;33m(VP[00m
+								(TO to)
+								[01;31m(VP[00m [01;33m(VP[00m
+									(VB work)
+									(NP something)
+									(RP out)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+			(S that we can extend the deadline somehow)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 116:
+(TOP well where are you going)
+
+
+Sentence 117:
+(TOP maybe i can go with you)
+
+
+Sentence 118:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			[01;31m(NP[00m
+				[01;31m(V[00m
+					(VBG fishing)[01;31m)[00m[01;31m)[00m
+			[01;31m(PP[00m
+				(IN in)
+				[01;31m(NP[00m
+					(NP alberta)[01;31m)[00m[01;31m)[00m
+			(IN with)
+			(NP my)
+			(PP
+				(IN with)
+				(NP [01;33m(NP[00m
+					(NP my)
+					[01;31m(AP[00m
+						[01;36m(NP[00m
+							[01;36m(AP[00m
+								(CD thirteen)[01;36m)[00m
+							(NN year) [01;33mNP)[00m[01;36m)[00m
+						[01;36m(AP[00m
+							(JJ [01;33m(NP[00m old)[01;36m)[00m[01;31m)[00m
+					(NN son))))))
+
+
+Sentence 119:
+(TOP
+	(UH ah)
+	(S
+		(NP that)
+		(VBZ is)
+		(AP really terrible)
+		[01;36m(S[00m [01;31m(PP[00m
+			[01;36m(CMP[00m
+				(IN because)[01;36m)[00m
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN of)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP this)
+						(NN allergy) [01;33mPP)[00m[01;36m)[00m
+					[01;31m(S[00m
+						(NP i)
+						(VBP have)
+						(PP for fish)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 120:
+(TOP
+	(UH ahm)
+	(UH okay)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			[01;31m(--[00m
+				(VB talk)
+				(NP it)
+				(RP over)[01;31m)[00m
+			(PP with the guy))))
+
+
+Sentence 121:
+(TOP
+	(VP
+		(CNJ and)
+		(VP
+			(VB see)
+			(S
+				(CMP if)
+				(NP we)
+				(MD can)
+				(VP
+					(VB get)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(PP it)[01;36m)[00m
+						[01;36m(ADVP[00m [01;31m(VP[00m
+							[01;31m(V[00m
+								(VBN extended)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m)))))
+
+
+Sentence 122:
+(TOP but we have to do it as soon as possible)
+
+
+Sentence 123:
+(TOP when will you be back)
+
+
+Sentence 124:
+(TOP i will be back on the seventeenth)
+
+
+Sentence 125:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(CNJ and)
+			(UH ahm)
+			(S
+				(NP i)
+				(MD will)
+				(VP
+					(VB be)
+					(AP free)
+					[01;31m(PP[00m
+						(IN in)
+						[01;33m(NP[00m (NP the morning)[01;31m)[00m
+					(UH ahm)
+					[01;36m(PP[00m
+						[01;31m(PP[00m
+							(IN until)
+							[01;33m(NP[00m (NP ten am)[01;31m)[00m
+						(NP that day)[01;36m)[00m)) [01;33mNP) NP)[00m[01;36m)[00m
+		(UH ahm)
+		(CNJ and)
+		[01;36m(S[00m
+			(S the next day i am free until two pm)
+			(CNJ and)
+			(S
+				(ADVP then)
+				(NP i)
+				(VBP have)
+				[01;31m(NP[00m
+					(NN class)[01;31m)[00m
+				(UH ahm)
+				(PP until four))[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 126:
+(TOP alright)
+
+
+Sentence 127:
+(TOP on the seventeenth)
+
+
+Sentence 128:
+(TOP
+	[01;31m(SUGG[00m
+		[01;36m(PR[00m
+			[01;36m(NP[00m
+				(WP what)[01;36m)[00m[01;36m)[00m
+		[01;31m(S[00m
+			(VBP do)
+			(NP you)
+			(VP say we meet at eight am)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 129:
+(TOP until ten)
+
+
+Sentence 130:
+(TOP i know it will have to be a little bit early but we really have to get this done)
+
+
+Sentence 131:
+(TOP
+	(UH yeah)
+	(S
+		(NP i)
+		(VBP think)
+		(S
+			(NP we)
+			(MD could)
+			(ADVP probably)
+			(VP
+				(VB make)
+				(NP it)
+				(NP
+					(DTP a)
+					(N
+						[01;36m(NP[00m
+							(V
+								(VBG working))[01;36m)[00m
+						(NN breakfast)))))))
+
+
+Sentence 132:
+(TOP well breakfast never seems to work for me)
+
+
+Sentence 133:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP i)
+		(VBP guess)
+		(S you are right)[01;31m)[00m)
+
+
+Sentence 134:
+(TOP
+	(UH okay)
+	(S
+		(ADVP why)
+		(VBP do)
+		(RB not)
+		(NP we)
+		(VP
+			(VB meet)
+			[01;36m(PP[00m
+				[01;31m(PP[00m
+					(IN at)
+					(DTP that)
+					(UH ah)
+					[01;33m(NP[00m (NP that restaurant down the street)[01;31m)[00m
+				(UH ahm)
+				(PP at eight am on the seventeenth)[01;36m)[00m)))
+
+
+Sentence 135:
+(TOP and if we need extra time we could probably meet on the eighteenth as well)
+
+
+Sentence 136:
+(TOP alright)
+
+
+Sentence 137:
+(TOP but you are paying)
+
+
+Sentence 138:
+(TOP sounds good to me)
+
+
+Sentence 139:
+(TOP
+	(S
+		(ADVP where)
+		(VBP do)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(VB have)
+				[01;31m(NP[00m
+					(DTP all)
+					(NP this extra money)[01;31m)[00m
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN from)[01;31m)[00m[01;31m)[00m
+			(ADVP anyway)[01;36m)[00m))
+
+
+Sentence 140:
+(TOP
+	(S
+		(NP we)
+		(VBD did)
+		(RB not)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(VB hand)
+				[01;36m(PP[00m
+					(RP in)
+					(NP the project)[01;36m)[00m[01;31m)[00m
+			(ADVP yet)[01;36m)[00m))
+
+
+Sentence 141:
+(TOP you do not need to know)
+
+
+Sentence 142:
+(TOP okay)
+
+
+Sentence 143:
+(TOP well we are going to have to leave now)
+
+
+Sentence 144:
+(TOP
+	(S
+		(CNJ but)
+		(S
+			(NP we)
+			(MD can)
+			(VP
+				(VB work)
+				(PP on it)
+				[01;36m(ADVP[00m
+					[01;31m(ADVP[00m
+						[01;36m(DG[00m [01;36m(DGP[00m [01;31m(DTP[00m
+							[01;31m(DT[00m
+								(DT some)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+						(RBR more)[01;31m)[00m
+					(PP in the next two weeks)[01;36m)[00m))))
+
+
+Sentence 145:
+(TOP ahm i only seem to have thursdays and fridays free)
+
+
+Sentence 146:
+(TOP
+	(UH ahm)
+	[01;36m(PP[00m [01;31m(NP[00m
+		(PP in the afternoon on thursday)
+		(CNJ but)
+		(NP any time on fridays)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 147:
+(TOP how about you)
+
+
+Sentence 148:
+(TOP
+	(UH well)
+	(DTP this)
+	(S
+		(S this thursday and friday ahm i am on vacation)
+		(CNJ and)
+		(S
+			(NP next thursday)
+			(VBZ is)
+			(NP
+				[01;36m(NP[00m
+					(NP my)
+					(NN day)[01;36m)[00m
+				(RP off)))))
+
+
+Sentence 149:
+(TOP
+	(UH ahm)
+	(S
+		(PP on the eleventh)
+		(NP i)
+		(VBP am)
+		[01;31m(AP[00m
+			[01;36m(AP[00m
+				(JJ free)[01;36m)[00m
+			(PP in the afternoon)
+			[01;36m(S[00m [01;31m(PP[00m
+				[01;36m(CMP[00m
+					(IN once)[01;36m)[00m
+				[01;31m(S[00m
+					(NP i)
+					[01;31m(--[00m
+						(VBP get)
+						(RP back)[01;31m)[00m
+					(PP from my seminar)[01;31m)[00m
+				(ADVP though)[01;31m)[00m[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 150:
+(TOP
+	(UH alright)
+	[01;36m(S[00m
+		(ADVP then)
+		[01;31m(S[00m
+			(NP what)
+			(VBP do)
+			(NP you)
+			(VP
+				[01;36m(VP[00m
+					(VB say)[01;36m)[00m
+				(S we work on it next friday the eleventh in the afternoon))[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 151:
+(TOP what time)
+
+
+Sentence 152:
+(TOP
+	(UH well)
+	(S
+		(NP it)
+		(VBZ is)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB take)
+					(NP me)
+					(NP a while)
+					(VP
+						(TO to)
+						(VP
+							[01;31m(--[00m
+								(VB get)
+								(RP back)[01;31m)[00m
+							(PP from my seminar))))))))
+
+
+Sentence 153:
+(TOP ahm i will probably be ready by twelve thirty)
+
+
+Sentence 154:
+(TOP ahm and then we could ah start by having lunch)
+
+
+Sentence 155:
+(TOP
+	(UH ahm)
+	(S [01;33m(S[00m
+		(CNJ and)
+		[01;31m(S[00m
+			(S if we need more time than it takes us to eat) [01;33mS)[00m
+			(NP we)
+			(MD can)
+			(UH ahm)
+			(VP come back to either your or my office)[01;31m)[00m))
+
+
+Sentence 156:
+(TOP and work on the rest)
+
+
+Sentence 157:
+(TOP sounds good to me)
+
+
+Sentence 158:
+(TOP alright i am looking forward to it)
+
+
+Sentence 159:
+(TOP okay)
+
+
+Sentence 160:
+(TOP
+	(S
+		(S
+			(NP we)
+			(VBP are)
+			(VP
+				(V going)
+				(VP
+					(TO to)
+					(VP
+						(VB have)
+						(VP
+							(TO to)
+							(VP
+								(VB call)
+								(NP it)
+								[01;31m(AP[00m
+									(JJ quits)[01;31m)[00m
+								(ADVP now)))))))
+		(CNJ but)
+		(S
+			(NP i)
+			(MD can)
+			(VP
+				(VB meet)
+				(NP you)
+				(ADVP again)
+				[01;36m(NP[00m
+					[01;31m(NP[00m
+						(AP next)
+						(NN week)[01;31m)[00m
+					(PP on the twenty first)[01;36m)[00m))))
+
+
+Sentence 161:
+(TOP how is that)
+
+
+Sentence 162:
+(TOP that is no good)
+
+
+Sentence 163:
+(TOP i am going to be out of town ahm i will be back on the twenty second and i am free in the afternoon)
+
+
+Sentence 164:
+(TOP
+	(UH no)
+	(S
+		(NP that)
+		(MD will)
+		(RB not)
+		(VP
+			(VB be)
+			(AP
+				[01;36m(DGP[00m [01;36m(DG[00m [01;31m(DTP[00m
+					[01;31m(DT[00m
+						(DT any)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+				(JJ good)))))
+
+
+Sentence 165:
+(TOP ahm how about ah the twenty third)
+
+
+Sentence 166:
+(TOP in the morning)
+
+
+Sentence 167:
+(TOP the twenty third)
+
+
+Sentence 168:
+(TOP ahm okay that sounds good to me)
+
+
+Sentence 169:
+(TOP i am free all day that day so the morning will work)
+
+
+Sentence 170:
+(TOP how about ahm ten am)
+
+
+Sentence 171:
+(TOP
+	(S that works for me)
+	(UH ahm)
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP i)
+			(MD will)
+			(VP be in my office)[01;36m)[00m
+		(S
+			(ADVP so)
+			(NP you)
+			(MD can)
+			[01;31m(VP[00m
+				(ADVP just)
+				[01;36m(VP[00m
+					(VB meet)
+					(NP me)
+					(ADVP there)[01;36m)[00m[01;31m)[00m)[01;31m)[00m)
+
+
+Sentence 172:
+(TOP okay)
+
+
+Sentence 173:
+(TOP and i will bring all this stuff with me)
+
+
+Sentence 174:
+(TOP alright see you then)
+
+
+Sentence 175:
+(TOP okay)
+
+
+Sentence 176:
+(TOP
+	(UH ahm)
+	(S
+		(NP what)
+		(VBP do)
+		(NP you)
+		(VP
+			(VB say)
+			(S
+				(S
+					(NP we)
+					(VBP call)
+					(NP it)
+					[01;36m(NP[00m [01;31m(AP[00m
+						(JJ quits)[01;31m)[00m[01;36m)[00m
+					(ADVP now))
+				(CNJ and)
+				[01;36m(S[00m [01;31m(VP[00m
+					(VBP meet)
+					(NP some time ahm in the beginning of august)[01;31m)[00m[01;36m)[00m))))
+
+
+Sentence 177:
+(TOP i am going to have ah conferences all next week except monday)
+
+
+Sentence 178:
+(TOP i can meet you in the afternoon if you like)
+
+
+Sentence 179:
+(TOP no next week is no good i am on vacation again)
+
+
+Sentence 180:
+(TOP
+	(UH ahm)
+	(S
+		[01;36m(S[00m
+			(CNJ but)
+			(S i am)
+			(S i will be back on monday)[01;36m)[00m
+		(CNJ and)
+		(S
+			(NP i)
+			(VBP am)
+			(AP free)
+			(NP
+				[01;36m(NP[00m
+					(DTP all)
+					(NN day)[01;36m)[00m
+				[01;31m(NP[00m
+					(NP monday)[01;31m)[00m))))
+
+
+Sentence 181:
+(TOP okay)
+
+
+Sentence 182:
+(TOP
+	(S
+		(NP what)
+		(VBP do)
+		(NP you)
+		(VP
+			[01;36m(VP[00m
+				(VB say)[01;36m)[00m
+			(S
+				(NP we)
+				(VBP meet)
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN on)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(NP monday) [01;33mPP)[00m[01;36m)[00m
+						(PP around two)[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 183:
+(TOP pm)
+
+
+Sentence 184:
+(TOP
+	(VP sounds good)
+	(UH ahm)
+	(S
+		(ADVP why)
+		(VBP do)
+		(RB not)
+		(NP i)
+		[01;31m(VP[00m
+			[01;36m(VP[00m
+				(VB meet)
+				(NP you)
+				(IN in)
+				[01;36m(PP[00m
+					(PP in your office)
+					(NP this time)[01;36m)[00m[01;36m)[00m
+			(S since all the stuff is there)[01;31m)[00m))
+
+
+Sentence 185:
+(TOP okay i will just have remember my key this time)
+
+
+Sentence 186:
+(TOP okay see you then)
+
+
+Sentence 187:
+(TOP bye)
+
+
+Sentence 188:
+(TOP well i think we are going to have to conclude now and have more of a meeting in the next two weeks)
+
+
+Sentence 189:
+(TOP what time is good for you)
+
+
+Sentence 190:
+(TOP ahm well today is the fifth and i am not obviously not going to meet with you on the weekend so let us see monday i am quite busy all day but tuesday i am free in the afternoon)
+
+
+Sentence 191:
+(TOP no i am going to be out of town on tuesday)
+
+
+Sentence 192:
+(TOP
+	[01;36m(ADVP[00m [01;31m(NP[00m
+		[01;31m(CNJ[00m
+			[01;31m(ADVP[00m
+				(DGP as)
+				(RB well)[01;31m)[00m
+			(IN [01;33m(PP[00m as)[01;31m)[00m
+		(NP wednesday and thursday)[01;31m)[00m [01;33mPP)[00m[01;36m)[00m
+	[01;31m(S[00m
+		(CNJ but) [01;33mADVP)[00m
+		(S
+			(NP i)
+			(MD can)
+			(VP
+				(VB meet)
+				(PP
+					(IN on)
+					[01;36m(NP[00m
+						(NP friday)
+						(PP
+							[01;31m(PP[00m
+								(PP from one pm)
+								[01;31m(PP[00m [01;33m(PP[00m
+									(IN to)
+									[01;33m(NP[00m (NP three)[01;31m)[00m[01;31m)[00m
+							(CNJ or)
+							(NP four to five))[01;36m)[00m)))[01;31m)[00m)
+
+
+Sentence 193:
+(TOP no friday is not any good because i have got a seminar all day)
+
+
+Sentence 194:
+(TOP ahm the following monday)
+
+
+Sentence 195:
+(TOP the fifteenth)
+
+
+Sentence 196:
+(TOP i am free in the morning ahm and i am also free for lunch how would that be for you)
+
+
+Sentence 197:
+(TOP ten am to twelve)
+
+
+Sentence 198:
+(TOP is that fine)
+
+
+Sentence 199:
+(TOP yeah)
+
+
+Sentence 200:
+(TOP
+	(NP that)
+	(S that sounds great to me)
+	(S
+		(ADVP why)
+		(VBP do)
+		(RB not)
+		(UH ahm)
+		(NP you)
+		[01;36m(VP[00m
+			(VB meet)
+			(VP
+				(VB meet)
+				(NP me)
+				[01;31m(PP[00m
+					(IN over)
+					(PP at my office)[01;31m)[00m)[01;36m)[00m))
+
+
+Sentence 201:
+(TOP okay)
+
+
+Sentence 202:
+(TOP
+	(S
+		(VBZ is)
+		(NP that)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(DTP the)
+				[01;31m(CNUM[00m
+					(CD one)[01;31m)[00m[01;31m)[00m
+			(PP on campus)[01;36m)[00m))
+
+
+Sentence 203:
+(TOP
+	(UH yeah)
+	(S
+		(NP it)
+		(VBZ is)
+		(PP
+			(IN in)
+			(UH ah)
+			(NP
+				[01;31m(NP[00m
+					(NP doherty)
+					(POS z)[01;31m)[00m
+				(NN basement)))))
+
+
+Sentence 204:
+(TOP okay)
+
+
+Sentence 205:
+(TOP
+	(S
+		(NP it)
+		(VBZ looks)
+		(PP
+			(IN like)
+			(S
+				(NP we)
+				(VBP are)
+				(VP
+					(V going)
+					(VP
+						(TO to)
+						(VP
+							(VB have)
+							(VP
+								(TO to)
+								(VP
+									(VB meet)
+									[01;36m(NP[00m
+										(NP some time in the next two weeks)
+										(ADVP again)[01;36m)[00m)))))))))
+
+
+Sentence 206:
+(TOP
+	(S
+		(NP we)
+		(VBP are)
+		(ADVP always)
+		(VP
+			(V running)
+			[01;36m(PP[00m
+				(RP out)
+				(PP of time)[01;36m)[00m)))
+
+
+Sentence 207:
+(TOP ahm ah today is the fifth)
+
+
+Sentence 208:
+(TOP ahm i will be out of town for the sixth and seventh i will not be able to meet on thursday until until five)
+
+
+Sentence 209:
+(TOP but that would only give us an hour)
+
+
+Sentence 210:
+(TOP
+	(S
+		(CNJ and)
+		(UH ah)
+		(S
+			(NP friday)
+			(NP i)
+			(MD can)
+			(VP
+				(VB meet)
+				[01;36m(NP[00m
+					[01;31m(NP[00m
+						(DTP any)
+						(NN time)[01;31m)[00m
+					(PP until four)[01;36m)[00m))))
+
+
+Sentence 211:
+(TOP how how is friday)
+
+
+Sentence 212:
+(TOP
+	(UH ahm)
+	(UH well)
+	(S
+		(NP it)
+		(VBZ sounds)
+		(PP
+			(IN like)
+			[01;31m(S[00m
+				(NP this week)
+				(VBZ is)
+				(VP shot)[01;31m)[00m)
+		(S because i can not make it on friday because i have got a seminar)))
+
+
+Sentence 213:
+(TOP
+	(UH ah)
+	(S monday and tuesday i am on vacation)
+	[01;36m(NP[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		[01;31m(NP[00m
+			(NP wednesday)
+			(NP the fourteenth)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 214:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(VP[00m
+			(VBN got)[01;31m)[00m)
+	(S
+		(S
+			(NP all i have got)
+			(VBZ is)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(N doctors appointment)[01;36m)[00m
+				(PP in the morning)[01;31m)[00m)
+		(CNJ and)
+		(S
+			(NP i)
+			(MD would)
+			(VP
+				(-- be able)
+				(VP
+					(TO to)
+					(VP
+						(VB meet)
+						(NP you)
+						[01;36m(NP[00m
+							[01;31m(NP[00m
+								(DTP any)
+								(NN time)[01;31m)[00m
+							(PP after ten am)[01;36m)[00m))))))
+
+
+Sentence 215:
+(TOP
+	(UH well)
+	(S
+		(S i could meet you after ten am)
+		(CNJ and)
+		(S
+			(NP i)
+			(ADVP just)
+			(VBP have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN class)[01;36m)[00m
+				(PP at two)[01;31m)[00m)))
+
+
+Sentence 216:
+(TOP
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		[01;31m(S[00m
+			(NP we)
+			(MD could)
+			(VP pick a time in there)[01;31m)[00m[01;36m)[00m
+	(NP we)
+	(S we could probably eat over lunch in the highlander too))
+
+
+Sentence 217:
+(TOP ahm do you eat at any specific time)
+
+
+Sentence 218:
+(TOP
+	(UH no)
+	(S
+		(NP i)
+		(ADVP usually)
+		(VBP eat)
+		(S
+			[01;36m(PR[00m [01;36m(ADVP[00m [01;31m(CMP[00m
+				(IN when)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			(NP i)
+			(VBP am)
+			(AP hungry))))
+
+
+Sentence 219:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(ADVP why)
+		(VBP do)
+		(RB not)
+		(NP you)
+		(VP pick a time)[01;31m)[00m)
+
+
+Sentence 220:
+(TOP and ah i will try to be hungry then)
+
+
+Sentence 221:
+(TOP okay)
+
+
+Sentence 222:
+(TOP how about if we meet at precisely ten thirty six)
+
+
+Sentence 223:
+(TOP
+	(UH okay)
+	(S
+		(CNJ but)
+		(S
+			(NP i)
+			(MD might)
+			(VP
+				(VB be)
+				[01;31m(AP[00m
+					(NP a minute or two)
+					[01;36m(ADVP[00m
+						(JJ late)[01;36m)[00m[01;31m)[00m))))
+
+
+Sentence 224:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(VBP do)
+		(RB not)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(VB be)
+				[01;31m(AP[00m [01;33m(VP[00m
+					(V
+						(VBN surprised))[01;31m)[00m[01;31m)[00m
+			(S if i am there at ten thirty seven)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 225:
+(TOP no i like promptness)
+
+
+Sentence 226:
+(TOP i i hope that you are on time)
+
+
+Sentence 227:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBP mean)
+		[01;31m(S[00m
+			(CMP if)
+			(NP you)[01;31m)[00m[01;31m)[00m
+	(S
+		(S
+			(CMP if)
+			(NP you)
+			(VBP are)
+			(VP
+				(V planning)
+				(VP
+					(TO to)
+					(VP
+						(VB be)
+						[01;36m(ADVP[00m [01;31m(AP[00m
+							(JJ late)[01;31m)[00m[01;36m)[00m))))
+		(NP we)
+		(MD could)
+		(ADVP just)
+		(VP make it at a later time)))
+
+
+Sentence 228:
+(TOP i will be there at ten thirty six)
+
+
+Sentence 229:
+(TOP ian)
+
+
+Sentence 230:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(ADVP when)
+		(VBP do)
+		(NP you)
+		(VP want to schedule the next meeting)[01;31m)[00m)
+
+
+Sentence 231:
+(TOP is ahm thursday)
+
+
+Sentence 232:
+(TOP the sixth)
+
+
+Sentence 233:
+(TOP
+	[01;31m(AP[00m
+		(JJ good)[01;31m)[00m
+	(PP for you))
+
+
+Sentence 234:
+(TOP ahm i am going to be on vacation from the second to the fifteenth)
+
+
+Sentence 235:
+(TOP
+	(UH ah)
+	(S
+		(NP we)
+		(VBP are)
+		[01;36m(VP[00m
+			(VBP have)
+			(VP to do it sometime after that)[01;36m)[00m))
+
+
+Sentence 236:
+(TOP would the friday the twenty first work at all for you)
+
+
+Sentence 237:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		(AP free)
+		(NP
+			[01;36m(NP[00m
+				(DTP all)
+				(NN day)[01;36m)[00m
+			(ADVP long))))
+
+
+Sentence 238:
+(TOP ahm friday the twenty first does not look good)
+
+
+Sentence 239:
+(TOP i am going to be stuck in a seminar from eight am to five pm all day long)
+
+
+Sentence 240:
+(TOP ahm what about monday the twenty fourth)
+
+
+Sentence 241:
+(TOP
+	(S that is really good for me)
+	(S
+		(NP i)
+		(VBP have)
+		[01;36m(NP[00m [01;31m(VP[00m
+			(NP nothing)
+			[01;36m(VP[00m
+				(V scheduled)
+				(NP that day)[01;36m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 242:
+(TOP
+	(UH ahm)
+	[01;31m(AP[00m
+		(JJ great)[01;31m)[00m)
+
+
+Sentence 243:
+(TOP i am free until four oclock)
+
+
+Sentence 244:
+(TOP so we can meet anytime before then)
+
+
+Sentence 245:
+(TOP ah when is a good time for you)
+
+
+Sentence 246:
+(TOP what about from one to three pm)
+
+
+Sentence 247:
+(TOP i think that would be really good)
+
+
+Sentence 248:
+(TOP
+	(S
+		(CNJ and)
+		(S
+			(NP we)
+			(MD would)
+			(VP
+				(VB get)
+				[01;36m(NP[00m
+					(NP enough time)
+					(VP to talk about everything that we really want to)[01;36m)[00m))))
+
+
+Sentence 249:
+(TOP okay sounds good)
+
+
+Sentence 250:
+(TOP
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB meet)
+			(NP you)
+			(PP [01;33m(PP[00m
+				(IN at)
+				[01;31m(NP[00m
+					(CNUM one)
+					(RB oclock) [01;33mPP)[00m
+					(PP on ah monday the twenty fourth)[01;31m)[00m)
+			(ADVP then))))
+
+
+Sentence 251:
+(TOP
+	(NP ian)
+	(UH ahm)
+	[01;31m(S[00m
+		(NP i)
+		(VBP want)
+		(VP to meet with you)[01;31m)[00m)
+
+
+Sentence 252:
+(TOP
+	(S
+		(NP we)
+		(VBP have)
+		[01;36m(NP[00m [01;31m(VP[00m
+			[01;31m(NP[00m
+				(DTP some)
+				(AP really important)
+				(NN stuff)[01;31m)[00m
+			[01;36m(VP[00m
+				(TO to)
+				(VP talk about)[01;36m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 253:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(SUGG[00m
+		(WRB how)
+		(RB about)
+		(NP thursday the third)[01;31m)[00m)
+
+
+Sentence 254:
+(TOP from three to five pm)
+
+
+Sentence 255:
+(TOP how does that sound for you)
+
+
+Sentence 256:
+(TOP oh i would love to but i am going to be on vacation again)
+
+
+Sentence 257:
+(TOP ahm how about sometime next week)
+
+
+Sentence 258:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					[01;31m(DTP[00m
+						[01;31m(NP[00m
+							(DTP a)
+							(NN lot)[01;31m)[00m
+						[01;31m(PP[00m [01;33m(PP[00m
+							(IN of)[01;31m)[00m[01;31m)[00m
+					[01;36m(NP[00m
+						(AP free)
+						(NN time) [01;33mPP)[00m[01;36m)[00m[01;36m)[00m
+				(PP on monday and wednesday)[01;31m)[00m)))
+
+
+Sentence 259:
+(TOP
+	(UH ahm)
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(S monday through wednesday i am going to be out of town)
+			(CNJ and)
+			(S
+				(NP thursday)
+				(NP i)
+				(VBP am)
+				(VP
+					(V going)
+					(VP
+						(TO to)
+						(VP
+							(VB be)
+							(VP
+								(V stuck)
+								[01;31m(PP[00m [01;33m(PP[00m
+									(IN in)
+									[01;31m(NP[00m
+										[01;36m(NP[00m
+											(DTP a)
+											(NN conference) [01;33mPP)[00m[01;36m)[00m
+										(PP from nine to eleven)[01;31m)[00m[01;31m)[00m)))))[01;36m)[00m
+		(CNJ and)
+		[01;31m(S[00m
+			(NP i)
+			(VBP do)
+			(RB not)
+			(VP [01;33m(VP (VP[00m
+				(VB know)
+				(S
+					(CMP if)
+					(NP i)
+					(MD would)
+					(ADVP really)
+					(VP
+						(VB want)
+						(VP
+							(TO to)
+							(VP
+								(VB go)
+								[01;36m(PP[00m
+									(PP into another meeting)
+									(PP right after that)[01;36m)[00m)))))[01;31m)[00m[01;31m)[00m
+	(SUGG what about friday the eleventh) [01;33mVP)[00m
+	[01;31m(S[00m
+		(NP i)
+		(VBP am)
+		(AP free)
+		(NP all day)[01;31m)[00m)
+
+
+Sentence 260:
+(TOP ah my afternoon on friday is pretty free ah we could meet at say two oclock)
+
+
+Sentence 261:
+(TOP is that work for you)
+
+
+Sentence 262:
+(TOP yeah that is great)
+
+
+Sentence 263:
+(TOP
+	(S
+		(NP
+			(CNUM two)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN to)
+				[01;31m(NP[00m
+					(PP at least) [01;33mPP)[00m
+					(CNUM four)[01;31m)[00m[01;31m)[00m
+			(PP on friday the eleventh))
+		(MD will)
+		(VP be great)))
+
+
+Sentence 264:
+(TOP we will meet then)
+
+
+Sentence 265:
+(TOP okay)
+
+
+Sentence 266:
+(TOP see you then)
+
+
+Sentence 267:
+(TOP
+	[01;36m(S[00m
+		(NP ian)
+		[01;31m(S[00m
+			(NP it)
+			(VBZ is)
+			(AP urgent)[01;31m)[00m[01;36m)[00m
+	[01;31m(S[00m
+		(NP i)
+		(VBP have)
+		(VP to meet up with you)[01;31m)[00m)
+
+
+Sentence 268:
+(TOP what about today say from one to three pm)
+
+
+Sentence 269:
+(TOP how does that sound)
+
+
+Sentence 270:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN class)[01;36m)[00m
+				(PP from two to three thirty)[01;31m)[00m)))
+
+
+Sentence 271:
+(TOP
+	(UH ah)
+	(S
+		(NP i)
+		(VBP am)
+		(AP free)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(DTP all)
+				(NN day)[01;31m)[00m
+			(NP tomorrow and wednesday)[01;36m)[00m
+		(ADVP though)))
+
+
+Sentence 272:
+(TOP
+	(UH ah)
+	(S
+		(VBP are)
+		(NP you)
+		[01;31m(AP[00m
+			[01;36m(AP[00m
+				(JJ free)[01;36m)[00m
+			(PP at all)[01;31m)[00m
+		(NP any of those days)))
+
+
+Sentence 273:
+(TOP ahm tomorrow through the twentieth i am on vacation and i am attending seminars)
+
+
+Sentence 274:
+(TOP
+	(UH so))
+
+
+Sentence 275:
+(TOP i really will not have any free time)
+
+
+Sentence 276:
+(TOP
+	(S
+		[01;36m(S[00m
+			(CNJ but)
+			(UH ahm)
+			(S
+				(NP i)
+				(VBP am)
+				(VP
+					(V going)
+					(VP
+						(TO to)
+						(VP
+							[01;31m(--[00m
+								(VB get)
+								(RP back)[01;31m)[00m
+							(PP on wednesday the twenty first)))))[01;36m)[00m
+		(CNJ and)
+		(S i will be free all day)))
+
+
+Sentence 277:
+(TOP what about if we meet up then)
+
+
+Sentence 278:
+(TOP ah the twenty first is no good i will be away on business)
+
+
+Sentence 279:
+(TOP ahm how about the afternoon of the twenty second or the twenty third)
+
+
+Sentence 280:
+(TOP
+	(UH ahm)
+	(S
+		(NP
+			[01;36m(NP[00m
+				(DTP the)
+				(NN afternoon)[01;36m)[00m
+			(NP both the twenty second and twenty third))
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB be)
+					(VP
+						(V stuck)
+						[01;31m(PP[00m
+							(IN in)
+							(NP three hour meetings)[01;31m)[00m))))))
+
+
+Sentence 281:
+(TOP
+	(S but ah the next best thing would be monday the twenty sixth)
+	(S
+		(NP i)
+		(VBP am)
+		(AP free)
+		[01;33m(NP (DTP (DT[00m (NP all day)
+		[01;31m(NP[00m
+			(DTP any) [01;33mDT) DTP)[00m
+			(NN time) [01;33mNP)[00m
+			(AP good)
+			(PP for you)[01;31m)[00m))
+
+
+Sentence 282:
+(TOP ahm the twenty sixth would be pretty good could we meet at ten in the morning)
+
+
+Sentence 283:
+(TOP yeah ten am in the morning would be great)
+
+
+Sentence 284:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP we)
+		(MD will)
+		(VP meet from like ten to twelve)[01;31m)[00m)
+
+
+Sentence 285:
+(TOP that will be fine)
+
+
+Sentence 286:
+(TOP great)
+
+
+Sentence 287:
+(TOP then i am looking forward to it)
+
+
+Sentence 288:
+(TOP ah ian)
+
+
+Sentence 289:
+(TOP i do not think we finished ah discussing what we had to talk about)
+
+
+Sentence 290:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(SUGG[00m
+		(WP what)
+		(RB about)
+		(S if we meet up on monday)[01;31m)[00m)
+
+
+Sentence 291:
+(TOP
+	(SUGG
+		(VB say)
+		[01;31m(PP[00m
+			(IN around)
+			(PP from two to four)[01;31m)[00m))
+
+
+Sentence 292:
+(TOP
+	[01;36m(VP[00m
+		(VB be)[01;36m)[00m
+	(IN on)
+	(UH ah)
+	(UH no)
+	(S i am going to be on vacation again this next week))
+
+
+Sentence 293:
+(TOP ah from the second to the sixth)
+
+
+Sentence 294:
+(TOP ahm how about the ninth the eleventh or the twelfth)
+
+
+Sentence 295:
+(TOP i am free all day on those days)
+
+
+Sentence 296:
+(TOP the ninth would be great)
+
+
+Sentence 297:
+(TOP say what about from ah two to four pm)
+
+
+Sentence 298:
+(TOP that day)
+
+
+Sentence 299:
+(TOP that would be great for me)
+
+
+Sentence 300:
+(TOP
+	(UH okay)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH then)[01;36m)[00m
+		[01;31m(S[00m
+			(NP i)
+			(MD will)
+			(VP
+				(VB see)
+				(NP you)
+				[01;31m(PP[00m
+					[01;36m(PP[00m
+						(PP from two)
+						(PP to four)[01;36m)[00m
+					(PP on the ninth)[01;31m)[00m)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 301:
+(TOP
+	[01;36m(S[00m
+		(NP ian)
+		[01;31m(S[00m
+			(NP we)
+			(VBP need)
+			(VP to discuss this issue further)[01;31m)[00m[01;36m)[00m
+	(SUGG what about if we meet on ah march the twenty third))
+
+
+Sentence 302:
+(TOP
+	(UH ah)
+	(S any day all day is good for me)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		[01;31m(S[00m
+			(NP you)
+			(ADVP just)
+			(VBP pick)
+			(NP a time)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 303:
+(TOP okay well i have got a class from nine to twelve)
+
+
+Sentence 304:
+(TOP ahm could we meet at say ah two oclock)
+
+
+Sentence 305:
+(TOP
+	(S
+		(NP two to four)
+		(MD would)
+		(VP
+			(VB be)
+			[01;36m(DG[00m [01;36m(DGP[00m [01;31m(ADVP[00m
+				(RB just)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			[01;31m(AP[00m
+				(JJ great)[01;31m)[00m)))
+
+
+Sentence 306:
+(TOP
+	(S
+		(CNJ and)
+		(S
+			(ADVP then)
+			(UH ah)
+			(NP we)
+			(MD can)
+			(VP
+				(VB wrap)
+				(RP up)
+				(S
+					(NP what)
+					(NP we)
+					(VBD started)
+					(VP
+						(V talking)
+						[01;36m(PP[00m
+							(PP about)
+							(ADVP here)[01;36m)[00m))))))
+
+
+Sentence 307:
+(TOP see you then)
+
+
+Sentence 308:
+(TOP
+	(NP ian)
+	[01;31m(S[00m
+		(NP i)
+		(VBP think)
+		(S we should meet up again)[01;31m)[00m)
+
+
+Sentence 309:
+(TOP
+	(UH ah)
+	(SUGG [01;33m(SUGG[00m
+		(WP what)
+		(RB about)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(NP april)
+				(NP the twentieth) [01;33mSUGG)[00m[01;36m)[00m
+			(S that is a tuesday)[01;31m)[00m))
+
+
+Sentence 310:
+(TOP i am free all day)
+
+
+Sentence 311:
+(TOP ah anything good for you)
+
+
+Sentence 312:
+(TOP well i have got a meeting in the afternoon)
+
+
+Sentence 313:
+(TOP but i could meet ah during lunch or ah at say ten in the morning)
+
+
+Sentence 314:
+(TOP
+	(UH ah)
+	[01;31m(S[00m
+		(S we probably would not have enough time to discuss this over lunch)
+		(CNJ but)[01;31m)[00m
+	(UH ah))
+
+
+Sentence 315:
+(TOP
+	(S
+		(NP ten am)
+		(VBZ sounds)
+		(AP good)
+		(IN [01;33m(PP[00m from)
+		[01;31m(SUGG[00m [01;33m(SUGG[00m
+			(VB say)
+			[01;31m(PP[00m
+				(PP
+					(IN from)
+					[01;36m(NP[00m
+						(ADVP about)
+						[01;31m(NP[00m
+							(CNUM
+								(CD ten))[01;31m)[00m[01;36m)[00m) [01;33mSUGG) PP)[00m
+				(PP to noon)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 316:
+(TOP how about that)
+
+
+Sentence 317:
+(TOP ah sounds great)
+
+
+Sentence 318:
+(TOP
+	(S
+		(ADVP so)
+		(NP i)
+		(MD will)
+		(VP
+			(VB see)
+			(NP you)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN on)
+				[01;31m(NP[00m
+					(NP tuesday)
+					(NP the twentieth) [01;33mPP)[00m
+					(PP at ten am)[01;31m)[00m[01;31m)[00m)))
+
+
+Sentence 319:
+(TOP ian)
+
+
+Sentence 320:
+(TOP i think we need to get together for another two hour meeting)
+
+
+Sentence 321:
+(TOP what does the sixth look like for you)
+
+
+Sentence 322:
+(TOP ah from the second to the fifteenth i am going to be on vacation ah we are going to have to do it sometime after that)
+
+
+Sentence 323:
+(TOP are you free on the twenty first)
+
+
+Sentence 324:
+(TOP
+	(UH nope)
+	[01;36m(VP[00m
+		[01;31m(VP[00m
+			(VBD got)
+			(NP a seminar)[01;31m)[00m
+		(DTP all)[01;36m)[00m)
+
+
+Sentence 325:
+(TOP day)
+
+
+Sentence 326:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V looking)
+			[01;31m(PP[00m
+				[01;36m(PP[00m
+					(IN at)
+					(ADVP anywhere)[01;36m)[00m
+				(NP the twenty fourth)[01;31m)[00m)))
+
+
+Sentence 327:
+(TOP
+	(S
+		(S all day i am free)
+		(CNJ or)
+		[01;31m(NP[00m
+			(NN afternoon)
+			(PP on the twenty fifth)[01;31m)[00m))
+
+
+Sentence 328:
+(TOP okay why do not we try to meet on the morning of the twenty fourth)
+
+
+Sentence 329:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			(NP
+				(DTP a)
+				[01;36m(N[00m
+					(NP four pm)
+					(N doctors appointment)[01;36m)[00m))))
+
+
+Sentence 330:
+(TOP but i can meet any time before that)
+
+
+Sentence 331:
+(TOP
+	[01;31m(S[00m
+		(SUGG how about two oclock)
+		[01;36m(S[00m
+			(CNJ or)
+			(UH no)
+			(S you have to be out at four)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 332:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(NP[00m
+		(CNUM one)
+		(RB oclock)[01;31m)[00m)
+
+
+Sentence 333:
+(TOP
+	(S
+		(NP that)
+		(MD will)
+		(VP
+			(VB give)
+			(NP us)
+			(NP enough time)
+			(VP
+				(TO to)
+				(VP
+					(VB recuperate)
+					[01;31m(PP[00m [01;33m(PP[00m
+						(IN from)
+						[01;31m(NP[00m
+							[01;36m(NP[00m
+								(DTP the)
+								(NN morning) [01;33mPP)[00m[01;36m)[00m
+							(PP on a monday)[01;31m)[00m[01;31m)[00m)))))
+
+
+Sentence 334:
+(TOP okay sounds good)
+
+
+Sentence 335:
+(TOP i will see you at ah one oclock on the twenty fourth)
+
+
+Sentence 336:
+(TOP okay ian)
+
+
+Sentence 337:
+(TOP we got to schedule a meeting i am looking at any friday)
+
+
+Sentence 338:
+(TOP
+	(NP
+		(CNJ or)
+		(NP
+			[01;36m(NP[00m
+				(DTP any)
+				(NP monday)[01;36m)[00m
+			[01;36m(NP[00m [01;31m(PP[00m
+				[01;36m(CNJ[00m
+					(IN but)[01;36m)[00m
+				(NP the seventh)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 339:
+(TOP what does it look like for you)
+
+
+Sentence 340:
+(TOP ah fridays are good in the afternoon)
+
+
+Sentence 341:
+(TOP except for the fourth)
+
+
+Sentence 342:
+(TOP ah could you meet on the eleventh)
+
+
+Sentence 343:
+(TOP at say two oclock)
+
+
+Sentence 344:
+(TOP sounds great)
+
+
+Sentence 345:
+(TOP two oclock on the eleventh)
+
+
+Sentence 346:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP you)
+			(VBP know)
+			(NP what)[01;36m)[00m
+		(NP ian)[01;31m)[00m)
+
+
+Sentence 347:
+(TOP i think we got to get together again in a couple weeks)
+
+
+Sentence 348:
+(TOP
+	(UH ahm)
+	(S
+		(ADVP how)
+		(VBZ does)
+		(NP
+			(NP you)
+			[01;36m(ADVP[00m
+				(NN schedule)[01;36m)[00m)
+		(VP look)))
+
+
+Sentence 349:
+(TOP i am a little busy but i think we can ah work something out)
+
+
+Sentence 350:
+(TOP
+	(S
+		(VBP are)
+		(NP you)
+		(AP free)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP any)
+				(NN time)[01;36m)[00m
+			(NP next week)[01;31m)[00m))
+
+
+Sentence 351:
+(TOP maybe in the afternoon)
+
+
+Sentence 352:
+(TOP actually monday the eighth)
+
+
+Sentence 353:
+(TOP ah i think a two hour meeting would be good enough for us from maybe three to five)
+
+
+Sentence 354:
+(TOP
+	(S
+		(CNJ but)
+		(S
+			(NP mondays)
+			[01;33m(S[00m (NP i)
+			(MD would)
+			[01;31m(VP[00m
+				[01;36m(VP[00m
+					(VB think) [01;33mS)[00m[01;36m)[00m
+				[01;31m(S[00m
+					(VBP are)
+					(AP pretty bad)[01;31m)[00m[01;31m)[00m)))
+
+
+Sentence 355:
+(TOP
+	(UH ahm)
+	[01;36m(ADVP[00m [01;31m(S[00m [01;33m(ADVP (ADVP[00m
+		(ADVP
+			(DGP as)
+			(RB far)
+			[01;31m(PP[00m
+				(IN as) [01;33mADVP)[00m
+				[01;31m(S[00m
+					[01;31m(NP[00m
+						(NP tuesday) [01;33mADVP)[00m
+						(NP wednesday)
+						(CNJ and)
+						(NP thursday)[01;31m)[00m
+					(VBZ goes)[01;31m)[00m[01;31m)[00m)
+		(NP i)
+		(VBP am)
+		(ADVP out)[01;31m)[00m[01;36m)[00m
+	(S friday is booked solid))
+
+
+Sentence 356:
+(TOP i am probably looking at something maybe on the lines of the nineteenth)
+
+
+Sentence 357:
+(TOP
+	[01;36m(PP[00m [01;31m(S[00m
+		(PP from a three to five)
+		(NP it)
+		(VBZ is)
+		(NP a friday)[01;31m)[00m[01;36m)[00m
+	(S what do you think))
+
+
+Sentence 358:
+(TOP
+	(IN from)
+	[01;31m(S[00m
+		(NP i)
+		(VBP have)
+		[01;31m(VP[00m
+			[01;36m(VP[00m
+				(VBN got)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP a)
+						(NN seminar)[01;36m)[00m
+					[01;31m(PP[00m
+						[01;36m(PP[00m
+							(PP from eight)
+							(PP to five)[01;36m)[00m
+						(PP on friday)[01;31m)[00m[01;31m)[00m [01;33mPP)[00m[01;36m)[00m
+			[01;31m(S[00m
+				(NP that)
+				(VBZ is)
+				(AP no good)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 359:
+(TOP ahm maybe monday the twenty second or wednesday the twenty fourth)
+
+
+Sentence 360:
+(TOP monday the twenty second sounds good)
+
+
+Sentence 361:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V looking)
+			[01;31m(PP[00m
+				(IN at)
+				(ADVP probably)
+				[01;36m(ADVP[00m
+					(ADVP anywhere)
+					(PP from two to four)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 362:
+(TOP because twelve i am breaking for lunch)
+
+
+Sentence 363:
+(TOP
+	(UH okay)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH then)[01;36m)[00m
+		(UH ah)
+		[01;31m(S[00m
+			(NP we)
+			(MD could)
+			(VP plan to meet at two on monday the twenty second)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 364:
+(TOP sounds great)
+
+
+Sentence 365:
+(TOP i will mark it down in my book)
+
+
+Sentence 366:
+(TOP
+	(UH well)
+	[01;36m(S[00m
+		(NP ian)
+		[01;31m(S[00m
+			(NP it)
+			(VBZ is)
+			(NP
+				[01;31m(N[00m
+					(FW deja)
+					(FW vu)[01;31m)[00m)
+			(ADVP again)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 367:
+(TOP
+	[01;31m(S[00m
+		(NP we)
+		(VBP need)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(TO to)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB get)
+				[01;33m(NP[00m (NP another meeting)
+				[01;31m(VP[00m [01;33m(VP[00m
+					(V
+						(VBG going))[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		[01;33m(NP[00m (NP this april)[01;31m)[00m
+	(UH ahm)
+	[01;31m(NP[00m
+		(N two hour meeting) [01;33mNP)[00m
+		(ADVP again)[01;31m)[00m)
+
+
+Sentence 368:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V looking)
+			[01;31m(PP[00m
+				(IN at)
+				(ADVP maybe)
+				(ADVP hopefully)
+				[01;31m(PP[00m
+					(IN by)
+					(NP the end of this week)[01;31m)[00m[01;31m)[00m)))
+
+
+Sentence 369:
+(TOP what do you say)
+
+
+Sentence 370:
+(TOP well i am free ah tuesday morning and wednesday afternoon)
+
+
+Sentence 371:
+(TOP
+	(S
+		[01;36m(AP[00m [01;31m(PP[00m
+			[01;31m(AP[00m
+				(JJ other)[01;31m)[00m
+			[01;36m(PP[00m
+				(IN than)
+				(NP that)[01;36m)[00m[01;31m)[00m[01;36m)[00m
+		(NP i)
+		(VBP am)
+		[01;36m(VP[00m [01;31m(AP[00m
+			[01;36m(ADVP[00m [01;31m(DGP[00m
+				[01;36m(DGP[00m
+					(DG
+						(RB pretty))[01;36m)[00m
+				[01;31m(ADVP[00m
+					(RB much)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			[01;36m(V[00m
+				(JJ packed)[01;36m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 372:
+(TOP
+	[01;31m(AP[00m
+		[01;31m(DGP[00m
+			[01;31m(DG[00m
+				(DT no)[01;31m)[00m[01;31m)[00m
+		(JJ good)[01;31m)[00m)
+
+
+Sentence 373:
+(TOP i am out of town those days)
+
+
+Sentence 374:
+(TOP let us see)
+
+
+Sentence 375:
+(TOP
+	(WRB how)
+	(RB about)
+	(S i am looking at monday the twelfth))
+
+
+Sentence 376:
+(TOP any time free then)
+
+
+Sentence 377:
+(TOP on monday and tuesday i am going to be on vacation)
+
+
+Sentence 378:
+(TOP
+	(S
+		(VBP are)
+		(NP you)
+		(AP free)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP any)
+				(NN time)[01;36m)[00m
+			[01;36m(ADVP[00m [01;31m(NP[00m
+				[01;31m(ADVP[00m
+					(RBR later)[01;31m)[00m
+				[01;36m(NP[00m
+					(DTP that)
+					(NN weekend)[01;36m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 379:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NNS afternoons)[01;36m)[00m
+				(AP free)
+				(PP
+					(IN on)
+					(NP
+						[01;36m(NP[00m
+							(NP the fourteenth)
+							(NP fifteenth)[01;36m)[00m
+						(CNJ and)
+						(DTP the)
+						(NP
+							(NP all day)
+							[01;36m(NP[00m
+								(DTP the)
+								(ONUM sixteenth)[01;36m)[00m)))[01;31m)[00m)))
+
+
+Sentence 380:
+(TOP sixteenth sounds good)
+
+
+Sentence 381:
+(TOP
+	[01;31m(NP[00m
+		(NN anytime)[01;31m)[00m
+	[01;31m(NP[00m
+		[01;36m(NP[00m
+			(DTP a)
+			(NN meeting)[01;36m)[00m
+		(PP before two oclock)[01;31m)[00m)
+
+
+Sentence 382:
+(TOP because i am out of there at four)
+
+
+Sentence 383:
+(TOP
+	(UH okay)
+	[01;36m(ADVP[00m
+		(UH then)[01;36m)[00m)
+
+
+Sentence 384:
+(TOP why do not we meet at say ten and we can do brunch)
+
+
+Sentence 385:
+(TOP sounds great)
+
+
+Sentence 386:
+(TOP what kind of food)
+
+
+Sentence 387:
+(TOP ahm anything is fine with me i do not really care)
+
+
+Sentence 388:
+(TOP italian)
+
+
+Sentence 389:
+(TOP
+	(S
+		(CMP because)
+		(NP i)
+		(VBP am)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN sucker)[01;36m)[00m
+			(PP for italian)[01;31m)[00m))
+
+
+Sentence 390:
+(TOP sounds good i will see you then)
+
+
+Sentence 391:
+(TOP
+	(UH so))
+
+
+Sentence 392:
+(TOP we should meet again)
+
+
+Sentence 393:
+(TOP how about ah how about next week)
+
+
+Sentence 394:
+(TOP what day are good for you)
+
+
+Sentence 395:
+(TOP what days are good for you)
+
+
+Sentence 396:
+(TOP actually next week i am on vacation)
+
+
+Sentence 397:
+(TOP gosh i guess we will have to meet the week after that)
+
+
+Sentence 398:
+(TOP ahm how about monday)
+
+
+Sentence 399:
+(TOP ah monday the tenth)
+
+
+Sentence 400:
+(TOP ah has)
+
+
+Sentence 401:
+(TOP well unfortunately my vacation ah runs through the fourteenth and i have nonrefundable plane tickets)
+
+
+Sentence 402:
+(TOP
+	(S
+		(NP i)
+		(VBD was)
+		(VP
+			(V planning)
+			(PP
+				(IN on)
+				[01;36m(VP[00m
+					[01;31m(NP[00m
+						(V
+							(VBG being))[01;31m)[00m
+					[01;31m(PP[00m [01;33m(PP[00m
+						(IN on)
+						[01;31m(NP[00m
+							[01;36m(NP[00m
+								(DTP a)
+								(NN beach) [01;33mPP)[00m[01;36m)[00m
+							(PP in acapulco)[01;31m)[00m[01;31m)[00m
+					(PP about that point)[01;36m)[00m))))
+
+
+Sentence 403:
+(TOP well when are you getting back)
+
+
+Sentence 404:
+(TOP
+	(S
+		[01;36m(S[00m
+			[01;36m(S[00m
+				[01;31m(S[00m
+					(NP i)
+					[01;31m(--[00m
+						(VBP get)
+						(RP back)[01;31m)[00m
+					[01;31m(PP[00m
+						(IN on)
+						[01;31m(NP[00m [01;33m(NP (NP[00m
+							(DTP the)
+							(ONUM fifteenth)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+				[01;31m(S[00m
+					(VBP rest) [01;33mNP)[00m
+					(RP up)
+					(PP on the sixteenth which is a sunday)[01;31m)[00m [01;33mNP)[00m[01;36m)[00m
+			(CNJ and)
+			(S
+				(NP i)
+				(VBP am)
+				[01;31m(ADVP[00m
+					[01;36m(ADVP[00m
+						(RB back)[01;36m)[00m
+					(PP at work)[01;31m)[00m
+				(PP on the seventeenth))[01;36m)[00m
+		(CNJ but)
+		(S
+			(NP i)
+			(VBP have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN seminar)[01;36m)[00m
+				(NP all day)[01;31m)[00m)))
+
+
+Sentence 405:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBP think)
+		(S the first day that is really good for me is the eighteenth)[01;31m)[00m)
+
+
+Sentence 406:
+(TOP that is a tuesday)
+
+
+Sentence 407:
+(TOP okay want to have lunch)
+
+
+Sentence 408:
+(TOP that sounds pretty good are you available just before noon)
+
+
+Sentence 409:
+(TOP we can meet at noon)
+
+
+Sentence 410:
+(TOP sounds good)
+
+
+Sentence 411:
+(TOP
+	(UH ah)
+	(PP
+		(PP on campus)
+		(CNJ or)
+		[01;36m(ADVP[00m [01;31m(PP[00m
+			(IN off)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 412:
+(TOP your choice)
+
+
+Sentence 413:
+(TOP
+	(S
+		[01;31m(S[00m
+			(NP i)
+			(VBP say)
+			(S [01;33m(S[00m
+				(CMP if)
+				(NP i)
+				(VBP have)
+				(VP
+					(VBN got)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(AP enough)
+							(NN money)[01;36m)[00m
+						(VP to go to acapulco)[01;31m)[00m))[01;31m)[00m
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(AP enough)
+					(NN money)[01;36m)[00m
+				(VP
+					(TO to)
+					(VP
+						(VB go)
+						(PP
+							(IN to)
+							(NP
+								[01;31m(CNUM[00m
+									(CD one)[01;31m)[00m
+								(PP
+									(IN of)
+									(NP
+										(DTP those)
+										(AP silly)
+										(NNS places)
+										(PP
+											(IN on)
+											(NP
+												[01;31m(N[00m
+													(NP craig)
+													(NN street)[01;31m)[00m))))))))[01;31m)[00m)))
+
+
+Sentence 414:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		[01;31m(NP[00m
+			(NP great)
+			[01;36m(NP[00m
+				(NP scott)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 415:
+(TOP sounds great)
+
+
+Sentence 416:
+(TOP
+	[01;31m(PP[00m
+		[01;36m(CMP[00m
+			(IN except)[01;36m)[00m
+		[01;31m(S[00m
+			(NP they)
+			(VBP have)
+			(VP been out of business for a while)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 417:
+(TOP how about some other place)
+
+
+Sentence 418:
+(TOP
+	(S
+		(VBP let)
+		(NP us)
+		(ADVP just)
+		(VP [01;33m(VP[00m
+			(VP wander up craig)
+			(CNJ and)
+			[01;31m(VP[00m
+				(VB pick)
+				[01;31m(NP[00m
+					[01;36m(NP[00m [01;31m(CNUM[00m
+						(CD one)[01;31m)[00m [01;33mVP)[00m[01;36m)[00m
+					(S we like that day)[01;31m)[00m[01;31m)[00m)))
+
+
+Sentence 419:
+(TOP
+	(S that sounds pretty good)
+	(UH okay)
+	(UH ahm)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB meet)
+			(NP you)
+			(PP
+				(IN outside)
+				(NP
+					[01;31m(N[00m
+						(NP cyert)
+						(NP hall)[01;31m)[00m))
+			(PP at noon))))
+
+
+Sentence 420:
+(TOP does that sound alright for you)
+
+
+Sentence 421:
+(TOP see you then)
+
+
+Sentence 422:
+(TOP
+	(ADVP
+		[01;36m(NP[00m [01;31m(ADVP[00m
+			(RB roger)[01;31m)[00m[01;36m)[00m
+		(ADVP over)
+		(CNJ and)
+		(ADVP out)))
+
+
+Sentence 423:
+(TOP thought it was roger wilco)
+
+
+Sentence 424:
+(TOP oh no it is what we always say when we are talking on screen)
+
+
+Sentence 425:
+(TOP well)
+
+
+Sentence 426:
+(TOP looks like we should get together again)
+
+
+Sentence 427:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(AP free)
+		[01;36m(NP[00m [01;31m(NPD[00m
+			(CNJ1 either)
+			(NP thursday afternoons)
+			(CNJ2 or)
+			(NP
+				[01;31m(NP[00m
+					(DTP all)
+					(NN day)[01;31m)[00m
+				[01;36m(NP[00m
+					(NPS fridays)[01;36m)[00m)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 428:
+(TOP what is good for you)
+
+
+Sentence 429:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		(UH ah)
+		(NP
+			[01;36m(NP[00m
+				(NP friday)
+				(NP the eleventh)[01;36m)[00m
+			(NP some time in the afternoon))))
+
+
+Sentence 430:
+(TOP sounds great)
+
+
+Sentence 431:
+(TOP how about two)
+
+
+Sentence 432:
+(TOP two is fine)
+
+
+Sentence 433:
+(TOP where would you like to meet)
+
+
+Sentence 434:
+(TOP ah want to come over to my office)
+
+
+Sentence 435:
+(TOP
+	(UH sure)
+	(S
+		(VBP are)
+		(NP you)
+		(ADVP still)
+		(PP [01;33m(VP[00m
+			[01;36m(PP[00m
+				(IN in)
+				[01;31m(NP[00m
+					[01;31m(N[00m
+						(NP wean) [01;33mVP)[00m
+						(NP hall)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			[01;36m(ADVP[00m [01;31m(NP[00m
+				(NN someplace)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 436:
+(TOP yep)
+
+
+Sentence 437:
+(TOP
+	(NP
+		[01;31m(CNUM[00m
+			(CD forty)
+			(CD one)
+			(CD twenty)
+			(CD seven)[01;31m)[00m))
+
+
+Sentence 438:
+(TOP okay no problem)
+
+
+Sentence 439:
+(TOP
+	(S
+		(NP i)
+		(MD will)
+		(ADVP just)
+		(VP
+			(VB come)
+			[01;36m(PP[00m
+				(RP over)
+				(ADVP there)[01;36m)[00m
+			(PP
+				(IN at)
+				[01;36m(NP[00m
+					[01;31m(NP[00m
+						(CNUM
+							(CD two))[01;31m)[00m
+					(PP on the eleventh)[01;36m)[00m))))
+
+
+Sentence 440:
+(TOP see you then)
+
+
+Sentence 441:
+(TOP okay)
+
+
+Sentence 442:
+(TOP okay)
+
+
+Sentence 443:
+(TOP well i guess we should meet)
+
+
+Sentence 444:
+(TOP
+	[01;31m(S[00m
+		(CNJ but)
+		[01;31m(S[00m [01;33m(S (S[00m
+			(NP my time)
+			(VBZ is)
+			(AP a little tight)
+			(NP this week)[01;31m)[00m[01;31m)[00m
+	[01;31m(S[00m
+		(PP in fact) [01;33mS)[00m
+		(NP i)
+		(MD can)
+		(RB not)
+		(VP meet at all)[01;31m)[00m)
+
+
+Sentence 445:
+(TOP unless we do it this afternoon how about next wednesday or thursday morning)
+
+
+Sentence 446:
+(TOP or friday morning for that matter)
+
+
+Sentence 447:
+(TOP
+	(UH well)
+	(NP i)
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(S
+				(NP i)
+				(VBP teach)
+				(PP [01;33m(PP[00m
+					(IN until)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(CNUM
+								(CD three)
+								(CD thirty)) [01;33mPP)[00m[01;36m)[00m
+						(NP today)[01;31m)[00m))
+			(CNJ but)
+			(S i could meet you ahm you know like at three forty five)[01;36m)[00m
+		[01;31m(S[00m
+			(CMP if)
+			(NP you)
+			(VBD wanted)[01;31m)[00m[01;31m)[00m
+	(UH ahm)
+	[01;31m(S[00m
+		[01;31m(S[00m
+			(NP i)
+			(VBP am)
+			[01;31m(AP[00m
+				[01;36m(AP[00m
+					(JJ afraid)[01;36m)[00m
+				[01;33m(S[00m (S that i am out of town ah next week)[01;31m)[00m[01;31m)[00m
+		(CNJ and)
+		[01;36m(S[00m
+			(S i come back on thursday)
+			(CNJ but)
+			(S i am tied up in the morning)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 448:
+(TOP ahm friday i have completely free)
+
+
+Sentence 449:
+(TOP
+	(S
+		(NP that)
+		(MD would)
+		(VP
+			(VB be)
+			[01;36m(NP[00m
+				[01;36m(CNUM[00m
+					(CD twenty)[01;36m)[00m
+				(NP friday the twenty third)[01;36m)[00m)))
+
+
+Sentence 450:
+(TOP ah well why do not we just me on twenty third)
+
+
+Sentence 451:
+(TOP
+	(S
+		(VBP let)
+		(NP us)
+		(VP
+			(VB get)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP an)
+					(AP early)
+					(NN start)[01;36m)[00m
+				(PP at nine)[01;31m)[00m)))
+
+
+Sentence 452:
+(TOP sound good)
+
+
+Sentence 453:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(ADVP probably)
+		(MD would)
+		(RB not)
+		(VP
+			(VB be)
+			[01;31m(VP[00m
+				(V thinking)
+				[01;31m(ADVP[00m
+					[01;36m(ADVP[00m [01;31m(DGP[00m
+						[01;31m(DG[00m
+							(RB too)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+					[01;36m(ADVP[00m
+						(RB straight)[01;36m)[00m[01;31m)[00m
+				[01;31m(PP[00m
+					(IN at)
+					(NP nine)[01;31m)[00m[01;31m)[00m))
+	[01;31m(S[00m
+		(NP ten or ten thirty)
+		(MD would)
+		(ADVP really)
+		(VP be better for me)[01;31m)[00m)
+
+
+Sentence 454:
+(TOP okay let us do it at ten)
+
+
+Sentence 455:
+(TOP alright)
+
+
+Sentence 456:
+(TOP ah why do not you come to my office)
+
+
+Sentence 457:
+(TOP
+	(S
+		(NP it)
+		(VBZ is)
+		(NP
+			[01;31m(NP[00m
+				(CNUM
+					(CD two)
+					(CD seventy)
+					(CD seven))[01;31m)[00m
+			[01;31m(N[00m
+				(NP cyert)
+				(NP hall)[01;31m)[00m)))
+
+
+Sentence 458:
+(TOP okay see you there)
+
+
+Sentence 459:
+(TOP see you)
+
+
+Sentence 460:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP we)
+		(MD should)
+		(VP meet)[01;31m)[00m)
+
+
+Sentence 461:
+(TOP ahm this week is not good for me i am sorry next week is not good for me ah except for monday afternoon)
+
+
+Sentence 462:
+(TOP ahm how is that for you)
+
+
+Sentence 463:
+(TOP is that ahm monday the ninth)
+
+
+Sentence 464:
+(TOP ah no i believe that is monday the second of august)
+
+
+Sentence 465:
+(TOP although we could also meet on the ninth in the afternoon if you prefer)
+
+
+Sentence 466:
+(TOP ahm i am afraid that i am using some of my copious vacation time the first week of august)
+
+
+Sentence 467:
+(TOP
+	(UH ahm)
+	(S
+		(S the ninth is really the first day that i have open)
+		(CNJ but)
+		(S
+			(NP i)
+			(VBP do)
+			(RB not)
+			(VP
+				(VB have)
+				(NP
+					[01;36m(NP[00m
+						(NN anything)
+						(ADVP else)[01;36m)[00m
+					(S
+						(NP i)
+						(VBP have)
+						(VP
+							(TO to)
+							(VP
+								(VB schedule)
+								[01;36m(ADVP[00m [01;31m(PP[00m
+									(IN around)[01;31m)[00m[01;36m)[00m))))))))
+
+
+Sentence 468:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP anytime that afternoon)
+		(VBZ is)
+		(AP fine)
+		(PP with me)[01;31m)[00m)
+
+
+Sentence 469:
+(TOP okay let us go for one thirty)
+
+
+Sentence 470:
+(TOP alright)
+
+
+Sentence 471:
+(TOP one thirty it is)
+
+
+Sentence 472:
+(TOP ahm where)
+
+
+Sentence 473:
+(TOP ah let us meet right here)
+
+
+Sentence 474:
+(TOP okay that sounds great)
+
+
+Sentence 475:
+(TOP i will see you here at one thirty then)
+
+
+Sentence 476:
+(TOP
+	(UH hi)
+	(S
+		(NP i)
+		(VBP think)
+		(S
+			[01;36m(S[00m
+				(NP it)
+				(VBZ is)
+				(NP time)[01;36m)[00m
+			(S we made another appointment))))
+
+
+Sentence 477:
+(TOP ahm)
+
+
+Sentence 478:
+(TOP
+	(S
+		(NP what)
+		(UH ah)
+		(MD would)
+		(VP
+			(VB be)
+			(AP good)
+			(PP for you)
+			[01;36m(PP[00m
+				(IN in)
+				[01;36m(NP[00m
+					(DTP the)
+					(PP
+						(ADVP preferably)
+						(IN in)
+						(NP
+							(DTP the)
+							(NN week)
+							(PP
+								[01;31m(PP[00m
+									(IN of)
+									[01;31m(NP[00m [01;33m(NP[00m
+										(DTP the)
+										(ONUM tenth)[01;31m)[00m[01;31m)[00m
+								(PP to the fourteenth))))[01;36m)[00m[01;36m)[00m)))
+
+
+Sentence 479:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(VBP have)
+		(NP vacation)
+		[01;31m(NP[00m
+			[01;31m(PP[00m
+				(IN in)
+				[01;33m(NP[00m (NP that entire week)[01;31m)[00m
+			(CNJ and)
+			(NP the entire week before that)[01;31m)[00m))
+
+
+Sentence 480:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(AP available)
+		(UH ah)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(V starting)
+				(NP the seventeenth)[01;31m)[00m
+			(PP for the rest of the month)[01;36m)[00m))
+
+
+Sentence 481:
+(TOP what time would be good for you on the seventeenth)
+
+
+Sentence 482:
+(TOP anytime before ten am)
+
+
+Sentence 483:
+(TOP and after five pm)
+
+
+Sentence 484:
+(TOP ahm how is ah nine oclock then)
+
+
+Sentence 485:
+(TOP nine is fine)
+
+
+Sentence 486:
+(TOP ahm i will see you then)
+
+
+Sentence 487:
+(TOP hi i like to make another appointment)
+
+
+Sentence 488:
+(TOP ahm how is the ah twenty first or twenty second)
+
+
+Sentence 489:
+(TOP for you)
+
+
+Sentence 490:
+(TOP well i am out of town from the twenty first to the twenty third ahm i am also going to be out of town on the twenty ninth)
+
+
+Sentence 491:
+(TOP is the twenty fourth)
+
+
+Sentence 492:
+(TOP okay)
+
+
+Sentence 493:
+(TOP
+	(NP thursday)
+	[01;31m(S[00m
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			(NP anything)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN on)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(NP my)
+						(NN schedule) [01;33mPP)[00m[01;36m)[00m
+					(NP that day)[01;31m)[00m[01;31m)[00m)[01;31m)[00m)
+
+
+Sentence 494:
+(TOP
+	(S
+		(NP i)
+		(VBP do)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN conference)[01;36m)[00m
+				(PP from nine to eleven in the morning)[01;31m)[00m)))
+
+
+Sentence 495:
+(TOP
+	(S
+		(ADVP how)
+		(VBZ is)
+		(UH ah)
+		(NP
+			(DTP some)
+			(NN time)
+			[01;36m(PP[00m
+				(PP in the afternoon)
+				(PP like two)[01;36m)[00m)))
+
+
+Sentence 496:
+(TOP two oclock on the twenty fourth is fine)
+
+
+Sentence 497:
+(TOP i will see you then)
+
+
+Sentence 498:
+(TOP
+	(UH okay)
+	[01;31m(AP[00m
+		(JJ great)[01;31m)[00m)
+
+
+Sentence 499:
+(TOP hi i would like to schedule a an appointment)
+
+
+Sentence 500:
+(TOP ahm i am free most of the week from the twenty sixth to the thirtieth)
+
+
+Sentence 501:
+(TOP how is ah that for you)
+
+
+Sentence 502:
+(TOP
+	(UH well)
+	(UH ahm)
+	(S
+		(NP both the twenty seventh and twenty eighth)
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN anything)[01;36m)[00m
+				(PP on my schedule)[01;31m)[00m)))
+
+
+Sentence 503:
+(TOP
+	(UH so)
+	(UH ahm)
+	(SUGG how about ahm some time in the afternoon on the twenty seventh))
+
+
+Sentence 504:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN seminar)[01;36m)[00m
+				[01;36m(PP[00m [01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP all)
+						(NN day)[01;36m)[00m
+					[01;31m(PP[00m
+						(IN on)
+						(NP the twenty seventh)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 505:
+(TOP
+	[01;31m(S[00m
+		(NP that)
+		(VBZ is)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP the)
+				(AP one)
+				(NN day) [01;33mS)[00m[01;36m)[00m
+			(S i am not completely free that week)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 506:
+(TOP
+	(UH ah)
+	(S the twenty eighth would be a little better)
+	[01;31m(S[00m
+		(ADVP how)
+		(VBZ is)[01;31m)[00m
+	(S how is then))
+
+
+Sentence 507:
+(TOP ah anytime on the twenty eighth is fine)
+
+
+Sentence 508:
+(TOP how about two three oclock in the afternoon on the twenty eighth)
+
+
+Sentence 509:
+(TOP okay that sounds good)
+
+
+Sentence 510:
+(TOP hi)
+
+
+Sentence 511:
+(TOP i think we need to set up another appointment)
+
+
+Sentence 512:
+(TOP
+	(S
+		[01;31m(NP[00m
+			[01;36m(PR[00m [01;36m(NP[00m [01;31m(DTP[00m
+				[01;31m(DT[00m
+					(WDT what)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			(UH ah)
+			(NN time)
+			(PP during the month)[01;31m)[00m
+		(MD would)
+		(VP be good for you)))
+
+
+Sentence 513:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(VBP have)
+		(NP vacation)
+		(UH ahm)
+		[01;31m(NP[00m [01;33m(NP[00m
+			(DTP the)
+			(AP first)
+			(NN week)
+			[01;31m(PP[00m
+				[01;36m(PP[00m
+					(IN of)
+					(NP august) [01;33mNP)[00m[01;36m)[00m
+				(PP from the second to the sixth)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 514:
+(TOP how about ahm any monday)
+
+
+Sentence 515:
+(TOP
+	[01;31m(S[00m
+		(PP in august)
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN anything)[01;36m)[00m
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN on)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(NP my)
+							(NN schedule) [01;33mPP)[00m[01;36m)[00m
+						(NP those days)[01;31m)[00m[01;31m)[00m[01;31m)[00m)[01;31m)[00m)
+
+
+Sentence 516:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			(NP class)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP every)
+					(NP monday)[01;36m)[00m
+				(PP from ah eight in the morning to one)[01;31m)[00m)))
+
+
+Sentence 517:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		[01;31m(S[00m
+			(NP i)
+			(MD would)
+			(VP prefer another day)
+			(S
+				(CMP if)
+				(NP there)
+				(VBZ is)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(NN anything)[01;36m)[00m
+					(AP better)[01;31m)[00m)[01;31m)[00m [01;33mS)[00m
+		(CNJ but)
+		(S [01;33m(S[00m
+			(S
+				(CMP if)
+				[01;36m(ADVP[00m [01;31m(NP[00m
+					(NN worse)[01;31m)[00m[01;36m)[00m
+				(VBZ comes)
+				[01;31m(PP[00m
+					(IN to) [01;33mS)[00m
+					[01;36m(ADVP[00m [01;31m(NP[00m
+						(NN worse)[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+			(NP we)
+			(MD can)
+			(VP do something ah in the afternoon))[01;31m)[00m)
+
+
+Sentence 518:
+(TOP another day is fine)
+
+
+Sentence 519:
+(TOP ahm how about the twelfth)
+
+
+Sentence 520:
+(TOP on thursday)
+
+
+Sentence 521:
+(TOP anytime during the day)
+
+
+Sentence 522:
+(TOP
+	(NP
+		(CNJ or)
+		(NP
+			[01;31m(NP[00m
+				(DTP the)
+				(ONUM nineteenth)[01;31m)[00m
+			[01;36m(NP[00m
+				[01;36m(NP[00m
+					(NP thursday)[01;36m)[00m
+				(NP anytime during the day)[01;36m)[00m)))
+
+
+Sentence 523:
+(TOP ah thursday the nineteenth would probably be better i would have to squeeze you in on the twelfth)
+
+
+Sentence 524:
+(TOP
+	(UH ahm)
+	(UH okay)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			(DTP the)
+			(ONUM nineteenth)
+			(PP
+				(IN at)
+				[01;36m(NP[00m
+					(ADVP maybe)
+					(UH ah)
+					[01;31m(NP[00m
+						(CNUM two)
+						(RB oclock)
+						(PP in the afternoon)[01;31m)[00m[01;36m)[00m))))
+
+
+Sentence 525:
+(TOP two oclock on the afternoon of the nineteenth is fine)
+
+
+Sentence 526:
+(TOP i will see you then)
+
+
+Sentence 527:
+(TOP
+	(UH okay)
+	[01;31m(AP[00m
+		(JJ great)[01;31m)[00m)
+
+
+Sentence 528:
+(TOP ah hi)
+
+
+Sentence 529:
+(TOP
+	(S i would like to make an appointment)
+	[01;31m(S[00m
+		(NP i)
+		(VBD was)
+		(VP
+			(V wondering)
+			(UH ah)
+			(S
+				(NP
+					[01;36m(NP[00m
+						(DTP what)
+						(NN time)[01;36m)[00m
+					(UH ah)
+					(PP in the next couple of weeks))
+				(MD would)
+				(VP be good for you)))[01;31m)[00m)
+
+
+Sentence 530:
+(TOP
+	[01;31m(S[00m
+		(NP the seventeenth)
+		(VBZ seems)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(TO to)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB be)
+				(AP pretty clear)
+				(PP for me)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(NP the seventeenth of march))
+
+
+Sentence 531:
+(TOP
+	(UH ah)
+	(S
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN anything)[01;36m)[00m
+				(PP on my schedule)
+				(ADVP then)[01;31m)[00m)))
+
+
+Sentence 532:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP anytime)
+		(VBZ is)
+		(AP fine)
+		(PP with me)[01;31m)[00m)
+
+
+Sentence 533:
+(TOP the seventeenth is not very good for me i have a seminar all day)
+
+
+Sentence 534:
+(TOP ahm how is the ah twenty third or twenty fifth i am free all day then)
+
+
+Sentence 535:
+(TOP the twenty third is ah fine so is the twenty fifth)
+
+
+Sentence 536:
+(TOP
+	(S
+		(PP on each of those days)
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(NN class)[01;36m)[00m
+			(PP from nine am to twelve noon)[01;31m)[00m))
+
+
+Sentence 537:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP any other time)
+		(VBZ is)
+		(AP fine)
+		(PP with me)[01;31m)[00m)
+
+
+Sentence 538:
+(TOP why why do not we make it for three oclock on the twenty third)
+
+
+Sentence 539:
+(TOP okay i will see you then)
+
+
+Sentence 540:
+(TOP hi i would like to ah make another appointment)
+
+
+Sentence 541:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBD was)
+		(VP wondering what time ah would be good for you)[01;31m)[00m)
+
+
+Sentence 542:
+(TOP well i have a pretty busy schedule)
+
+
+Sentence 543:
+(TOP
+	(S
+		(S
+			(CNJ and)
+			(S
+				(NP i)
+				(VBP have)
+				(NP vacation)
+				(NP
+					[01;36m(AP[00m [01;31m(DTP[00m
+						[01;31m(DT[00m
+							(DT several)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+					(NNS days))))
+		(CNJ but)
+		(UH ah)
+		(NP the sixteenth)))
+
+
+Sentence 544:
+(TOP of april)
+
+
+Sentence 545:
+(TOP on friday)
+
+
+Sentence 546:
+(TOP
+	(S
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN anything)[01;36m)[00m
+				(PP on my schedule)[01;31m)[00m)))
+
+
+Sentence 547:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			[01;31m(V[00m
+				[01;36m(V[00m
+					(VBG going)[01;36m)[00m
+				[01;36m(NP[00m
+					(RB home)[01;36m)[00m[01;31m)[00m
+			(ADVP early that day)))
+	(S
+		(VBZ is)
+		(NP there)
+		(NP
+			(DTP another)
+			(NN day)
+			[01;36m(S[00m
+				[01;31m(S[00m
+					(NP that)
+					(MD might)
+					[01;33m(VP[00m (VP be a little better)[01;31m)[00m
+				(PP like the ah fourteenth or twentieth)[01;36m)[00m)))
+
+
+Sentence 548:
+(TOP
+	(UH ah)
+	(S the fourteenth is fine)
+	(UH ahm)
+	(S
+		(NP the only thing i have on my schedule)
+		(VBZ is)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(N doctors appointment)[01;36m)[00m
+			(PP from nine am to ten am)[01;31m)[00m)
+	[01;36m(S[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		[01;31m(S[00m
+			(ADVP how)
+			(VBZ is)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN noon)[01;36m)[00m
+				(PP on the fourteenth)[01;31m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 549:
+(TOP that sounds pretty good)
+
+
+Sentence 550:
+(TOP i will see you then)
+
+
+Sentence 551:
+(TOP
+	(NP mr nelson)
+	[01;31m(S[00m
+		(NP i)
+		(MD would)
+		(VP like to get together with you with in the next couple of weeks to schedule a two hour meeting)[01;31m)[00m)
+
+
+Sentence 552:
+(TOP okay ah when will you be free)
+
+
+Sentence 553:
+(TOP i will be out of town from september fourth to september seventh)
+
+
+Sentence 554:
+(TOP
+	[01;31m(AP[00m
+		(JJ alright)[01;31m)[00m)
+
+
+Sentence 555:
+(TOP
+	(S excuse me)
+	(S
+		(NP i)
+		(VBD meant)
+		(NP
+			(NP october)
+			[01;36m(NP[00m
+				(NP fourth)
+				(PP to october seventh)[01;36m)[00m)))
+
+
+Sentence 556:
+(TOP
+	(S
+		(ADVP how)
+		(VBZ does)
+		(NP
+			(CNJ1 either)
+			(NP the twenty seventh)
+			(CNJ2 or)
+			(NP
+				(DTP the)
+				(ONUM twenty eighth)
+				[01;31m(PP[00m
+					(IN in)
+					(NP
+						(DTP the)
+						[01;36m(PP[00m [01;31m(N[00m
+							(IN after)
+							[01;36m(NP[00m
+								(NN noon)[01;36m)[00m[01;31m)[00m[01;36m)[00m)[01;31m)[00m))))
+
+
+Sentence 557:
+(TOP i am busy both of those afternoons)
+
+
+Sentence 558:
+(TOP
+	(UH ahm)
+	[01;36m(S[00m
+		[01;36m(CMP[00m
+			(UH as)[01;36m)[00m
+		(UH ah)
+		[01;31m(S[00m
+			(NP i)
+			(VBP am)
+			(AP free)
+			(PP on the twenty ninth)
+			(ADVP however)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 559:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBP am)
+		[01;31m(AP[00m
+			[01;36m(AP[00m
+				(JJ sorry) [01;33mS)[00m[01;36m)[00m
+			(S the twenty ninth is not any good for me)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 560:
+(TOP ah how about the first of october)
+
+
+Sentence 561:
+(TOP ahm the first of october is out for me i am busy all day)
+
+
+Sentence 562:
+(TOP ahm i guess we might have to go on to a weekend)
+
+
+Sentence 563:
+(TOP
+	(S
+		(S i do not want to do it)
+		(CNJ but)
+		(UH ah)
+		(S
+			(VBP are)
+			(NP you)
+			(AP free)
+			[01;31m(NP[00m
+				(DTP the)
+				[01;36m(NP[00m
+					(NP saturday)
+					(NP the second of october)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 564:
+(TOP
+	(UH well)
+	(S
+		[01;36m(NP[00m [01;31m(AP[00m
+			[01;36m(ONUM[00m
+				(JJ first)[01;36m)[00m
+			(PP of all)[01;31m)[00m[01;36m)[00m
+		(MD would)
+		(NP you)
+		(VP be able to make a meeting on the eighth)))
+
+
+Sentence 565:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN seminar)[01;36m)[00m
+			(PP from ten to five)[01;31m)[00m))
+
+
+Sentence 566:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	(UH ah)
+	(UH no)
+	(S i do not think we could do it))
+
+
+Sentence 567:
+(TOP
+	(UH okay)
+	(SUGG
+		(WRB how)
+		(RB about)
+		[01;31m(NP[00m
+			(DTP the)
+			[01;36m(NP[00m
+				(NP saturday)
+				(NP the second)
+				(PP from two to four)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 568:
+(TOP ah sounds good to me)
+
+
+Sentence 569:
+(TOP
+	(S
+		(NP we)
+		(MD will)
+		[01;31m(VP[00m
+			[01;36m(VP[00m
+				(VB make)
+				(NP it)
+				(DTP a)
+				[01;36m(NP[00m
+					(DTP a)
+					(UH ah)
+					(NP a meeting)[01;36m)[00m[01;36m)[00m
+			(S i guess)[01;31m)[00m))
+
+
+Sentence 570:
+(TOP see you then)
+
+
+Sentence 571:
+(TOP
+	(NP mr nelson)
+	[01;31m(S[00m
+		(NP i)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB get)
+					(ADVP together)
+					(PP with you)
+					(IN with)
+					[01;36m(PP[00m
+						(PP in the next two weeks)
+						(VP to schedule a two hour meeting)[01;36m)[00m)))[01;31m)[00m)
+
+
+Sentence 572:
+(TOP sounds good)
+
+
+Sentence 573:
+(TOP when are you free)
+
+
+Sentence 574:
+(TOP how about the afternoon of the twenty sixth)
+
+
+Sentence 575:
+(TOP about two thirty)
+
+
+Sentence 576:
+(TOP i am out of town from the twenty fifth to the twenty seventh)
+
+
+Sentence 577:
+(TOP ah could we do this on the twenty ninth)
+
+
+Sentence 578:
+(TOP
+	(PP
+		(IN at)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(CNUM
+					(CD four))[01;31m)[00m
+			(ADVP perhaps)[01;36m)[00m))
+
+
+Sentence 579:
+(TOP or maybe in the morning)
+
+
+Sentence 580:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBP am)
+		[01;31m(AP[00m
+			[01;36m(AP[00m
+				(JJ sorry) [01;33mS)[00m[01;36m)[00m
+			[01;31m(S[00m
+				(NP i)
+				(MD can)
+				(RB not)
+				(VP do it the twenty ninth)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 581:
+(TOP but how does the thirtieth sound)
+
+
+Sentence 582:
+(TOP i am free in the morning on the thirtieth would ah ten oclock be okay)
+
+
+Sentence 583:
+(TOP i am sorry i have a meeting at ten oclock)
+
+
+Sentence 584:
+(TOP
+	(UH ahm)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			(DTP the)
+			(NN afternoon)
+			[01;36m(PP[00m
+				(IN of)
+				[01;36m(NP[00m
+					[01;31m(DTP[00m
+						[01;31m(DT[00m
+							(DT the)[01;31m)[00m[01;31m)[00m
+					(PP of december second)[01;36m)[00m[01;36m)[00m)))
+
+
+Sentence 585:
+(TOP i am busy from two to four thirty on that afternoon)
+
+
+Sentence 586:
+(TOP ah could you do something after that)
+
+
+Sentence 587:
+(TOP
+	(S
+		(ADVP how)
+		(VBZ does)
+		(NP
+			[01;31m(NP[00m
+				(CNUM five thirty)
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN to)
+					[01;33m(NP[00m (NP seven thirty)[01;31m)[00m[01;31m)[00m
+			(CNJ and)
+			(NP a late dinner)) [01;33mNP) PP)[00m
+		(VP sound)))
+
+
+Sentence 588:
+(TOP
+	(UH okay)
+	[01;36m(ADVP[00m
+		(UH then)[01;36m)[00m)
+
+
+Sentence 589:
+(TOP five thirty to seven and dinner on thursday the second)
+
+
+Sentence 590:
+(TOP see you then)
+
+
+Sentence 591:
+(TOP mr helwig)
+
+
+Sentence 592:
+(TOP
+	(S
+		(NP i)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB get)
+					(ADVP together)
+					(PP with you)
+					[01;36m(NP[00m
+						(NP sometime during may)
+						(VP to schedule a two hour meeting)[01;36m)[00m)))))
+
+
+Sentence 593:
+(TOP well the first two weeks will be impossible for me to make)
+
+
+Sentence 594:
+(TOP how about if we schedule it sometime toward the end of the month)
+
+
+Sentence 595:
+(TOP is time an issue)
+
+
+Sentence 596:
+(TOP
+	(UH no)
+	(ADVP
+		(ADVP just)
+		(DGP as)
+		(RB long)
+		(PP
+			(IN as)
+			(S
+				(NP we)
+				(VBP get)
+				[01;31m(VP[00m
+					(NP it)
+					[01;36m(VP[00m
+						(V done)
+						(PP during this month)[01;36m)[00m[01;31m)[00m))))
+
+
+Sentence 597:
+(TOP how about the twenty seventh twenty eighth or thirty first)
+
+
+Sentence 598:
+(TOP
+	(S
+		(NP
+			(DTP the)
+			(CD [01;33m(CNUM[00m twenty)
+			[01;31m(ONUM[00m
+				(CD twenty) [01;33mCNUM)[00m
+				(JJ sevent)[01;31m)[00m)
+		(VBZ is)
+		(AP fine)))
+
+
+Sentence 599:
+(TOP how about ah one oclock)
+
+
+Sentence 600:
+(TOP no)
+
+
+Sentence 601:
+(TOP i am sorry)
+
+
+Sentence 602:
+(TOP
+	(S
+		(NP that)
+		(VBZ is)
+		[01;36m(ADVP[00m [01;31m(AP[00m
+			(DGP pretty)
+			(JJ early)[01;31m)[00m[01;36m)[00m
+		(PP for me)
+		(VP to get up in the morning)))
+
+
+Sentence 603:
+(TOP how about three pm)
+
+
+Sentence 604:
+(TOP that is fine i will see you then)
+
+
+Sentence 605:
+(TOP very good)
+
+
+Sentence 606:
+(TOP mr helwig)
+
+
+Sentence 607:
+(TOP
+	(S
+		(NP i)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB get)
+					(ADVP together)
+					(PP with you)
+					[01;36m(NP[00m
+						(NP some time during june)
+						(VP to have a two hour meeting)[01;36m)[00m)))))
+
+
+Sentence 608:
+(TOP okay mr hutsell)
+
+
+Sentence 609:
+(TOP
+	(S
+		(NP what time and what day)
+		(VBZ suits)
+		(NP you)
+		[01;36m(AP[00m [01;31m(ADVP[00m
+			(DTP the)
+			(RBS best)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 610:
+(TOP how about thursday the third ah in the afternoon)
+
+
+Sentence 611:
+(TOP i am sorry)
+
+
+Sentence 612:
+(TOP i will be on vacation)
+
+
+Sentence 613:
+(TOP ah perhaps we could schedule it for the ninth)
+
+
+Sentence 614:
+(TOP that will be a wednesday)
+
+
+Sentence 615:
+(TOP i am sorry i am out of town the ninth)
+
+
+Sentence 616:
+(TOP how about the tenth in the afternoon)
+
+
+Sentence 617:
+(TOP i am sorry)
+
+
+Sentence 618:
+(TOP i can not make it on the tenth)
+
+
+Sentence 619:
+(TOP i am taking the kids to kennywood)
+
+
+Sentence 620:
+(TOP ah how about the fourteenth or the seventeenth)
+
+
+Sentence 621:
+(TOP the fourteenth would be fine)
+
+
+Sentence 622:
+(TOP how does two sound)
+
+
+Sentence 623:
+(TOP we can meet in the lobby)
+
+
+Sentence 624:
+(TOP sounds good)
+
+
+Sentence 625:
+(TOP i will see you then)
+
+
+Sentence 626:
+(TOP mr helwig)
+
+
+Sentence 627:
+(TOP i would like to get together with you some time later this month to talk to you for about two hours)
+
+
+Sentence 628:
+(TOP okay mr hutsell)
+
+
+Sentence 629:
+(TOP ah the thirteenth and the fourteenth look good on my calendar)
+
+
+Sentence 630:
+(TOP
+	(S
+		[01;36m(CMP[00m [01;31m(ADVP[00m
+			(RB as)[01;31m)[00m[01;36m)[00m
+		(VBZ does)
+		(NP the twenty third)))
+
+
+Sentence 631:
+(TOP do either of those three days suit you)
+
+
+Sentence 632:
+(TOP the twenty third in the morning would be fine)
+
+
+Sentence 633:
+(TOP i do not like morning meetings)
+
+
+Sentence 634:
+(TOP how about the twenty seventh or twenty eighth)
+
+
+Sentence 635:
+(TOP the twenty eighth would be fine)
+
+
+Sentence 636:
+(TOP how does two sound)
+
+
+Sentence 637:
+(TOP
+	(S
+		(NP two)
+		(VBZ sounds)
+		[01;36m(AP[00m
+			[01;36m(DGP[00m [01;36m(DG[00m [01;31m(ADVP[00m
+				(RB just)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			[01;31m(AP[00m
+				(JJ fine)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 638:
+(TOP i will see you then)
+
+
+Sentence 639:
+(TOP mr helwig)
+
+
+Sentence 640:
+(TOP i would like to get together with you sometime during august to talk to you for about two hours)
+
+
+Sentence 641:
+(TOP okay)
+
+
+Sentence 642:
+(TOP the first week in august is out)
+
+
+Sentence 643:
+(TOP i can not make any days there)
+
+
+Sentence 644:
+(TOP but the second week in august looks fairly free)
+
+
+Sentence 645:
+(TOP how about the ninth eleventh or twelfth)
+
+
+Sentence 646:
+(TOP how does the ninth at two pm sound)
+
+
+Sentence 647:
+(TOP the ninth at two pm sounds fine)
+
+
+Sentence 648:
+(TOP okay i will see you then)
+
+
+Sentence 649:
+(TOP sounds good)
+
+
+Sentence 650:
+(TOP mr helwig)
+
+
+Sentence 651:
+(TOP i would like to get together with you some time later this month to schedule a meeting)
+
+
+Sentence 652:
+(TOP for about two hours)
+
+
+Sentence 653:
+(TOP ah what time would be good for you)
+
+
+Sentence 654:
+(TOP how about tuesday afternoon)
+
+
+Sentence 655:
+(TOP that would be the ninth of march)
+
+
+Sentence 656:
+(TOP ah i am sorry)
+
+
+Sentence 657:
+(TOP i am out of town then)
+
+
+Sentence 658:
+(TOP
+	(UH ah)
+	(S
+		(MD would)
+		(NP
+			(DTP the)
+			[01;36m(ONUM[00m
+				[01;31m(NP[00m
+					(ONUM
+						(JJ eighth))[01;31m)[00m
+				(ONUM eighth)[01;36m)[00m
+			(PP of march))
+		(VP be okay)))
+
+
+Sentence 659:
+(TOP i am sorry)
+
+
+Sentence 660:
+(TOP but i have no free time on the eighth)
+
+
+Sentence 661:
+(TOP ah perhaps we could schedule for the tenth or eleventh)
+
+
+Sentence 662:
+(TOP how do they look for you)
+
+
+Sentence 663:
+(TOP
+	(S i am sorry)
+	(S
+		(NP i)
+		(VBP am)
+		(PP out of town)
+		[01;31m(NP[00m [01;33m(NP[00m
+			(NP the tenth)
+			(CNJ and)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP the)
+					(ONUM eleventh) [01;33mNP)[00m[01;36m)[00m
+				(ADVP also)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 664:
+(TOP ah how about the next week)
+
+
+Sentence 665:
+(TOP ah how about the sixteenth in the afternoon)
+
+
+Sentence 666:
+(TOP that would be okay for me but the seventeenth would be better)
+
+
+Sentence 667:
+(TOP how is the seventeenth on your calendar)
+
+
+Sentence 668:
+(TOP i am sorry)
+
+
+Sentence 669:
+(TOP the seventeenth is booked)
+
+
+Sentence 670:
+(TOP i have a seminar)
+
+
+Sentence 671:
+(TOP
+	(UH ah)
+	(MD would)
+	(DTP the)
+	(S
+		(MD would)
+		(NP you)
+		(VP
+			[01;31m(ADVP[00m
+				(RB rather)[01;31m)[00m
+			[01;36m(VP[00m
+				(VB have)
+				(NP a different time)[01;36m)[00m)))
+
+
+Sentence 672:
+(TOP no)
+
+
+Sentence 673:
+(TOP the afternoon of the sixteenth is fine)
+
+
+Sentence 674:
+(TOP ah how about two oclock)
+
+
+Sentence 675:
+(TOP that is fine with me)
+
+
+Sentence 676:
+(TOP okay mr hutsell)
+
+
+Sentence 677:
+(TOP i will see you then)
+
+
+Sentence 678:
+(TOP
+	(NP mr helman)
+	[01;31m(S[00m
+		(NP i)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB get)
+					(ADVP together)
+					(PP with you)
+					[01;31m(NP[00m
+						(ADVP hopefully)
+						[01;36m(ADVP[00m
+							[01;31m(ADVP[00m
+								(RBR later)[01;31m)[00m
+							[01;36m(PP[00m
+								(TO to)
+								(ADVP later)[01;36m)[00m[01;36m)[00m
+						[01;36m(NP[00m
+							(NN [01;33m(NP[00m today)[01;36m)[00m[01;31m)[00m
+					(UH ahm) [01;33mNP)[00m
+					(VP to talk to you for about two hours))))[01;31m)[00m)
+
+
+Sentence 679:
+(TOP i am sorry)
+
+
+Sentence 680:
+(TOP
+	(S
+		(CNJ but)
+		(S
+			(NP it)
+			(MD will)
+			(VP
+				(VB be)
+				(AP impossible)
+				(PP for us)
+				(VP
+					(TO to)
+					(VP
+						(VB meet)
+						[01;31m(NP[00m
+							(ADVP later)
+							[01;36m(NP[00m
+								(NN today)[01;36m)[00m[01;31m)[00m))))))
+
+
+Sentence 681:
+(TOP ah how about tomorrow)
+
+
+Sentence 682:
+(TOP will that suit you)
+
+
+Sentence 683:
+(TOP
+	(S i am sorry)
+	(S
+		(NP i)
+		(VBP am)
+		(PP out of town)
+		(UH ahm)
+		(NP
+			(DTP both)
+			[01;36m(NP[00m
+				(NP tomorrow)
+				(CNJ and)
+				(NP
+					(DTP the)
+					(NN day)
+					[01;36m(PP[00m [01;31m(ADVP[00m
+						(RB after)[01;31m)[00m[01;36m)[00m)[01;36m)[00m)))
+
+
+Sentence 684:
+(TOP ahm how about ah friday morning)
+
+
+Sentence 685:
+(TOP i am sorry)
+
+
+Sentence 686:
+(TOP friday morning is not good for me either)
+
+
+Sentence 687:
+(TOP perhaps we can put it off until the end of next week)
+
+
+Sentence 688:
+(TOP how does the sixteenth look on your calendar)
+
+
+Sentence 689:
+(TOP that will be a friday)
+
+
+Sentence 690:
+(TOP okay)
+
+
+Sentence 691:
+(TOP the sixteenth in the morning would be fine)
+
+
+Sentence 692:
+(TOP that is fine with me)
+
+
+Sentence 693:
+(TOP pick a time of your choice)
+
+
+Sentence 694:
+(TOP how does ten oclock sound)
+
+
+Sentence 695:
+(TOP great)
+
+
+Sentence 696:
+(TOP we can go for lunch afterwards)
+
+
+Sentence 697:
+(TOP sounds good)
+
+
+Sentence 698:
+(TOP i will see you there)
+
+
+Sentence 699:
+(TOP
+	(UH ah)
+	(S
+		(NP matt)
+		[01;36m(S[00m
+			(NP this)
+			(VBZ is)
+			(NP brian)
+			(ADVP here)
+			(ADVP again)[01;36m)[00m)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB need)
+					(VP
+						(TO to)
+						(VP
+							(VB meet)
+							(PP with you)
+							(NP
+								(NN sometime)
+								(UH ah)
+								[01;36m(NP[00m
+									[01;36m(NP[00m
+										(DTP the)
+										(UH ahm)[01;36m)[00m
+									(NP this month)[01;36m)[00m)
+							[01;31m(VP[00m
+								(TO to)
+								(UH ah)
+								[01;31m(VP[00m
+									(VB discuss)
+									(NP the documentation for the code you have written)[01;31m)[00m[01;31m)[00m)))))))
+
+
+Sentence 700:
+(TOP
+	[01;31m(ADVP[00m
+		(RB fine)[01;31m)[00m
+	(UH ahm)
+	(S the only problem is i am on vacation for the first two weeks of may))
+
+
+Sentence 701:
+(TOP ahm what time is good for you)
+
+
+Sentence 702:
+(TOP
+	(UH ahm)
+	[01;36m(S[00m
+		[01;31m(S[00m
+			(ADVP how)
+			(VBZ does)
+			(NP the ah eighteenth)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB look)
+				(PP for you)[01;31m)[00m[01;31m)[00m
+		(NP tuesday from about one to three)[01;36m)[00m)
+
+
+Sentence 703:
+(TOP i think i can fit you in then)
+
+
+Sentence 704:
+(TOP ahm the eighteenth)
+
+
+Sentence 705:
+(TOP tuesday)
+
+
+Sentence 706:
+(TOP
+	(UH sorry)
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			(DTP a)
+			(NN class)
+			(UH ah)
+			(NP two to four)[01;31m)[00m))
+
+
+Sentence 707:
+(TOP ahm let us see)
+
+
+Sentence 708:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			[01;36m(CNJ1[00m [01;31m(CNJ[00m
+				(CC either)[01;31m)[00m[01;36m)[00m
+			(NP the twenty first))))
+
+
+Sentence 709:
+(TOP or the twenty seventh)
+
+
+Sentence 710:
+(TOP
+	(UH ah)
+	(S
+		(NP the twenty first)
+		(VBZ is)
+		[01;31m(NP[00m
+			(DTP a)
+			[01;31m(N[00m
+				[01;36m(DG[00m
+					(RB no)[01;36m)[00m
+				(VBP go)[01;31m)[00m[01;31m)[00m
+		(PP for me))
+	(S
+		(NP i)
+		(VBP am)
+		(AP busy)
+		[01;31m(PP[00m
+			(ADVP pretty much)
+			[01;36m(PP[00m
+				(IN for)
+				(NP the entire day)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 711:
+(TOP the twenty seventh looks like i am only ah busy at about ten am for breakfast)
+
+
+Sentence 712:
+(TOP
+	(S
+		(S
+			(NP i)
+			(VBP do)
+			(RB not)
+			(VP
+				(VB know)
+				(S
+					[01;36m(S[00m
+						(ADVP how long)
+						(NP that)
+						(VBZ lasts)[01;36m)[00m
+					(ADVP though))))
+		(CNJ but)
+		(S
+			(NP i)
+			(MD could)
+			(ADVP probably)
+			(VP
+				(VB meet)
+				(NP you)
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN towards)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(DTP the)
+							(NN end)
+							(PP of the day) [01;33mPP)[00m[01;36m)[00m
+						(NP sometime)[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 713:
+(TOP sounds cool to me)
+
+
+Sentence 714:
+(TOP i will see you there)
+
+
+Sentence 715:
+(TOP by the way where were we meeting)
+
+
+Sentence 716:
+(TOP ah why do not you swing by my dorm sometime)
+
+
+Sentence 717:
+(TOP
+	[01;31m(S[00m
+		(CNJ and)
+		(UH ah)
+		[01;31m(S[00m
+			[01;36m(S[00m
+				(NP what time)
+				(MD should)
+				(NP we)
+				(VP meet) [01;33mS)[00m[01;36m)[00m
+			(PP at)[01;31m)[00m[01;31m)[00m
+	(UH ah))
+
+
+Sentence 718:
+(TOP ah yeah good question)
+
+
+Sentence 719:
+(TOP ahm i am free any time)
+
+
+Sentence 720:
+(TOP what is best for you)
+
+
+Sentence 721:
+(TOP ah how about two pm)
+
+
+Sentence 722:
+(TOP two pm is fine for me)
+
+
+Sentence 723:
+(TOP
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB stop)
+			[01;36m(PP[00m
+				(RP by)
+				(ADVP then)[01;36m)[00m)))
+
+
+Sentence 724:
+(TOP okay)
+
+
+Sentence 725:
+(TOP see you)
+
+
+Sentence 726:
+(TOP hey matt this is brian again)
+
+
+Sentence 727:
+(TOP
+	(UH ahm)
+	(S
+		(VBP let)
+		(NP us)
+		(VP
+			(VB talk)
+			(PP
+				(IN about)
+				(UH ah)
+				(NP
+					(DTP the)
+					(N marketing strategy)
+					(PP
+						(IN for)
+						(NP
+							(DTP the)
+							(NN program)
+							(S
+								(NP that)
+								(NP you)
+								(VBP are)
+								[01;36m(VP[00m
+									(VBP work)
+									(ADVP currently)
+									(VP working on)[01;36m)[00m))))))))
+
+
+Sentence 728:
+(TOP ahm i do not know i am kind of tied up this month)
+
+
+Sentence 729:
+(TOP
+	(UH ah)
+	(S
+		(S
+			(NP
+				(ADVP mostly)
+				[01;36m(NP[00m
+					(NPS fridays)[01;36m)[00m)
+			(VBP are)
+			(AP pretty good)
+			(PP for me))
+		(CNJ but)
+		(UH ah)
+		(S let me know what time you can meet me at)))
+
+
+Sentence 730:
+(TOP
+	(UH ah)
+	(UH geez)
+	(UH ahm)
+	(S
+		(NP fridays)
+		(VBP are)
+		(RB not)
+		[01;36m(AP[00m
+			[01;31m(DGP[00m
+				[01;31m(DG[00m
+					(JJ real)[01;31m)[00m[01;31m)[00m
+			(AP real good)[01;36m)[00m
+		(PP for me)))
+
+
+Sentence 731:
+(TOP
+	(S
+		[01;36m(S[00m
+			(NP it)
+			(VBZ seems)[01;36m)[00m
+		(S
+			(NP i)
+			(VBP have)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN seminar)[01;36m)[00m
+				(PP like first part of the day)[01;31m)[00m))
+	(VB like)
+	(S are you free the second half))
+
+
+Sentence 732:
+(TOP
+	[01;31m(PP[00m
+		(IN like)
+		[01;31m(NP[00m
+			(NN afternoon)
+			(ADVP maybe)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 733:
+(TOP maybe we could meet for lunch)
+
+
+Sentence 734:
+(TOP ah second half of a friday you mean)
+
+
+Sentence 735:
+(TOP
+	(UH yeah)
+	[01;36m(S[00m [01;31m(NP[00m
+		[01;36m(NP[00m
+			(DTP the)
+			(AP second)
+			(NN half)[01;36m)[00m
+		[01;31m(PP[00m
+			(IN of)[01;31m)[00m
+		(UH has)
+		(PP of any friday that month)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 736:
+(TOP
+	(UH ahm)
+	(SUGG
+		(VB say)
+		[01;36m(PP[00m [01;31m(NP[00m
+			[01;31m(ADVP[00m
+				(RB around)[01;31m)[00m
+			[01;36m(NP[00m
+				(ADVP maybe)
+				(CNUM one)[01;36m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 737:
+(TOP
+	[01;31m(VP[00m
+		(VBP take)
+		(NP you)
+		[01;31m(PP[00m [01;33m(PP[00m
+			(IN to)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(NN lunch) [01;33mPP)[00m[01;36m)[00m
+				[01;33m(PP[00m (PP at highlander)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(NP my treat))
+
+
+Sentence 738:
+(TOP
+	(UH ah)
+	(S
+		(NP you)
+		(VBP are)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(NN prince)[01;31m)[00m
+			(NP man)[01;36m)[00m)
+	(S you should not do that for me))
+
+
+Sentence 739:
+(TOP
+	(UH ah)
+	[01;36m(NP[00m
+		(UH god)[01;36m)[00m
+	(S any friday is fine))
+
+
+Sentence 740:
+(TOP how about the eighteenth)
+
+
+Sentence 741:
+(TOP eighteenth is fine with me)
+
+
+Sentence 742:
+(TOP ah what time is good for you after twelve)
+
+
+Sentence 743:
+(TOP ah one sounded fine)
+
+
+Sentence 744:
+(TOP okay)
+
+
+Sentence 745:
+(TOP matt this is brian)
+
+
+Sentence 746:
+(TOP
+	(S
+		[01;36m(S[00m
+			(S i really do not know what we have to talk about)
+			(CNJ but)
+			(S we have to talk about something)[01;36m)[00m
+		(CNJ and)
+		(S we have to talk about it soon)))
+
+
+Sentence 747:
+(TOP
+	(UH ahm)
+	(S
+		[01;36m(S[00m
+			(ADVP when)
+			(MD would)
+			(VP be a good time for us to meet next week)[01;36m)[00m
+		(S because i am really tied up this week))
+	(S
+		(NP i)
+		(VBP am)
+		[01;31m(PP[00m
+			(IN on)
+			[01;36m(NP[00m
+				(NP vacation)
+				(S you know)[01;36m)[00m
+			(PP with ahm mrs x and the kids)[01;31m)[00m))
+
+
+Sentence 748:
+(TOP
+	(UH ah)
+	(UH yes)
+	[01;36m(SUGG[00m [01;31m(S[00m
+		(VBP say)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(NN hello)[01;31m)[00m
+			[01;36m(PP[00m
+				[01;31m(PP[00m
+					(IN to)
+					[01;31m(NP[00m [01;33m(NP[00m
+						[01;31m(NP[00m
+							(AP lower)
+							(NN [01;33m(N[00m case)[01;31m)[00m
+						(NN x)[01;31m)[00m[01;31m)[00m [01;33mN)[00m
+				(PP for me)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 749:
+(TOP ahm ah has let us see)
+
+
+Sentence 750:
+(TOP how is friday the twenty third to you)
+
+
+Sentence 751:
+(TOP
+	(S
+		(NP anytime)
+		(CNJ and)
+		[01;36m(S[00m
+			(NP i)
+			(MD will)[01;36m)[00m
+		(S we will think about something to talk about by that time)))
+
+
+Sentence 752:
+(TOP ah friday is pretty bad for me)
+
+
+Sentence 753:
+(TOP i ah i have got i am busy from two to five unless you can meet me some time before that)
+
+
+Sentence 754:
+(TOP
+	(S
+		(NP i)
+		(MD can)
+		(VP
+			[01;36m(CNJ1[00m [01;31m(CNJ[00m
+				(CC either)[01;31m)[00m[01;36m)[00m
+			(VP meet you anytime before that))))
+
+
+Sentence 755:
+(TOP or on the twenty seventh or twenty eighth)
+
+
+Sentence 756:
+(TOP
+	[01;31m(ADVP[00m
+		(RB fine)[01;31m)[00m
+	[01;31m(S[00m
+		(NP i)
+		(ADVP really)
+		[01;36m(VP[00m
+			(VBP like)
+			(VP to meet sometime before that)[01;36m)[00m
+		(S if you could)[01;31m)[00m
+	(S how does the twenty first sound))
+
+
+Sentence 757:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP this)
+			(VBZ is)
+			(AP pretty important)[01;36m)[00m
+		[01;33m(S[00m (S you know)[01;31m)[00m
+	(S
+		(NP it)
+		(VBZ is)
+		[01;31m(PP[00m
+			[01;36m(ADVP[00m
+				(IN about)[01;36m)[00m
+			[01;31m(NP[00m
+				[01;31m(NP[00m
+					(NP toms)[01;31m)[00m
+				[01;36m(VP[00m
+					[01;36m(V[00m
+						(NN intervention)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 758:
+(TOP
+	(S
+		(NP you)
+		(VBP mean)
+		(NP
+			[01;31m(N[00m
+				(NN sanity)
+				(NN intervention)[01;31m)[00m)))
+
+
+Sentence 759:
+(TOP ahm okay)
+
+
+Sentence 760:
+(TOP
+	(UH ah)
+	[01;31m(S[00m
+		(NP thirteenth or fourteenth)
+		(NP it)
+		(VBZ is)[01;31m)[00m
+	(UH ah)
+	(SUGG how about the afternoon on the fifteenth))
+
+
+Sentence 761:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN seminar)[01;36m)[00m
+			(PP from nine to twelve)[01;31m)[00m))
+
+
+Sentence 762:
+(TOP
+	(VP
+		(ADVP maybe)
+		(VBP do)
+		(NP
+			(DTP some)
+			(NN sort)
+			[01;31m(PP[00m
+				(IN of)
+				(UH ah)
+				[01;31m(NP[00m
+					(N
+						(NN lunch)
+						(NN meeting))[01;31m)[00m[01;31m)[00m)
+		(ADVP again)))
+
+
+Sentence 763:
+(TOP
+	(UH sorry)
+	[01;31m(S[00m
+		(DT no)
+		(MD [01;33m(S[00m can)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(VB do)
+			[01;33m(PP[00m (PP from the fourteenth to the nineteenth)[01;31m)[00m[01;31m)[00m
+	[01;31m(S[00m
+		[01;31m(NP[00m
+			(NP me) [01;33mPP) VP) S)[00m
+			(CNJ and)
+			[01;31m(NP[00m [01;33m(S[00m
+				[01;36m(NP[00m
+					(NP mrs)[01;36m)[00m
+				(UH ah)
+				(NN x)[01;31m)[00m[01;31m)[00m
+		[01;36m(NP[00m
+			[01;36m(CNUM[00m
+				(CD eleven)[01;36m)[00m[01;36m)[00m
+		(VBP are)
+		(VP going to be on vacation)[01;31m)[00m)
+
+
+Sentence 764:
+(TOP
+	[01;36m(S[00m
+		(PP
+			(IN in)
+			(NP
+				[01;31m(N[00m
+					(NN widget)
+					(NN land)[01;31m)[00m))
+		[01;36m(S[00m
+			[01;36m(ADVP[00m
+				(UH so)[01;36m)[00m
+			(UH ahm)
+			[01;36m(S[00m
+				[01;36m(PR[00m
+					[01;36m(ADVP[00m
+						(WRB how)[01;36m)[00m[01;36m)[00m
+				[01;36m(ADVP[00m
+					(RB about)[01;36m)[00m
+				(S are you free)[01;36m)[00m[01;36m)[00m[01;36m)[00m
+	(UH ah)
+	[01;36m(S[00m
+		(S
+			(ADVP maybe)
+			(NP we)
+			(MD should)
+			(VP
+				(VB go)
+				(ADVP back)
+				(PP
+					(IN to)
+					[01;31m(NP[00m
+						(DTP the)
+						[01;36m(NP[00m
+							(NP friday)
+							(NP the twenty third)
+							(PP in morning)[01;36m)[00m[01;31m)[00m)))
+		[01;31m(S[00m
+			(NP i)
+			(VBP do)
+			(RB not)
+			(VP think anything else is really going to be able to work out for me)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 765:
+(TOP well ah anytime during the thirteenth is fine or the morning of the thirteenth)
+
+
+Sentence 766:
+(TOP okay i will)
+
+
+Sentence 767:
+(TOP
+	(S
+		(NP i)
+		(VBP think)
+		(S
+			(NP you)
+			(VBD got)
+			[01;36m(VP[00m
+				[01;31m(VP[00m
+					[01;31m(V[00m
+						(VBN cut)[01;31m)[00m
+					(RP off)
+					(ADVP there)[01;31m)[00m
+				(NP matt)[01;36m)[00m))
+	(S
+		(NP what)
+		(VBZ is)
+		(VP
+			(V going)
+			[01;36m(PP[00m
+				(RP on)
+				(ADVP there)[01;36m)[00m)))
+
+
+Sentence 768:
+(TOP ah did you say friday the twenty third would be okay)
+
+
+Sentence 769:
+(TOP in the morning)
+
+
+Sentence 770:
+(TOP
+	(UH yep)
+	(S [01;33m(NP[00m
+		[01;31m(NP[00m
+			(NP friday)
+			[01;31m(NP[00m [01;33m(NP[00m
+				(DTP the)
+				(CD [01;33m(CNUM[00m twenty)
+				[01;31m(ONUM[00m
+					(CD twenty) [01;33mCNUM) NP) NP)[00m
+					[01;36m(NP[00m
+						(JJ thir)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		(VBZ is)
+		(AP fine)
+		(PP with me))
+	(UH ah)
+	(S
+		[01;31m(S[00m
+			(NP what time)
+			(VBP do)
+			(NP you)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB want)
+				[01;31m(VP[00m [01;33m(VP[00m
+					(TO to)
+					[01;33m(VP[00m (VP meet)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		(CNJ and)
+		(ADVP where)))
+
+
+Sentence 771:
+(TOP
+	(S
+		(VBP let)
+		(NP us)
+		(UH ah)
+		(VP
+			(VB get)
+			(NP
+				(DTP some)
+				[01;36m(N[00m
+					[01;31m(AP[00m
+						(JJ grand)[01;31m)[00m
+					(NNS slams)[01;36m)[00m)
+			[01;31m(PP[00m
+				[01;31m(ADVP[00m
+					(RB down)[01;31m)[00m
+				[01;36m(PP[00m
+					(IN at)
+					(NP the ah dennys)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 772:
+(TOP
+	(S let us)
+	(UH ah)
+	(S
+		(ADVP why)
+		(VBP do)
+		(RB not)
+		(NP we)
+		(VP
+			(VB meet)
+			(ADVP there)
+			(PP
+				(IN at)
+				(NP
+					(ADVP about)
+					(CNUM nine)
+					(RB oclock)
+					(PP [01;33m(PP[00m
+						(IN in)
+						[01;31m(NP[00m
+							(DTP the)
+							(NN morning) [01;33mPP)[00m
+							(PP on the twenty third)[01;31m)[00m))))))
+
+
+Sentence 773:
+(TOP
+	(NP
+		(DTP all)
+		[01;36m(AP[00m
+			(NN right)[01;36m)[00m))
+
+
+Sentence 774:
+(TOP sounds good to me)
+
+
+Sentence 775:
+(TOP
+	(UH wow)
+	(S
+		(NP our funding)
+		(MD must)
+		[01;36m(PP[00m
+			(IN of)
+			(ADVP really)
+			(VP moved up in the world here)[01;36m)[00m))
+
+
+Sentence 776:
+(TOP
+	(UH no)
+	(S [01;33m(S (S[00m
+		[01;31m(S[00m
+			(NP i)
+			(MD will)
+			(ADVP just)
+			[01;31m(VP[00m
+				(VB tell)
+				(NP them) [01;33mS)[00m
+				(S it is) [01;33mS)[00m
+				(NP our)
+				(UH ah)
+				[01;33m(S[00m (S it is my birthday)[01;31m)[00m[01;31m)[00m
+		(CNJ and)
+		(S we will get the food for free)))
+
+
+Sentence 777:
+(TOP see you there)
+
+
+Sentence 778:
+(TOP hey matt this is brian again)
+
+
+Sentence 779:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB need)
+					(VP
+						(TO to)
+						(VP [01;33m(VP[00m
+							[01;31m(VP[00m
+								(VB review)
+								[01;31m(NP[00m
+									(DTP these)
+									(UH ah)
+									(N travel expenses) [01;33mVP)[00m
+									[01;31m(S[00m [01;33m(S[00m
+										(NP you)
+										(VBP seem)
+										[01;31m(VP[00m [01;33m(VP[00m
+											(TO to)
+											[01;31m(VP[00m [01;33m(VP[00m
+												(VB have)
+												(VP [01;33m(VP[00m
+													(VBN written)
+													[01;36m(ADVP[00m
+														(RP down)
+														[01;31m(ADVP[00m
+															(RB here)[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+							(CNJ and)
+							(VP check their validity))))))))
+
+
+Sentence 780:
+(TOP can we meet ah real soon)
+
+
+Sentence 781:
+(TOP how about friday the thirteenth)
+
+
+Sentence 782:
+(TOP ah friday the thirteenth)
+
+
+Sentence 783:
+(TOP ahm after one pm is fine for me ahm what do you mean validity)
+
+
+Sentence 784:
+(TOP ah i do not know)
+
+
+Sentence 785:
+(TOP
+	(UH ah)
+	(S
+		(NP i)
+		(VBP do)
+		(RB not)
+		(VP
+			(VB think)
+			(S
+				[01;31m(NP[00m
+					(V taking)
+					[01;36m(NP[00m
+						(NP
+							(DTP the)
+							[01;36m(N[00m
+								[01;31m(AP[00m
+									(JJ corporate)[01;31m)[00m
+								(NN jet)[01;36m)[00m)
+						[01;36m(VP[00m [01;31m(PP[00m
+							(IN to)
+							(NP barbados)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m
+				(VBZ is)
+				(NP a very ah valid travel expense)))))
+
+
+Sentence 786:
+(TOP
+	[01;31m(S[00m
+		(CNJ but)
+		[01;33m(S[00m (NP friday)
+		[01;31m(S[00m
+			(NP friday)
+			(MD would)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB be)
+				[01;31m(NP[00m
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(DTP a)
+							(AP good)
+							(NN time)[01;36m)[00m
+						(PP for me)[01;31m)[00m [01;33mVP) S) S)[00m
+					(UH ahm)
+					(CNJ or)
+					(NP a good day for me rather)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 787:
+(TOP what time did you to meet again)
+
+
+Sentence 788:
+(TOP i can meet any time the day)
+
+
+Sentence 789:
+(TOP ah anytime friday after one pm is fine for me)
+
+
+Sentence 790:
+(TOP
+	[01;31m(S[00m
+		(CNJ and)
+		[01;31m(S[00m [01;33m(S[00m
+			(NP it)
+			(VBD was)
+			(ADVP just)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(TO to)
+				[01;31m(VP[00m [01;33m(VP[00m
+					(VB go)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(UH ah)
+	(S i had to go swimming))
+
+
+Sentence 791:
+(TOP it was hot out)
+
+
+Sentence 792:
+(TOP
+	(UH ah)
+	(UH well)
+	[01;31m(S[00m
+		(NP we)
+		(MD will)
+		[01;31m(VP[00m
+			(VB talk)
+			[01;31m(ADVP[00m
+				(RBR more)[01;31m)[00m
+			(PP about that)
+			[01;31m(ADVP[00m
+				(RBR later)
+				(PP
+					(IN on)
+					[01;31m(NP[00m
+						(NP friday)[01;31m)[00m)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(IN at)
+	(ADVP about)
+	(UH ah)
+	(UH ah)
+	(S let us make it three))
+
+
+Sentence 793:
+(TOP okay)
+
+
+Sentence 794:
+(TOP sounds good to me)
+
+
+Sentence 795:
+(TOP i will see you like i will stop by your dorm sometime)
+
+
+Sentence 796:
+(TOP
+	(UH hey)
+	[01;36m(S[00m
+		(NP matt)
+		[01;31m(S[00m
+			(NP this)
+			(VBZ is)
+			(NP brian)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 797:
+(TOP
+	(S
+		(NP i)
+		(VBP need)
+		(VP
+			(TO to)
+			(VP
+				(VB get)
+				(ADVP together)
+				(PP with you)
+				(PP
+					(IN for)
+					(NP
+						[01;31m(AP[00m
+							(ADVP about)
+							[01;36m(AP[00m
+								(CD two)[01;36m)[00m[01;31m)[00m
+						(NNS hours)))))))
+
+
+Sentence 798:
+(TOP
+	(UH ah)
+	[01;36m(S[00m [01;31m(VP[00m
+		(NP sometime over the next couple of weeks)
+		[01;36m(VP[00m
+			(TO to)
+			(UH ah)
+			[01;31m(VP[00m
+				(VB hammer)
+				(RP out)
+				(NP
+					(DTP that)
+					[01;31m(N[00m
+						(NN socket)
+						(NN code)[01;31m)[00m
+					(S we have been working on))[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 799:
+(TOP
+	[01;31m(ADVP[00m
+		(RB sure)[01;31m)[00m
+	(VP sounds good))
+
+
+Sentence 800:
+(TOP ahm let us see)
+
+
+Sentence 801:
+(TOP ahm how is the seventeenth)
+
+
+Sentence 802:
+(TOP
+	(NP
+		(NP wednesday)
+		[01;36m(PP[00m
+			(PP to you)
+			(UH ahm)
+			(NP nine am)[01;36m)[00m))
+
+
+Sentence 803:
+(TOP
+	(UH ah)
+	[01;31m(S[00m
+		(DT no)
+		[01;36m(S[00m
+			(MD can)
+			[01;36m(VP[00m
+				[01;31m(VP[00m
+					(VB do)[01;31m)[00m
+				(NP big guy)[01;36m)[00m[01;36m)[00m[01;31m)[00m
+	(S
+		(NP i)
+		(VBD got)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN seminar)[01;36m)[00m
+			(PP from nine am to four thirty pm)[01;31m)[00m))
+
+
+Sentence 804:
+(TOP how about ah ah monday the eighth from ah three to five)
+
+
+Sentence 805:
+(TOP ah whoops)
+
+
+Sentence 806:
+(TOP
+	(VP
+		(VBD got)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN meeting)[01;36m)[00m
+			(UH ah)
+			(NP two to four)[01;31m)[00m))
+
+
+Sentence 807:
+(TOP on monday)
+
+
+Sentence 808:
+(TOP ahm let us see)
+
+
+Sentence 809:
+(TOP how about either the twenty second or the twenty fourth)
+
+
+Sentence 810:
+(TOP any time)
+
+
+Sentence 811:
+(TOP well the ah twenty second is my golf day)
+
+
+Sentence 812:
+(TOP
+	(S
+		(CNJ but)
+		(S
+			(NP i)
+			(VBP think)
+			[01;36m(S[00m
+				[01;31m(S[00m
+					(NP i)
+					(MD can)
+					(VP
+						(VB schedule)
+						(NP you)
+						[01;31m(PP[00m
+							(IN in)
+							(ADVP there)[01;31m)[00m
+						(PP from one to three))[01;31m)[00m
+				(S if that is okay)[01;36m)[00m)))
+
+
+Sentence 813:
+(TOP sounds good to me)
+
+
+Sentence 814:
+(TOP i am free most of the day)
+
+
+Sentence 815:
+(TOP although golf does not sound too bad)
+
+
+Sentence 816:
+(TOP
+	(UH yeah)
+	[01;31m(ADVP[00m
+		(RB right)[01;31m)[00m)
+
+
+Sentence 817:
+(TOP
+	(UH okay)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB have)
+			[01;36m(NP[00m
+				(NP my secretary)
+				(UH ah)
+				(NP secretary)[01;36m)[00m
+			(VP
+				(VB get)
+				[01;31m(PP[00m
+					(IN in)
+					[01;33m(NP[00m (NP touch)[01;31m)[00m
+				(PP with yours) [01;33mNP)[00m
+				(ADVP then)))))
+
+
+Sentence 818:
+(TOP and we will do lunch)
+
+
+Sentence 819:
+(TOP
+	(S
+		[01;36m(CMP[00m
+			(ADVP only)
+			[01;31m(CMP[00m
+				(IN if)[01;31m)[00m[01;36m)[00m
+		(NP it)
+		(VBZ is)
+		(NP
+			(DTP a)
+			[01;31m(N[00m
+				[01;36m(AP[00m
+					[01;36m(V[00m
+						(NN power)[01;36m)[00m[01;36m)[00m
+				(NN lunch)[01;31m)[00m)))
+
+
+Sentence 820:
+(TOP ah matt)
+
+
+Sentence 821:
+(TOP yeah this is brian again)
+
+
+Sentence 822:
+(TOP
+	(UH ah)
+	(S i can not seem to get that socket code to compile)
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			(V going)
+			(VP
+				(VB need)
+				(VP
+					(TO to)
+					(UH ah)
+					(VP
+						(VB meet)
+						(PP with you)
+						(PP
+							(IN for)
+							(NP
+								(ADVP about)
+								[01;36m(AP[00m
+									(AP two)
+									(AP more)[01;36m)[00m
+								(NNS hours)))
+						(ADVP again)
+						(NP sometime this week)))))))
+
+
+Sentence 823:
+(TOP when would be good for you)
+
+
+Sentence 824:
+(TOP
+	(UH hm)
+	[01;36m(S[00m
+		(NP sometime this week)
+		(UH has)[01;36m)[00m)
+
+
+Sentence 825:
+(TOP ahm let us see)
+
+
+Sentence 826:
+(TOP how about sometime in the morning on tuesday the sixth)
+
+
+Sentence 827:
+(TOP
+	(UH ah)
+	(UH sorry)
+	[01;36m(S[00m
+		[01;31m(S[00m
+			(NP there)
+			(VBZ is)
+			[01;31m(NP[00m [01;33m(NP[00m
+				(DTP no)
+				(NN way)[01;31m)[00m[01;31m)[00m
+		(S i am going to be out of town) [01;33mNP)[00m[01;36m)[00m
+	(S i am going to be in ah cleveland on the sixth))
+
+
+Sentence 828:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		[01;31m(NP[00m
+			(NN sometime)[01;31m)[00m)
+	(UH ah)
+	[01;36m(S[00m
+		[01;33m(ADVP[00m (ADVP actually)
+		[01;33m(DTP (DT[00m (DTP the)
+		[01;31m(S[00m
+			(ADVP maybe) [01;33mDT) DTP) ADVP)[00m
+			(NP this week)
+			(VBZ is)
+			(RB not)
+			(VP going to be so good)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 829:
+(TOP
+	[01;36m(ADVP[00m
+		[01;36m(PR[00m
+			(WRB how)[01;36m)[00m[01;36m)[00m
+	[01;36m(ADVP[00m
+		(RB about)[01;36m)[00m
+	(UH geez))
+
+
+Sentence 830:
+(TOP
+	(UH ah)
+	[01;36m(S[00m
+		[01;31m(NP[00m [01;33m(NP[00m
+			(NP tuesday)
+			(NP the twentieth)[01;31m)[00m
+		[01;31m(S[00m
+			(NP any time on that day) [01;33mNP)[00m
+			[01;36m(S[00m
+				(VBP are)
+				(NP you)
+				(AP free)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 831:
+(TOP ah let us see)
+
+
+Sentence 832:
+(TOP tuesday the twentieth)
+
+
+Sentence 833:
+(TOP
+	(NP anytime besides like two pm to four pm)
+	(S i have got a meeting then))
+
+
+Sentence 834:
+(TOP ahm what about like eleven oclock maybe)
+
+
+Sentence 835:
+(TOP
+	(UH ah)
+	(S
+		(NP eleven oclock)
+		(MD would)
+		(VP
+			(VB be)
+			[01;36m(AP[00m
+				[01;36m(DGP[00m [01;36m(DG[00m [01;31m(ADVP[00m
+					(RB just)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+				[01;31m(AP[00m
+					(JJ great)[01;31m)[00m[01;36m)[00m
+			(PP for me))))
+
+
+Sentence 836:
+(TOP where should we meet)
+
+
+Sentence 837:
+(TOP
+	(UH well)
+	(UH ah)
+	[01;36m(VP[00m [01;31m(NP[00m
+		(NP wean)
+		(NP two)
+		(ADVP maybe)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 838:
+(TOP okay see you there)
+
+
+Sentence 839:
+(TOP fine)
+
+
+Sentence 840:
+(TOP hello ahm it is me again)
+
+
+Sentence 841:
+(TOP i have to set up another meeting with you ahm some time in the month of march what day would be good for you)
+
+
+Sentence 842:
+(TOP well ah how about ah friday the twenty first)
+
+
+Sentence 843:
+(TOP at ah twelve thirty pm)
+
+
+Sentence 844:
+(TOP ah i can not do it on friday the twenty first because i have seminar)
+
+
+Sentence 845:
+(TOP from eight am to five pm)
+
+
+Sentence 846:
+(TOP
+	(SUGG
+		(WP what)
+		(RB about)
+		(UH ahm)
+		[01;36m(NP[00m [01;31m(PP[00m
+			[01;36m(ADVP[00m
+				(IN like)[01;36m)[00m
+			[01;31m(NP[00m
+				(NP thursday)[01;31m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 847:
+(TOP or monday)
+
+
+Sentence 848:
+(TOP like thursday the twentieth or monday the seventeenth)
+
+
+Sentence 849:
+(TOP monday the seventeenth i am busy ah all day)
+
+
+Sentence 850:
+(TOP at a seminar)
+
+
+Sentence 851:
+(TOP the ah thursday the twentieth i am free in the afternoon)
+
+
+Sentence 852:
+(TOP how about ah one pm on thursday the twentieth)
+
+
+Sentence 853:
+(TOP one pm on thursday the twentieth is good for me)
+
+
+Sentence 854:
+(TOP ahm okay i will be there then)
+
+
+Sentence 855:
+(TOP on at that time)
+
+
+Sentence 856:
+(TOP thanks)
+
+
+Sentence 857:
+(TOP see you then)
+
+
+Sentence 858:
+(TOP bye)
+
+
+Sentence 859:
+(TOP okay bye)
+
+
+Sentence 860:
+(TOP hi)
+
+
+Sentence 861:
+(TOP
+	(UH ahm)
+	[01;36m(S[00m
+		(S i want to set up a meeting with you for the month of june)
+		(UH ahm)
+		(S i was wondering)[01;36m)[00m
+	(S could we meet some time like monday the fourteenth))
+
+
+Sentence 862:
+(TOP or friday the eighteenth)
+
+
+Sentence 863:
+(TOP during that week)
+
+
+Sentence 864:
+(TOP could we meet some time then)
+
+
+Sentence 865:
+(TOP monday the fourteenth is ah fine)
+
+
+Sentence 866:
+(TOP
+	(DTP any)
+	[01;36m(NP[00m [01;31m(S[00m
+		[01;31m(NP[00m
+			(DTP any)
+			(NN time)[01;31m)[00m
+		[01;36m(S[00m
+			(NP you)
+			(VBP like)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 867:
+(TOP
+	(S
+		(MD could)
+		(NP i)
+		(VP
+			(VB come)
+			[01;36m(PP[00m
+				(RP in)
+				(UH ahm)
+				(NP some time before noon)[01;36m)[00m)))
+
+
+Sentence 868:
+(TOP would that be okay with you)
+
+
+Sentence 869:
+(TOP
+	[01;31m(ADVP[00m
+		(RB sure)[01;31m)[00m)
+
+
+Sentence 870:
+(TOP how about ten thirty)
+
+
+Sentence 871:
+(TOP ten thirty will be fine)
+
+
+Sentence 872:
+(TOP see you then)
+
+
+Sentence 873:
+(TOP thanks)
+
+
+Sentence 874:
+(TOP bye)
+
+
+Sentence 875:
+(TOP
+	(UH hello)
+	(UH ahm)
+	(S
+		(S something has come up recently)
+		(CNJ and)
+		(S
+			(NP i)
+			(VBP have)
+			(VP
+				(TO to)
+				(VP
+					(VB talk)
+					[01;36m(PP[00m
+						(PP to you)
+						(PP about it)[01;36m)[00m)))))
+
+
+Sentence 876:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(MD can)
+		(NP i)
+		(VP
+			(VP come)
+			(CNJ and)
+			(VP
+				(VB see)
+				(NP you)
+				[01;31m(NP[00m
+					(DTP some)
+					(NN time)
+					(NP this month)[01;31m)[00m))[01;31m)[00m)
+
+
+Sentence 877:
+(TOP ah how about some time ahm next week)
+
+
+Sentence 878:
+(TOP like monday the fifth or wednesday the seventh)
+
+
+Sentence 879:
+(TOP ahm ah those days are not good for me)
+
+
+Sentence 880:
+(TOP how about ah friday the twenty third)
+
+
+Sentence 881:
+(TOP
+	(S
+		(VBZ is)
+		(NP there)
+		(NP
+			(DTP any)
+			(NN way)
+			(S
+				[01;36m(NP[00m [01;36m(PR[00m [01;31m(CMP[00m
+					(IN that)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+				(NP you)
+				(MD can)
+				(VP meet with me some time earlier)))))
+
+
+Sentence 882:
+(TOP like the twenty first of wednesday or the twelfth of monday)
+
+
+Sentence 883:
+(TOP well i am out of town on the twenty first)
+
+
+Sentence 884:
+(TOP ahm how about ah the fourteenth or thirteenth)
+
+
+Sentence 885:
+(TOP okay)
+
+
+Sentence 886:
+(TOP
+	[01;31m(S[00m
+		(PP on the fourteenth)
+		[01;33m(NP[00m (NP i)
+		(VBP am)
+		(PP on vacation)[01;31m)[00m
+	[01;31m(S[00m
+		(PP on the thirteenth)
+		(NP i) [01;33mNP)[00m
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN seminar)[01;36m)[00m
+			[01;36m(PP[00m
+				[01;31m(PP[00m [01;33m(PP[00m
+					(IN from)
+					[01;33m(NP[00m (NP four am)[01;31m)[00m
+				[01;31m(PP[00m
+					(PP from nine am) [01;33mNP) PP)[00m
+					(PP to four pm)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 887:
+(TOP so ahm so i could probably meet you before nine am or after four pm)
+
+
+Sentence 888:
+(TOP
+	(S
+		[01;31m(S[00m
+			(CNJ but)
+			[01;33m(S (S[00m (S if that is really a problem)[01;31m)[00m
+		[01;31m(S[00m
+			(ADVP then)
+			(NP i)
+			(VBP guess)
+			(S i will wait)[01;31m)[00m [01;33mS)[00m
+		(CNJ and)
+		(S we can meet on the twenty third of friday)))
+
+
+Sentence 889:
+(TOP the twenty third really would be the best for me how about ah one pm on the twenty third then)
+
+
+Sentence 890:
+(TOP
+	(UH okay)
+	(UH ahm)
+	[01;36m(S[00m
+		(NP one pm)
+		[01;31m(S[00m
+			(NP i)
+			(VBP mean)
+			(S one pm is okay then)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 891:
+(TOP on the twenty third)
+
+
+Sentence 892:
+(TOP okay i will see you then)
+
+
+Sentence 893:
+(TOP bye)
+
+
+Sentence 894:
+(TOP bye)
+
+
+Sentence 895:
+(TOP hello ahm yeah i need to schedule a meeting with you some time during the month of august ahm what time would be good for you)
+
+
+Sentence 896:
+(TOP
+	(UH well)
+	(UH ah)
+	[01;36m(PP[00m [01;31m(NP[00m
+		(PP in general)
+		[01;36m(NP[00m
+			(DTP the)
+			(NN week)
+			(PP of the ninth)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 897:
+(TOP
+	[01;31m(S[00m
+		(PP through thirteenth)
+		(VBZ is)
+		(IN in)
+		(AP pretty free)[01;31m)[00m
+	[01;31m(S[00m
+		(ADVP specifically)
+		(UH ah)
+		[01;36m(S[00m
+			(NP the ninth eleventh and twelfth)
+			(VBP are)
+			(AP good)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 898:
+(TOP ah any time then convenient for you)
+
+
+Sentence 899:
+(TOP okay ahm on the ninth i could only meet you in the afternoon some time and on the tenth i could only meet you in the morning)
+
+
+Sentence 900:
+(TOP but ahm on the thirteenth though it is a free day for me)
+
+
+Sentence 901:
+(TOP
+	(S
+		[01;36m(S[00m
+			(CNJ and)
+			(S i do not)[01;36m)[00m
+		(S
+			(NP i)
+			(VBP do)
+			(RB not)
+			(VP
+				(VB have)
+				[01;31m(VP[00m
+					(NP anything)
+					[01;36m(VP[00m
+						(TO to)
+						(VP do then)[01;36m)[00m[01;31m)[00m)))
+	[01;36m(SUGG[00m
+		[01;36m(ADVP[00m
+			(UH so)[01;36m)[00m
+		(UH ahm)
+		(UH well)
+		(SUGG what about the thirteenth)[01;36m)[00m)
+
+
+Sentence 902:
+(TOP is that is that a good day)
+
+
+Sentence 903:
+(TOP
+	(S
+		(S
+			(NP i)
+			(VBP do)
+			(VP
+				(VB have)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP a)
+						(NN class)[01;36m)[00m
+					(PP from eleven thirty to one pm)[01;31m)[00m))
+		(CNJ but)
+		(UH ah)
+		(S
+			(NP
+				(DTP any)
+				(NN time)
+				[01;36m(S[00m [01;31m(PP[00m
+					[01;31m(ADVP[00m
+						(RB around)[01;31m)[00m
+					(UH ah)
+					[01;36m(PP[00m
+						(IN after)
+						(NP one pm)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+			(MD would)
+			(VP be good)))
+	(SUGG how about ah two oclock on the thirteenth))
+
+
+Sentence 904:
+(TOP that is good for me)
+
+
+Sentence 905:
+(TOP
+	(UH ahm)
+	(UH okay)
+	[01;33m(S[00m (S i will meet you)
+	[01;31m(S[00m [01;33m(S[00m
+		(NP i)
+		(MD will)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(VB meet)
+			(NP you)
+			(IN at)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN on)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(NP friday)
+						(NP the thirteenth) [01;33mPP) VP) S) S)[00m[01;36m)[00m
+					[01;31m(PP[00m
+						(IN at)
+						(UH ahm)
+						[01;36m(S[00m
+							[01;31m(S[00m
+								(NP what)
+								(VBD was)
+								[01;36m(DTP[00m [01;36m(DT[00m [01;31m(NP[00m
+									[01;31m(PR[00m
+										(DT that)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m
+							(NP two pm)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 906:
+(TOP okay)
+
+
+Sentence 907:
+(TOP yeah)
+
+
+Sentence 908:
+(TOP two pm)
+
+
+Sentence 909:
+(TOP ah i will see you then)
+
+
+Sentence 910:
+(TOP bye)
+
+
+Sentence 911:
+(TOP bye)
+
+
+Sentence 912:
+(TOP
+	(UH hello)
+	(UH ah)
+	[01;36m(S[00m
+		[01;31m(S[00m
+			(NP i)
+			(VBP want)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(TO to)
+				[01;33m(VP[00m (VP schedule a meeting)[01;31m)[00m[01;31m)[00m
+		(UH ahm)
+		(S
+			(NP i)
+			(VBP want)
+			(VP
+				(TO to)
+				(VP
+					(VB schedule)
+					(NP it)
+					[01;36m(PP[00m
+						[01;31m(PP[00m
+							(IN for)
+							[01;31m(NP[00m [01;33m(NP[00m
+								(NP friday)[01;31m)[00m[01;31m)[00m
+						(PP in the morning)[01;36m)[00m))) [01;33mNP) VP) VP)[00m[01;36m)[00m
+	(S is that okay))
+
+
+Sentence 913:
+(TOP ahm the next couple of fridays are not good for me)
+
+
+Sentence 914:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP a)
+					(NN meeting)[01;36m)[00m
+				(NP today the fifth)[01;31m)[00m
+			(CNJ and)
+			(UH ah)
+			(NP a seminar the next two fridays)[01;31m)[00m)
+	(SUGG how about friday the twenty sixth))
+
+
+Sentence 915:
+(TOP in the morning)
+
+
+Sentence 916:
+(TOP
+	(UH ahm)
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(S friday the twenty sixth seems to be a good day)
+			(CNJ but)
+			(S it will have to be early in the morning because i have class from nine am to eleven am)[01;36m)[00m
+		[01;36m(CNJ[00m
+			(CNJ and)
+			(S then ahm i will be busy after that)
+			(CNJ but)[01;36m)[00m
+		(S if we could do it at eight oclock that would be pretty good)[01;31m)[00m)
+
+
+Sentence 917:
+(TOP
+	[01;31m(S[00m
+		(NP eight)
+		(VBZ is)
+		[01;31m(AP[00m
+			[01;36m(ADVP[00m [01;31m(AP[00m
+				(DGP a little)
+				(JJ early)[01;31m)[00m [01;33mS)[00m[01;36m)[00m
+			(CNJ but)
+			(UH ah)
+			[01;31m(AP[00m
+				(JJ okay)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 918:
+(TOP i will see you then)
+
+
+Sentence 919:
+(TOP bye)
+
+
+Sentence 920:
+(TOP okay thanks a lot i will be there ah friday the twenty sixth at eight am bye)
+
+
+Sentence 921:
+(TOP hello)
+
+
+Sentence 922:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP need)
+		[01;36m(VP[00m
+			(VP to set up a meeting with you ahm some time soon)
+			(S because i have to talk to you about something)[01;36m)[00m))
+
+
+Sentence 923:
+(TOP ahm could we set the meeting ahm around friday)
+
+
+Sentence 924:
+(TOP in the morning)
+
+
+Sentence 925:
+(TOP is that okay with you)
+
+
+Sentence 926:
+(TOP
+	(UH well)
+	(UH ah)
+	(S
+		[01;31m(S[00m
+			(NP friday the ninth)
+			(NP i)
+			(VBP have)
+			[01;33m(NP (NP[00m (NP a seminar)[01;31m)[00m
+		(VBP am) [01;33mNP)[00m
+		(DTP an) [01;33mNP)[00m
+		(CNJ and)
+		(S i am kind of busy)))
+
+
+Sentence 927:
+(TOP the ah sixteenth would be good)
+
+
+Sentence 928:
+(TOP i am free all day)
+
+
+Sentence 929:
+(TOP
+	(S
+		(NP friday the sixteenth)
+		(VBZ is)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(DTP a)
+				(AP good)
+				(NN day)[01;31m)[00m
+			(UH ah)
+			(PP for me)[01;36m)[00m
+		(ADVP also)))
+
+
+Sentence 930:
+(TOP maybe we could meet ahm some time before lunch)
+
+
+Sentence 931:
+(TOP would that be okay with you)
+
+
+Sentence 932:
+(TOP
+	[01;31m(ADVP[00m
+		(RB sure)[01;31m)[00m)
+
+
+Sentence 933:
+(TOP how about ah ten thirty)
+
+
+Sentence 934:
+(TOP in the morning)
+
+
+Sentence 935:
+(TOP ten thirty sounds good)
+
+
+Sentence 936:
+(TOP okay i will be there at ten thirty on friday the sixteenth)
+
+
+Sentence 937:
+(TOP bye)
+
+
+Sentence 938:
+(TOP thanks)
+
+
+Sentence 939:
+(TOP okay)
+
+
+Sentence 940:
+(TOP bye)
+
+
+Sentence 941:
+(TOP alright how is your schedule on the sixth tenth or thirteenth)
+
+
+Sentence 942:
+(TOP well ah i am going to be on vacation from the second until the fifteenth)
+
+
+Sentence 943:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP it)
+		(VBZ is)
+		(VP
+			(V going)
+			(VP
+				(TO to)
+				(VP
+					(VB have)
+					(VP
+						(TO to)
+						[01;36m(VP[00m
+							[01;31m(VP[00m
+								(VB be)[01;31m)[00m
+							(NP sometime after that)[01;36m)[00m))))[01;31m)[00m)
+
+
+Sentence 944:
+(TOP okay how about the seventeenth twentieth or twenty fourth)
+
+
+Sentence 945:
+(TOP i am free all day on those days)
+
+
+Sentence 946:
+(TOP ah the twenty fourth would be okay i have got a doctor appointment at four pm)
+
+
+Sentence 947:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(NP it)
+		(VBZ is)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(V going)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(TO to)
+				[01;33m(VP[00m (VP be)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(S[00m
+		(NP it)
+		(VBZ is)
+		(VP going to have to be before that)[01;31m)[00m)
+
+
+Sentence 948:
+(TOP how about an early start)
+
+
+Sentence 949:
+(TOP
+	(UH ah)
+	(NP
+		[01;36m(NP[00m
+			(CNUM nine)
+			(PP to eleven)[01;36m)[00m
+		(UH ah)
+		(PP on the morning of the twenty fourth)))
+
+
+Sentence 950:
+(TOP okay that will be fine with me i will see you then)
+
+
+Sentence 951:
+(TOP alright)
+
+
+Sentence 952:
+(TOP alright)
+
+
+Sentence 953:
+(TOP
+	(UH ahm)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			[01;31m(NP[00m
+				(NN anytime)
+				[01;33m(NP[00m (NP thursday afternoon)[01;31m)[00m
+			(CNJ or)
+			(PP on friday))))
+
+
+Sentence 954:
+(TOP
+	(UH okay)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB be)
+			(AP free)
+			(NP [01;33m(NP[00m
+				[01;36m(NP[00m
+					(DTP all)
+					(NN day)[01;36m)[00m
+				[01;31m(NP[00m
+					[01;31m(NP[00m
+						(DTP the)
+						(ONUM seventeenth)[01;31m)[00m [01;33mNP)[00m
+					(CNJ and)
+					(NP the twenty fourth)[01;31m)[00m))))
+
+
+Sentence 955:
+(TOP
+	(UH well)
+	(S my conference on the seventeenth is over at eleven)
+	[01;36m(SUGG[00m
+		[01;36m(ADVP[00m
+			(UH [01;33m(S[00m so)[01;36m)[00m
+		[01;31m(SUGG[00m
+			(WRB how)
+			(RB about)
+			[01;31m(S[00m [01;33m(S[00m
+				(NP i)
+				(VBP grab)
+				(NP some lunch)[01;31m)[00m[01;31m)[00m
+		[01;31m(S[00m
+			(ADVP then) [01;33mS) S)[00m
+			[01;36m(S[00m
+				(NP we)
+				(VBP meet)
+				(PP from one to three)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 956:
+(TOP okay that will be fine with me i guess i will see you then)
+
+
+Sentence 957:
+(TOP oops i did not mean to give myself two hours for lunch)
+
+
+Sentence 958:
+(TOP how about ah just twelve to two)
+
+
+Sentence 959:
+(TOP okay that will be fine)
+
+
+Sentence 960:
+(TOP i guess i will see you then)
+
+
+Sentence 961:
+(TOP i am looking forward to it)
+
+
+Sentence 962:
+(TOP alright)
+
+
+Sentence 963:
+(TOP any suggestions)
+
+
+Sentence 964:
+(TOP
+	(UH well)
+	[01;36m(S[00m
+		(S i will be free on the thirteenth and the fourteenth)
+		(UH ahm)
+		(S i am also going to be out of town the nineteenth through the twenty first)[01;36m)[00m
+	(S so it can not be during then))
+
+
+Sentence 965:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN meeting)[01;36m)[00m
+			[01;36m(PP[00m [01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP all)
+					(NN day)[01;36m)[00m
+				[01;31m(PP[00m
+					(IN on)
+					(NP the thirteenth)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 966:
+(TOP
+	(S
+		(CNJ and)
+		(S
+			(PP on the fourteenth)
+			(NP i)
+			(VBP am)
+			(VP
+				(V leaving)
+				(PP
+					(IN for)
+					(NP
+						(NP my)
+						[01;36m(N[00m
+							[01;31m(AP[00m
+								(JJ bobsledding)[01;31m)[00m
+							(NN vacation)[01;36m)[00m))))))
+
+
+Sentence 967:
+(TOP until the nineteenth)
+
+
+Sentence 968:
+(TOP ahm how about the morning of the twenty second or the twenty third)
+
+
+Sentence 969:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(MD will)
+		(RB not)
+		(VP be able to make it in the morning on the twenty second)
+		(S
+			(CMP since)
+			(NP i)
+			(VBP have)
+			[01;31m(NP[00m
+				(DTP a)
+				(NN meeting)
+				(PP from nine until twelve)[01;31m)[00m))
+	(UH ah)
+	(S
+		[01;36m(NP[00m
+			(NP the twenty third)
+			(ADVP though)[01;36m)[00m
+		(NP i)
+		(VBP am)
+		(AP free)
+		(NP all day)))
+
+
+Sentence 970:
+(TOP
+	(UH alright)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(PP
+			[01;31m(PP[00m
+				(IN at)
+				(UH ah)
+				[01;31m(NP[00m [01;33m(NP[00m
+					(CNUM
+						(CD nine))[01;31m)[00m[01;31m)[00m
+			(PP to eleven)
+			(PP on the twenty third))))
+
+
+Sentence 971:
+(TOP okay that will be fine with me)
+
+
+Sentence 972:
+(TOP maybe we could get some breakfast)
+
+
+Sentence 973:
+(TOP
+	(S
+		(CNJ and)
+		(S
+			(ADVP then)
+			(UH ahm)
+			(NP i)
+			(MD could)
+			(VP [01;33m(VP[00m
+				(VB show)
+				(NP you)
+				[01;31m(NP[00m
+					(DTP this)
+					[01;31m(AP[00m
+						(JJ neat)[01;31m)[00m
+					(NN game) [01;33mVP)[00m
+					[01;31m(S[00m
+						(NP i)
+						(VBP have)
+						(VP
+							[01;36m(V[00m
+								(VBN called)[01;36m)[00m
+							(NP doom))[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 974:
+(TOP thanks)
+
+
+Sentence 975:
+(TOP bye)
+
+
+Sentence 976:
+(TOP what do you think of the thirteenth or the seventeenth)
+
+
+Sentence 977:
+(TOP i am free all day)
+
+
+Sentence 978:
+(TOP
+	(UH well)
+	(S
+		(PP on the thirteenth)
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(NN class)[01;36m)[00m
+			(PP from eleven thirty until one)[01;31m)[00m)
+	(S so the afternoon would be fine))
+
+
+Sentence 979:
+(TOP
+	(S
+		(CNJ or)
+		(S
+			[01;36m(S[00m
+				(S if you want the seventeenth)
+				[01;31m(S[00m
+					(NP i)
+					(VBP have)
+					(VP got)[01;31m)[00m[01;36m)[00m
+			(UH ahm)
+			(NP i)
+			(VBP am)
+			(AP free)
+			(NP anytime before one)
+			(S
+				(CMP since)
+				(NP i)
+				(VBP have)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP a)
+						(NN conference)[01;36m)[00m
+					(PP
+						(PP
+							(IN from)
+							(UH ahm)
+							[01;31m(NP[00m
+								(CNUM
+									(CD one))[01;31m)[00m)
+						(PP until six))[01;31m)[00m))))
+
+
+Sentence 980:
+(TOP well we can not do anything until after our next meeting so why do not we make it the earlier date on the afternoon of the thirteenth)
+
+
+Sentence 981:
+(TOP ah say ah three to five)
+
+
+Sentence 982:
+(TOP okay that will be fine with me)
+
+
+Sentence 983:
+(TOP
+	(UH ahm)
+	[01;31m(S[00m
+		(S i guess three to five will be fine)
+		(CNJ and)
+		(S then afterwards maybe we could get go for dinner or something)[01;31m)[00m)
+
+
+Sentence 984:
+(TOP okay)
+
+
+Sentence 985:
+(TOP ahm how about eleven am on the twelfth)
+
+
+Sentence 986:
+(TOP ahm no)
+
+
+Sentence 987:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN class)[01;36m)[00m
+			(ADVP then)
+			(PP until twelve)[01;31m)[00m))
+
+
+Sentence 988:
+(TOP ahm can you make it like after twelve)
+
+
+Sentence 989:
+(TOP on the eleventh)
+
+
+Sentence 990:
+(TOP
+	(UH ahm)
+	[01;36m(S[00m
+		(S
+			(S if i said eleventh)
+			(NP i)
+			(VBD was)
+			[01;36m(AP[00m [01;31m(VP[00m
+				[01;31m(V[00m
+					(VBN mistaken)[01;31m)[00m[01;31m)[00m[01;36m)[00m)
+		[01;31m(S[00m
+			(NP i)
+			(VBD meant)
+			(NP twelfth)[01;31m)[00m
+		(UH ahm)
+		[01;31m(S[00m
+			(ADVP anyway)
+			[01;36m(DTP[00m [01;36m(DT[00m [01;31m(NP[00m
+				[01;31m(PR[00m
+					(DT that)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			(VBZ rules)
+			(RP out)
+			(NP any morning)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 991:
+(TOP how about after the afternoon of the sixteenth)
+
+
+Sentence 992:
+(TOP ahm did you say the sixteenth)
+
+
+Sentence 993:
+(TOP because i could ah meet anytime in the afternoon)
+
+
+Sentence 994:
+(TOP yes on the sixteenth)
+
+
+Sentence 995:
+(TOP all i have is nine to twelve)
+
+
+Sentence 996:
+(TOP class)
+
+
+Sentence 997:
+(TOP ah how about twelve)
+
+
+Sentence 998:
+(TOP or one)
+
+
+Sentence 999:
+(TOP
+	(S
+		(VBP give)
+		(NP me)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(NN time)[01;36m)[00m
+			(PP for lunch)[01;31m)[00m))
+
+
+Sentence 1000:
+(TOP
+	(UH okay)
+	(S
+		(NP i)
+		(MD will)
+		(VP
+			(VB see)
+			(NP you)
+			[01;31m(PP[00m
+				[01;36m(PP[00m
+					(PP from one)
+					(PP until three)[01;36m)[00m
+				(PP
+					(IN on)
+					(NP
+						[01;36m(NP[00m
+							(DTP the)
+							(ONUM sixteenth)[01;36m)[00m
+						(PP after lunch)))[01;31m)[00m))
+	(VP see you))
+
+
+Sentence 1001:
+(TOP good bye)
+
+
+Sentence 1002:
+(TOP okay this should not be too hard)
+
+
+Sentence 1003:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		(PP
+			(IN before)
+			(NP
+				(CNUM two)
+				(PP
+					(IN on)
+					(NP
+						(DTP the)
+						(ONUM
+							(ONUM ninth)
+							[01;36m(ONUM[00m
+								(ONUM thirteenth)
+								(ONUM fourteenth)[01;36m)[00m
+							(CNJ or)
+							(ONUM sixteenth))))))))
+
+
+Sentence 1004:
+(TOP okay i will be ahm free all day on the sixteenth what time would you like to meet)
+
+
+Sentence 1005:
+(TOP
+	(UH well)
+	(S as long as i am gone by four it will be okay)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(PP
+			(PP
+				(IN at)
+				[01;31m(NP[00m
+					(CNUM
+						(CD one))[01;31m)[00m)
+			(PP to three))))
+
+
+Sentence 1006:
+(TOP on the sixteenth)
+
+
+Sentence 1007:
+(TOP
+	(UH well)
+	[01;31m(SUGG[00m [01;33m(SUGG[00m
+		(WRB how)
+		(RB about)
+		[01;33m(VP[00m (VP having a meeting during lunch)[01;31m)[00m
+	[01;31m(S[00m
+		(ADVP maybe) [01;33mVP) SUGG)[00m
+		(IN from)
+		(UH ahm)
+		(NP we)
+		(MD could)
+		[01;31m(VP[00m
+			[01;31m(ADVP[00m
+				(RB like)[01;31m)[00m
+			[01;36m(VP[00m
+				(VB go)
+				[01;36m(ADVP[00m
+					(RP out)[01;36m)[00m
+				(PP for lunch or something)[01;36m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 1008:
+(TOP
+	(PP
+		(PP
+			(IN from)
+			[01;36m(NP[00m
+				(ADVP like)
+				[01;31m(NP[00m
+					(CNUM
+						(CD twelve))[01;31m)[00m[01;36m)[00m)
+		(PP until two)))
+
+
+Sentence 1009:
+(TOP how does that sound)
+
+
+Sentence 1010:
+(TOP fine)
+
+
+Sentence 1011:
+(TOP i will see you then)
+
+
+Sentence 1012:
+(TOP okay bye)
+
+
+Sentence 1013:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP need)
+		(VP
+			(TO to)
+			(DTP the)
+			(VP
+				[01;36m(V[00m
+					(VB set)[01;36m)[00m
+				(RP up)
+				(NP a meeting)
+				(NP some time around the sixth)))))
+
+
+Sentence 1014:
+(TOP thursday the sixth)
+
+
+Sentence 1015:
+(TOP ah no i am sorry i am going to be on vacation until the seventeenth of may)
+
+
+Sentence 1016:
+(TOP how about some time after that)
+
+
+Sentence 1017:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP am)
+		(AP free)
+		[01;36m(NP[00m
+			(NP all day on the twentieth)
+			(S if you have time then)[01;36m)[00m))
+
+
+Sentence 1018:
+(TOP how about the twentieth at one oclock pm)
+
+
+Sentence 1019:
+(TOP alright that is fine)
+
+
+Sentence 1020:
+(TOP i will see you then)
+
+
+Sentence 1021:
+(TOP bye)
+
+
+Sentence 1022:
+(TOP
+	(UH ahm)
+	(UH hello)
+	(UH ahm)
+	(VBP do)
+	(NP you)
+	(S
+		(VBP are)
+		(NP you)
+		(AP free)
+		(NP anytime any friday this month)
+		[01;31m(S[00m
+			(ADVP just)
+			[01;36m(S[00m
+				[01;36m(ADVP[00m [01;31m(CMP[00m
+					(IN so)[01;31m)[00m[01;36m)[00m
+				(NP we)
+				(MD can)
+				(VP get together sometime)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 1023:
+(TOP
+	(NP
+		(DTP any)
+		(NN time)
+		(PP [01;33m(PP[00m
+			(IN after)
+			[01;31m(NP[00m
+				(NN noon) [01;33mPP)[00m
+				(PP on fridays)[01;31m)[00m)))
+
+
+Sentence 1024:
+(TOP is good for me)
+
+
+Sentence 1025:
+(TOP okay how about two oclock on friday the fourth)
+
+
+Sentence 1026:
+(TOP oops i am sorry)
+
+
+Sentence 1027:
+(TOP
+	(S on the fourth i have vacation)
+	[01;31m(S[00m
+		(NP it)
+		(MD will)
+		(VP have to be the eleventh the eighteenth or the twenty fifth)[01;31m)[00m)
+
+
+Sentence 1028:
+(TOP okay how about two oclock on the eleventh)
+
+
+Sentence 1029:
+(TOP two oclock on the eleventh of june will be fine good bye)
+
+
+Sentence 1030:
+(TOP bye)
+
+
+Sentence 1031:
+(TOP
+	(UH ahm)
+	(S
+		(VBP do)
+		(NP you)
+		(VP
+			(VB have)
+			[01;36m(NP[00m
+				(NP any free time)
+				[01;36m(PP[00m
+					(PP on wednesday the twenty first)
+					(S
+						[01;36m(PR[00m [01;36m(NP[00m [01;31m(CMP[00m
+							(IN that)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+						(NP we)
+						(MD could)
+						(VP set up a meeting))[01;36m)[00m[01;36m)[00m)))
+
+
+Sentence 1032:
+(TOP no i am sorry i am going to be out of town that day you will have to pick another day)
+
+
+Sentence 1033:
+(TOP
+	(UH okay)
+	(SUGG
+		(WRB how)
+		(RB about)
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(DTP the)
+				(ONUM twenty eighth)[01;31m)[00m
+			(NP any time on wednesday)[01;36m)[00m))
+
+
+Sentence 1034:
+(TOP yeah the twenty eighth sounds good how about at two pm)
+
+
+Sentence 1035:
+(TOP two pm sounds good i will see you then)
+
+
+Sentence 1036:
+(TOP bye)
+
+
+Sentence 1037:
+(TOP ahm do you have any free time on the week of the twenty third)
+
+
+Sentence 1038:
+(TOP
+	[01;36m(PR[00m
+		[01;36m(ADVP[00m
+			(WRB why)[01;36m)[00m[01;36m)[00m
+	(UH yes)
+	(S i do))
+
+
+Sentence 1039:
+(TOP
+	(S the twenty third and the twenty fifth are both free for me)
+	(S
+		[01;36m(NP[00m
+			(NP the twenty sixth)
+			(NP i)
+			(VBP am)
+			(PP out of town)[01;36m)[00m
+		(ADVP though)))
+
+
+Sentence 1040:
+(TOP
+	[01;31m(S[00m
+		(NP any time that is good for you)
+		(MD will)
+		(VP do)[01;31m)[00m)
+
+
+Sentence 1041:
+(TOP how about twelve thirty on the twenty fifth)
+
+
+Sentence 1042:
+(TOP it is a date i will see you then)
+
+
+Sentence 1043:
+(TOP twelve thirty on the twenty fifth of august)
+
+
+Sentence 1044:
+(TOP
+	[01;31m(PP[00m
+		(IN in)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				[01;36m(NP[00m
+					(NP our)
+					(NN year)[01;36m)[00m
+				[01;31m(PP[00m
+					(IN of)
+					(NP the lord)[01;31m)[00m [01;33mPP)[00m[01;36m)[00m
+			(NP nineteen ninety three)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 1045:
+(TOP okay see you then)
+
+
+Sentence 1046:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP need)
+		(VP
+			(TO to)
+			(VP
+				(VB set)
+				(RP up)
+				(NP a meeting)
+				(NP
+					(DTP some)
+					(NN time)
+					[01;31m(AP[00m
+						(JJ next)[01;31m)[00m
+					(PP within the next two weeks))))))
+
+
+Sentence 1047:
+(TOP okay how is the seventeenth for you)
+
+
+Sentence 1048:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP have)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(DTP a)
+				(NN seminar)[01;36m)[00m
+			(PP from nine to four)[01;31m)[00m))
+
+
+Sentence 1049:
+(TOP ah ah)
+
+
+Sentence 1050:
+(TOP hm well what about four)
+
+
+Sentence 1051:
+(TOP that day)
+
+
+Sentence 1052:
+(TOP ahm after four thirty would be fine)
+
+
+Sentence 1053:
+(TOP
+	(UH ahm)
+	(S
+		(NP i)
+		(VBP guess)
+		[01;36m(S[00m
+			[01;31m(S[00m
+				(NP you)
+				[01;36m(ADVP[00m
+					(VBP better)[01;36m)[00m
+				[01;31m(VP[00m
+					(VB make)
+					(NP it)
+					[01;33m(NP[00m (NP a better day)[01;31m)[00m[01;31m)[00m
+			(S
+				(CMP because)
+				(UH ah)
+				(NP we)
+				(VBP are)
+				(RB not)
+				(VP
+					[01;36m(V[00m
+						(VBN supposed)[01;36m)[00m
+					(VP
+						(TO to)
+						(VP
+							(VB meet)
+							[01;31m(PP[00m
+								(IN at)
+								(IN after)
+								(PP after five)[01;31m)[00m))))[01;36m)[00m))
+
+
+Sentence 1054:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(SUGG[00m
+		(WP what)
+		(RB about)
+		(PP on the ah eighteenth)[01;31m)[00m)
+
+
+Sentence 1055:
+(TOP ahm i have a pretty full schedule the eighteenth)
+
+
+Sentence 1056:
+(TOP do you have any time on the sixteenth)
+
+
+Sentence 1057:
+(TOP after twelve)
+
+
+Sentence 1058:
+(TOP yeah i am free)
+
+
+Sentence 1059:
+(TOP after twelve the whole day)
+
+
+Sentence 1060:
+(TOP what about you)
+
+
+Sentence 1061:
+(TOP
+	(UH yeah)
+	(UH okay)
+	(S
+		(VBP let)
+		(NP us)
+		(ADVP just)
+		(VP
+			(VB meet)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN at)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(CNUM
+							(CD twelve)) [01;33mPP)[00m[01;36m)[00m
+					(ADVP then)
+					(PP on the sixteenth)[01;31m)[00m[01;31m)[00m)))
+
+
+Sentence 1062:
+(TOP how about one)
+
+
+Sentence 1063:
+(TOP i have to eat lunch)
+
+
+Sentence 1064:
+(TOP alright)
+
+
+Sentence 1065:
+(TOP one is fine)
+
+
+Sentence 1066:
+(TOP ahm i need to set a meeting sometime within the next two weeks)
+
+
+Sentence 1067:
+(TOP okay how is the fourteenth after ten am for you)
+
+
+Sentence 1068:
+(TOP ahm it is fine as long as we finish before two because i have class then)
+
+
+Sentence 1069:
+(TOP okay how about eleven am on april fourteenth)
+
+
+Sentence 1070:
+(TOP alright i will see you then)
+
+
+Sentence 1071:
+(TOP
+	[01;36m(ADVP[00m
+		(UH so)[01;36m)[00m
+	[01;31m(S[00m
+		(ADVP when)
+		(VBP are)
+		(NP we)
+		(VP going to get together for that meeting)[01;31m)[00m)
+
+
+Sentence 1072:
+(TOP
+	(UH well)
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP i)
+			(VBP am)
+			(VP going to california for two weeks from the ah second to the fifteenth)[01;36m)[00m
+		(S so i am quite busy)[01;31m)[00m)
+
+
+Sentence 1073:
+(TOP how about ah the twenty seventh on thursday)
+
+
+Sentence 1074:
+(TOP ah twenty seventh sounds good ahm how about a lunch meeting)
+
+
+Sentence 1075:
+(TOP meet say twelve oclock or so)
+
+
+Sentence 1076:
+(TOP very well)
+
+
+Sentence 1077:
+(TOP
+	(UH ah)
+	(NP
+		[01;36m(NP[00m
+			(NP yum)
+			(NP wok)[01;36m)[00m
+		(ADVP then)))
+
+
+Sentence 1078:
+(TOP ah i do not know if we can do yum wok)
+
+
+Sentence 1079:
+(TOP
+	(S
+		(NP i)
+		(VBP have)
+		(VP
+			(VBN got)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP these)
+					(AP great)
+					(N gift certificates)[01;36m)[00m
+				(PP for dominos)[01;31m)[00m
+			(ADVP though))))
+
+
+Sentence 1080:
+(TOP okay then i will see you on the twenty seventh)
+
+
+Sentence 1081:
+(TOP bye)
+
+
+Sentence 1082:
+(TOP see you then)
+
+
+Sentence 1083:
+(TOP
+	(UH ahm)
+	[01;31m(S[00m
+		(ADVP so)
+		(ADVP when)
+		(VBP are)
+		(NP we)
+		(VP going to do the performance review)[01;31m)[00m)
+
+
+Sentence 1084:
+(TOP ahm well i am free the wednesday the ninth)
+
+
+Sentence 1085:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(VBP think)
+		(UH ah)
+		(S
+			[01;36m(NP[00m [01;31m(PP[00m
+				[01;36m(ADVP[00m
+					(IN about)[01;36m)[00m
+				[01;31m(NP[00m
+					(CNUM two)
+					(PP in the afternoon)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			(MD should)
+			(VP be fine for me))[01;31m)[00m)
+
+
+Sentence 1086:
+(TOP ah sorry)
+
+
+Sentence 1087:
+(TOP i am out of town)
+
+
+Sentence 1088:
+(TOP i am in juneau)
+
+
+Sentence 1089:
+(TOP
+	(PP for the seventh eighth and ninth)
+	(PP for a convention))
+
+
+Sentence 1090:
+(TOP
+	(UH ahm)
+	[01;36m(S[00m
+		[01;31m(S[00m
+			(NP friday)
+			(MD would)
+			[01;31m(VP[00m [01;33m(VP[00m
+				(VB be)
+				(AP good)[01;31m)[00m[01;31m)[00m
+		(NP
+			[01;36m(NP[00m
+				(NP thursday)
+				(NP afternoon)[01;36m)[00m
+			(ADVP maybe))[01;36m)[00m)
+
+
+Sentence 1091:
+(TOP thursday i am going to be in the city at a seminar)
+
+
+Sentence 1092:
+(TOP ah i mean friday i am going to be in the city for a seminar)
+
+
+Sentence 1093:
+(TOP
+	(S
+		(NP thursday)
+		(NP i)
+		(VBP have)
+		[01;36m(ADVP[00m
+			(RP off)[01;36m)[00m))
+
+
+Sentence 1094:
+(TOP how about ah thursday the seventeenth)
+
+
+Sentence 1095:
+(TOP okay that would be good)
+
+
+Sentence 1096:
+(TOP
+	(UH ah)
+	(UH ahm)
+	[01;36m(S[00m
+		(NP anytime after noon)
+		[01;31m(S[00m
+			(NP i)
+			(VBP have)
+			(VP got group meeting that morning)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 1097:
+(TOP
+	(S
+		(ADVP so)
+		(NP i)
+		(V going)
+		(VP
+			(TO to)
+			[01;36m(SUGG[00m [01;31m(VP[00m
+				(VB say)
+				(NP thursday the twenty seventeenth)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 1098:
+(TOP that afternoon)
+
+
+Sentence 1099:
+(TOP okay)
+
+
+Sentence 1100:
+(TOP see you then)
+
+
+Sentence 1101:
+(TOP until then)
+
+
+Sentence 1102:
+(TOP
+	[01;31m(VP[00m
+		[01;31m(ADVP[00m
+			(RB well)[01;31m)[00m
+		[01;36m(VP[00m
+			(VBZ looks)
+			(PP
+				(IN like)
+				(S
+					(NP it)
+					(VBZ is)
+					(NP
+						[01;36m(NP[00m
+							(NN time)[01;36m)[00m
+						(VP to set up another meeting))))[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 1103:
+(TOP yes)
+
+
+Sentence 1104:
+(TOP
+	(S
+		(CNJ but)
+		(S
+			[01;31m(NP[00m
+				(NP our)
+				(UH ah)
+				[01;33m(S[00m (AP usual)
+				(NN time)
+				[01;31m(PP[00m
+					(IN of)
+					(UH ah)
+					[01;33m(S[00m (NP thursdays)[01;31m)[00m[01;31m)[00m
+			(VBZ is)
+			(RB not)
+			(VP going to be good))) [01;33mS) S)[00m
+	(S
+		(NP i)
+		(VBP am)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(V
+					(VBN booked))[01;31m)[00m
+			(NP
+				(NN most)
+				(PP
+					(IN of)
+					[01;36m(NP[00m
+						[01;31m(NP[00m
+							(DTP the)
+							(NPS thursdays)[01;31m)[00m
+						(PP of the month)[01;36m)[00m))[01;36m)[00m))
+
+
+Sentence 1105:
+(TOP how about a wednesday)
+
+
+Sentence 1106:
+(TOP
+	(UH ah)
+	(S
+		[01;36m(NP[00m
+			[01;31m(NP[00m
+				(NP wednesday)[01;31m)[00m
+			(PP
+				(IN in)
+				[01;36m(NP[00m [01;31m(AP[00m
+					(JJ general)[01;31m)[00m[01;36m)[00m)[01;36m)[00m
+		(VBZ is)
+		(AP pretty good)))
+
+
+Sentence 1107:
+(TOP
+	[01;31m(NP[00m
+		[01;36m(NP[00m
+			(RB not)
+			(DTP the)
+			(ONUM fourteenth)[01;36m)[00m
+		[01;36m(CMP[00m [01;31m(ADVP[00m [01;33m(S[00m
+			(RB though)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	[01;31m(S[00m
+		(NP this wednesday)
+		(NP i)
+		(VBP am)
+		(PP on vacation)[01;31m)[00m)
+
+
+Sentence 1108:
+(TOP how about next wednesday the twenty first)
+
+
+Sentence 1109:
+(TOP no the twenty first i am out of town)
+
+
+Sentence 1110:
+(TOP how about the fourteenth or the twenty eighth)
+
+
+Sentence 1111:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP i)
+			(VBD said)
+			(S i am out of town on the fourteenth)[01;36m)[00m
+		[01;33m(S[00m (S so the twenty eighth sounds good to me)[01;31m)[00m
+	(S i am free all day))
+
+
+Sentence 1112:
+(TOP okay yeah twenty eighth at one pm)
+
+
+Sentence 1113:
+(TOP i will see you then)
+
+
+Sentence 1114:
+(TOP one pm then)
+
+
+Sentence 1115:
+(TOP
+	(ADVP once again)
+	[01;31m(NP[00m
+		(DTP another)
+		(NN meeting)[01;31m)[00m)
+
+
+Sentence 1116:
+(TOP ahm when would be good for you)
+
+
+Sentence 1117:
+(TOP
+	(UH well)
+	[01;36m(S[00m
+		[01;33m(NP[00m (DTP the)
+		(UH ah)
+		[01;31m(S[00m
+			[01;31m(NP[00m
+				(NPS mondays)[01;31m)[00m
+			(PP
+				(IN in)
+				[01;36m(NP[00m [01;31m(AP[00m
+					(JJ general)[01;31m)[00m[01;36m)[00m) [01;33mNP)[00m
+			(VBP are)
+			(AP quite good)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 1118:
+(TOP how about the ah sixteenth)
+
+
+Sentence 1119:
+(TOP ahm i have got a class in the morning but i am free most of the afternoon)
+
+
+Sentence 1120:
+(TOP
+	(UH ahm)
+	(S
+		(S
+			(CMP if)
+			(NP you)
+			(MD can)
+			(VP
+				(VB work)
+				(NP me)
+				[01;36m(PP[00m
+					(RP in)
+					(NP that afternoon)[01;36m)[00m))
+		(NP that)
+		(MD would)
+		(VP be great)))
+
+
+Sentence 1121:
+(TOP sure)
+
+
+Sentence 1122:
+(TOP how about ah two oclock then)
+
+
+Sentence 1123:
+(TOP sounds good to me)
+
+
+Sentence 1124:
+(TOP i will see you then)
+
+
+Sentence 1125:
+(TOP bye)
+
+
+Sentence 1126:
+(TOP yes i would like to make a meeting)
+
+
+Sentence 1127:
+(TOP very well)
+
+
+Sentence 1128:
+(TOP how is ah the seventeenth)
+
+
+Sentence 1129:
+(TOP
+	[01;31m(S[00m
+		(VBP repeat)
+		(NP that)
+		(ADVP again)[01;31m)[00m)
+
+
+Sentence 1130:
+(TOP ahm seventeenth is no good for me)
+
+
+Sentence 1131:
+(TOP i am in a seminar all day)
+
+
+Sentence 1132:
+(TOP how is the twenty third)
+
+
+Sentence 1133:
+(TOP okay but i have a class from ah nine am to twelve pm)
+
+
+Sentence 1134:
+(TOP how about ah one oclock)
+
+
+Sentence 1135:
+(TOP in the afternoon)
+
+
+Sentence 1136:
+(TOP one oclock sounds good to me)
+
+
+Sentence 1137:
+(TOP
+	(UH ahm)
+	(S
+		(VBP let)
+		(NP us)
+		[01;36m(VP[00m
+			[01;31m(VP[00m
+				(VB make)
+				(NP it)
+				(NP a meeting)[01;31m)[00m
+			(ADVP then)[01;36m)[00m))
+
+
+Sentence 1138:
+(TOP okay)
+
+
+Sentence 1139:
+(TOP
+	(S
+		(NP i)
+		(-- look forward)
+		[01;36m(VP[00m [01;31m(PP[00m
+			(IN to)
+			[01;36m(VP[00m [01;31m(NP[00m
+				(V seeing)
+				(NP you)
+				(ADVP there)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 1140:
+(TOP see you then)
+
+
+Sentence 1141:
+(TOP listen)
+
+
+Sentence 1142:
+(TOP i think we need to setup a meeting)
+
+
+Sentence 1143:
+(TOP yes)
+
+
+Sentence 1144:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			(NP monday)
+			[01;31m(NP[00m
+				[01;36m(NP[00m
+					(DTP the)
+					(ONUM nineteenth)[01;36m)[00m
+				(PP at ah five thirty pm)[01;31m)[00m)))
+
+
+Sentence 1145:
+(TOP ah that is not going to work)
+
+
+Sentence 1146:
+(TOP i am busy that night)
+
+
+Sentence 1147:
+(TOP ahm how about the twentieth)
+
+
+Sentence 1148:
+(TOP i am free all day then)
+
+
+Sentence 1149:
+(TOP
+	(UH well)
+	(S
+		(NP i)
+		(VBP have)
+		(NP a meeting)
+		[01;36m(PP[00m
+			[01;31m(PP[00m
+				(PP from two)
+				(PP to four)[01;31m)[00m
+			(PP in the afternoon)[01;36m)[00m))
+
+
+Sentence 1150:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		[01;31m(NP[00m
+			[01;36m(NP[00m
+				(CNUM nine thirty)
+				(PP in the morning) [01;33mSUGG)[00m[01;36m)[00m
+			(S if you can get up that early)[01;31m)[00m))
+
+
+Sentence 1151:
+(TOP that could be a stretch but i think i can manage)
+
+
+Sentence 1152:
+(TOP ahm nine thirty on the twentieth it is)
+
+
+Sentence 1153:
+(TOP i will see you then)
+
+
+Sentence 1154:
+(TOP okay great)
+
+
+Sentence 1155:
+(TOP bye)
+
+
+Sentence 1156:
+(TOP bye)
+
+
+Sentence 1157:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1158:
+(TOP okay)
+
+
+Sentence 1159:
+(TOP when would you like to make an appointment for)
+
+
+Sentence 1160:
+(TOP i am free on the sixth and the tenth)
+
+
+Sentence 1161:
+(TOP ah no those days will be impossible for me to make i am on vacation from the second to the twelfth)
+
+
+Sentence 1162:
+(TOP i am going to see the grand canyon)
+
+
+Sentence 1163:
+(TOP no actually to the fifteenth)
+
+
+Sentence 1164:
+(TOP i am sorry i misread my calendar)
+
+
+Sentence 1165:
+(TOP
+	(SUGG
+		(WRB how)
+		(RB about)
+		(NP
+			(NN something)
+			[01;36m(ADVP[00m [01;31m(AP[00m
+				(JJR closer)
+				(PP to the end of the month)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 1166:
+(TOP say the twenty first)
+
+
+Sentence 1167:
+(TOP that would be a friday or the twenty seventh or twenty eighth)
+
+
+Sentence 1168:
+(TOP the twenty seventh at about noon looks pretty good)
+
+
+Sentence 1169:
+(TOP where would you like to meet)
+
+
+Sentence 1170:
+(TOP ah let us see)
+
+
+Sentence 1171:
+(TOP we should have a working lunch)
+
+
+Sentence 1172:
+(TOP
+	(UH ah)
+	[01;31m(S[00m
+		(NP
+			(DTP what)
+			(NNS restaurants)
+			[01;36m(ADVP[00m [01;31m(PP[00m
+				(IN around)
+				(ADVP here)[01;31m)[00m[01;36m)[00m)
+		(VBP do)
+		(NP you)
+		(VP
+			(VB like)
+			[01;36m(AP[00m [01;31m(ADVP[00m
+				(DTP the)
+				(RBS best)[01;31m)[00m[01;36m)[00m)[01;31m)[00m)
+
+
+Sentence 1173:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		[01;36m(NP[00m [01;31m(AP[00m
+			(DGP relatively)
+			(JJ new)[01;31m)[00m[01;36m)[00m
+		(PP to the region)))
+
+
+Sentence 1174:
+(TOP ah what restaurants would you suggest)
+
+
+Sentence 1175:
+(TOP
+	(UH ah)
+	(SUGG
+		(WRB how)
+		(RB about)
+		(S
+			(NP we)
+			(VBP meet)
+			[01;36m(PP[00m
+				[01;31m(PP[00m
+					(IN at)
+					[01;31m(NP[00m [01;33m(NP[00m
+						(DTP the)
+						(NP cliffside)[01;31m)[00m[01;31m)[00m
+				(UH ah)
+				(PP up on mount washington)[01;36m)[00m)))
+
+
+Sentence 1176:
+(TOP it has a great view of the city)
+
+
+Sentence 1177:
+(TOP i think you will really like it)
+
+
+Sentence 1178:
+(TOP
+	(UH okay)
+	[01;36m(PP[00m
+		[01;31m(NP[00m
+			(NP cliffside)[01;31m)[00m
+		(PP at noon)[01;36m)[00m)
+
+
+Sentence 1179:
+(TOP on the twenty seventh)
+
+
+Sentence 1180:
+(TOP i will see you then)
+
+
+Sentence 1181:
+(TOP great)
+
+
+Sentence 1182:
+(TOP just tell the cab driver)
+
+
+Sentence 1183:
+(TOP he will know how to get there)
+
+
+Sentence 1184:
+(TOP hello)
+
+
+Sentence 1185:
+(TOP
+	(S
+		(NP i)
+		(MD would)
+		(VP
+			(VB like)
+			(VP
+				(TO to)
+				(VP
+					(VB make)
+					[01;31m(NP[00m
+						[01;36m(NP[00m
+							(DTP an)
+							(NN appointment)[01;36m)[00m
+						(PP for dewitt latimer)[01;31m)[00m)))))
+
+
+Sentence 1186:
+(TOP okay mr latimer)
+
+
+Sentence 1187:
+(TOP when would you like to meet)
+
+
+Sentence 1188:
+(TOP the twenty first or the twenty second)
+
+
+Sentence 1189:
+(TOP are looking good)
+
+
+Sentence 1190:
+(TOP ah that will be impossible for me i will be out of town the twenty first through the twenty third)
+
+
+Sentence 1191:
+(TOP
+	(S
+		(NP i)
+		(VBP am)
+		(VP
+			[01;36m(V[00m
+				(V going)
+				[01;31m(NP[00m
+					(NN meeting)[01;31m)[00m[01;36m)[00m
+			(PP in philadelphia))))
+
+
+Sentence 1192:
+(TOP ah how about the twenty fourth)
+
+
+Sentence 1193:
+(TOP or the twenty eighth)
+
+
+Sentence 1194:
+(TOP the twenty eighth looks good)
+
+
+Sentence 1195:
+(TOP how does three pm look)
+
+
+Sentence 1196:
+(TOP how does three oclock on the twenty eighth look)
+
+
+Sentence 1197:
+(TOP the twenty eighth looks pretty good)
+
+
+Sentence 1198:
+(TOP three oclock that seems fine)
+
+
+Sentence 1199:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1200:
+(TOP
+	(UH okay)
+	[01;36m(NP[00m
+		(NP mr latimer)
+		(UH ahm)[01;36m)[00m
+	(SUGG how about some time say the thirteenth or the fourteenth))
+
+
+Sentence 1201:
+(TOP
+	(S those days look really bad for me)
+	[01;36m(SUGG[00m
+		[01;31m(SUGG[00m
+			(WRB how)
+			(RB about)
+			[01;31m(NP[00m [01;33m(NP[00m
+				(DTP the)
+				[01;33m(ONUM[00m (ONUM twenty first)[01;31m)[00m[01;31m)[00m
+		[01;31m(NP[00m
+			(ONUM
+				(JJ first))[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 1202:
+(TOP or twenty eighth through the thirtieth)
+
+
+Sentence 1203:
+(TOP i will be out of town on the twenty first)
+
+
+Sentence 1204:
+(TOP ah twenty eighth)
+
+
+Sentence 1205:
+(TOP twenty eighth looks pretty good on this end)
+
+
+Sentence 1206:
+(TOP ah should we make it an afternoon meeting)
+
+
+Sentence 1207:
+(TOP afternoon meeting looks good)
+
+
+Sentence 1208:
+(TOP
+	(NP
+		[01;31m(CNUM[00m
+			[01;36m(NP[00m
+				(CNUM
+					(CD two))[01;36m)[00m
+			(CNJ or)
+			[01;33m(NP[00m (CNUM three)[01;31m)[00m
+		(RB oclock)))
+
+
+Sentence 1209:
+(TOP let us make it two oclock then we might be able to cut out early)
+
+
+Sentence 1210:
+(TOP alright)
+
+
+Sentence 1211:
+(TOP two oclock on the twenty eighth it is)
+
+
+Sentence 1212:
+(TOP see you then)
+
+
+Sentence 1213:
+(TOP okay i will meet you in my office)
+
+
+Sentence 1214:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1215:
+(TOP
+	(UH okay)
+	[01;33m(S (NP[00m (NP mr latimer)
+	(UH ah)
+	[01;31m(S[00m
+		(NP this week of the second) [01;33mNP)[00m
+		(VBZ is)
+		(AP bad)
+		(PP for me) [01;33mS)[00m
+		(S however the week of the ninth looks pretty reasonable)[01;31m)[00m)
+
+
+Sentence 1216:
+(TOP do you have any time that week)
+
+
+Sentence 1217:
+(TOP how does the thirteenth look for you)
+
+
+Sentence 1218:
+(TOP
+	(S
+		(NP i)
+		(MD can)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(VB do)
+			[01;31m(NP[00m [01;33m(NP[00m
+				[01;31m(NP[00m
+					(DTP a)
+					[01;33m(N[00m (N morning meeting)
+					[01;31m(PP[00m [01;33m(PP[00m
+						(IN in)
+						[01;33m(NP[00m (NP the thirteenth)[01;31m)[00m[01;31m)[00m
+				(CNJ or)
+				[01;31m(NP[00m
+					[01;36m(NP[00m
+						(DTP a)
+						(AP later)
+						(N afternoon meeting) [01;33mNP) PP) N) NP) VP) S)[00m[01;36m)[00m
+					(SUGG say two oclock)[01;31m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 1219:
+(TOP morning meeting about ten oclock)
+
+
+Sentence 1220:
+(TOP looks good here)
+
+
+Sentence 1221:
+(TOP
+	(S let us make it nine oclock)
+	(S
+		(S
+			(NP i)
+			(VBP have)
+			(NP
+				(DTP a)
+				(NN class)
+				[01;36m(S[00m
+					[01;31m(S[00m
+						(NP that)
+						(NP i)
+						(VBP have)
+						[01;31m(VP[00m [01;33m(VP[00m
+							(TO to)
+							[01;31m(VP[00m [01;33m(VP[00m
+								(VB take)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+					(PP at one thirty)[01;36m)[00m)) [01;33mVP) VP)[00m
+		(CNJ and)
+		(S
+			(NP that)
+			(MD will)
+			(VP give me enough time)
+			(S
+				[01;36m(S[00m
+					(CMP if)
+					(NP we)
+					(VBP make)
+					(NP it)[01;36m)[00m
+				(NP nine oclock)))))
+
+
+Sentence 1222:
+(TOP okay that looks reasonable i can do that)
+
+
+Sentence 1223:
+(TOP
+	[01;31m(S[00m
+		(NP i)
+		(MD will)
+		[01;31m(VP[00m [01;33m(VP[00m
+			(VB see)
+			(NP you)[01;31m)[00m[01;31m)[00m
+	(NP my office))
+
+
+Sentence 1224:
+(TOP your office)
+
+
+Sentence 1225:
+(TOP i guess we can meet at your office)
+
+
+Sentence 1226:
+(TOP ah where did you say your office was)
+
+
+Sentence 1227:
+(TOP
+	(UH ah)
+	(S
+		(NP my office)
+		(VBZ is)
+		(PP
+			(IN in)
+			(NP
+				(NP wean)
+				[01;31m(NP[00m
+					[01;31m(CNUM[00m
+						(CD forty)
+						(CD two)
+						(CD twenty)
+						(CD two)[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 1228:
+(TOP okay)
+
+
+Sentence 1229:
+(TOP sounds good mr latimer)
+
+
+Sentence 1230:
+(TOP i will see you there)
+
+
+Sentence 1231:
+(TOP hello i would like to make an appointment)
+
+
+Sentence 1232:
+(TOP name of dewitt latimer)
+
+
+Sentence 1233:
+(TOP well okay)
+
+
+Sentence 1234:
+(TOP if you want to schedule an appointment)
+
+
+Sentence 1235:
+(TOP i could meet with you let us see)
+
+
+Sentence 1236:
+(TOP how about the seventeenth)
+
+
+Sentence 1237:
+(TOP or the twenty second)
+
+
+Sentence 1238:
+(TOP
+	[01;31m(S[00m
+		[01;36m(S[00m
+			(NP the twenty second)
+			(VBZ is)
+			(VBZ looks)
+			(AP good)
+			(PP for me)[01;36m)[00m
+		[01;36m(NP[00m [01;31m(PP[00m
+			[01;36m(ADVP[00m
+				(IN about)[01;36m)[00m
+			[01;31m(NP[00m
+				(NN afternoon)[01;31m)[00m
+			(PP probably before five)[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 1239:
+(TOP pm)
+
+
+Sentence 1240:
+(TOP
+	[01;31m(S[00m
+		[01;31m(ADVP[00m
+			(RB well)[01;31m)[00m
+		[01;36m(S[00m
+			(PP before five pm)
+			(VBZ is)
+			(NP a good choice)[01;36m)[00m[01;31m)[00m
+	[01;31m(S[00m
+		(NP i)
+		(VBP go)
+		(NP home)
+		(PP at five pm)[01;31m)[00m)
+
+
+Sentence 1241:
+(TOP i have to eat dinner)
+
+
+Sentence 1242:
+(TOP ah twenty second)
+
+
+Sentence 1243:
+(TOP how about any time in the afternoon)
+
+
+Sentence 1244:
+(TOP how does three oclock look)
+
+
+Sentence 1245:
+(TOP
+	(NP three oclock)
+	[01;31m(S[00m
+		(NP three oclock) [01;33mNP)[00m
+		(VBZ is)
+		(VP looking pretty good on this end)[01;31m)[00m)
+
+
+Sentence 1246:
+(TOP okay i will take three oclock on the twenty second)
+
+
+Sentence 1247:
+(TOP i will see you then)
+
+
+Sentence 1248:
+(TOP sounds good)
+
+

@@ -1,0 +1,18 @@
+# Time of run:
+# Mon Jul  5 19:42:53 2021
+# Command:
+# ./berkeley_parse_analyser/classify_german_vm.py sample_data/vm_ger_no_speech_output_dev.txt sample_data/dev_ger.trees classified.vm_ger.no_speech
+#
+248 248 Unary
+228 335 Single Word Phrase
+187 187 UNSET remove
+132 214 Modifier Attachment
+123 123 UNSET add
+117 164 PP Attachment
+90 133 Clause Attachment
+64 178 UNSET move
+52 104 Different label
+36 101 NP Attachment
+35 73 Co-ordination
+26 27 NP Internal Structure
+6 22 VP Attachment

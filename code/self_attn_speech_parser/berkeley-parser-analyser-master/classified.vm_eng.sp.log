@@ -1,0 +1,2503 @@
+# Time of run:
+# Sun Jul  4 17:24:38 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/vm_eng_sp_output_dev.txt sample_data/dev.trees classified.vm_eng.sp
+#
+Printing tree transformations
+Sentence 1:
+
+Sentence 2:
+
+Sentence 3:
+
+Sentence 4:
+
+Sentence 5:
+
+Sentence 6:
+
+Sentence 7:
+
+Sentence 8:
+
+Sentence 9:
+
+Sentence 10:
+
+Sentence 11:
+
+Sentence 12:
+
+Sentence 13:
+
+Sentence 14:
+
+Sentence 15:
+
+Sentence 16:
+
+Sentence 17:
+
+Sentence 18:
+
+Sentence 19:
+
+Sentence 20:
+
+Sentence 21:
+
+Sentence 22:
+
+Sentence 23:
+
+Sentence 24:
+
+Sentence 25:
+
+Sentence 26:
+
+Sentence 27:
+
+Sentence 28:
+
+Sentence 29:
+
+Sentence 30:
+
+Sentence 31:
+
+Sentence 32:
+
+Sentence 33:
+
+Sentence 34:
+
+Sentence 35:
+
+Sentence 36:
+
+Sentence 37:
+
+Sentence 38:
+
+Sentence 39:
+
+Sentence 40:
+
+Sentence 41:
+
+Sentence 42:
+
+Sentence 43:
+
+Sentence 44:
+
+Sentence 45:
+
+Sentence 46:
+
+Sentence 47:
+
+Sentence 48:
+
+Sentence 49:
+
+Sentence 50:
+
+Sentence 51:
+
+Sentence 52:
+
+Sentence 53:
+
+Sentence 54:
+
+Sentence 55:
+
+Sentence 56:
+
+Sentence 57:
+
+Sentence 58:
+
+Sentence 59:
+
+Sentence 60:
+
+Sentence 61:
+
+Sentence 62:
+
+Sentence 63:
+
+Sentence 64:
+
+Sentence 65:
+
+Sentence 66:
+
+Sentence 67:
+
+Sentence 68:
+
+Sentence 69:
+
+Sentence 70:
+
+Sentence 71:
+
+Sentence 72:
+
+Sentence 73:
+
+Sentence 74:
+
+Sentence 75:
+
+Sentence 76:
+
+Sentence 77:
+
+Sentence 78:
+
+Sentence 79:
+
+Sentence 80:
+
+Sentence 81:
+
+Sentence 82:
+
+Sentence 83:
+
+Sentence 84:
+
+Sentence 85:
+
+Sentence 86:
+
+Sentence 87:
+
+Sentence 88:
+
+Sentence 89:
+
+Sentence 90:
+
+Sentence 91:
+
+Sentence 92:
+
+Sentence 93:
+
+Sentence 94:
+
+Sentence 95:
+
+Sentence 96:
+
+Sentence 97:
+
+Sentence 98:
+
+Sentence 99:
+
+Sentence 100:
+
+Sentence 101:
+
+Sentence 102:
+
+Sentence 103:
+
+Sentence 104:
+
+Sentence 105:
+
+Sentence 106:
+
+Sentence 107:
+
+Sentence 108:
+
+Sentence 109:
+
+Sentence 110:
+
+Sentence 111:
+
+Sentence 112:
+
+Sentence 113:
+
+Sentence 114:
+
+Sentence 115:
+
+Sentence 116:
+
+Sentence 117:
+
+Sentence 118:
+
+Sentence 119:
+
+Sentence 120:
+
+Sentence 121:
+
+Sentence 122:
+
+Sentence 123:
+
+Sentence 124:
+
+Sentence 125:
+
+Sentence 126:
+
+Sentence 127:
+
+Sentence 128:
+
+Sentence 129:
+
+Sentence 130:
+
+Sentence 131:
+
+Sentence 132:
+
+Sentence 133:
+
+Sentence 134:
+
+Sentence 135:
+
+Sentence 136:
+
+Sentence 137:
+
+Sentence 138:
+
+Sentence 139:
+
+Sentence 140:
+
+Sentence 141:
+
+Sentence 142:
+
+Sentence 143:
+
+Sentence 144:
+
+Sentence 145:
+
+Sentence 146:
+
+Sentence 147:
+
+Sentence 148:
+
+Sentence 149:
+
+Sentence 150:
+
+Sentence 151:
+
+Sentence 152:
+
+Sentence 153:
+
+Sentence 154:
+
+Sentence 155:
+
+Sentence 156:
+
+Sentence 157:
+
+Sentence 158:
+
+Sentence 159:
+
+Sentence 160:
+
+Sentence 161:
+
+Sentence 162:
+
+Sentence 163:
+
+Sentence 164:
+
+Sentence 165:
+
+Sentence 166:
+
+Sentence 167:
+
+Sentence 168:
+
+Sentence 169:
+
+Sentence 170:
+
+Sentence 171:
+
+Sentence 172:
+
+Sentence 173:
+
+Sentence 174:
+
+Sentence 175:
+
+Sentence 176:
+
+Sentence 177:
+
+Sentence 178:
+
+Sentence 179:
+
+Sentence 180:
+
+Sentence 181:
+
+Sentence 182:
+
+Sentence 183:
+
+Sentence 184:
+
+Sentence 185:
+
+Sentence 186:
+
+Sentence 187:
+
+Sentence 188:
+
+Sentence 189:
+
+Sentence 190:
+
+Sentence 191:
+
+Sentence 192:
+
+Sentence 193:
+
+Sentence 194:
+
+Sentence 195:
+
+Sentence 196:
+
+Sentence 197:
+
+Sentence 198:
+
+Sentence 199:
+
+Sentence 200:
+
+Sentence 201:
+
+Sentence 202:
+
+Sentence 203:
+
+Sentence 204:
+
+Sentence 205:
+
+Sentence 206:
+
+Sentence 207:
+
+Sentence 208:
+
+Sentence 209:
+
+Sentence 210:
+
+Sentence 211:
+
+Sentence 212:
+
+Sentence 213:
+
+Sentence 214:
+
+Sentence 215:
+
+Sentence 216:
+
+Sentence 217:
+
+Sentence 218:
+
+Sentence 219:
+
+Sentence 220:
+
+Sentence 221:
+
+Sentence 222:
+
+Sentence 223:
+
+Sentence 224:
+
+Sentence 225:
+
+Sentence 226:
+
+Sentence 227:
+
+Sentence 228:
+
+Sentence 229:
+
+Sentence 230:
+
+Sentence 231:
+
+Sentence 232:
+
+Sentence 233:
+
+Sentence 234:
+
+Sentence 235:
+
+Sentence 236:
+
+Sentence 237:
+
+Sentence 238:
+
+Sentence 239:
+
+Sentence 240:
+
+Sentence 241:
+
+Sentence 242:
+
+Sentence 243:
+
+Sentence 244:
+
+Sentence 245:
+
+Sentence 246:
+
+Sentence 247:
+
+Sentence 248:
+
+Sentence 249:
+
+Sentence 250:
+
+Sentence 251:
+
+Sentence 252:
+
+Sentence 253:
+
+Sentence 254:
+
+Sentence 255:
+
+Sentence 256:
+
+Sentence 257:
+
+Sentence 258:
+
+Sentence 259:
+
+Sentence 260:
+
+Sentence 261:
+
+Sentence 262:
+
+Sentence 263:
+
+Sentence 264:
+
+Sentence 265:
+
+Sentence 266:
+
+Sentence 267:
+
+Sentence 268:
+
+Sentence 269:
+
+Sentence 270:
+
+Sentence 271:
+
+Sentence 272:
+
+Sentence 273:
+
+Sentence 274:
+
+Sentence 275:
+
+Sentence 276:
+
+Sentence 277:
+
+Sentence 278:
+
+Sentence 279:
+
+Sentence 280:
+
+Sentence 281:
+
+Sentence 282:
+
+Sentence 283:
+
+Sentence 284:
+
+Sentence 285:
+
+Sentence 286:
+
+Sentence 287:
+
+Sentence 288:
+
+Sentence 289:
+
+Sentence 290:
+
+Sentence 291:
+
+Sentence 292:
+
+Sentence 293:
+
+Sentence 294:
+
+Sentence 295:
+
+Sentence 296:
+
+Sentence 297:
+
+Sentence 298:
+
+Sentence 299:
+
+Sentence 300:
+
+Sentence 301:
+
+Sentence 302:
+
+Sentence 303:
+
+Sentence 304:
+
+Sentence 305:
+
+Sentence 306:
+
+Sentence 307:
+
+Sentence 308:
+
+Sentence 309:
+
+Sentence 310:
+
+Sentence 311:
+
+Sentence 312:
+
+Sentence 313:
+
+Sentence 314:
+
+Sentence 315:
+
+Sentence 316:
+
+Sentence 317:
+
+Sentence 318:
+
+Sentence 319:
+
+Sentence 320:
+
+Sentence 321:
+
+Sentence 322:
+
+Sentence 323:
+
+Sentence 324:
+
+Sentence 325:
+
+Sentence 326:
+
+Sentence 327:
+
+Sentence 328:
+
+Sentence 329:
+
+Sentence 330:
+
+Sentence 331:
+
+Sentence 332:
+
+Sentence 333:
+
+Sentence 334:
+
+Sentence 335:
+
+Sentence 336:
+
+Sentence 337:
+
+Sentence 338:
+
+Sentence 339:
+
+Sentence 340:
+
+Sentence 341:
+
+Sentence 342:
+
+Sentence 343:
+
+Sentence 344:
+
+Sentence 345:
+
+Sentence 346:
+
+Sentence 347:
+
+Sentence 348:
+
+Sentence 349:
+
+Sentence 350:
+
+Sentence 351:
+
+Sentence 352:
+
+Sentence 353:
+
+Sentence 354:
+
+Sentence 355:
+
+Sentence 356:
+
+Sentence 357:
+
+Sentence 358:
+
+Sentence 359:
+
+Sentence 360:
+
+Sentence 361:
+
+Sentence 362:
+
+Sentence 363:
+
+Sentence 364:
+
+Sentence 365:
+
+Sentence 366:
+
+Sentence 367:
+
+Sentence 368:
+
+Sentence 369:
+
+Sentence 370:
+
+Sentence 371:
+
+Sentence 372:
+
+Sentence 373:
+
+Sentence 374:
+
+Sentence 375:
+
+Sentence 376:
+
+Sentence 377:
+
+Sentence 378:
+
+Sentence 379:
+
+Sentence 380:
+
+Sentence 381:
+
+Sentence 382:
+
+Sentence 383:
+
+Sentence 384:
+
+Sentence 385:
+
+Sentence 386:
+
+Sentence 387:
+
+Sentence 388:
+
+Sentence 389:
+
+Sentence 390:
+
+Sentence 391:
+
+Sentence 392:
+
+Sentence 393:
+
+Sentence 394:
+
+Sentence 395:
+
+Sentence 396:
+
+Sentence 397:
+
+Sentence 398:
+
+Sentence 399:
+
+Sentence 400:
+
+Sentence 401:
+
+Sentence 402:
+
+Sentence 403:
+
+Sentence 404:
+
+Sentence 405:
+
+Sentence 406:
+
+Sentence 407:
+
+Sentence 408:
+
+Sentence 409:
+
+Sentence 410:
+
+Sentence 411:
+
+Sentence 412:
+
+Sentence 413:
+
+Sentence 414:
+
+Sentence 415:
+
+Sentence 416:
+
+Sentence 417:
+
+Sentence 418:
+
+Sentence 419:
+
+Sentence 420:
+
+Sentence 421:
+
+Sentence 422:
+
+Sentence 423:
+
+Sentence 424:
+
+Sentence 425:
+
+Sentence 426:
+
+Sentence 427:
+
+Sentence 428:
+
+Sentence 429:
+
+Sentence 430:
+
+Sentence 431:
+
+Sentence 432:
+
+Sentence 433:
+
+Sentence 434:
+
+Sentence 435:
+
+Sentence 436:
+
+Sentence 437:
+
+Sentence 438:
+
+Sentence 439:
+
+Sentence 440:
+
+Sentence 441:
+
+Sentence 442:
+
+Sentence 443:
+
+Sentence 444:
+
+Sentence 445:
+
+Sentence 446:
+
+Sentence 447:
+
+Sentence 448:
+
+Sentence 449:
+
+Sentence 450:
+
+Sentence 451:
+
+Sentence 452:
+
+Sentence 453:
+
+Sentence 454:
+
+Sentence 455:
+
+Sentence 456:
+
+Sentence 457:
+
+Sentence 458:
+
+Sentence 459:
+
+Sentence 460:
+
+Sentence 461:
+
+Sentence 462:
+
+Sentence 463:
+
+Sentence 464:
+
+Sentence 465:
+
+Sentence 466:
+
+Sentence 467:
+
+Sentence 468:
+
+Sentence 469:
+
+Sentence 470:
+
+Sentence 471:
+
+Sentence 472:
+
+Sentence 473:
+
+Sentence 474:
+
+Sentence 475:
+
+Sentence 476:
+
+Sentence 477:
+
+Sentence 478:
+
+Sentence 479:
+
+Sentence 480:
+
+Sentence 481:
+
+Sentence 482:
+
+Sentence 483:
+
+Sentence 484:
+
+Sentence 485:
+
+Sentence 486:
+
+Sentence 487:
+
+Sentence 488:
+
+Sentence 489:
+
+Sentence 490:
+
+Sentence 491:
+
+Sentence 492:
+
+Sentence 493:
+
+Sentence 494:
+
+Sentence 495:
+
+Sentence 496:
+
+Sentence 497:
+
+Sentence 498:
+
+Sentence 499:
+
+Sentence 500:
+
+Sentence 501:
+
+Sentence 502:
+
+Sentence 503:
+
+Sentence 504:
+
+Sentence 505:
+
+Sentence 506:
+
+Sentence 507:
+
+Sentence 508:
+
+Sentence 509:
+
+Sentence 510:
+
+Sentence 511:
+
+Sentence 512:
+
+Sentence 513:
+
+Sentence 514:
+
+Sentence 515:
+
+Sentence 516:
+
+Sentence 517:
+
+Sentence 518:
+
+Sentence 519:
+
+Sentence 520:
+
+Sentence 521:
+
+Sentence 522:
+
+Sentence 523:
+
+Sentence 524:
+
+Sentence 525:
+
+Sentence 526:
+
+Sentence 527:
+
+Sentence 528:
+
+Sentence 529:
+
+Sentence 530:
+
+Sentence 531:
+
+Sentence 532:
+
+Sentence 533:
+
+Sentence 534:
+
+Sentence 535:
+
+Sentence 536:
+
+Sentence 537:
+
+Sentence 538:
+
+Sentence 539:
+
+Sentence 540:
+
+Sentence 541:
+
+Sentence 542:
+
+Sentence 543:
+
+Sentence 544:
+
+Sentence 545:
+
+Sentence 546:
+
+Sentence 547:
+
+Sentence 548:
+
+Sentence 549:
+
+Sentence 550:
+
+Sentence 551:
+
+Sentence 552:
+
+Sentence 553:
+
+Sentence 554:
+
+Sentence 555:
+
+Sentence 556:
+
+Sentence 557:
+
+Sentence 558:
+
+Sentence 559:
+
+Sentence 560:
+
+Sentence 561:
+
+Sentence 562:
+
+Sentence 563:
+
+Sentence 564:
+
+Sentence 565:
+
+Sentence 566:
+
+Sentence 567:
+
+Sentence 568:
+
+Sentence 569:
+
+Sentence 570:
+
+Sentence 571:
+
+Sentence 572:
+
+Sentence 573:
+
+Sentence 574:
+
+Sentence 575:
+
+Sentence 576:
+
+Sentence 577:
+
+Sentence 578:
+
+Sentence 579:
+
+Sentence 580:
+
+Sentence 581:
+
+Sentence 582:
+
+Sentence 583:
+
+Sentence 584:
+
+Sentence 585:
+
+Sentence 586:
+
+Sentence 587:
+
+Sentence 588:
+
+Sentence 589:
+
+Sentence 590:
+
+Sentence 591:
+
+Sentence 592:
+
+Sentence 593:
+
+Sentence 594:
+
+Sentence 595:
+
+Sentence 596:
+
+Sentence 597:
+
+Sentence 598:
+
+Sentence 599:
+
+Sentence 600:
+
+Sentence 601:
+
+Sentence 602:
+
+Sentence 603:
+
+Sentence 604:
+
+Sentence 605:
+
+Sentence 606:
+
+Sentence 607:
+
+Sentence 608:
+
+Sentence 609:
+
+Sentence 610:
+
+Sentence 611:
+
+Sentence 612:
+
+Sentence 613:
+
+Sentence 614:
+
+Sentence 615:
+
+Sentence 616:
+
+Sentence 617:
+
+Sentence 618:
+
+Sentence 619:
+
+Sentence 620:
+
+Sentence 621:
+
+Sentence 622:
+
+Sentence 623:
+
+Sentence 624:
+
+Sentence 625:
+
+Sentence 626:
+
+Sentence 627:
+
+Sentence 628:
+
+Sentence 629:
+
+Sentence 630:
+
+Sentence 631:
+
+Sentence 632:
+
+Sentence 633:
+
+Sentence 634:
+
+Sentence 635:
+
+Sentence 636:
+
+Sentence 637:
+
+Sentence 638:
+
+Sentence 639:
+
+Sentence 640:
+
+Sentence 641:
+
+Sentence 642:
+
+Sentence 643:
+
+Sentence 644:
+
+Sentence 645:
+
+Sentence 646:
+
+Sentence 647:
+
+Sentence 648:
+
+Sentence 649:
+
+Sentence 650:
+
+Sentence 651:
+
+Sentence 652:
+
+Sentence 653:
+
+Sentence 654:
+
+Sentence 655:
+
+Sentence 656:
+
+Sentence 657:
+
+Sentence 658:
+
+Sentence 659:
+
+Sentence 660:
+
+Sentence 661:
+
+Sentence 662:
+
+Sentence 663:
+
+Sentence 664:
+
+Sentence 665:
+
+Sentence 666:
+
+Sentence 667:
+
+Sentence 668:
+
+Sentence 669:
+
+Sentence 670:
+
+Sentence 671:
+
+Sentence 672:
+
+Sentence 673:
+
+Sentence 674:
+
+Sentence 675:
+
+Sentence 676:
+
+Sentence 677:
+
+Sentence 678:
+
+Sentence 679:
+
+Sentence 680:
+
+Sentence 681:
+
+Sentence 682:
+
+Sentence 683:
+
+Sentence 684:
+
+Sentence 685:
+
+Sentence 686:
+
+Sentence 687:
+
+Sentence 688:
+
+Sentence 689:
+
+Sentence 690:
+
+Sentence 691:
+
+Sentence 692:
+
+Sentence 693:
+
+Sentence 694:
+
+Sentence 695:
+
+Sentence 696:
+
+Sentence 697:
+
+Sentence 698:
+
+Sentence 699:
+
+Sentence 700:
+
+Sentence 701:
+
+Sentence 702:
+
+Sentence 703:
+
+Sentence 704:
+
+Sentence 705:
+
+Sentence 706:
+
+Sentence 707:
+
+Sentence 708:
+
+Sentence 709:
+
+Sentence 710:
+
+Sentence 711:
+
+Sentence 712:
+
+Sentence 713:
+
+Sentence 714:
+
+Sentence 715:
+
+Sentence 716:
+
+Sentence 717:
+
+Sentence 718:
+
+Sentence 719:
+
+Sentence 720:
+
+Sentence 721:
+
+Sentence 722:
+
+Sentence 723:
+
+Sentence 724:
+
+Sentence 725:
+
+Sentence 726:
+
+Sentence 727:
+
+Sentence 728:
+
+Sentence 729:
+
+Sentence 730:
+
+Sentence 731:
+
+Sentence 732:
+
+Sentence 733:
+
+Sentence 734:
+
+Sentence 735:
+
+Sentence 736:
+
+Sentence 737:
+
+Sentence 738:
+
+Sentence 739:
+
+Sentence 740:
+
+Sentence 741:
+
+Sentence 742:
+
+Sentence 743:
+
+Sentence 744:
+
+Sentence 745:
+
+Sentence 746:
+
+Sentence 747:
+
+Sentence 748:
+
+Sentence 749:
+
+Sentence 750:
+
+Sentence 751:
+
+Sentence 752:
+
+Sentence 753:
+
+Sentence 754:
+
+Sentence 755:
+
+Sentence 756:
+
+Sentence 757:
+
+Sentence 758:
+
+Sentence 759:
+
+Sentence 760:
+
+Sentence 761:
+
+Sentence 762:
+
+Sentence 763:
+
+Sentence 764:
+
+Sentence 765:
+
+Sentence 766:
+
+Sentence 767:
+
+Sentence 768:
+
+Sentence 769:
+
+Sentence 770:
+
+Sentence 771:
+
+Sentence 772:
+
+Sentence 773:
+
+Sentence 774:
+
+Sentence 775:
+
+Sentence 776:
+
+Sentence 777:
+
+Sentence 778:
+
+Sentence 779:
+
+Sentence 780:
+
+Sentence 781:
+
+Sentence 782:
+
+Sentence 783:
+
+Sentence 784:
+
+Sentence 785:
+
+Sentence 786:
+
+Sentence 787:
+
+Sentence 788:
+
+Sentence 789:
+
+Sentence 790:
+
+Sentence 791:
+
+Sentence 792:
+
+Sentence 793:
+
+Sentence 794:
+
+Sentence 795:
+
+Sentence 796:
+
+Sentence 797:
+
+Sentence 798:
+
+Sentence 799:
+
+Sentence 800:
+
+Sentence 801:
+
+Sentence 802:
+
+Sentence 803:
+
+Sentence 804:
+
+Sentence 805:
+
+Sentence 806:
+
+Sentence 807:
+
+Sentence 808:
+
+Sentence 809:
+
+Sentence 810:
+
+Sentence 811:
+
+Sentence 812:
+
+Sentence 813:
+
+Sentence 814:
+
+Sentence 815:
+
+Sentence 816:
+
+Sentence 817:
+
+Sentence 818:
+
+Sentence 819:
+
+Sentence 820:
+
+Sentence 821:
+
+Sentence 822:
+
+Sentence 823:
+
+Sentence 824:
+
+Sentence 825:
+
+Sentence 826:
+
+Sentence 827:
+
+Sentence 828:
+
+Sentence 829:
+
+Sentence 830:
+
+Sentence 831:
+
+Sentence 832:
+
+Sentence 833:
+
+Sentence 834:
+
+Sentence 835:
+
+Sentence 836:
+
+Sentence 837:
+
+Sentence 838:
+
+Sentence 839:
+
+Sentence 840:
+
+Sentence 841:
+
+Sentence 842:
+
+Sentence 843:
+
+Sentence 844:
+
+Sentence 845:
+
+Sentence 846:
+
+Sentence 847:
+
+Sentence 848:
+
+Sentence 849:
+
+Sentence 850:
+
+Sentence 851:
+
+Sentence 852:
+
+Sentence 853:
+
+Sentence 854:
+
+Sentence 855:
+
+Sentence 856:
+
+Sentence 857:
+
+Sentence 858:
+
+Sentence 859:
+
+Sentence 860:
+
+Sentence 861:
+
+Sentence 862:
+
+Sentence 863:
+
+Sentence 864:
+
+Sentence 865:
+
+Sentence 866:
+
+Sentence 867:
+
+Sentence 868:
+
+Sentence 869:
+
+Sentence 870:
+
+Sentence 871:
+
+Sentence 872:
+
+Sentence 873:
+
+Sentence 874:
+
+Sentence 875:
+
+Sentence 876:
+
+Sentence 877:
+
+Sentence 878:
+
+Sentence 879:
+
+Sentence 880:
+
+Sentence 881:
+
+Sentence 882:
+
+Sentence 883:
+
+Sentence 884:
+
+Sentence 885:
+
+Sentence 886:
+
+Sentence 887:
+
+Sentence 888:
+
+Sentence 889:
+
+Sentence 890:
+
+Sentence 891:
+
+Sentence 892:
+
+Sentence 893:
+
+Sentence 894:
+
+Sentence 895:
+
+Sentence 896:
+
+Sentence 897:
+
+Sentence 898:
+
+Sentence 899:
+
+Sentence 900:
+
+Sentence 901:
+
+Sentence 902:
+
+Sentence 903:
+
+Sentence 904:
+
+Sentence 905:
+
+Sentence 906:
+
+Sentence 907:
+
+Sentence 908:
+
+Sentence 909:
+
+Sentence 910:
+
+Sentence 911:
+
+Sentence 912:
+
+Sentence 913:
+
+Sentence 914:
+
+Sentence 915:
+
+Sentence 916:
+
+Sentence 917:
+
+Sentence 918:
+
+Sentence 919:
+
+Sentence 920:
+
+Sentence 921:
+
+Sentence 922:
+
+Sentence 923:
+
+Sentence 924:
+
+Sentence 925:
+
+Sentence 926:
+
+Sentence 927:
+
+Sentence 928:
+
+Sentence 929:
+
+Sentence 930:
+
+Sentence 931:
+
+Sentence 932:
+
+Sentence 933:
+
+Sentence 934:
+
+Sentence 935:
+
+Sentence 936:
+
+Sentence 937:
+
+Sentence 938:
+
+Sentence 939:
+
+Sentence 940:
+
+Sentence 941:
+
+Sentence 942:
+
+Sentence 943:
+
+Sentence 944:
+
+Sentence 945:
+
+Sentence 946:
+
+Sentence 947:
+
+Sentence 948:
+
+Sentence 949:
+
+Sentence 950:
+
+Sentence 951:
+
+Sentence 952:
+
+Sentence 953:
+
+Sentence 954:
+
+Sentence 955:
+
+Sentence 956:
+
+Sentence 957:
+
+Sentence 958:
+
+Sentence 959:
+
+Sentence 960:
+
+Sentence 961:
+
+Sentence 962:
+
+Sentence 963:
+
+Sentence 964:
+
+Sentence 965:
+
+Sentence 966:
+
+Sentence 967:
+
+Sentence 968:
+
+Sentence 969:
+
+Sentence 970:
+
+Sentence 971:
+
+Sentence 972:
+
+Sentence 973:
+
+Sentence 974:
+
+Sentence 975:
+
+Sentence 976:
+
+Sentence 977:
+
+Sentence 978:
+
+Sentence 979:
+
+Sentence 980:
+
+Sentence 981:
+
+Sentence 982:
+
+Sentence 983:
+
+Sentence 984:
+
+Sentence 985:
+
+Sentence 986:
+
+Sentence 987:
+
+Sentence 988:
+
+Sentence 989:
+
+Sentence 990:
+
+Sentence 991:
+
+Sentence 992:
+
+Sentence 993:
+
+Sentence 994:
+
+Sentence 995:
+
+Sentence 996:
+
+Sentence 997:
+
+Sentence 998:
+
+Sentence 999:
+
+Sentence 1000:
+
+Sentence 1001:
+
+Sentence 1002:
+
+Sentence 1003:
+
+Sentence 1004:
+
+Sentence 1005:
+
+Sentence 1006:
+
+Sentence 1007:
+
+Sentence 1008:
+
+Sentence 1009:
+
+Sentence 1010:
+
+Sentence 1011:
+
+Sentence 1012:
+
+Sentence 1013:
+
+Sentence 1014:
+
+Sentence 1015:
+
+Sentence 1016:
+
+Sentence 1017:
+
+Sentence 1018:
+
+Sentence 1019:
+
+Sentence 1020:
+
+Sentence 1021:
+
+Sentence 1022:
+
+Sentence 1023:
+
+Sentence 1024:
+
+Sentence 1025:
+
+Sentence 1026:
+
+Sentence 1027:
+
+Sentence 1028:
+
+Sentence 1029:
+
+Sentence 1030:
+
+Sentence 1031:
+
+Sentence 1032:
+
+Sentence 1033:
+
+Sentence 1034:
+
+Sentence 1035:
+
+Sentence 1036:
+
+Sentence 1037:
+
+Sentence 1038:
+
+Sentence 1039:
+
+Sentence 1040:
+
+Sentence 1041:
+
+Sentence 1042:
+
+Sentence 1043:
+
+Sentence 1044:
+
+Sentence 1045:
+
+Sentence 1046:
+
+Sentence 1047:
+
+Sentence 1048:
+
+Sentence 1049:
+
+Sentence 1050:
+
+Sentence 1051:
+
+Sentence 1052:
+
+Sentence 1053:
+
+Sentence 1054:
+
+Sentence 1055:
+
+Sentence 1056:
+
+Sentence 1057:
+
+Sentence 1058:
+
+Sentence 1059:
+
+Sentence 1060:
+
+Sentence 1061:
+
+Sentence 1062:
+
+Sentence 1063:
+
+Sentence 1064:
+
+Sentence 1065:
+
+Sentence 1066:
+
+Sentence 1067:
+
+Sentence 1068:
+
+Sentence 1069:
+
+Sentence 1070:
+
+Sentence 1071:
+
+Sentence 1072:
+
+Sentence 1073:
+
+Sentence 1074:
+
+Sentence 1075:
+
+Sentence 1076:
+
+Sentence 1077:
+
+Sentence 1078:
+
+Sentence 1079:
+
+Sentence 1080:
+
+Sentence 1081:
+
+Sentence 1082:
+
+Sentence 1083:
+
+Sentence 1084:
+
+Sentence 1085:
+
+Sentence 1086:
+
+Sentence 1087:
+
+Sentence 1088:
+
+Sentence 1089:
+
+Sentence 1090:
+
+Sentence 1091:
+
+Sentence 1092:
+
+Sentence 1093:
+
+Sentence 1094:
+
+Sentence 1095:
+
+Sentence 1096:
+
+Sentence 1097:
+
+Sentence 1098:
+
+Sentence 1099:
+
+Sentence 1100:
+
+Sentence 1101:
+
+Sentence 1102:
+
+Sentence 1103:
+
+Sentence 1104:
+
+Sentence 1105:
+
+Sentence 1106:
+
+Sentence 1107:
+
+Sentence 1108:
+
+Sentence 1109:
+
+Sentence 1110:
+
+Sentence 1111:
+
+Sentence 1112:
+
+Sentence 1113:
+
+Sentence 1114:
+
+Sentence 1115:
+
+Sentence 1116:
+
+Sentence 1117:
+
+Sentence 1118:
+
+Sentence 1119:
+
+Sentence 1120:
+
+Sentence 1121:
+
+Sentence 1122:
+
+Sentence 1123:
+
+Sentence 1124:
+
+Sentence 1125:
+
+Sentence 1126:
+
+Sentence 1127:
+
+Sentence 1128:
+
+Sentence 1129:
+
+Sentence 1130:
+
+Sentence 1131:
+
+Sentence 1132:
+
+Sentence 1133:
+
+Sentence 1134:
+
+Sentence 1135:
+
+Sentence 1136:
+
+Sentence 1137:
+
+Sentence 1138:
+
+Sentence 1139:
+
+Sentence 1140:
+
+Sentence 1141:
+
+Sentence 1142:
+
+Sentence 1143:
+
+Sentence 1144:
+
+Sentence 1145:
+
+Sentence 1146:
+
+Sentence 1147:
+
+Sentence 1148:
+
+Sentence 1149:
+
+Sentence 1150:
+
+Sentence 1151:
+
+Sentence 1152:
+
+Sentence 1153:
+
+Sentence 1154:
+
+Sentence 1155:
+
+Sentence 1156:
+
+Sentence 1157:
+
+Sentence 1158:
+
+Sentence 1159:
+
+Sentence 1160:
+
+Sentence 1161:
+
+Sentence 1162:
+
+Sentence 1163:
+
+Sentence 1164:
+
+Sentence 1165:
+
+Sentence 1166:
+
+Sentence 1167:
+
+Sentence 1168:
+
+Sentence 1169:
+
+Sentence 1170:
+
+Sentence 1171:
+
+Sentence 1172:
+
+Sentence 1173:
+
+Sentence 1174:
+
+Sentence 1175:
+
+Sentence 1176:
+
+Sentence 1177:
+
+Sentence 1178:
+
+Sentence 1179:
+
+Sentence 1180:
+
+Sentence 1181:
+
+Sentence 1182:
+
+Sentence 1183:
+
+Sentence 1184:
+
+Sentence 1185:
+
+Sentence 1186:
+
+Sentence 1187:
+
+Sentence 1188:
+
+Sentence 1189:
+
+Sentence 1190:
+
+Sentence 1191:
+
+Sentence 1192:
+
+Sentence 1193:
+
+Sentence 1194:
+
+Sentence 1195:
+
+Sentence 1196:
+
+Sentence 1197:
+
+Sentence 1198:
+
+Sentence 1199:
+
+Sentence 1200:
+
+Sentence 1201:
+
+Sentence 1202:
+
+Sentence 1203:
+
+Sentence 1204:
+
+Sentence 1205:
+
+Sentence 1206:
+
+Sentence 1207:
+
+Sentence 1208:
+
+Sentence 1209:
+
+Sentence 1210:
+
+Sentence 1211:
+
+Sentence 1212:
+
+Sentence 1213:
+
+Sentence 1214:
+
+Sentence 1215:
+
+Sentence 1216:
+
+Sentence 1217:
+
+Sentence 1218:
+
+Sentence 1219:
+
+Sentence 1220:
+
+Sentence 1221:
+
+Sentence 1222:
+
+Sentence 1223:
+
+Sentence 1224:
+
+Sentence 1225:
+
+Sentence 1226:
+
+Sentence 1227:
+
+Sentence 1228:
+
+Sentence 1229:
+
+Sentence 1230:
+
+Sentence 1231:
+
+Sentence 1232:
+
+Sentence 1233:
+
+Sentence 1234:
+
+Sentence 1235:
+
+Sentence 1236:
+
+Sentence 1237:
+
+Sentence 1238:
+
+Sentence 1239:
+
+Sentence 1240:
+
+Sentence 1241:
+
+Sentence 1242:
+
+Sentence 1243:
+
+Sentence 1244:
+
+Sentence 1245:
+
+Sentence 1246:
+
+Sentence 1247:
+
+Sentence 1248:
+
+End of both input files

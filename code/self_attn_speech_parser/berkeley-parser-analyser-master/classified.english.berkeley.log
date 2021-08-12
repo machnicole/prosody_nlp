@@ -1,0 +1,27 @@
+# Time of run:
+# Sun Jul  4 11:58:51 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english.py sample_data/wsj01.mrg sample_data/berkeley.mrg classified.english.berkeley
+#
+Printing tree transformations
+Sentence 1:
+
+Sentence 2:
+
+Sentence 3:
+
+Sentence 4:
+
+Sentence 5:
+
+Sentence 6:
+
+Sentence 7:
+
+Sentence 8:
+
+Sentence 9:
+
+Sentence 10:
+
+End of both input files

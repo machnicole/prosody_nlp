@@ -1,0 +1,246 @@
+# Time of run:
+# Sun Jul  4 11:58:51 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english.py sample_data/wsj01.mrg sample_data/berkeley.mrg classified.english.berkeley
+#
+Sentence 1:
+(ROOT
+	(S
+		(PP For six years)
+		(NP T. Marshall Hahn Jr.)
+		(VP
+			(VBZ has)
+			(VP
+				(VBN made)
+				(NP corporate acquisitions)
+				(PP
+					(IN in)
+					(NP
+						(NP the George Bush mode)
+						[01;36m(ADJP[00m [01;31m(NP[00m
+							[01;31m(NP[00m
+								([01;36mJJ[00m [01;31mNN[00m kind)[01;31m)[00m
+							(CC and)
+							[01;31m(NP[00m
+								(JJ gentle)[01;31m)[00m[01;31m)[00m[01;36m)[00m))))))
+
+
+Sentence 2:
+[01;36m(NP[00m
+	(ROOT
+		[01;31m(S[00m
+			[01;36m(NP[00m
+				(NP The question)
+				(ADVP now)[01;36m)[00m
+			[01;36m(SQ[00m [01;31m(SINV[00m
+				(MD Can)
+				(NP he)
+				(VP
+					(VB act)
+					[01;36m(PP[00m
+						(ADVP more)
+						[01;31m(PP[00m
+							(IN like)
+							(NP
+								([01;36mJJ[00m [01;31mNN[00m hard-charging)
+								(NNP Teddy)
+								(NNP Roosevelt))[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;36m)[00m[01;31m)[00m)[01;36m)[00m
+
+
+Sentence 3:
+(ROOT
+	(S
+		(NP
+			(NP Mr. Hahn)
+			(NP
+				(NP
+					(DT the)
+					(JJ 62-year-old)
+					(NX
+						(NX chairman)
+						(CC and)
+						(NX
+							([01;36mNN[00m [01;31mJJ[00m chief)
+							(JJ executive)
+							(NN officer))))
+				(PP of Georgia-Pacific Corp.)))
+		(VP
+			(VBZ is)
+			(VP
+				(VBG leading)
+				(NP
+					(NP
+						(NP
+							(DT the)
+							([01;36mNN[00m [01;31mJJ[00m forest-product)
+							(NN concern)
+							(POS 's))
+						(JJ unsolicited)
+						(ADJP $ 3.19 billion)
+						(NN bid))
+					(PP for Great Northern Nekoosa Corp))))))
+
+
+Sentence 4:
+(ROOT Nekoosa has given the offer a public cold shoulder a reaction Mr. Hahn has n't faced in his 18 earlier acquisitions all of which were negotiated behind the scenes)
+
+
+Sentence 5:
+(ROOT
+	(S
+		(ADVP
+			([01;36mIN[00m [01;31mRB[00m So)
+			(RB far))
+		(NP Mr. Hahn)
+		(VP
+			(VBZ is)
+			(VP
+				(VBG trying)
+				[01;31m(S[00m [01;33m(VP (S[00m
+					[01;31m(VP[00m
+						(TO to)
+						[01;31m(VP[00m [01;33m(VP[00m
+							(VB entice)
+							(NP Nekoosa)
+							[01;31m(PP[00m [01;33m(PP[00m
+								(IN into)
+								[01;31m(S[00m
+									[01;31m(VP[00m
+										[01;36m(VP[00m
+											[01;36m(S[00m
+												(VBG negotiating)
+												(NP a friendly surrender) [01;33mPP) VP) S) VP)[00m[01;36m)[00m[01;36m)[00m
+										(SBAR while talking tough)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 6:
+(ROOT
+	(S
+		(S
+			(NP We)
+			(VP
+				(VBP are)
+				[01;36m(VP[00m [01;31m(ADJP[00m
+					([01;36mVBN[00m [01;31mJJ[00m prepared)
+					(S to pursue aggressively completion of this transaction)[01;31m)[00m[01;36m)[00m))
+		(NP he)
+		(VP says)))
+
+
+Sentence 7:
+(ROOT
+	(S
+		(CC But)
+		(NP a takeover battle)
+		(VP
+			(VBZ opens)
+			(ADVP up)
+			[01;36m(NP[00m
+				[01;31m(NP[00m
+					(NP the possibility)
+					[01;31m(PP[00m [01;33m(PP[00m
+						(IN of)
+						[01;33m(NP[00m (NP a bidding war)[01;31m)[00m[01;31m)[00m
+				(PP
+					(IN with)
+					(NP
+						(NP all)
+						[01;36m(S[00m
+							(SBAR
+								[01;36m(NP[00m [01;31m(WHNP[00m
+									([01;36mDT[00m [01;31mWDT[00m that)[01;31m)[00m[01;36m)[00m
+								[01;31m(S[00m
+									(VP
+										(VBZ implies))[01;31m)[00m)[01;36m)[00m))[01;36m)[00m))) [01;33mNP) PP)[00m
+
+
+Sentence 8:
+(ROOT
+	(S
+		(SBAR If a competitor enters the game)
+		(PP for example)
+		(NP Mr. Hahn)
+		(VP
+			(MD could)
+			(VP
+				(VB face)
+				(NP
+					(NP the dilemma)
+					(PP
+						(IN of)
+						(S
+							(VP
+								(VP
+									(VBG paying)
+									[01;31m(NP[00m
+										(NP a premium)
+										(PP for Nekoosa)[01;31m)[00m)
+								(CC or)
+								(VP
+									(VBG seeing)
+									(S
+										(NP the company)
+										(VP
+											([01;36mNN[00m [01;31mVB[00m fall)
+											(PP into the arms of a rival))))))))))))
+
+
+Sentence 9:
+(ROOT
+	(S
+		[01;36m(VP[00m [01;36m(S[00m [01;31m(PP[00m
+			(VBN Given)
+			(NP that choice)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+		(NP [01;33m(NP[00m
+			(NP associates)
+			[01;31m(PP[00m [01;33m(PP[00m
+				(IN of)
+				[01;31m(NP[00m
+					(NP Mr. Hahn) [01;33mPP) NP)[00m
+					(CC and)
+					(NP industry observers)[01;31m)[00m[01;31m)[00m)
+		(VP say the former university president who has developed a reputation for not overpaying for anything would fold)))
+
+
+Sentence 10:
+(ROOT
+	(SINV
+		(S
+			(NP There)
+			(VP
+				(VBZ 's)
+				(NP
+					(NP a price)
+					(SBAR
+						(WHPP above which)
+						(S
+							(NP I)
+							(VP
+								(VBP 'm)
+								(ADJP
+									(JJ positive)
+									(SBAR
+										(S
+											(NP Marshall)
+											(VP
+												(VBZ has)
+												(NP
+													[01;36m(NP[00m
+														(DT the)
+														(NN courage)[01;36m)[00m
+													[01;36m(SBAR[00m
+														(S
+															(RB not)
+															(VP to pay))[01;36m)[00m)))))))))))
+		(VP says)
+		(NP
+			(NP A.D. Correll)
+			(NP
+				(NP
+					(NP Georgia-Pacific 's)
+					([01;36mJJ[00m [01;31mNN[00m executive)
+					(NN vice)
+					(NN president))
+				(PP for pulp and paper)))))
+
+

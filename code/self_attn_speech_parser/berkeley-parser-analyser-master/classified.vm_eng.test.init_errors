@@ -1,0 +1,4997 @@
+# Time of run:
+# Sun Jul  4 13:15:21 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/dev.trees sample_data/dev.trees classified.vm_eng.test
+#
+Sentence 1:
+(TOP maybe we should get together to talk further about this)
+
+
+Sentence 2:
+(TOP ah how about some time in the next couple of weeks)
+
+
+Sentence 3:
+(TOP okay well i will be on vacation for the next two weeks ah how about friday the twenty first)
+
+
+Sentence 4:
+(TOP friday the twenty first is scheduled from early morning to late afternoon)
+
+
+Sentence 5:
+(TOP ah could you perhaps choose another day)
+
+
+Sentence 6:
+(TOP a morning on a wednesday)
+
+
+Sentence 7:
+(TOP or early afternoon on a tuesday)
+
+
+Sentence 8:
+(TOP mornings on wednesdays seem bad)
+
+
+Sentence 9:
+(TOP ah how about the twenty seventh twenty eighth or thirty first)
+
+
+Sentence 10:
+(TOP do any of those three days suit you)
+
+
+Sentence 11:
+(TOP i have ahm an indefinite length thing scheduled at ten am on the twenty seventh but i should be able to get away from that within an hour or so how about ah shortly after noon on the twenty seventh)
+
+
+Sentence 12:
+(TOP okay the twenty seventh sound sounds fine)
+
+
+Sentence 13:
+(TOP ah pick a time)
+
+
+Sentence 14:
+(TOP how about one pm of the twenty seventh)
+
+
+Sentence 15:
+(TOP where do you think we should meet)
+
+
+Sentence 16:
+(TOP we will meet at my office if you do not mind)
+
+
+Sentence 17:
+(TOP sounds good to me what is your office)
+
+
+Sentence 18:
+(TOP what number)
+
+
+Sentence 19:
+(TOP would it be)
+
+
+Sentence 20:
+(TOP it is the interact lab)
+
+
+Sentence 21:
+(TOP here in wean hall)
+
+
+Sentence 22:
+(TOP good i will meet you there)
+
+
+Sentence 23:
+(TOP this is one pm on the twenty seventh)
+
+
+Sentence 24:
+(TOP maybe we should get together some time and talk about this a little longer)
+
+
+Sentence 25:
+(TOP do you have anything free in your schedule ah from day after tomorrow on)
+
+
+Sentence 26:
+(TOP well i will be on vacation the ah second third and fourth)
+
+
+Sentence 27:
+(TOP i am taking the family to cancun)
+
+
+Sentence 28:
+(TOP ahm how about the seventh)
+
+
+Sentence 29:
+(TOP or the ninth)
+
+
+Sentence 30:
+(TOP or maybe even the fourteenth or seventeenth)
+
+
+Sentence 31:
+(TOP well it looks like i am out of town on the seventh and the ninth but the fourteenth is open ah what time suits you then)
+
+
+Sentence 32:
+(TOP how about two oclock in the afternoon)
+
+
+Sentence 33:
+(TOP two oclock in the afternoon sounds fine)
+
+
+Sentence 34:
+(TOP where would you like to meet)
+
+
+Sentence 35:
+(TOP we will meet at your office if you do not mind)
+
+
+Sentence 36:
+(TOP do you still know where it is from last time)
+
+
+Sentence 37:
+(TOP or is this something new)
+
+
+Sentence 38:
+(TOP nope i still remember where it is)
+
+
+Sentence 39:
+(TOP i will see you there)
+
+
+Sentence 40:
+(TOP see you there)
+
+
+Sentence 41:
+(TOP ah maybe you would like to meet further on this)
+
+
+Sentence 42:
+(TOP ahm unfortunately it looks like i am going to be going on vacation shortly so if we could schedule some time this afternoon that would be good)
+
+
+Sentence 43:
+(TOP that does not seem very possible ahm if you are going to be on vacation here in the next few days and i will be out of town next week)
+
+
+Sentence 44:
+(TOP ah what if we schedule it for the twenty seventh or twenty eighth)
+
+
+Sentence 45:
+(TOP do either of those two days suit you)
+
+
+Sentence 46:
+(TOP the twenty seventh does not work but i have all of the twenty eighth open)
+
+
+Sentence 47:
+(TOP is there a time you would like)
+
+
+Sentence 48:
+(TOP i prefer afternoon meetings myself so ah pick a time in the afternoon)
+
+
+Sentence 49:
+(TOP one oclock would probably be good ah how about your ah lab)
+
+
+Sentence 50:
+(TOP okay)
+
+
+Sentence 51:
+(TOP sounds good)
+
+
+Sentence 52:
+(TOP i will see you then)
+
+
+Sentence 53:
+(TOP see you then)
+
+
+Sentence 54:
+(TOP okay)
+
+
+Sentence 55:
+(TOP i guess we should ah try and get together on this ah some time in august ah do you have any time on the second)
+
+
+Sentence 56:
+(TOP or the week following)
+
+
+Sentence 57:
+(TOP i am going to be taking a vacation to ah sunny pittsburgh)
+
+
+Sentence 58:
+(TOP between the second and the sixth ah but the next week seems fairly free)
+
+
+Sentence 59:
+(TOP how about the ninth eleventh or twelfth)
+
+
+Sentence 60:
+(TOP on the ninth ah i could probably ah pencil you in for one pm ah the eleventh is busy)
+
+
+Sentence 61:
+(TOP and the twelfth would be ah tuck it in a crack around noon)
+
+
+Sentence 62:
+(TOP you say one oclock on the ninth is good for you)
+
+
+Sentence 63:
+(TOP yes)
+
+
+Sentence 64:
+(TOP i think i could make one oclock on the ninth that suits you where would you like to meet)
+
+
+Sentence 65:
+(TOP we will meet here in the lab if that is okay with you)
+
+
+Sentence 66:
+(TOP yeah)
+
+
+Sentence 67:
+(TOP that is fine with me)
+
+
+Sentence 68:
+(TOP meet you in the lab then ah one oclock on the ninth of august)
+
+
+Sentence 69:
+(TOP i will see you then)
+
+
+Sentence 70:
+(TOP thank you)
+
+
+Sentence 71:
+(TOP you are welcome)
+
+
+Sentence 72:
+(TOP see you then)
+
+
+Sentence 73:
+(TOP so maybe we should figure out a way to get back together again)
+
+
+Sentence 74:
+(TOP perhaps in the next two weeks)
+
+
+Sentence 75:
+(TOP okay well how does the seventeenth look on your calendar)
+
+
+Sentence 76:
+(TOP seventeenth looks pretty full)
+
+
+Sentence 77:
+(TOP i have less then a half an hour left at the end of the day)
+
+
+Sentence 78:
+(TOP before five oclock)
+
+
+Sentence 79:
+(TOP how about the eighteenth)
+
+
+Sentence 80:
+(TOP in the afternoon)
+
+
+Sentence 81:
+(TOP i do not have two hours free on the eighteenth there is only one hour at three pm)
+
+
+Sentence 82:
+(TOP how about the afternoon of the sixteenth)
+
+
+Sentence 83:
+(TOP okay that sounds good to me)
+
+
+Sentence 84:
+(TOP shall we meet at say two oclock)
+
+
+Sentence 85:
+(TOP two oclock on the sixteenth)
+
+
+Sentence 86:
+(TOP seems pretty good to me)
+
+
+Sentence 87:
+(TOP i will write that in)
+
+
+Sentence 88:
+(TOP okay)
+
+
+Sentence 89:
+(TOP i will see you then)
+
+
+Sentence 90:
+(TOP okay very good)
+
+
+Sentence 91:
+(TOP do you think we could arrange a meeting some time in the near future)
+
+
+Sentence 92:
+(TOP maybe even this afternoon)
+
+
+Sentence 93:
+(TOP it will be impossible for me to make a meeting this afternoon)
+
+
+Sentence 94:
+(TOP ahm how about toward the end of next week)
+
+
+Sentence 95:
+(TOP say the friday the sixteenth)
+
+
+Sentence 96:
+(TOP friday the sixteenth looks good as long as i can get away by four pm)
+
+
+Sentence 97:
+(TOP then how about a one oclock meeting)
+
+
+Sentence 98:
+(TOP ah you said you would like to meet for two hours is that good)
+
+
+Sentence 99:
+(TOP okay then friday one oclock two hours with sam helwig)
+
+
+Sentence 100:
+(TOP i will write it in)
+
+
+Sentence 101:
+(TOP where would you like to meet)
+
+
+Sentence 102:
+(TOP well we have got space in my office but there is other people that might get disturbed how about your office)
+
+
+Sentence 103:
+(TOP okay that sounds fine)
+
+
+Sentence 104:
+(TOP i will meet you at your office at one oclock on friday the sixteenth of april)
+
+
+Sentence 105:
+(TOP my office is forty six oh seven)
+
+
+Sentence 106:
+(TOP see you then)
+
+
+Sentence 107:
+(TOP i am sorry your time is up)
+
+
+Sentence 108:
+(TOP we can we can continue this conversation ah sometimes in sometime in the next two weeks)
+
+
+Sentence 109:
+(TOP it will have be before the end of two weeks)
+
+
+Sentence 110:
+(TOP because of the deadline)
+
+
+Sentence 111:
+(TOP so do you have any time free next week)
+
+
+Sentence 112:
+(TOP or the week after)
+
+
+Sentence 113:
+(TOP well there is a slight problem in that i am on vacation from the third to the fourteenth)
+
+
+Sentence 114:
+(TOP which seem which seem to bring us to the end of our end of our allotted time)
+
+
+Sentence 115:
+(TOP so i think we are going to have to work something out that we can extend the deadline somehow)
+
+
+Sentence 116:
+(TOP well where are you going)
+
+
+Sentence 117:
+(TOP maybe i can go with you)
+
+
+Sentence 118:
+(TOP i am going fishing in alberta with my with my thirteen year old son)
+
+
+Sentence 119:
+(TOP ah that is really terrible because of this allergy i have for fish)
+
+
+Sentence 120:
+(TOP ahm okay i will talk it over with the guy)
+
+
+Sentence 121:
+(TOP and see if we can get it extended)
+
+
+Sentence 122:
+(TOP but we have to do it as soon as possible)
+
+
+Sentence 123:
+(TOP when will you be back)
+
+
+Sentence 124:
+(TOP i will be back on the seventeenth)
+
+
+Sentence 125:
+(TOP and ahm i will be free in the morning ahm until ten am that day ahm and the next day i am free until two pm and then i have class ahm until four)
+
+
+Sentence 126:
+(TOP alright)
+
+
+Sentence 127:
+(TOP on the seventeenth)
+
+
+Sentence 128:
+(TOP what do you say we meet at eight am)
+
+
+Sentence 129:
+(TOP until ten)
+
+
+Sentence 130:
+(TOP i know it will have to be a little bit early but we really have to get this done)
+
+
+Sentence 131:
+(TOP yeah i think we could probably make it a working breakfast)
+
+
+Sentence 132:
+(TOP well breakfast never seems to work for me)
+
+
+Sentence 133:
+(TOP so i guess you are right)
+
+
+Sentence 134:
+(TOP okay why do not we meet at that ah that restaurant down the street ahm at eight am on the seventeenth)
+
+
+Sentence 135:
+(TOP and if we need extra time we could probably meet on the eighteenth as well)
+
+
+Sentence 136:
+(TOP alright)
+
+
+Sentence 137:
+(TOP but you are paying)
+
+
+Sentence 138:
+(TOP sounds good to me)
+
+
+Sentence 139:
+(TOP where do have all this extra money from anyway)
+
+
+Sentence 140:
+(TOP we did not hand in the project yet)
+
+
+Sentence 141:
+(TOP you do not need to know)
+
+
+Sentence 142:
+(TOP okay)
+
+
+Sentence 143:
+(TOP well we are going to have to leave now)
+
+
+Sentence 144:
+(TOP but we can work on it some more in the next two weeks)
+
+
+Sentence 145:
+(TOP ahm i only seem to have thursdays and fridays free)
+
+
+Sentence 146:
+(TOP ahm in the afternoon on thursday but any time on fridays)
+
+
+Sentence 147:
+(TOP how about you)
+
+
+Sentence 148:
+(TOP well this this thursday and friday ahm i am on vacation and next thursday is my day off)
+
+
+Sentence 149:
+(TOP ahm on the eleventh i am free in the afternoon once i get back from my seminar though)
+
+
+Sentence 150:
+(TOP alright then what do you say we work on it next friday the eleventh in the afternoon)
+
+
+Sentence 151:
+(TOP what time)
+
+
+Sentence 152:
+(TOP well it is going to take me a while to get back from my seminar)
+
+
+Sentence 153:
+(TOP ahm i will probably be ready by twelve thirty)
+
+
+Sentence 154:
+(TOP ahm and then we could ah start by having lunch)
+
+
+Sentence 155:
+(TOP ahm and if we need more time than it takes us to eat we can ahm come back to either your or my office)
+
+
+Sentence 156:
+(TOP and work on the rest)
+
+
+Sentence 157:
+(TOP sounds good to me)
+
+
+Sentence 158:
+(TOP alright i am looking forward to it)
+
+
+Sentence 159:
+(TOP okay)
+
+
+Sentence 160:
+(TOP we are going to have to call it quits now but i can meet you again next week on the twenty first)
+
+
+Sentence 161:
+(TOP how is that)
+
+
+Sentence 162:
+(TOP that is no good)
+
+
+Sentence 163:
+(TOP i am going to be out of town ahm i will be back on the twenty second and i am free in the afternoon)
+
+
+Sentence 164:
+(TOP no that will not be any good)
+
+
+Sentence 165:
+(TOP ahm how about ah the twenty third)
+
+
+Sentence 166:
+(TOP in the morning)
+
+
+Sentence 167:
+(TOP the twenty third)
+
+
+Sentence 168:
+(TOP ahm okay that sounds good to me)
+
+
+Sentence 169:
+(TOP i am free all day that day so the morning will work)
+
+
+Sentence 170:
+(TOP how about ahm ten am)
+
+
+Sentence 171:
+(TOP that works for me ahm i will be in my office so you can just meet me there)
+
+
+Sentence 172:
+(TOP okay)
+
+
+Sentence 173:
+(TOP and i will bring all this stuff with me)
+
+
+Sentence 174:
+(TOP alright see you then)
+
+
+Sentence 175:
+(TOP okay)
+
+
+Sentence 176:
+(TOP ahm what do you say we call it quits now and meet some time ahm in the beginning of august)
+
+
+Sentence 177:
+(TOP i am going to have ah conferences all next week except monday)
+
+
+Sentence 178:
+(TOP i can meet you in the afternoon if you like)
+
+
+Sentence 179:
+(TOP no next week is no good i am on vacation again)
+
+
+Sentence 180:
+(TOP ahm but i am i will be back on monday and i am free all day monday)
+
+
+Sentence 181:
+(TOP okay)
+
+
+Sentence 182:
+(TOP what do you say we meet on monday around two)
+
+
+Sentence 183:
+(TOP pm)
+
+
+Sentence 184:
+(TOP sounds good ahm why do not i meet you in in your office this time since all the stuff is there)
+
+
+Sentence 185:
+(TOP okay i will just have remember my key this time)
+
+
+Sentence 186:
+(TOP okay see you then)
+
+
+Sentence 187:
+(TOP bye)
+
+
+Sentence 188:
+(TOP well i think we are going to have to conclude now and have more of a meeting in the next two weeks)
+
+
+Sentence 189:
+(TOP what time is good for you)
+
+
+Sentence 190:
+(TOP ahm well today is the fifth and i am not obviously not going to meet with you on the weekend so let us see monday i am quite busy all day but tuesday i am free in the afternoon)
+
+
+Sentence 191:
+(TOP no i am going to be out of town on tuesday)
+
+
+Sentence 192:
+(TOP as well as wednesday and thursday but i can meet on friday from one pm to three or four to five)
+
+
+Sentence 193:
+(TOP no friday is not any good because i have got a seminar all day)
+
+
+Sentence 194:
+(TOP ahm the following monday)
+
+
+Sentence 195:
+(TOP the fifteenth)
+
+
+Sentence 196:
+(TOP i am free in the morning ahm and i am also free for lunch how would that be for you)
+
+
+Sentence 197:
+(TOP ten am to twelve)
+
+
+Sentence 198:
+(TOP is that fine)
+
+
+Sentence 199:
+(TOP yeah)
+
+
+Sentence 200:
+(TOP that that sounds great to me why do not ahm you meet meet me over at my office)
+
+
+Sentence 201:
+(TOP okay)
+
+
+Sentence 202:
+(TOP is that the one on campus)
+
+
+Sentence 203:
+(TOP yeah it is in ah doherty z basement)
+
+
+Sentence 204:
+(TOP okay)
+
+
+Sentence 205:
+(TOP it looks like we are going to have to meet some time in the next two weeks again)
+
+
+Sentence 206:
+(TOP we are always running out of time)
+
+
+Sentence 207:
+(TOP ahm ah today is the fifth)
+
+
+Sentence 208:
+(TOP ahm i will be out of town for the sixth and seventh i will not be able to meet on thursday until until five)
+
+
+Sentence 209:
+(TOP but that would only give us an hour)
+
+
+Sentence 210:
+(TOP and ah friday i can meet any time until four)
+
+
+Sentence 211:
+(TOP how how is friday)
+
+
+Sentence 212:
+(TOP ahm well it sounds like this week is shot because i can not make it on friday because i have got a seminar)
+
+
+Sentence 213:
+(TOP ah monday and tuesday i am on vacation so wednesday the fourteenth)
+
+
+Sentence 214:
+(TOP i have got all i have got is a doctors appointment in the morning and i would be able to meet you any time after ten am)
+
+
+Sentence 215:
+(TOP well i could meet you after ten am and i just have a class at two)
+
+
+Sentence 216:
+(TOP so we could pick a time in there we we could probably eat over lunch in the highlander too)
+
+
+Sentence 217:
+(TOP ahm do you eat at any specific time)
+
+
+Sentence 218:
+(TOP no i usually eat when i am hungry)
+
+
+Sentence 219:
+(TOP so why do not you pick a time)
+
+
+Sentence 220:
+(TOP and ah i will try to be hungry then)
+
+
+Sentence 221:
+(TOP okay)
+
+
+Sentence 222:
+(TOP how about if we meet at precisely ten thirty six)
+
+
+Sentence 223:
+(TOP okay but i might be a minute or two late)
+
+
+Sentence 224:
+(TOP so do not be surprised if i am there at ten thirty seven)
+
+
+Sentence 225:
+(TOP no i like promptness)
+
+
+Sentence 226:
+(TOP i i hope that you are on time)
+
+
+Sentence 227:
+(TOP i mean if you if you are planning to be late we could just make it at a later time)
+
+
+Sentence 228:
+(TOP i will be there at ten thirty six)
+
+
+Sentence 229:
+(TOP ian)
+
+
+Sentence 230:
+(TOP so when do you want to schedule the next meeting)
+
+
+Sentence 231:
+(TOP is ahm thursday)
+
+
+Sentence 232:
+(TOP the sixth)
+
+
+Sentence 233:
+(TOP good for you)
+
+
+Sentence 234:
+(TOP ahm i am going to be on vacation from the second to the fifteenth)
+
+
+Sentence 235:
+(TOP ah we are have to do it sometime after that)
+
+
+Sentence 236:
+(TOP would the friday the twenty first work at all for you)
+
+
+Sentence 237:
+(TOP i am free all day long)
+
+
+Sentence 238:
+(TOP ahm friday the twenty first does not look good)
+
+
+Sentence 239:
+(TOP i am going to be stuck in a seminar from eight am to five pm all day long)
+
+
+Sentence 240:
+(TOP ahm what about monday the twenty fourth)
+
+
+Sentence 241:
+(TOP that is really good for me i have nothing scheduled that day)
+
+
+Sentence 242:
+(TOP ahm great)
+
+
+Sentence 243:
+(TOP i am free until four oclock)
+
+
+Sentence 244:
+(TOP so we can meet anytime before then)
+
+
+Sentence 245:
+(TOP ah when is a good time for you)
+
+
+Sentence 246:
+(TOP what about from one to three pm)
+
+
+Sentence 247:
+(TOP i think that would be really good)
+
+
+Sentence 248:
+(TOP and we would get enough time to talk about everything that we really want to)
+
+
+Sentence 249:
+(TOP okay sounds good)
+
+
+Sentence 250:
+(TOP i will meet you at one oclock on ah monday the twenty fourth then)
+
+
+Sentence 251:
+(TOP ian ahm i want to meet with you)
+
+
+Sentence 252:
+(TOP we have some really important stuff to talk about)
+
+
+Sentence 253:
+(TOP so how about thursday the third)
+
+
+Sentence 254:
+(TOP from three to five pm)
+
+
+Sentence 255:
+(TOP how does that sound for you)
+
+
+Sentence 256:
+(TOP oh i would love to but i am going to be on vacation again)
+
+
+Sentence 257:
+(TOP ahm how about sometime next week)
+
+
+Sentence 258:
+(TOP i have got a lot of free time on monday and wednesday)
+
+
+Sentence 259:
+(TOP ahm monday through wednesday i am going to be out of town and thursday i am going to be stuck in a conference from nine to eleven and i do not know if i would really want to go into another meeting right after that what about friday the eleventh i am free all day)
+
+
+Sentence 260:
+(TOP ah my afternoon on friday is pretty free ah we could meet at say two oclock)
+
+
+Sentence 261:
+(TOP is that work for you)
+
+
+Sentence 262:
+(TOP yeah that is great)
+
+
+Sentence 263:
+(TOP two to at least four on friday the eleventh will be great)
+
+
+Sentence 264:
+(TOP we will meet then)
+
+
+Sentence 265:
+(TOP okay)
+
+
+Sentence 266:
+(TOP see you then)
+
+
+Sentence 267:
+(TOP ian it is urgent i have to meet up with you)
+
+
+Sentence 268:
+(TOP what about today say from one to three pm)
+
+
+Sentence 269:
+(TOP how does that sound)
+
+
+Sentence 270:
+(TOP i have got a class from two to three thirty)
+
+
+Sentence 271:
+(TOP ah i am free all day tomorrow and wednesday though)
+
+
+Sentence 272:
+(TOP ah are you free at all any of those days)
+
+
+Sentence 273:
+(TOP ahm tomorrow through the twentieth i am on vacation and i am attending seminars)
+
+
+Sentence 274:
+(TOP so)
+
+
+Sentence 275:
+(TOP i really will not have any free time)
+
+
+Sentence 276:
+(TOP but ahm i am going to get back on wednesday the twenty first and i will be free all day)
+
+
+Sentence 277:
+(TOP what about if we meet up then)
+
+
+Sentence 278:
+(TOP ah the twenty first is no good i will be away on business)
+
+
+Sentence 279:
+(TOP ahm how about the afternoon of the twenty second or the twenty third)
+
+
+Sentence 280:
+(TOP ahm the afternoon both the twenty second and twenty third i am going to be stuck in three hour meetings)
+
+
+Sentence 281:
+(TOP but ah the next best thing would be monday the twenty sixth i am free all day any time good for you)
+
+
+Sentence 282:
+(TOP ahm the twenty sixth would be pretty good could we meet at ten in the morning)
+
+
+Sentence 283:
+(TOP yeah ten am in the morning would be great)
+
+
+Sentence 284:
+(TOP so we will meet from like ten to twelve)
+
+
+Sentence 285:
+(TOP that will be fine)
+
+
+Sentence 286:
+(TOP great)
+
+
+Sentence 287:
+(TOP then i am looking forward to it)
+
+
+Sentence 288:
+(TOP ah ian)
+
+
+Sentence 289:
+(TOP i do not think we finished ah discussing what we had to talk about)
+
+
+Sentence 290:
+(TOP so what about if we meet up on monday)
+
+
+Sentence 291:
+(TOP say around from two to four)
+
+
+Sentence 292:
+(TOP be on ah no i am going to be on vacation again this next week)
+
+
+Sentence 293:
+(TOP ah from the second to the sixth)
+
+
+Sentence 294:
+(TOP ahm how about the ninth the eleventh or the twelfth)
+
+
+Sentence 295:
+(TOP i am free all day on those days)
+
+
+Sentence 296:
+(TOP the ninth would be great)
+
+
+Sentence 297:
+(TOP say what about from ah two to four pm)
+
+
+Sentence 298:
+(TOP that day)
+
+
+Sentence 299:
+(TOP that would be great for me)
+
+
+Sentence 300:
+(TOP okay then i will see you from two to four on the ninth)
+
+
+Sentence 301:
+(TOP ian we need to discuss this issue further what about if we meet on ah march the twenty third)
+
+
+Sentence 302:
+(TOP ah any day all day is good for me so you just pick a time)
+
+
+Sentence 303:
+(TOP okay well i have got a class from nine to twelve)
+
+
+Sentence 304:
+(TOP ahm could we meet at say ah two oclock)
+
+
+Sentence 305:
+(TOP two to four would be just great)
+
+
+Sentence 306:
+(TOP and then ah we can wrap up what we started talking about here)
+
+
+Sentence 307:
+(TOP see you then)
+
+
+Sentence 308:
+(TOP ian i think we should meet up again)
+
+
+Sentence 309:
+(TOP ah what about april the twentieth that is a tuesday)
+
+
+Sentence 310:
+(TOP i am free all day)
+
+
+Sentence 311:
+(TOP ah anything good for you)
+
+
+Sentence 312:
+(TOP well i have got a meeting in the afternoon)
+
+
+Sentence 313:
+(TOP but i could meet ah during lunch or ah at say ten in the morning)
+
+
+Sentence 314:
+(TOP ah we probably would not have enough time to discuss this over lunch but ah)
+
+
+Sentence 315:
+(TOP ten am sounds good from say from about ten to noon)
+
+
+Sentence 316:
+(TOP how about that)
+
+
+Sentence 317:
+(TOP ah sounds great)
+
+
+Sentence 318:
+(TOP so i will see you on tuesday the twentieth at ten am)
+
+
+Sentence 319:
+(TOP ian)
+
+
+Sentence 320:
+(TOP i think we need to get together for another two hour meeting)
+
+
+Sentence 321:
+(TOP what does the sixth look like for you)
+
+
+Sentence 322:
+(TOP ah from the second to the fifteenth i am going to be on vacation ah we are going to have to do it sometime after that)
+
+
+Sentence 323:
+(TOP are you free on the twenty first)
+
+
+Sentence 324:
+(TOP nope got a seminar all)
+
+
+Sentence 325:
+(TOP day)
+
+
+Sentence 326:
+(TOP ahm i am looking at anywhere the twenty fourth)
+
+
+Sentence 327:
+(TOP all day i am free or afternoon on the twenty fifth)
+
+
+Sentence 328:
+(TOP okay why do not we try to meet on the morning of the twenty fourth)
+
+
+Sentence 329:
+(TOP i have got a four pm doctors appointment)
+
+
+Sentence 330:
+(TOP but i can meet any time before that)
+
+
+Sentence 331:
+(TOP how about two oclock or no you have to be out at four)
+
+
+Sentence 332:
+(TOP so one oclock)
+
+
+Sentence 333:
+(TOP that will give us enough time to recuperate from the morning on a monday)
+
+
+Sentence 334:
+(TOP okay sounds good)
+
+
+Sentence 335:
+(TOP i will see you at ah one oclock on the twenty fourth)
+
+
+Sentence 336:
+(TOP okay ian)
+
+
+Sentence 337:
+(TOP we got to schedule a meeting i am looking at any friday)
+
+
+Sentence 338:
+(TOP or any monday but the seventh)
+
+
+Sentence 339:
+(TOP what does it look like for you)
+
+
+Sentence 340:
+(TOP ah fridays are good in the afternoon)
+
+
+Sentence 341:
+(TOP except for the fourth)
+
+
+Sentence 342:
+(TOP ah could you meet on the eleventh)
+
+
+Sentence 343:
+(TOP at say two oclock)
+
+
+Sentence 344:
+(TOP sounds great)
+
+
+Sentence 345:
+(TOP two oclock on the eleventh)
+
+
+Sentence 346:
+(TOP you know what ian)
+
+
+Sentence 347:
+(TOP i think we got to get together again in a couple weeks)
+
+
+Sentence 348:
+(TOP ahm how does you schedule look)
+
+
+Sentence 349:
+(TOP i am a little busy but i think we can ah work something out)
+
+
+Sentence 350:
+(TOP are you free any time next week)
+
+
+Sentence 351:
+(TOP maybe in the afternoon)
+
+
+Sentence 352:
+(TOP actually monday the eighth)
+
+
+Sentence 353:
+(TOP ah i think a two hour meeting would be good enough for us from maybe three to five)
+
+
+Sentence 354:
+(TOP but mondays i would think are pretty bad)
+
+
+Sentence 355:
+(TOP ahm as far as tuesday wednesday and thursday goes i am out friday is booked solid)
+
+
+Sentence 356:
+(TOP i am probably looking at something maybe on the lines of the nineteenth)
+
+
+Sentence 357:
+(TOP from a three to five it is a friday what do you think)
+
+
+Sentence 358:
+(TOP from i have got a seminar from eight to five on friday that is no good)
+
+
+Sentence 359:
+(TOP ahm maybe monday the twenty second or wednesday the twenty fourth)
+
+
+Sentence 360:
+(TOP monday the twenty second sounds good)
+
+
+Sentence 361:
+(TOP i am looking at probably anywhere from two to four)
+
+
+Sentence 362:
+(TOP because twelve i am breaking for lunch)
+
+
+Sentence 363:
+(TOP okay then ah we could plan to meet at two on monday the twenty second)
+
+
+Sentence 364:
+(TOP sounds great)
+
+
+Sentence 365:
+(TOP i will mark it down in my book)
+
+
+Sentence 366:
+(TOP well ian it is deja vu again)
+
+
+Sentence 367:
+(TOP we need to get another meeting going this april ahm two hour meeting again)
+
+
+Sentence 368:
+(TOP ahm i am looking at maybe hopefully by the end of this week)
+
+
+Sentence 369:
+(TOP what do you say)
+
+
+Sentence 370:
+(TOP well i am free ah tuesday morning and wednesday afternoon)
+
+
+Sentence 371:
+(TOP other than that i am pretty much packed)
+
+
+Sentence 372:
+(TOP no good)
+
+
+Sentence 373:
+(TOP i am out of town those days)
+
+
+Sentence 374:
+(TOP let us see)
+
+
+Sentence 375:
+(TOP how about i am looking at monday the twelfth)
+
+
+Sentence 376:
+(TOP any time free then)
+
+
+Sentence 377:
+(TOP on monday and tuesday i am going to be on vacation)
+
+
+Sentence 378:
+(TOP are you free any time later that weekend)
+
+
+Sentence 379:
+(TOP i have got afternoons free on the fourteenth fifteenth and the all day the sixteenth)
+
+
+Sentence 380:
+(TOP sixteenth sounds good)
+
+
+Sentence 381:
+(TOP anytime a meeting before two oclock)
+
+
+Sentence 382:
+(TOP because i am out of there at four)
+
+
+Sentence 383:
+(TOP okay then)
+
+
+Sentence 384:
+(TOP why do not we meet at say ten and we can do brunch)
+
+
+Sentence 385:
+(TOP sounds great)
+
+
+Sentence 386:
+(TOP what kind of food)
+
+
+Sentence 387:
+(TOP ahm anything is fine with me i do not really care)
+
+
+Sentence 388:
+(TOP italian)
+
+
+Sentence 389:
+(TOP because i am a sucker for italian)
+
+
+Sentence 390:
+(TOP sounds good i will see you then)
+
+
+Sentence 391:
+(TOP so)
+
+
+Sentence 392:
+(TOP we should meet again)
+
+
+Sentence 393:
+(TOP how about ah how about next week)
+
+
+Sentence 394:
+(TOP what day are good for you)
+
+
+Sentence 395:
+(TOP what days are good for you)
+
+
+Sentence 396:
+(TOP actually next week i am on vacation)
+
+
+Sentence 397:
+(TOP gosh i guess we will have to meet the week after that)
+
+
+Sentence 398:
+(TOP ahm how about monday)
+
+
+Sentence 399:
+(TOP ah monday the tenth)
+
+
+Sentence 400:
+(TOP ah has)
+
+
+Sentence 401:
+(TOP well unfortunately my vacation ah runs through the fourteenth and i have nonrefundable plane tickets)
+
+
+Sentence 402:
+(TOP i was planning on being on a beach in acapulco about that point)
+
+
+Sentence 403:
+(TOP well when are you getting back)
+
+
+Sentence 404:
+(TOP i get back on the fifteenth rest up on the sixteenth which is a sunday and i am back at work on the seventeenth but i have a seminar all day)
+
+
+Sentence 405:
+(TOP i think the first day that is really good for me is the eighteenth)
+
+
+Sentence 406:
+(TOP that is a tuesday)
+
+
+Sentence 407:
+(TOP okay want to have lunch)
+
+
+Sentence 408:
+(TOP that sounds pretty good are you available just before noon)
+
+
+Sentence 409:
+(TOP we can meet at noon)
+
+
+Sentence 410:
+(TOP sounds good)
+
+
+Sentence 411:
+(TOP ah on campus or off)
+
+
+Sentence 412:
+(TOP your choice)
+
+
+Sentence 413:
+(TOP i say if i have got enough money to go to acapulco i have got enough money to go to one of those silly places on craig street)
+
+
+Sentence 414:
+(TOP how about great scott)
+
+
+Sentence 415:
+(TOP sounds great)
+
+
+Sentence 416:
+(TOP except they have been out of business for a while)
+
+
+Sentence 417:
+(TOP how about some other place)
+
+
+Sentence 418:
+(TOP let us just wander up craig and pick one we like that day)
+
+
+Sentence 419:
+(TOP that sounds pretty good okay ahm i will meet you outside cyert hall at noon)
+
+
+Sentence 420:
+(TOP does that sound alright for you)
+
+
+Sentence 421:
+(TOP see you then)
+
+
+Sentence 422:
+(TOP roger over and out)
+
+
+Sentence 423:
+(TOP thought it was roger wilco)
+
+
+Sentence 424:
+(TOP oh no it is what we always say when we are talking on screen)
+
+
+Sentence 425:
+(TOP well)
+
+
+Sentence 426:
+(TOP looks like we should get together again)
+
+
+Sentence 427:
+(TOP ahm i am free either thursday afternoons or all day fridays)
+
+
+Sentence 428:
+(TOP what is good for you)
+
+
+Sentence 429:
+(TOP how about ah friday the eleventh some time in the afternoon)
+
+
+Sentence 430:
+(TOP sounds great)
+
+
+Sentence 431:
+(TOP how about two)
+
+
+Sentence 432:
+(TOP two is fine)
+
+
+Sentence 433:
+(TOP where would you like to meet)
+
+
+Sentence 434:
+(TOP ah want to come over to my office)
+
+
+Sentence 435:
+(TOP sure are you still in wean hall someplace)
+
+
+Sentence 436:
+(TOP yep)
+
+
+Sentence 437:
+(TOP forty one twenty seven)
+
+
+Sentence 438:
+(TOP okay no problem)
+
+
+Sentence 439:
+(TOP i will just come over there at two on the eleventh)
+
+
+Sentence 440:
+(TOP see you then)
+
+
+Sentence 441:
+(TOP okay)
+
+
+Sentence 442:
+(TOP okay)
+
+
+Sentence 443:
+(TOP well i guess we should meet)
+
+
+Sentence 444:
+(TOP but my time is a little tight this week in fact i can not meet at all)
+
+
+Sentence 445:
+(TOP unless we do it this afternoon how about next wednesday or thursday morning)
+
+
+Sentence 446:
+(TOP or friday morning for that matter)
+
+
+Sentence 447:
+(TOP well i i teach until three thirty today but i could meet you ahm you know like at three forty five if you wanted ahm i am afraid that i am out of town ah next week and i come back on thursday but i am tied up in the morning)
+
+
+Sentence 448:
+(TOP ahm friday i have completely free)
+
+
+Sentence 449:
+(TOP that would be twenty friday the twenty third)
+
+
+Sentence 450:
+(TOP ah well why do not we just me on twenty third)
+
+
+Sentence 451:
+(TOP let us get an early start at nine)
+
+
+Sentence 452:
+(TOP sound good)
+
+
+Sentence 453:
+(TOP well i probably would not be thinking too straight at nine ten or ten thirty would really be better for me)
+
+
+Sentence 454:
+(TOP okay let us do it at ten)
+
+
+Sentence 455:
+(TOP alright)
+
+
+Sentence 456:
+(TOP ah why do not you come to my office)
+
+
+Sentence 457:
+(TOP it is two seventy seven cyert hall)
+
+
+Sentence 458:
+(TOP okay see you there)
+
+
+Sentence 459:
+(TOP see you)
+
+
+Sentence 460:
+(TOP so we should meet)
+
+
+Sentence 461:
+(TOP ahm this week is not good for me i am sorry next week is not good for me ah except for monday afternoon)
+
+
+Sentence 462:
+(TOP ahm how is that for you)
+
+
+Sentence 463:
+(TOP is that ahm monday the ninth)
+
+
+Sentence 464:
+(TOP ah no i believe that is monday the second of august)
+
+
+Sentence 465:
+(TOP although we could also meet on the ninth in the afternoon if you prefer)
+
+
+Sentence 466:
+(TOP ahm i am afraid that i am using some of my copious vacation time the first week of august)
+
+
+Sentence 467:
+(TOP ahm the ninth is really the first day that i have open but i do not have anything else i have to schedule around)
+
+
+Sentence 468:
+(TOP so anytime that afternoon is fine with me)
+
+
+Sentence 469:
+(TOP okay let us go for one thirty)
+
+
+Sentence 470:
+(TOP alright)
+
+
+Sentence 471:
+(TOP one thirty it is)
+
+
+Sentence 472:
+(TOP ahm where)
+
+
+Sentence 473:
+(TOP ah let us meet right here)
+
+
+Sentence 474:
+(TOP okay that sounds great)
+
+
+Sentence 475:
+(TOP i will see you here at one thirty then)
+
+
+Sentence 476:
+(TOP hi i think it is time we made another appointment)
+
+
+Sentence 477:
+(TOP ahm)
+
+
+Sentence 478:
+(TOP what ah would be good for you in the preferably in the week of the tenth to the fourteenth)
+
+
+Sentence 479:
+(TOP well i have vacation in that entire week and the entire week before that)
+
+
+Sentence 480:
+(TOP ahm i am available ah starting the seventeenth for the rest of the month)
+
+
+Sentence 481:
+(TOP what time would be good for you on the seventeenth)
+
+
+Sentence 482:
+(TOP anytime before ten am)
+
+
+Sentence 483:
+(TOP and after five pm)
+
+
+Sentence 484:
+(TOP ahm how is ah nine oclock then)
+
+
+Sentence 485:
+(TOP nine is fine)
+
+
+Sentence 486:
+(TOP ahm i will see you then)
+
+
+Sentence 487:
+(TOP hi i like to make another appointment)
+
+
+Sentence 488:
+(TOP ahm how is the ah twenty first or twenty second)
+
+
+Sentence 489:
+(TOP for you)
+
+
+Sentence 490:
+(TOP well i am out of town from the twenty first to the twenty third ahm i am also going to be out of town on the twenty ninth)
+
+
+Sentence 491:
+(TOP is the twenty fourth)
+
+
+Sentence 492:
+(TOP okay)
+
+
+Sentence 493:
+(TOP thursday i do not have anything on my schedule that day)
+
+
+Sentence 494:
+(TOP i do have a conference from nine to eleven in the morning)
+
+
+Sentence 495:
+(TOP how is ah some time in the afternoon like two)
+
+
+Sentence 496:
+(TOP two oclock on the twenty fourth is fine)
+
+
+Sentence 497:
+(TOP i will see you then)
+
+
+Sentence 498:
+(TOP okay great)
+
+
+Sentence 499:
+(TOP hi i would like to schedule a an appointment)
+
+
+Sentence 500:
+(TOP ahm i am free most of the week from the twenty sixth to the thirtieth)
+
+
+Sentence 501:
+(TOP how is ah that for you)
+
+
+Sentence 502:
+(TOP well ahm both the twenty seventh and twenty eighth i do not have anything on my schedule)
+
+
+Sentence 503:
+(TOP so ahm how about ahm some time in the afternoon on the twenty seventh)
+
+
+Sentence 504:
+(TOP i have got a seminar all day on the twenty seventh)
+
+
+Sentence 505:
+(TOP that is the one day i am not completely free that week)
+
+
+Sentence 506:
+(TOP ah the twenty eighth would be a little better how is how is then)
+
+
+Sentence 507:
+(TOP ah anytime on the twenty eighth is fine)
+
+
+Sentence 508:
+(TOP how about two three oclock in the afternoon on the twenty eighth)
+
+
+Sentence 509:
+(TOP okay that sounds good)
+
+
+Sentence 510:
+(TOP hi)
+
+
+Sentence 511:
+(TOP i think we need to set up another appointment)
+
+
+Sentence 512:
+(TOP what ah time during the month would be good for you)
+
+
+Sentence 513:
+(TOP well i have vacation ahm the first week of august from the second to the sixth)
+
+
+Sentence 514:
+(TOP how about ahm any monday)
+
+
+Sentence 515:
+(TOP in august i do not have anything on my schedule those days)
+
+
+Sentence 516:
+(TOP i have got class every monday from ah eight in the morning to one)
+
+
+Sentence 517:
+(TOP so i would prefer another day if there is anything better but if worse comes to worse we can do something ah in the afternoon)
+
+
+Sentence 518:
+(TOP another day is fine)
+
+
+Sentence 519:
+(TOP ahm how about the twelfth)
+
+
+Sentence 520:
+(TOP on thursday)
+
+
+Sentence 521:
+(TOP anytime during the day)
+
+
+Sentence 522:
+(TOP or the nineteenth thursday anytime during the day)
+
+
+Sentence 523:
+(TOP ah thursday the nineteenth would probably be better i would have to squeeze you in on the twelfth)
+
+
+Sentence 524:
+(TOP ahm okay how about the nineteenth at maybe ah two oclock in the afternoon)
+
+
+Sentence 525:
+(TOP two oclock on the afternoon of the nineteenth is fine)
+
+
+Sentence 526:
+(TOP i will see you then)
+
+
+Sentence 527:
+(TOP okay great)
+
+
+Sentence 528:
+(TOP ah hi)
+
+
+Sentence 529:
+(TOP i would like to make an appointment i was wondering ah what time ah in the next couple of weeks would be good for you)
+
+
+Sentence 530:
+(TOP the seventeenth seems to be pretty clear for me the seventeenth of march)
+
+
+Sentence 531:
+(TOP ah i do not have anything on my schedule then)
+
+
+Sentence 532:
+(TOP so anytime is fine with me)
+
+
+Sentence 533:
+(TOP the seventeenth is not very good for me i have a seminar all day)
+
+
+Sentence 534:
+(TOP ahm how is the ah twenty third or twenty fifth i am free all day then)
+
+
+Sentence 535:
+(TOP the twenty third is ah fine so is the twenty fifth)
+
+
+Sentence 536:
+(TOP on each of those days i have class from nine am to twelve noon)
+
+
+Sentence 537:
+(TOP so any other time is fine with me)
+
+
+Sentence 538:
+(TOP why why do not we make it for three oclock on the twenty third)
+
+
+Sentence 539:
+(TOP okay i will see you then)
+
+
+Sentence 540:
+(TOP hi i would like to ah make another appointment)
+
+
+Sentence 541:
+(TOP i was wondering what time ah would be good for you)
+
+
+Sentence 542:
+(TOP well i have a pretty busy schedule)
+
+
+Sentence 543:
+(TOP and i have vacation several days but ah the sixteenth)
+
+
+Sentence 544:
+(TOP of april)
+
+
+Sentence 545:
+(TOP on friday)
+
+
+Sentence 546:
+(TOP i do not have anything on my schedule)
+
+
+Sentence 547:
+(TOP ahm i am going home early that day is there another day that might be a little better like the ah fourteenth or twentieth)
+
+
+Sentence 548:
+(TOP ah the fourteenth is fine ahm the only thing i have on my schedule is a doctors appointment from nine am to ten am so how is noon on the fourteenth)
+
+
+Sentence 549:
+(TOP that sounds pretty good)
+
+
+Sentence 550:
+(TOP i will see you then)
+
+
+Sentence 551:
+(TOP mr nelson i would like to get together with you with in the next couple of weeks to schedule a two hour meeting)
+
+
+Sentence 552:
+(TOP okay ah when will you be free)
+
+
+Sentence 553:
+(TOP i will be out of town from september fourth to september seventh)
+
+
+Sentence 554:
+(TOP alright)
+
+
+Sentence 555:
+(TOP excuse me i meant october fourth to october seventh)
+
+
+Sentence 556:
+(TOP how does either the twenty seventh or the twenty eighth in the after noon)
+
+
+Sentence 557:
+(TOP i am busy both of those afternoons)
+
+
+Sentence 558:
+(TOP ahm as ah i am free on the twenty ninth however)
+
+
+Sentence 559:
+(TOP i am sorry the twenty ninth is not any good for me)
+
+
+Sentence 560:
+(TOP ah how about the first of october)
+
+
+Sentence 561:
+(TOP ahm the first of october is out for me i am busy all day)
+
+
+Sentence 562:
+(TOP ahm i guess we might have to go on to a weekend)
+
+
+Sentence 563:
+(TOP i do not want to do it but ah are you free the saturday the second of october)
+
+
+Sentence 564:
+(TOP well first of all would you be able to make a meeting on the eighth)
+
+
+Sentence 565:
+(TOP i have a seminar from ten to five)
+
+
+Sentence 566:
+(TOP so ah no i do not think we could do it)
+
+
+Sentence 567:
+(TOP okay how about the saturday the second from two to four)
+
+
+Sentence 568:
+(TOP ah sounds good to me)
+
+
+Sentence 569:
+(TOP we will make it a a ah a meeting i guess)
+
+
+Sentence 570:
+(TOP see you then)
+
+
+Sentence 571:
+(TOP mr nelson i would like to get together with you with in the next two weeks to schedule a two hour meeting)
+
+
+Sentence 572:
+(TOP sounds good)
+
+
+Sentence 573:
+(TOP when are you free)
+
+
+Sentence 574:
+(TOP how about the afternoon of the twenty sixth)
+
+
+Sentence 575:
+(TOP about two thirty)
+
+
+Sentence 576:
+(TOP i am out of town from the twenty fifth to the twenty seventh)
+
+
+Sentence 577:
+(TOP ah could we do this on the twenty ninth)
+
+
+Sentence 578:
+(TOP at four perhaps)
+
+
+Sentence 579:
+(TOP or maybe in the morning)
+
+
+Sentence 580:
+(TOP i am sorry i can not do it the twenty ninth)
+
+
+Sentence 581:
+(TOP but how does the thirtieth sound)
+
+
+Sentence 582:
+(TOP i am free in the morning on the thirtieth would ah ten oclock be okay)
+
+
+Sentence 583:
+(TOP i am sorry i have a meeting at ten oclock)
+
+
+Sentence 584:
+(TOP ahm how about the afternoon of the of december second)
+
+
+Sentence 585:
+(TOP i am busy from two to four thirty on that afternoon)
+
+
+Sentence 586:
+(TOP ah could you do something after that)
+
+
+Sentence 587:
+(TOP how does five thirty to seven thirty and a late dinner sound)
+
+
+Sentence 588:
+(TOP okay then)
+
+
+Sentence 589:
+(TOP five thirty to seven and dinner on thursday the second)
+
+
+Sentence 590:
+(TOP see you then)
+
+
+Sentence 591:
+(TOP mr helwig)
+
+
+Sentence 592:
+(TOP i would like to get together with you sometime during may to schedule a two hour meeting)
+
+
+Sentence 593:
+(TOP well the first two weeks will be impossible for me to make)
+
+
+Sentence 594:
+(TOP how about if we schedule it sometime toward the end of the month)
+
+
+Sentence 595:
+(TOP is time an issue)
+
+
+Sentence 596:
+(TOP no just as long as we get it done during this month)
+
+
+Sentence 597:
+(TOP how about the twenty seventh twenty eighth or thirty first)
+
+
+Sentence 598:
+(TOP the twenty twenty sevent is fine)
+
+
+Sentence 599:
+(TOP how about ah one oclock)
+
+
+Sentence 600:
+(TOP no)
+
+
+Sentence 601:
+(TOP i am sorry)
+
+
+Sentence 602:
+(TOP that is pretty early for me to get up in the morning)
+
+
+Sentence 603:
+(TOP how about three pm)
+
+
+Sentence 604:
+(TOP that is fine i will see you then)
+
+
+Sentence 605:
+(TOP very good)
+
+
+Sentence 606:
+(TOP mr helwig)
+
+
+Sentence 607:
+(TOP i would like to get together with you some time during june to have a two hour meeting)
+
+
+Sentence 608:
+(TOP okay mr hutsell)
+
+
+Sentence 609:
+(TOP what time and what day suits you the best)
+
+
+Sentence 610:
+(TOP how about thursday the third ah in the afternoon)
+
+
+Sentence 611:
+(TOP i am sorry)
+
+
+Sentence 612:
+(TOP i will be on vacation)
+
+
+Sentence 613:
+(TOP ah perhaps we could schedule it for the ninth)
+
+
+Sentence 614:
+(TOP that will be a wednesday)
+
+
+Sentence 615:
+(TOP i am sorry i am out of town the ninth)
+
+
+Sentence 616:
+(TOP how about the tenth in the afternoon)
+
+
+Sentence 617:
+(TOP i am sorry)
+
+
+Sentence 618:
+(TOP i can not make it on the tenth)
+
+
+Sentence 619:
+(TOP i am taking the kids to kennywood)
+
+
+Sentence 620:
+(TOP ah how about the fourteenth or the seventeenth)
+
+
+Sentence 621:
+(TOP the fourteenth would be fine)
+
+
+Sentence 622:
+(TOP how does two sound)
+
+
+Sentence 623:
+(TOP we can meet in the lobby)
+
+
+Sentence 624:
+(TOP sounds good)
+
+
+Sentence 625:
+(TOP i will see you then)
+
+
+Sentence 626:
+(TOP mr helwig)
+
+
+Sentence 627:
+(TOP i would like to get together with you some time later this month to talk to you for about two hours)
+
+
+Sentence 628:
+(TOP okay mr hutsell)
+
+
+Sentence 629:
+(TOP ah the thirteenth and the fourteenth look good on my calendar)
+
+
+Sentence 630:
+(TOP as does the twenty third)
+
+
+Sentence 631:
+(TOP do either of those three days suit you)
+
+
+Sentence 632:
+(TOP the twenty third in the morning would be fine)
+
+
+Sentence 633:
+(TOP i do not like morning meetings)
+
+
+Sentence 634:
+(TOP how about the twenty seventh or twenty eighth)
+
+
+Sentence 635:
+(TOP the twenty eighth would be fine)
+
+
+Sentence 636:
+(TOP how does two sound)
+
+
+Sentence 637:
+(TOP two sounds just fine)
+
+
+Sentence 638:
+(TOP i will see you then)
+
+
+Sentence 639:
+(TOP mr helwig)
+
+
+Sentence 640:
+(TOP i would like to get together with you sometime during august to talk to you for about two hours)
+
+
+Sentence 641:
+(TOP okay)
+
+
+Sentence 642:
+(TOP the first week in august is out)
+
+
+Sentence 643:
+(TOP i can not make any days there)
+
+
+Sentence 644:
+(TOP but the second week in august looks fairly free)
+
+
+Sentence 645:
+(TOP how about the ninth eleventh or twelfth)
+
+
+Sentence 646:
+(TOP how does the ninth at two pm sound)
+
+
+Sentence 647:
+(TOP the ninth at two pm sounds fine)
+
+
+Sentence 648:
+(TOP okay i will see you then)
+
+
+Sentence 649:
+(TOP sounds good)
+
+
+Sentence 650:
+(TOP mr helwig)
+
+
+Sentence 651:
+(TOP i would like to get together with you some time later this month to schedule a meeting)
+
+
+Sentence 652:
+(TOP for about two hours)
+
+
+Sentence 653:
+(TOP ah what time would be good for you)
+
+
+Sentence 654:
+(TOP how about tuesday afternoon)
+
+
+Sentence 655:
+(TOP that would be the ninth of march)
+
+
+Sentence 656:
+(TOP ah i am sorry)
+
+
+Sentence 657:
+(TOP i am out of town then)
+
+
+Sentence 658:
+(TOP ah would the eighth eighth of march be okay)
+
+
+Sentence 659:
+(TOP i am sorry)
+
+
+Sentence 660:
+(TOP but i have no free time on the eighth)
+
+
+Sentence 661:
+(TOP ah perhaps we could schedule for the tenth or eleventh)
+
+
+Sentence 662:
+(TOP how do they look for you)
+
+
+Sentence 663:
+(TOP i am sorry i am out of town the tenth and the eleventh also)
+
+
+Sentence 664:
+(TOP ah how about the next week)
+
+
+Sentence 665:
+(TOP ah how about the sixteenth in the afternoon)
+
+
+Sentence 666:
+(TOP that would be okay for me but the seventeenth would be better)
+
+
+Sentence 667:
+(TOP how is the seventeenth on your calendar)
+
+
+Sentence 668:
+(TOP i am sorry)
+
+
+Sentence 669:
+(TOP the seventeenth is booked)
+
+
+Sentence 670:
+(TOP i have a seminar)
+
+
+Sentence 671:
+(TOP ah would the would you rather have a different time)
+
+
+Sentence 672:
+(TOP no)
+
+
+Sentence 673:
+(TOP the afternoon of the sixteenth is fine)
+
+
+Sentence 674:
+(TOP ah how about two oclock)
+
+
+Sentence 675:
+(TOP that is fine with me)
+
+
+Sentence 676:
+(TOP okay mr hutsell)
+
+
+Sentence 677:
+(TOP i will see you then)
+
+
+Sentence 678:
+(TOP mr helman i would like to get together with you hopefully later to later today ahm to talk to you for about two hours)
+
+
+Sentence 679:
+(TOP i am sorry)
+
+
+Sentence 680:
+(TOP but it will be impossible for us to meet later today)
+
+
+Sentence 681:
+(TOP ah how about tomorrow)
+
+
+Sentence 682:
+(TOP will that suit you)
+
+
+Sentence 683:
+(TOP i am sorry i am out of town ahm both tomorrow and the day after)
+
+
+Sentence 684:
+(TOP ahm how about ah friday morning)
+
+
+Sentence 685:
+(TOP i am sorry)
+
+
+Sentence 686:
+(TOP friday morning is not good for me either)
+
+
+Sentence 687:
+(TOP perhaps we can put it off until the end of next week)
+
+
+Sentence 688:
+(TOP how does the sixteenth look on your calendar)
+
+
+Sentence 689:
+(TOP that will be a friday)
+
+
+Sentence 690:
+(TOP okay)
+
+
+Sentence 691:
+(TOP the sixteenth in the morning would be fine)
+
+
+Sentence 692:
+(TOP that is fine with me)
+
+
+Sentence 693:
+(TOP pick a time of your choice)
+
+
+Sentence 694:
+(TOP how does ten oclock sound)
+
+
+Sentence 695:
+(TOP great)
+
+
+Sentence 696:
+(TOP we can go for lunch afterwards)
+
+
+Sentence 697:
+(TOP sounds good)
+
+
+Sentence 698:
+(TOP i will see you there)
+
+
+Sentence 699:
+(TOP ah matt this is brian here again i am going to need to meet with you sometime ah the ahm this month to ah discuss the documentation for the code you have written)
+
+
+Sentence 700:
+(TOP fine ahm the only problem is i am on vacation for the first two weeks of may)
+
+
+Sentence 701:
+(TOP ahm what time is good for you)
+
+
+Sentence 702:
+(TOP ahm how does the ah eighteenth look for you tuesday from about one to three)
+
+
+Sentence 703:
+(TOP i think i can fit you in then)
+
+
+Sentence 704:
+(TOP ahm the eighteenth)
+
+
+Sentence 705:
+(TOP tuesday)
+
+
+Sentence 706:
+(TOP sorry i have a class ah two to four)
+
+
+Sentence 707:
+(TOP ahm let us see)
+
+
+Sentence 708:
+(TOP how about either the twenty first)
+
+
+Sentence 709:
+(TOP or the twenty seventh)
+
+
+Sentence 710:
+(TOP ah the twenty first is a no go for me i am busy pretty much for the entire day)
+
+
+Sentence 711:
+(TOP the twenty seventh looks like i am only ah busy at about ten am for breakfast)
+
+
+Sentence 712:
+(TOP i do not know how long that lasts though but i could probably meet you towards the end of the day sometime)
+
+
+Sentence 713:
+(TOP sounds cool to me)
+
+
+Sentence 714:
+(TOP i will see you there)
+
+
+Sentence 715:
+(TOP by the way where were we meeting)
+
+
+Sentence 716:
+(TOP ah why do not you swing by my dorm sometime)
+
+
+Sentence 717:
+(TOP and ah what time should we meet at ah)
+
+
+Sentence 718:
+(TOP ah yeah good question)
+
+
+Sentence 719:
+(TOP ahm i am free any time)
+
+
+Sentence 720:
+(TOP what is best for you)
+
+
+Sentence 721:
+(TOP ah how about two pm)
+
+
+Sentence 722:
+(TOP two pm is fine for me)
+
+
+Sentence 723:
+(TOP i will stop by then)
+
+
+Sentence 724:
+(TOP okay)
+
+
+Sentence 725:
+(TOP see you)
+
+
+Sentence 726:
+(TOP hey matt this is brian again)
+
+
+Sentence 727:
+(TOP ahm let us talk about ah the marketing strategy for the program that you are work currently working on)
+
+
+Sentence 728:
+(TOP ahm i do not know i am kind of tied up this month)
+
+
+Sentence 729:
+(TOP ah mostly fridays are pretty good for me but ah let me know what time you can meet me at)
+
+
+Sentence 730:
+(TOP ah geez ahm fridays are not real real good for me)
+
+
+Sentence 731:
+(TOP it seems i have a seminar like first part of the day like are you free the second half)
+
+
+Sentence 732:
+(TOP like afternoon maybe)
+
+
+Sentence 733:
+(TOP maybe we could meet for lunch)
+
+
+Sentence 734:
+(TOP ah second half of a friday you mean)
+
+
+Sentence 735:
+(TOP yeah the second half of has of any friday that month)
+
+
+Sentence 736:
+(TOP ahm say around maybe one)
+
+
+Sentence 737:
+(TOP take you to lunch at highlander my treat)
+
+
+Sentence 738:
+(TOP ah you are prince man you should not do that for me)
+
+
+Sentence 739:
+(TOP ah god any friday is fine)
+
+
+Sentence 740:
+(TOP how about the eighteenth)
+
+
+Sentence 741:
+(TOP eighteenth is fine with me)
+
+
+Sentence 742:
+(TOP ah what time is good for you after twelve)
+
+
+Sentence 743:
+(TOP ah one sounded fine)
+
+
+Sentence 744:
+(TOP okay)
+
+
+Sentence 745:
+(TOP matt this is brian)
+
+
+Sentence 746:
+(TOP i really do not know what we have to talk about but we have to talk about something and we have to talk about it soon)
+
+
+Sentence 747:
+(TOP ahm when would be a good time for us to meet next week because i am really tied up this week i am on vacation you know with ahm mrs x and the kids)
+
+
+Sentence 748:
+(TOP ah yes say hello to lower case x for me)
+
+
+Sentence 749:
+(TOP ahm ah has let us see)
+
+
+Sentence 750:
+(TOP how is friday the twenty third to you)
+
+
+Sentence 751:
+(TOP anytime and i will we will think about something to talk about by that time)
+
+
+Sentence 752:
+(TOP ah friday is pretty bad for me)
+
+
+Sentence 753:
+(TOP i ah i have got i am busy from two to five unless you can meet me some time before that)
+
+
+Sentence 754:
+(TOP i can either meet you anytime before that)
+
+
+Sentence 755:
+(TOP or on the twenty seventh or twenty eighth)
+
+
+Sentence 756:
+(TOP fine i really like to meet sometime before that if you could how does the twenty first sound)
+
+
+Sentence 757:
+(TOP this is pretty important you know it is about toms intervention)
+
+
+Sentence 758:
+(TOP you mean sanity intervention)
+
+
+Sentence 759:
+(TOP ahm okay)
+
+
+Sentence 760:
+(TOP ah thirteenth or fourteenth it is ah how about the afternoon on the fifteenth)
+
+
+Sentence 761:
+(TOP i have a seminar from nine to twelve)
+
+
+Sentence 762:
+(TOP maybe do some sort of ah lunch meeting again)
+
+
+Sentence 763:
+(TOP sorry no can do from the fourteenth to the nineteenth me and mrs ah x eleven are going to be on vacation)
+
+
+Sentence 764:
+(TOP in widget land so ahm how about are you free ah maybe we should go back to the friday the twenty third in morning i do not think anything else is really going to be able to work out for me)
+
+
+Sentence 765:
+(TOP well ah anytime during the thirteenth is fine or the morning of the thirteenth)
+
+
+Sentence 766:
+(TOP okay i will)
+
+
+Sentence 767:
+(TOP i think you got cut off there matt what is going on there)
+
+
+Sentence 768:
+(TOP ah did you say friday the twenty third would be okay)
+
+
+Sentence 769:
+(TOP in the morning)
+
+
+Sentence 770:
+(TOP yep friday the twenty twenty thir is fine with me ah what time do you want to meet and where)
+
+
+Sentence 771:
+(TOP let us ah get some grand slams down at the ah dennys)
+
+
+Sentence 772:
+(TOP let us ah why do not we meet there at about nine oclock in the morning on the twenty third)
+
+
+Sentence 773:
+(TOP all right)
+
+
+Sentence 774:
+(TOP sounds good to me)
+
+
+Sentence 775:
+(TOP wow our funding must of really moved up in the world here)
+
+
+Sentence 776:
+(TOP no i will just tell them it is our ah it is my birthday and we will get the food for free)
+
+
+Sentence 777:
+(TOP see you there)
+
+
+Sentence 778:
+(TOP hey matt this is brian again)
+
+
+Sentence 779:
+(TOP ahm i am going to need to review these ah travel expenses you seem to have written down here and check their validity)
+
+
+Sentence 780:
+(TOP can we meet ah real soon)
+
+
+Sentence 781:
+(TOP how about friday the thirteenth)
+
+
+Sentence 782:
+(TOP ah friday the thirteenth)
+
+
+Sentence 783:
+(TOP ahm after one pm is fine for me ahm what do you mean validity)
+
+
+Sentence 784:
+(TOP ah i do not know)
+
+
+Sentence 785:
+(TOP ah i do not think taking the corporate jet to barbados is a very ah valid travel expense)
+
+
+Sentence 786:
+(TOP but friday friday would be a good time for me ahm or a good day for me rather)
+
+
+Sentence 787:
+(TOP what time did you to meet again)
+
+
+Sentence 788:
+(TOP i can meet any time the day)
+
+
+Sentence 789:
+(TOP ah anytime friday after one pm is fine for me)
+
+
+Sentence 790:
+(TOP and it was just to go ah i had to go swimming)
+
+
+Sentence 791:
+(TOP it was hot out)
+
+
+Sentence 792:
+(TOP ah well we will talk more about that later on friday at about ah ah let us make it three)
+
+
+Sentence 793:
+(TOP okay)
+
+
+Sentence 794:
+(TOP sounds good to me)
+
+
+Sentence 795:
+(TOP i will see you like i will stop by your dorm sometime)
+
+
+Sentence 796:
+(TOP hey matt this is brian)
+
+
+Sentence 797:
+(TOP i need to get together with you for about two hours)
+
+
+Sentence 798:
+(TOP ah sometime over the next couple of weeks to ah hammer out that socket code we have been working on)
+
+
+Sentence 799:
+(TOP sure sounds good)
+
+
+Sentence 800:
+(TOP ahm let us see)
+
+
+Sentence 801:
+(TOP ahm how is the seventeenth)
+
+
+Sentence 802:
+(TOP wednesday to you ahm nine am)
+
+
+Sentence 803:
+(TOP ah no can do big guy i got a seminar from nine am to four thirty pm)
+
+
+Sentence 804:
+(TOP how about ah ah monday the eighth from ah three to five)
+
+
+Sentence 805:
+(TOP ah whoops)
+
+
+Sentence 806:
+(TOP got a meeting ah two to four)
+
+
+Sentence 807:
+(TOP on monday)
+
+
+Sentence 808:
+(TOP ahm let us see)
+
+
+Sentence 809:
+(TOP how about either the twenty second or the twenty fourth)
+
+
+Sentence 810:
+(TOP any time)
+
+
+Sentence 811:
+(TOP well the ah twenty second is my golf day)
+
+
+Sentence 812:
+(TOP but i think i can schedule you in there from one to three if that is okay)
+
+
+Sentence 813:
+(TOP sounds good to me)
+
+
+Sentence 814:
+(TOP i am free most of the day)
+
+
+Sentence 815:
+(TOP although golf does not sound too bad)
+
+
+Sentence 816:
+(TOP yeah right)
+
+
+Sentence 817:
+(TOP okay i will have my secretary ah secretary get in touch with yours then)
+
+
+Sentence 818:
+(TOP and we will do lunch)
+
+
+Sentence 819:
+(TOP only if it is a power lunch)
+
+
+Sentence 820:
+(TOP ah matt)
+
+
+Sentence 821:
+(TOP yeah this is brian again)
+
+
+Sentence 822:
+(TOP ah i can not seem to get that socket code to compile i am going need to ah meet with you for about two more hours again sometime this week)
+
+
+Sentence 823:
+(TOP when would be good for you)
+
+
+Sentence 824:
+(TOP hm sometime this week has)
+
+
+Sentence 825:
+(TOP ahm let us see)
+
+
+Sentence 826:
+(TOP how about sometime in the morning on tuesday the sixth)
+
+
+Sentence 827:
+(TOP ah sorry there is no way i am going to be out of town i am going to be in ah cleveland on the sixth)
+
+
+Sentence 828:
+(TOP how about sometime ah actually the maybe this week is not going to be so good)
+
+
+Sentence 829:
+(TOP how about geez)
+
+
+Sentence 830:
+(TOP ah tuesday the twentieth any time on that day are you free)
+
+
+Sentence 831:
+(TOP ah let us see)
+
+
+Sentence 832:
+(TOP tuesday the twentieth)
+
+
+Sentence 833:
+(TOP anytime besides like two pm to four pm i have got a meeting then)
+
+
+Sentence 834:
+(TOP ahm what about like eleven oclock maybe)
+
+
+Sentence 835:
+(TOP ah eleven oclock would be just great for me)
+
+
+Sentence 836:
+(TOP where should we meet)
+
+
+Sentence 837:
+(TOP well ah wean two maybe)
+
+
+Sentence 838:
+(TOP okay see you there)
+
+
+Sentence 839:
+(TOP fine)
+
+
+Sentence 840:
+(TOP hello ahm it is me again)
+
+
+Sentence 841:
+(TOP i have to set up another meeting with you ahm some time in the month of march what day would be good for you)
+
+
+Sentence 842:
+(TOP well ah how about ah friday the twenty first)
+
+
+Sentence 843:
+(TOP at ah twelve thirty pm)
+
+
+Sentence 844:
+(TOP ah i can not do it on friday the twenty first because i have seminar)
+
+
+Sentence 845:
+(TOP from eight am to five pm)
+
+
+Sentence 846:
+(TOP what about ahm like thursday)
+
+
+Sentence 847:
+(TOP or monday)
+
+
+Sentence 848:
+(TOP like thursday the twentieth or monday the seventeenth)
+
+
+Sentence 849:
+(TOP monday the seventeenth i am busy ah all day)
+
+
+Sentence 850:
+(TOP at a seminar)
+
+
+Sentence 851:
+(TOP the ah thursday the twentieth i am free in the afternoon)
+
+
+Sentence 852:
+(TOP how about ah one pm on thursday the twentieth)
+
+
+Sentence 853:
+(TOP one pm on thursday the twentieth is good for me)
+
+
+Sentence 854:
+(TOP ahm okay i will be there then)
+
+
+Sentence 855:
+(TOP on at that time)
+
+
+Sentence 856:
+(TOP thanks)
+
+
+Sentence 857:
+(TOP see you then)
+
+
+Sentence 858:
+(TOP bye)
+
+
+Sentence 859:
+(TOP okay bye)
+
+
+Sentence 860:
+(TOP hi)
+
+
+Sentence 861:
+(TOP ahm i want to set up a meeting with you for the month of june ahm i was wondering could we meet some time like monday the fourteenth)
+
+
+Sentence 862:
+(TOP or friday the eighteenth)
+
+
+Sentence 863:
+(TOP during that week)
+
+
+Sentence 864:
+(TOP could we meet some time then)
+
+
+Sentence 865:
+(TOP monday the fourteenth is ah fine)
+
+
+Sentence 866:
+(TOP any any time you like)
+
+
+Sentence 867:
+(TOP could i come in ahm some time before noon)
+
+
+Sentence 868:
+(TOP would that be okay with you)
+
+
+Sentence 869:
+(TOP sure)
+
+
+Sentence 870:
+(TOP how about ten thirty)
+
+
+Sentence 871:
+(TOP ten thirty will be fine)
+
+
+Sentence 872:
+(TOP see you then)
+
+
+Sentence 873:
+(TOP thanks)
+
+
+Sentence 874:
+(TOP bye)
+
+
+Sentence 875:
+(TOP hello ahm something has come up recently and i have to talk to you about it)
+
+
+Sentence 876:
+(TOP so can i come and see you some time this month)
+
+
+Sentence 877:
+(TOP ah how about some time ahm next week)
+
+
+Sentence 878:
+(TOP like monday the fifth or wednesday the seventh)
+
+
+Sentence 879:
+(TOP ahm ah those days are not good for me)
+
+
+Sentence 880:
+(TOP how about ah friday the twenty third)
+
+
+Sentence 881:
+(TOP is there any way that you can meet with me some time earlier)
+
+
+Sentence 882:
+(TOP like the twenty first of wednesday or the twelfth of monday)
+
+
+Sentence 883:
+(TOP well i am out of town on the twenty first)
+
+
+Sentence 884:
+(TOP ahm how about ah the fourteenth or thirteenth)
+
+
+Sentence 885:
+(TOP okay)
+
+
+Sentence 886:
+(TOP on the fourteenth i am on vacation on the thirteenth i have a seminar from four am from nine am to four pm)
+
+
+Sentence 887:
+(TOP so ahm so i could probably meet you before nine am or after four pm)
+
+
+Sentence 888:
+(TOP but if that is really a problem then i guess i will wait and we can meet on the twenty third of friday)
+
+
+Sentence 889:
+(TOP the twenty third really would be the best for me how about ah one pm on the twenty third then)
+
+
+Sentence 890:
+(TOP okay ahm one pm i mean one pm is okay then)
+
+
+Sentence 891:
+(TOP on the twenty third)
+
+
+Sentence 892:
+(TOP okay i will see you then)
+
+
+Sentence 893:
+(TOP bye)
+
+
+Sentence 894:
+(TOP bye)
+
+
+Sentence 895:
+(TOP hello ahm yeah i need to schedule a meeting with you some time during the month of august ahm what time would be good for you)
+
+
+Sentence 896:
+(TOP well ah in general the week of the ninth)
+
+
+Sentence 897:
+(TOP through thirteenth is in pretty free specifically ah the ninth eleventh and twelfth are good)
+
+
+Sentence 898:
+(TOP ah any time then convenient for you)
+
+
+Sentence 899:
+(TOP okay ahm on the ninth i could only meet you in the afternoon some time and on the tenth i could only meet you in the morning)
+
+
+Sentence 900:
+(TOP but ahm on the thirteenth though it is a free day for me)
+
+
+Sentence 901:
+(TOP and i do not i do not have anything to do then so ahm well what about the thirteenth)
+
+
+Sentence 902:
+(TOP is that is that a good day)
+
+
+Sentence 903:
+(TOP i do have a class from eleven thirty to one pm but ah any time around ah after one pm would be good how about ah two oclock on the thirteenth)
+
+
+Sentence 904:
+(TOP that is good for me)
+
+
+Sentence 905:
+(TOP ahm okay i will meet you i will meet you at on friday the thirteenth at ahm what was that two pm)
+
+
+Sentence 906:
+(TOP okay)
+
+
+Sentence 907:
+(TOP yeah)
+
+
+Sentence 908:
+(TOP two pm)
+
+
+Sentence 909:
+(TOP ah i will see you then)
+
+
+Sentence 910:
+(TOP bye)
+
+
+Sentence 911:
+(TOP bye)
+
+
+Sentence 912:
+(TOP hello ah i want to schedule a meeting ahm i want to schedule it for friday in the morning is that okay)
+
+
+Sentence 913:
+(TOP ahm the next couple of fridays are not good for me)
+
+
+Sentence 914:
+(TOP i have a meeting today the fifth and ah a seminar the next two fridays how about friday the twenty sixth)
+
+
+Sentence 915:
+(TOP in the morning)
+
+
+Sentence 916:
+(TOP ahm friday the twenty sixth seems to be a good day but it will have to be early in the morning because i have class from nine am to eleven am and then ahm i will be busy after that but if we could do it at eight oclock that would be pretty good)
+
+
+Sentence 917:
+(TOP eight is a little early but ah okay)
+
+
+Sentence 918:
+(TOP i will see you then)
+
+
+Sentence 919:
+(TOP bye)
+
+
+Sentence 920:
+(TOP okay thanks a lot i will be there ah friday the twenty sixth at eight am bye)
+
+
+Sentence 921:
+(TOP hello)
+
+
+Sentence 922:
+(TOP ahm i need to set up a meeting with you ahm some time soon because i have to talk to you about something)
+
+
+Sentence 923:
+(TOP ahm could we set the meeting ahm around friday)
+
+
+Sentence 924:
+(TOP in the morning)
+
+
+Sentence 925:
+(TOP is that okay with you)
+
+
+Sentence 926:
+(TOP well ah friday the ninth i have a seminar am an and i am kind of busy)
+
+
+Sentence 927:
+(TOP the ah sixteenth would be good)
+
+
+Sentence 928:
+(TOP i am free all day)
+
+
+Sentence 929:
+(TOP friday the sixteenth is a good day ah for me also)
+
+
+Sentence 930:
+(TOP maybe we could meet ahm some time before lunch)
+
+
+Sentence 931:
+(TOP would that be okay with you)
+
+
+Sentence 932:
+(TOP sure)
+
+
+Sentence 933:
+(TOP how about ah ten thirty)
+
+
+Sentence 934:
+(TOP in the morning)
+
+
+Sentence 935:
+(TOP ten thirty sounds good)
+
+
+Sentence 936:
+(TOP okay i will be there at ten thirty on friday the sixteenth)
+
+
+Sentence 937:
+(TOP bye)
+
+
+Sentence 938:
+(TOP thanks)
+
+
+Sentence 939:
+(TOP okay)
+
+
+Sentence 940:
+(TOP bye)
+
+
+Sentence 941:
+(TOP alright how is your schedule on the sixth tenth or thirteenth)
+
+
+Sentence 942:
+(TOP well ah i am going to be on vacation from the second until the fifteenth)
+
+
+Sentence 943:
+(TOP so it is going to have to be sometime after that)
+
+
+Sentence 944:
+(TOP okay how about the seventeenth twentieth or twenty fourth)
+
+
+Sentence 945:
+(TOP i am free all day on those days)
+
+
+Sentence 946:
+(TOP ah the twenty fourth would be okay i have got a doctor appointment at four pm)
+
+
+Sentence 947:
+(TOP so it is going to be it is going to have to be before that)
+
+
+Sentence 948:
+(TOP how about an early start)
+
+
+Sentence 949:
+(TOP ah nine to eleven ah on the morning of the twenty fourth)
+
+
+Sentence 950:
+(TOP okay that will be fine with me i will see you then)
+
+
+Sentence 951:
+(TOP alright)
+
+
+Sentence 952:
+(TOP alright)
+
+
+Sentence 953:
+(TOP ahm how about anytime thursday afternoon or on friday)
+
+
+Sentence 954:
+(TOP okay i will be free all day the seventeenth and the twenty fourth)
+
+
+Sentence 955:
+(TOP well my conference on the seventeenth is over at eleven so how about i grab some lunch then we meet from one to three)
+
+
+Sentence 956:
+(TOP okay that will be fine with me i guess i will see you then)
+
+
+Sentence 957:
+(TOP oops i did not mean to give myself two hours for lunch)
+
+
+Sentence 958:
+(TOP how about ah just twelve to two)
+
+
+Sentence 959:
+(TOP okay that will be fine)
+
+
+Sentence 960:
+(TOP i guess i will see you then)
+
+
+Sentence 961:
+(TOP i am looking forward to it)
+
+
+Sentence 962:
+(TOP alright)
+
+
+Sentence 963:
+(TOP any suggestions)
+
+
+Sentence 964:
+(TOP well i will be free on the thirteenth and the fourteenth ahm i am also going to be out of town the nineteenth through the twenty first so it can not be during then)
+
+
+Sentence 965:
+(TOP well i have a meeting all day on the thirteenth)
+
+
+Sentence 966:
+(TOP and on the fourteenth i am leaving for my bobsledding vacation)
+
+
+Sentence 967:
+(TOP until the nineteenth)
+
+
+Sentence 968:
+(TOP ahm how about the morning of the twenty second or the twenty third)
+
+
+Sentence 969:
+(TOP ahm i will not be able to make it in the morning on the twenty second since i have a meeting from nine until twelve ah the twenty third though i am free all day)
+
+
+Sentence 970:
+(TOP alright how about at ah nine to eleven on the twenty third)
+
+
+Sentence 971:
+(TOP okay that will be fine with me)
+
+
+Sentence 972:
+(TOP maybe we could get some breakfast)
+
+
+Sentence 973:
+(TOP and then ahm i could show you this neat game i have called doom)
+
+
+Sentence 974:
+(TOP thanks)
+
+
+Sentence 975:
+(TOP bye)
+
+
+Sentence 976:
+(TOP what do you think of the thirteenth or the seventeenth)
+
+
+Sentence 977:
+(TOP i am free all day)
+
+
+Sentence 978:
+(TOP well on the thirteenth i have class from eleven thirty until one so the afternoon would be fine)
+
+
+Sentence 979:
+(TOP or if you want the seventeenth i have got ahm i am free anytime before one since i have a conference from ahm one until six)
+
+
+Sentence 980:
+(TOP well we can not do anything until after our next meeting so why do not we make it the earlier date on the afternoon of the thirteenth)
+
+
+Sentence 981:
+(TOP ah say ah three to five)
+
+
+Sentence 982:
+(TOP okay that will be fine with me)
+
+
+Sentence 983:
+(TOP ahm i guess three to five will be fine and then afterwards maybe we could get go for dinner or something)
+
+
+Sentence 984:
+(TOP okay)
+
+
+Sentence 985:
+(TOP ahm how about eleven am on the twelfth)
+
+
+Sentence 986:
+(TOP ahm no)
+
+
+Sentence 987:
+(TOP i have a class then until twelve)
+
+
+Sentence 988:
+(TOP ahm can you make it like after twelve)
+
+
+Sentence 989:
+(TOP on the eleventh)
+
+
+Sentence 990:
+(TOP ahm if i said eleventh i was mistaken i meant twelfth ahm anyway that rules out any morning)
+
+
+Sentence 991:
+(TOP how about after the afternoon of the sixteenth)
+
+
+Sentence 992:
+(TOP ahm did you say the sixteenth)
+
+
+Sentence 993:
+(TOP because i could ah meet anytime in the afternoon)
+
+
+Sentence 994:
+(TOP yes on the sixteenth)
+
+
+Sentence 995:
+(TOP all i have is nine to twelve)
+
+
+Sentence 996:
+(TOP class)
+
+
+Sentence 997:
+(TOP ah how about twelve)
+
+
+Sentence 998:
+(TOP or one)
+
+
+Sentence 999:
+(TOP give me time for lunch)
+
+
+Sentence 1000:
+(TOP okay i will see you from one until three on the sixteenth after lunch see you)
+
+
+Sentence 1001:
+(TOP good bye)
+
+
+Sentence 1002:
+(TOP okay this should not be too hard)
+
+
+Sentence 1003:
+(TOP how about before two on the ninth thirteenth fourteenth or sixteenth)
+
+
+Sentence 1004:
+(TOP okay i will be ahm free all day on the sixteenth what time would you like to meet)
+
+
+Sentence 1005:
+(TOP well as long as i am gone by four it will be okay how about at one to three)
+
+
+Sentence 1006:
+(TOP on the sixteenth)
+
+
+Sentence 1007:
+(TOP well how about having a meeting during lunch maybe from ahm we could like go out for lunch or something)
+
+
+Sentence 1008:
+(TOP from like twelve until two)
+
+
+Sentence 1009:
+(TOP how does that sound)
+
+
+Sentence 1010:
+(TOP fine)
+
+
+Sentence 1011:
+(TOP i will see you then)
+
+
+Sentence 1012:
+(TOP okay bye)
+
+
+Sentence 1013:
+(TOP ahm i need to the set up a meeting some time around the sixth)
+
+
+Sentence 1014:
+(TOP thursday the sixth)
+
+
+Sentence 1015:
+(TOP ah no i am sorry i am going to be on vacation until the seventeenth of may)
+
+
+Sentence 1016:
+(TOP how about some time after that)
+
+
+Sentence 1017:
+(TOP ahm i am free all day on the twentieth if you have time then)
+
+
+Sentence 1018:
+(TOP how about the twentieth at one oclock pm)
+
+
+Sentence 1019:
+(TOP alright that is fine)
+
+
+Sentence 1020:
+(TOP i will see you then)
+
+
+Sentence 1021:
+(TOP bye)
+
+
+Sentence 1022:
+(TOP ahm hello ahm do you are you free anytime any friday this month just so we can get together sometime)
+
+
+Sentence 1023:
+(TOP any time after noon on fridays)
+
+
+Sentence 1024:
+(TOP is good for me)
+
+
+Sentence 1025:
+(TOP okay how about two oclock on friday the fourth)
+
+
+Sentence 1026:
+(TOP oops i am sorry)
+
+
+Sentence 1027:
+(TOP on the fourth i have vacation it will have to be the eleventh the eighteenth or the twenty fifth)
+
+
+Sentence 1028:
+(TOP okay how about two oclock on the eleventh)
+
+
+Sentence 1029:
+(TOP two oclock on the eleventh of june will be fine good bye)
+
+
+Sentence 1030:
+(TOP bye)
+
+
+Sentence 1031:
+(TOP ahm do you have any free time on wednesday the twenty first that we could set up a meeting)
+
+
+Sentence 1032:
+(TOP no i am sorry i am going to be out of town that day you will have to pick another day)
+
+
+Sentence 1033:
+(TOP okay how about the twenty eighth any time on wednesday)
+
+
+Sentence 1034:
+(TOP yeah the twenty eighth sounds good how about at two pm)
+
+
+Sentence 1035:
+(TOP two pm sounds good i will see you then)
+
+
+Sentence 1036:
+(TOP bye)
+
+
+Sentence 1037:
+(TOP ahm do you have any free time on the week of the twenty third)
+
+
+Sentence 1038:
+(TOP why yes i do)
+
+
+Sentence 1039:
+(TOP the twenty third and the twenty fifth are both free for me the twenty sixth i am out of town though)
+
+
+Sentence 1040:
+(TOP any time that is good for you will do)
+
+
+Sentence 1041:
+(TOP how about twelve thirty on the twenty fifth)
+
+
+Sentence 1042:
+(TOP it is a date i will see you then)
+
+
+Sentence 1043:
+(TOP twelve thirty on the twenty fifth of august)
+
+
+Sentence 1044:
+(TOP in our year of the lord nineteen ninety three)
+
+
+Sentence 1045:
+(TOP okay see you then)
+
+
+Sentence 1046:
+(TOP ahm i need to set up a meeting some time next within the next two weeks)
+
+
+Sentence 1047:
+(TOP okay how is the seventeenth for you)
+
+
+Sentence 1048:
+(TOP ahm i have a seminar from nine to four)
+
+
+Sentence 1049:
+(TOP ah ah)
+
+
+Sentence 1050:
+(TOP hm well what about four)
+
+
+Sentence 1051:
+(TOP that day)
+
+
+Sentence 1052:
+(TOP ahm after four thirty would be fine)
+
+
+Sentence 1053:
+(TOP ahm i guess you better make it a better day because ah we are not supposed to meet at after after five)
+
+
+Sentence 1054:
+(TOP so what about on the ah eighteenth)
+
+
+Sentence 1055:
+(TOP ahm i have a pretty full schedule the eighteenth)
+
+
+Sentence 1056:
+(TOP do you have any time on the sixteenth)
+
+
+Sentence 1057:
+(TOP after twelve)
+
+
+Sentence 1058:
+(TOP yeah i am free)
+
+
+Sentence 1059:
+(TOP after twelve the whole day)
+
+
+Sentence 1060:
+(TOP what about you)
+
+
+Sentence 1061:
+(TOP yeah okay let us just meet at twelve then on the sixteenth)
+
+
+Sentence 1062:
+(TOP how about one)
+
+
+Sentence 1063:
+(TOP i have to eat lunch)
+
+
+Sentence 1064:
+(TOP alright)
+
+
+Sentence 1065:
+(TOP one is fine)
+
+
+Sentence 1066:
+(TOP ahm i need to set a meeting sometime within the next two weeks)
+
+
+Sentence 1067:
+(TOP okay how is the fourteenth after ten am for you)
+
+
+Sentence 1068:
+(TOP ahm it is fine as long as we finish before two because i have class then)
+
+
+Sentence 1069:
+(TOP okay how about eleven am on april fourteenth)
+
+
+Sentence 1070:
+(TOP alright i will see you then)
+
+
+Sentence 1071:
+(TOP so when are we going to get together for that meeting)
+
+
+Sentence 1072:
+(TOP well i am going to california for two weeks from the ah second to the fifteenth so i am quite busy)
+
+
+Sentence 1073:
+(TOP how about ah the twenty seventh on thursday)
+
+
+Sentence 1074:
+(TOP ah twenty seventh sounds good ahm how about a lunch meeting)
+
+
+Sentence 1075:
+(TOP meet say twelve oclock or so)
+
+
+Sentence 1076:
+(TOP very well)
+
+
+Sentence 1077:
+(TOP ah yum wok then)
+
+
+Sentence 1078:
+(TOP ah i do not know if we can do yum wok)
+
+
+Sentence 1079:
+(TOP i have got these great gift certificates for dominos though)
+
+
+Sentence 1080:
+(TOP okay then i will see you on the twenty seventh)
+
+
+Sentence 1081:
+(TOP bye)
+
+
+Sentence 1082:
+(TOP see you then)
+
+
+Sentence 1083:
+(TOP ahm so when are we going to do the performance review)
+
+
+Sentence 1084:
+(TOP ahm well i am free the wednesday the ninth)
+
+
+Sentence 1085:
+(TOP i think ah about two in the afternoon should be fine for me)
+
+
+Sentence 1086:
+(TOP ah sorry)
+
+
+Sentence 1087:
+(TOP i am out of town)
+
+
+Sentence 1088:
+(TOP i am in juneau)
+
+
+Sentence 1089:
+(TOP for the seventh eighth and ninth for a convention)
+
+
+Sentence 1090:
+(TOP ahm friday would be good thursday afternoon maybe)
+
+
+Sentence 1091:
+(TOP thursday i am going to be in the city at a seminar)
+
+
+Sentence 1092:
+(TOP ah i mean friday i am going to be in the city for a seminar)
+
+
+Sentence 1093:
+(TOP thursday i have off)
+
+
+Sentence 1094:
+(TOP how about ah thursday the seventeenth)
+
+
+Sentence 1095:
+(TOP okay that would be good)
+
+
+Sentence 1096:
+(TOP ah ahm anytime after noon i have got group meeting that morning)
+
+
+Sentence 1097:
+(TOP so i going to say thursday the twenty seventeenth)
+
+
+Sentence 1098:
+(TOP that afternoon)
+
+
+Sentence 1099:
+(TOP okay)
+
+
+Sentence 1100:
+(TOP see you then)
+
+
+Sentence 1101:
+(TOP until then)
+
+
+Sentence 1102:
+(TOP well looks like it is time to set up another meeting)
+
+
+Sentence 1103:
+(TOP yes)
+
+
+Sentence 1104:
+(TOP but our ah usual time of ah thursdays is not going to be good i am booked most of the thursdays of the month)
+
+
+Sentence 1105:
+(TOP how about a wednesday)
+
+
+Sentence 1106:
+(TOP ah wednesday in general is pretty good)
+
+
+Sentence 1107:
+(TOP not the fourteenth though this wednesday i am on vacation)
+
+
+Sentence 1108:
+(TOP how about next wednesday the twenty first)
+
+
+Sentence 1109:
+(TOP no the twenty first i am out of town)
+
+
+Sentence 1110:
+(TOP how about the fourteenth or the twenty eighth)
+
+
+Sentence 1111:
+(TOP i said i am out of town on the fourteenth so the twenty eighth sounds good to me i am free all day)
+
+
+Sentence 1112:
+(TOP okay yeah twenty eighth at one pm)
+
+
+Sentence 1113:
+(TOP i will see you then)
+
+
+Sentence 1114:
+(TOP one pm then)
+
+
+Sentence 1115:
+(TOP once again another meeting)
+
+
+Sentence 1116:
+(TOP ahm when would be good for you)
+
+
+Sentence 1117:
+(TOP well the ah mondays in general are quite good)
+
+
+Sentence 1118:
+(TOP how about the ah sixteenth)
+
+
+Sentence 1119:
+(TOP ahm i have got a class in the morning but i am free most of the afternoon)
+
+
+Sentence 1120:
+(TOP ahm if you can work me in that afternoon that would be great)
+
+
+Sentence 1121:
+(TOP sure)
+
+
+Sentence 1122:
+(TOP how about ah two oclock then)
+
+
+Sentence 1123:
+(TOP sounds good to me)
+
+
+Sentence 1124:
+(TOP i will see you then)
+
+
+Sentence 1125:
+(TOP bye)
+
+
+Sentence 1126:
+(TOP yes i would like to make a meeting)
+
+
+Sentence 1127:
+(TOP very well)
+
+
+Sentence 1128:
+(TOP how is ah the seventeenth)
+
+
+Sentence 1129:
+(TOP repeat that again)
+
+
+Sentence 1130:
+(TOP ahm seventeenth is no good for me)
+
+
+Sentence 1131:
+(TOP i am in a seminar all day)
+
+
+Sentence 1132:
+(TOP how is the twenty third)
+
+
+Sentence 1133:
+(TOP okay but i have a class from ah nine am to twelve pm)
+
+
+Sentence 1134:
+(TOP how about ah one oclock)
+
+
+Sentence 1135:
+(TOP in the afternoon)
+
+
+Sentence 1136:
+(TOP one oclock sounds good to me)
+
+
+Sentence 1137:
+(TOP ahm let us make it a meeting then)
+
+
+Sentence 1138:
+(TOP okay)
+
+
+Sentence 1139:
+(TOP i look forward to seeing you there)
+
+
+Sentence 1140:
+(TOP see you then)
+
+
+Sentence 1141:
+(TOP listen)
+
+
+Sentence 1142:
+(TOP i think we need to setup a meeting)
+
+
+Sentence 1143:
+(TOP yes)
+
+
+Sentence 1144:
+(TOP how about monday the nineteenth at ah five thirty pm)
+
+
+Sentence 1145:
+(TOP ah that is not going to work)
+
+
+Sentence 1146:
+(TOP i am busy that night)
+
+
+Sentence 1147:
+(TOP ahm how about the twentieth)
+
+
+Sentence 1148:
+(TOP i am free all day then)
+
+
+Sentence 1149:
+(TOP well i have a meeting from two to four in the afternoon)
+
+
+Sentence 1150:
+(TOP how about nine thirty in the morning if you can get up that early)
+
+
+Sentence 1151:
+(TOP that could be a stretch but i think i can manage)
+
+
+Sentence 1152:
+(TOP ahm nine thirty on the twentieth it is)
+
+
+Sentence 1153:
+(TOP i will see you then)
+
+
+Sentence 1154:
+(TOP okay great)
+
+
+Sentence 1155:
+(TOP bye)
+
+
+Sentence 1156:
+(TOP bye)
+
+
+Sentence 1157:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1158:
+(TOP okay)
+
+
+Sentence 1159:
+(TOP when would you like to make an appointment for)
+
+
+Sentence 1160:
+(TOP i am free on the sixth and the tenth)
+
+
+Sentence 1161:
+(TOP ah no those days will be impossible for me to make i am on vacation from the second to the twelfth)
+
+
+Sentence 1162:
+(TOP i am going to see the grand canyon)
+
+
+Sentence 1163:
+(TOP no actually to the fifteenth)
+
+
+Sentence 1164:
+(TOP i am sorry i misread my calendar)
+
+
+Sentence 1165:
+(TOP how about something closer to the end of the month)
+
+
+Sentence 1166:
+(TOP say the twenty first)
+
+
+Sentence 1167:
+(TOP that would be a friday or the twenty seventh or twenty eighth)
+
+
+Sentence 1168:
+(TOP the twenty seventh at about noon looks pretty good)
+
+
+Sentence 1169:
+(TOP where would you like to meet)
+
+
+Sentence 1170:
+(TOP ah let us see)
+
+
+Sentence 1171:
+(TOP we should have a working lunch)
+
+
+Sentence 1172:
+(TOP ah what restaurants around here do you like the best)
+
+
+Sentence 1173:
+(TOP i am relatively new to the region)
+
+
+Sentence 1174:
+(TOP ah what restaurants would you suggest)
+
+
+Sentence 1175:
+(TOP ah how about we meet at the cliffside ah up on mount washington)
+
+
+Sentence 1176:
+(TOP it has a great view of the city)
+
+
+Sentence 1177:
+(TOP i think you will really like it)
+
+
+Sentence 1178:
+(TOP okay cliffside at noon)
+
+
+Sentence 1179:
+(TOP on the twenty seventh)
+
+
+Sentence 1180:
+(TOP i will see you then)
+
+
+Sentence 1181:
+(TOP great)
+
+
+Sentence 1182:
+(TOP just tell the cab driver)
+
+
+Sentence 1183:
+(TOP he will know how to get there)
+
+
+Sentence 1184:
+(TOP hello)
+
+
+Sentence 1185:
+(TOP i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1186:
+(TOP okay mr latimer)
+
+
+Sentence 1187:
+(TOP when would you like to meet)
+
+
+Sentence 1188:
+(TOP the twenty first or the twenty second)
+
+
+Sentence 1189:
+(TOP are looking good)
+
+
+Sentence 1190:
+(TOP ah that will be impossible for me i will be out of town the twenty first through the twenty third)
+
+
+Sentence 1191:
+(TOP i am going meeting in philadelphia)
+
+
+Sentence 1192:
+(TOP ah how about the twenty fourth)
+
+
+Sentence 1193:
+(TOP or the twenty eighth)
+
+
+Sentence 1194:
+(TOP the twenty eighth looks good)
+
+
+Sentence 1195:
+(TOP how does three pm look)
+
+
+Sentence 1196:
+(TOP how does three oclock on the twenty eighth look)
+
+
+Sentence 1197:
+(TOP the twenty eighth looks pretty good)
+
+
+Sentence 1198:
+(TOP three oclock that seems fine)
+
+
+Sentence 1199:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1200:
+(TOP okay mr latimer ahm how about some time say the thirteenth or the fourteenth)
+
+
+Sentence 1201:
+(TOP those days look really bad for me how about the twenty first first)
+
+
+Sentence 1202:
+(TOP or twenty eighth through the thirtieth)
+
+
+Sentence 1203:
+(TOP i will be out of town on the twenty first)
+
+
+Sentence 1204:
+(TOP ah twenty eighth)
+
+
+Sentence 1205:
+(TOP twenty eighth looks pretty good on this end)
+
+
+Sentence 1206:
+(TOP ah should we make it an afternoon meeting)
+
+
+Sentence 1207:
+(TOP afternoon meeting looks good)
+
+
+Sentence 1208:
+(TOP two or three oclock)
+
+
+Sentence 1209:
+(TOP let us make it two oclock then we might be able to cut out early)
+
+
+Sentence 1210:
+(TOP alright)
+
+
+Sentence 1211:
+(TOP two oclock on the twenty eighth it is)
+
+
+Sentence 1212:
+(TOP see you then)
+
+
+Sentence 1213:
+(TOP okay i will meet you in my office)
+
+
+Sentence 1214:
+(TOP hello i would like to make an appointment for dewitt latimer)
+
+
+Sentence 1215:
+(TOP okay mr latimer ah this week of the second is bad for me however the week of the ninth looks pretty reasonable)
+
+
+Sentence 1216:
+(TOP do you have any time that week)
+
+
+Sentence 1217:
+(TOP how does the thirteenth look for you)
+
+
+Sentence 1218:
+(TOP i can do a morning meeting in the thirteenth or a later afternoon meeting say two oclock)
+
+
+Sentence 1219:
+(TOP morning meeting about ten oclock)
+
+
+Sentence 1220:
+(TOP looks good here)
+
+
+Sentence 1221:
+(TOP let us make it nine oclock i have a class that i have to take at one thirty and that will give me enough time if we make it nine oclock)
+
+
+Sentence 1222:
+(TOP okay that looks reasonable i can do that)
+
+
+Sentence 1223:
+(TOP i will see you my office)
+
+
+Sentence 1224:
+(TOP your office)
+
+
+Sentence 1225:
+(TOP i guess we can meet at your office)
+
+
+Sentence 1226:
+(TOP ah where did you say your office was)
+
+
+Sentence 1227:
+(TOP ah my office is in wean forty two twenty two)
+
+
+Sentence 1228:
+(TOP okay)
+
+
+Sentence 1229:
+(TOP sounds good mr latimer)
+
+
+Sentence 1230:
+(TOP i will see you there)
+
+
+Sentence 1231:
+(TOP hello i would like to make an appointment)
+
+
+Sentence 1232:
+(TOP name of dewitt latimer)
+
+
+Sentence 1233:
+(TOP well okay)
+
+
+Sentence 1234:
+(TOP if you want to schedule an appointment)
+
+
+Sentence 1235:
+(TOP i could meet with you let us see)
+
+
+Sentence 1236:
+(TOP how about the seventeenth)
+
+
+Sentence 1237:
+(TOP or the twenty second)
+
+
+Sentence 1238:
+(TOP the twenty second is looks good for me about afternoon probably before five)
+
+
+Sentence 1239:
+(TOP pm)
+
+
+Sentence 1240:
+(TOP well before five pm is a good choice i go home at five pm)
+
+
+Sentence 1241:
+(TOP i have to eat dinner)
+
+
+Sentence 1242:
+(TOP ah twenty second)
+
+
+Sentence 1243:
+(TOP how about any time in the afternoon)
+
+
+Sentence 1244:
+(TOP how does three oclock look)
+
+
+Sentence 1245:
+(TOP three oclock three oclock is looking pretty good on this end)
+
+
+Sentence 1246:
+(TOP okay i will take three oclock on the twenty second)
+
+
+Sentence 1247:
+(TOP i will see you then)
+
+
+Sentence 1248:
+(TOP sounds good)
+
+

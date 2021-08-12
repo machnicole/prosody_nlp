@@ -1,0 +1,10380 @@
+# Time of run:
+# Mon Jul  5 19:42:53 2021
+# Command:
+# ./berkeley_parse_analyser/classify_german_vm.py sample_data/vm_ger_no_speech_output_dev.txt sample_data/dev_ger.trees classified.vm_ger.no_speech
+#
+Sentence 1:
+(TOP grus gott frau johann)
+
+
+Sentence 2:
+(TOP wenn ich richtig informiert bin musten wir unbedingt eine termin fur eine geschaftsreise nach hannover vereinbaren)
+
+
+Sentence 3:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF die frage)
+		(LK ist)
+		(NF
+			(SIMPX
+				(LK haben)
+				(MF
+					(NX sie)
+					[01;36m(NX[00m
+						(NX irgendwelche praferierten termine)
+						(PX von sich aus)[01;36m)[00m)))))
+
+
+Sentence 4:
+(TOP also es sieht so aus das der juli eigentlich schon ziemlich voll ist da hatte ich eigentlich nur noch den elften und zwolften freitag und samstag anzubieten)
+
+
+Sentence 5:
+(TOP oder den einundzwanzigsten zweiundzwanzigsten)
+
+
+Sentence 6:
+(TOP wie sieht das denn bei ihnen im august vierter funfter august aus)
+
+
+Sentence 7:
+(TOP
+	(SIMPX vierter funfter august ist auch nicht so gut weil ich dann am sechsten gleich nach potsdam fahre)
+	[01;36m(DM[00m
+		(KON und)[01;36m)[00m)
+
+
+Sentence 8:
+(TOP ach das ist ja witzig da mus ich namlich auch hin)
+
+
+Sentence 9:
+(TOP ich dachte man konnte gleich weiterfliegen von hannover)
+
+
+Sentence 10:
+(TOP ja dann das ware eine gute idee das konnten wir machen)
+
+
+Sentence 11:
+(TOP dann ware das vielleicht gar nicht so ungunstig wenn man dann schon mal unterwegs ist)
+
+
+Sentence 12:
+(TOP wie wollen wir denn nach hannover hinkommen)
+
+
+Sentence 13:
+(TOP mit dem zug oder wollen sie lieber fliegen)
+
+
+Sentence 14:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK denke)
+		(NF
+			(SIMPX
+				(VF in anbetracht der knappen zeit)
+				(LK konnte)
+				(MF
+					(NX man)
+					(NX die tage)
+					(ADVX sicherlich)
+					[01;31m(PX[00m
+						(APPR durch)
+						[01;33m(NX[00m (NX fliegen)[01;31m)[00m
+					(ADJX am effektivsten)) [01;33mNX)[00m
+				(VC nutzen)))))
+
+
+Sentence 15:
+(TOP ja)
+
+
+Sentence 16:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(VF dann)
+		(LK wurde)
+		(MF ich ja)
+		(VC vorschlagen)
+		[01;36m(SIMPX[00m
+			[01;31m(SIMPX[00m
+				(VF es)
+				(LK gibt)
+				[01;36m(MF[00m
+					[01;31m(MF[00m
+						(NX
+							(NN fluge))[01;31m)[00m
+					[01;31m(NF[00m
+						[01;31m(PX[00m
+							(ADVX schon)
+							[01;36m(PX[00m
+								(APPR ab)
+								(NX sechs uhr morgens)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+			(NF das wir wirklich um sechs uhr losfliegen)[01;36m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF dann)
+			(LK sind)
+			[01;31m(MF[00m [01;33m(MF (MF[00m
+				(NX wir)
+				(PX in zwei stunden)[01;31m)[00m[01;31m)[00m
+		[01;31m(ADVX[00m
+			(ADV spater)[01;31m)[00m [01;33mMF)[00m
+		[01;36m(SIMPX[00m
+			[01;36m(VF[00m [01;31m(DM[00m
+				(ADVX
+					(ADV also))[01;31m)[00m[01;36m)[00m
+			[01;31m(SIMPX[00m
+				(LK sind)
+				(MF wir um acht in hannover)[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 17:
+(TOP
+	[01;36m(LV[00m
+		(SIMPX
+			(C bis)
+			[01;31m(MF[00m
+				(NX
+					(PPER wir))[01;31m)[00m)[01;36m)[00m
+	(SIMPX
+		(VF dann)
+		(FKOORD
+			(LKM trinken wir noch einen kaffee)
+			(KON und)
+			[01;36m(SIMPX[00m [01;31m(FKOORD[00m
+				(LK konnen)
+				(FKOORD
+					(MVC dann gleich zu unsrer filiale fahren)
+					(KON und)
+					[01;36m(MVC[00m [01;31m(MVCN[00m
+						(MF dort)
+						[01;36m(VXINF[00m
+							[01;36m(VC[00m
+								[01;31m(VC[00m
+									(VXINF
+										(VVINF anfangen))[01;31m)[00m
+								[01;31m(NF[00m
+									[01;31m(SIMPX[00m
+										[01;31m(VC[00m
+											(VXINF
+												(PTKZU zu)
+												(VVINF arbeiten))[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 18:
+(TOP ja das ware mir recht)
+
+
+Sentence 19:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK wurde)
+		(MF ja)
+		(VC bedeuten)
+		(NF
+			(SIMPX
+				(C das)
+				(MF
+					(NX wir)
+					[01;36m(PX[00m
+						(APPRART am)
+						(NX eine ubernachtung in hannover)[01;36m)[00m)
+				(VC brauchten)))[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(VC vorausgesetzt)
+		(NF wir kriegen dann am dienstag abend noch den flug nach berlin)[01;31m)[00m)
+
+
+Sentence 20:
+(TOP
+	(SIMPX
+		[01;36m(SIMPX[00m
+			(VF meine sekretarin)
+			(LK hat)
+			(MF mir hier schon drei hotels)[01;36m)[00m
+		(VC rausgesucht))
+	(SIMPX
+		(LK haben)
+		(MF
+			(NX sie)
+			[01;36m(NX[00m
+				(NX irgendwelche vorstellungen)
+				(PX davon)[01;36m)[00m)
+		(NF wie das hotel aussehen sollte))
+	(DM oder))
+
+
+Sentence 21:
+(TOP
+	(DM also)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(VF ich)
+		(LK wurde)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX
+				(ADVX ganz)
+				(ADV gerne))[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(C wenn)
+		[01;31m(MF[00m
+			(PX
+				(APPR nach)
+				(NX so einem harten arbeitstag))[01;31m)[00m[01;31m)[00m [01;33mMF)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF es da eine sauna)
+				(VC gabe))[01;31m)[00m [01;33mSIMPX)[00m
+		[01;36m(SIMPX[00m
+			(VF ich)
+			(LK wurde)
+			(MF ganz gern in die sauna)
+			(VC gehen)
+			(NF dann kurz)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 22:
+(TOP das ich mich ein bischen erholen kann)
+
+
+Sentence 23:
+(TOP also es gabe eines mit sauna ein anderes mit hallenbad)
+
+
+Sentence 24:
+(TOP
+	(NX
+		(ADVX scheinbar)
+		(ADVX nicht)
+		[01;31m(NX[00m
+			(NX beides)
+			(ADVX zusammen)[01;31m)[00m))
+
+
+Sentence 25:
+(TOP sie wurden dann die sauna vorziehen)
+
+
+Sentence 26:
+(TOP ja)
+
+
+Sentence 27:
+(TOP das ware das hotel cristal in hannover da kostet das einzelzimmer allerdings zweihundert achtzehn dmark)
+
+
+Sentence 28:
+(TOP na ja gut)
+
+
+Sentence 29:
+(TOP
+	(SIMPX
+		(KOORD aber)
+		[01;31m(VF[00m
+			[01;31m(PX[00m
+				[01;36m(ADVX[00m [01;31m(PX[00m
+					(PROP dafur)[01;31m)[00m[01;36m)[00m
+				[01;31m(SIMPX[00m
+					(C das)
+					(MF wir die woche dann so)
+					(VC vollpacken)
+					[01;31m(NF[00m [01;33m(SIMPX[00m
+						[01;31m(PX[00m
+							(APPR mit)
+							(NX terminen)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		(LK ware)
+		(MF das sicherlich okay)))
+
+
+Sentence 30:
+(TOP gut)
+
+
+Sentence 31:
+(TOP
+	[01;31m(P[00m
+		(SIMPX es scheint mir sowieso gunstig)
+		(KOUS weil)
+		(SIMPX
+			(VF ich)
+			(LK sehe)
+			(MF grade)
+			(NF
+				(SIMPX
+					(C das)
+					(MF
+						(NX es)
+						(ADVX auch)
+						(PX
+							(APPR in)
+							(NX
+								(NX der nahe)
+								[01;36m(PX[00m
+									(APPRART beim)
+									(NX des hauptbahnhofs)[01;36m)[00m)))
+					(VC ist)
+					[01;36m(R[00m
+						(NF
+							[01;31m(SIMPX[00m
+								(C was)
+								(MF dann sicherlich ja auch verkehrsgunstig)
+								(VC ist)[01;31m)[00m)[01;36m)[00m)))[01;31m)[00m)
+
+
+Sentence 32:
+(TOP ja dann werde ich die buchen)
+
+
+Sentence 33:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK kummern)
+		(MF sie sich um die fluge)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(LK ginge)
+		(MF das)[01;31m)[00m)
+
+
+Sentence 34:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		(SIMPX ich kummere mich um die fluge)
+		[01;31m(SIMPX[00m
+			(KOORD und)
+			(VF wir)
+			(LK checken)
+			(MF mal)
+			(NF ob wir dienstag abend oder mittwoch morgen nach berlin fliegen konnen)[01;31m)[00m[01;36m)[00m
+	(SIMPX und ich gebe ihnen dann noch bescheid))
+
+
+Sentence 35:
+(TOP ware ihnen beides recht)
+
+
+Sentence 36:
+(TOP genau)
+
+
+Sentence 37:
+(TOP mir ware beides recht)
+
+
+Sentence 38:
+(TOP also dienstag abend oder mittwoch morgen muste man ja dann sagen genau)
+
+
+Sentence 39:
+(TOP
+	(SIMPX
+		(VF dann)
+		(LK wurde)
+		(MF ich mit dem hotelbuchen einfach noch)
+		(VC warten)
+		(NF
+			(SIMPX
+				(C bis)
+				(MF
+					[01;31m(NX[00m
+						(PDS das)[01;31m)[00m
+					[01;31m(ADJX[00m
+						(ADJD geklart)[01;31m)[00m)
+				(VC ist)))))
+
+
+Sentence 40:
+(TOP ja)
+
+
+Sentence 41:
+(TOP genau)
+
+
+Sentence 42:
+(TOP ja)
+
+
+Sentence 43:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(MF
+			(ADVX dann)
+			(ADVX eben)
+			[01;31m(NX[00m
+				[01;31m(ADJX[00m
+					[01;31m(ADJX[00m
+						(CARD ein)[01;31m)[00m
+					(KON oder)
+					(ADJX zwei)[01;31m)[00m
+				(NN nachte)[01;31m)[00m)
+		(VC buchen)))
+
+
+Sentence 44:
+(TOP
+	(DM gut)
+	(ADVX dann)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(VF dann)
+		(LK schlage)
+		[01;33m(MF[00m (MF ich)
+		[01;36m(PX[00m
+			[01;31m(VC[00m [01;33m(PX (PX[00m
+				(PTKVZ vor)[01;31m)[00m
+			(NX mitte)[01;36m)[00m
+		(APPR [01;33m(PX[00m bis)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(VF[00m
+					[01;31m(PX[00m
+						[01;36m(NX[00m [01;31m(ADVX[00m
+							(ADV spatestens)[01;31m)[00m [01;33mPX) PX)[00m[01;36m)[00m
+						(APPR [01;33m(PX[00m bis)
+						[01;31m(NX[00m
+							(NX mitte) [01;33mPX) PX) MF) SIMPX)[00m
+							[01;36m(VF[00m
+								(NX [01;33m(SIMPX[00m
+									(ADJX nachster)
+									(NN woche))[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+				[01;36m(SIMPX[00m
+					(LK haben)
+					(MF wir sie)
+					(VC informiert)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m [01;33mSIMPX)[00m
+	(SIMPX das muste ja dann auch noch reichen wenn wir erst im august))
+
+
+Sentence 45:
+(TOP das sollte dann zu machen sein ja)
+
+
+Sentence 46:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF die frage)
+			(LK ist)
+			(MF jetzt noch)[01;36m)[00m
+		(SIMPX
+			(VF man)
+			(LK hat)
+			(MF
+				(NX mir)
+				[01;31m(PX[00m
+					(ADVX hier)
+					[01;36m(PX[00m
+						(APPR bei)
+						(NX der mappe)[01;36m)[00m[01;31m)[00m
+				(ADVX auch)
+				(NX einige informationen uber sehenswurdigkeiten und veranstaltungen))
+			(VC hingelegt))
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(SIMPX[00m
+					(LK haben)
+					(MF sie da auch interesse)[01;31m)[00m
+				(SIMPX soll ich da irgendwas buchen)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 47:
+(TOP oder)
+
+
+Sentence 48:
+(TOP
+	(DM also)
+	(SIMPX ich hatte grose lust ins theater zu gehen)
+	(NX
+		(ADVX aber)
+		(ADVX nicht)
+		(NX
+			(NX so was)
+			(NX
+				(ADVX ganz)
+				[01;36m(NX[00m
+					(NN schweres)[01;36m)[00m))))
+
+
+Sentence 49:
+(TOP also ich weis zufallig das im letzten monat woyzek da gegeben wurde das ware mir ein bischen zu anstrengend)
+
+
+Sentence 50:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF vielleicht)
+		(LK finden)
+		(MF
+			(NX wir)
+			(NX
+				(NX so was)
+				(PX
+					(APPR in)
+					(NX
+						(NX richtung)
+						[01;31m(NX[00m
+							(NX musical)
+							(KON oder)
+							(NX variete)[01;31m)[00m))))[01;31m)[00m)
+
+
+Sentence 51:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF unter den angeboten)
+		(LK sind)
+		[01;36m(PX[00m
+			(MF
+				(PX
+					(APPR in)
+					(NX
+						(NX diese richtung)
+						(NX
+							(ART der)
+							[01;36m(NX[00m [01;31m(ADJX[00m
+								(ADJA darstellenden)[01;31m)[00m[01;36m)[00m
+							(NN kunste))))
+				[01;31m(NX[00m [01;33m(NX[00m
+					(NX zwei kategorien)
+					[01;31m(NX[00m
+						(NX opernbesuche) [01;33mNX)[00m
+						[01;36m(KOORD[00m
+							(KON und)[01;36m)[00m
+						[01;33m(MF[00m (NX gospelkonzert)[01;31m)[00m[01;31m)[00m
+				(PX an dem abend)) [01;33mMF)[00m[01;36m)[00m
+		(VC zu buchen)))
+
+
+Sentence 52:
+(TOP sollen wir dann das gospelkonzert nehmen)
+
+
+Sentence 53:
+(TOP das ist sicherlich leichter als ein wagner)
+
+
+Sentence 54:
+(TOP ja das hort sich doch)
+
+
+Sentence 55:
+(TOP ja)
+
+
+Sentence 56:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		(SIMPX wurde ich)
+		(SIMPX wurde ich gut finden)[01;36m)[00m)
+
+
+Sentence 57:
+(TOP ja)
+
+
+Sentence 58:
+(TOP gut dann organisiere ich das auch)
+
+
+Sentence 59:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF ich)
+			(LK denke)
+			[01;31m(NF[00m [01;33m(SIMPX (NF[00m
+				[01;31m(SIMPX[00m
+					(VF dann)
+					(LK ist)
+					(MF es am sinnvollsten)
+					[01;31m(NF[00m [01;33m(SIMPX (NF[00m
+						[01;31m(SIMPX[00m
+							(C wenn)
+							(MF wir die restlichen dinge)
+							(VC vertagen)
+							[01;31m(NF[00m
+								(PX
+									(APPR bis)
+									(PX zu unserem nachsten telefonat))[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		(SIMPX das wir dann fixieren wie das mit den buchungen der hotels und so weiter aussehen sollte)[01;36m)[00m)
+
+
+Sentence 60:
+(TOP dann)
+
+
+Sentence 61:
+(TOP ja)
+
+
+Sentence 62:
+(TOP okay)
+
+
+Sentence 63:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK setze)
+		(MF
+			(NX mich)
+			(ADVX also)
+			(NX
+				(ADVX spatestens)
+				[01;36m(NX[00m
+					(NX mitte)
+					(NX nachste woche)[01;36m)[00m)
+			(PX mit ihnen)
+			(PX in verbindung)))
+	[01;31m(SIMPX[00m
+		(KOORD und)
+		(VF dann)
+		(LK machen)
+		(MF wir alles weitere so)
+		(NF wie besprochen)[01;31m)[00m)
+
+
+Sentence 64:
+(TOP genau)
+
+
+Sentence 65:
+(TOP dann konnen wir auch die treffpunkte ausmachen)
+
+
+Sentence 66:
+(TOP fein)
+
+
+Sentence 67:
+(TOP ja)
+
+
+Sentence 68:
+(TOP
+	(DM ja)
+	(DM gut)
+	(ADVX dann)
+	[01;31m(DM[00m
+		(NX
+			(PIDAT vielen)
+			(NN dank))[01;31m)[00m
+	[01;31m(ADVX[00m
+		(ADVX erst)
+		(ADVX mal)[01;31m)[00m
+	(DM und auf wiedersehen))
+
+
+Sentence 69:
+(TOP ja)
+
+
+Sentence 70:
+(TOP schonen tag noch)
+
+
+Sentence 71:
+(TOP
+	(PX bis zum wiederhoren dann)
+	[01;31m(SIMPX[00m
+		(VF am telefon) [01;33mPX) VF)[00m
+		(LK nehme)
+		(MF ich)
+		(VC an)[01;31m)[00m)
+
+
+Sentence 72:
+(TOP ja)
+
+
+Sentence 73:
+(TOP ja)
+
+
+Sentence 74:
+(TOP okay)
+
+
+Sentence 75:
+(TOP tschus)
+
+
+Sentence 76:
+(TOP grus gott frau schmidt)
+
+
+Sentence 77:
+(TOP wie geht es ihnen denn so)
+
+
+Sentence 78:
+(TOP
+	[01;31m(DM[00m
+		[01;36m(DM[00m
+			(ITJ ach)[01;36m)[00m
+		[01;36m(DM[00m
+			(ITJ gut)[01;36m)[00m[01;31m)[00m
+	(DM herr doll))
+
+
+Sentence 79:
+(TOP
+	(DM aha)
+	[01;31m(DM[00m
+		[01;36m(DM[00m
+			(ITJ ach)[01;36m)[00m
+		[01;36m(DM[00m
+			(ITJ gut)[01;36m)[00m[01;31m)[00m
+	(SIMPX
+		(VF das)
+		(LK hort)
+		(MF sich immer so)
+		[01;31m(VC[00m
+			(PTKVZ an)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(C als ob)
+				(MF [01;33m(MF[00m
+					(NX das)
+					[01;31m(NX[00m
+						[01;31m(NX[00m
+							(NX nix) [01;33mMF)[00m
+							[01;36m(VC[00m [01;36m(VXFIN[00m [01;31m(NX[00m
+								(NN halbes)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m
+						(KON und)
+						(NX nix ganzes)[01;31m)[00m)
+				(VC ist)[01;31m)[00m[01;31m)[00m)
+	(SIMPX
+		(KOORD oder)
+		[01;36m(SIMPX[00m
+			(VF wie)
+			(LK sehe)
+			(MF ich das)[01;36m)[00m))
+
+
+Sentence 80:
+(TOP da da horen sie ganz richtig)
+
+
+Sentence 81:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK finde)
+		(NF
+			(SIMPX
+				(VF wir)
+				(LK sollten)
+				(MF
+					(NX uns)
+					(ADJX dringend)
+					[01;36m(ADVX[00m [01;31m(PX[00m
+						(PROP druber)[01;31m)[00m[01;36m)[00m)
+				(VC einigen)
+				[01;36m(R[00m
+					(NF
+						[01;31m(SIMPX[00m
+							(C wann)
+							(MF denn die geschaftsreise)
+							(VC losgehen soll)[01;31m)[00m)[01;36m)[00m))))
+
+
+Sentence 82:
+(TOP aha)
+
+
+Sentence 83:
+(TOP ach das konnte fur sie doch eine gute erholung sein oder nicht)
+
+
+Sentence 84:
+(TOP ganz genau so sehe ich das namlich)
+
+
+Sentence 85:
+(TOP aha ja schauen wir mal ob wir irgendeinen termin finden)
+
+
+Sentence 86:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF dann)
+			(LK ware)
+			(MF es ja am besten)[01;36m)[00m
+		[01;31m(NF[00m
+			(SIMPX
+				(VF wir)
+				(LK nahmen)
+				(MF das wochenende))[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 87:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF vielleicht)
+			(LK konnen)
+			[01;31m(MF[00m
+				(NX wir)
+				(ADVX ja)
+				(ADVX noch)
+				[01;33m(ADJX[00m (NX ein bischen)[01;31m)[00m
+			[01;31m(VC[00m
+				[01;31m(VXINF[00m
+					(VVINF verlangern)[01;31m)[00m[01;31m)[00m [01;33mADJX)[00m[01;36m)[00m
+		[01;31m(NF[00m
+			(NX
+				(ADJX eineinhalb)
+				(NN tage))[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 88:
+(TOP nix)
+
+
+Sentence 89:
+(TOP nee nee)
+
+
+Sentence 90:
+(TOP eineinhalb tage soll es dauern)
+
+
+Sentence 91:
+(TOP ah frau schmidt das ist ja wirklich schade)
+
+
+Sentence 92:
+(TOP
+	(SIMPX
+		[01;36m(SIMPX[00m
+			(VF sie)
+			(LK wissen)
+			(MF doch)[01;36m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(VF mit ihnen)
+				(LK fahre)
+				(MF ich so gern immer)
+				(VC weg)[01;31m)[00m[01;31m)[00m)
+	(SIMPX und sie bestehen immer auf diese eineinhalb tage))
+
+
+Sentence 93:
+(TOP finde ich wirklich schade)
+
+
+Sentence 94:
+(TOP
+	(NX geschaft)
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			(NX
+				(NN geschaft))[01;31m)[00m [01;33mNX) VF)[00m
+		(LK ist)
+		(MF geschaft)[01;31m)[00m)
+
+
+Sentence 95:
+(TOP
+	[01;36m(NX[00m
+		(DM
+			(ITJ schade))[01;36m)[00m
+	(DM frau schmidt))
+
+
+Sentence 96:
+(TOP ja nun ein wochenende)
+
+
+Sentence 97:
+(TOP wann haben sie denn zeit)
+
+
+Sentence 98:
+(TOP im august)
+
+
+Sentence 99:
+(TOP
+	[01;36m(VF[00m
+		(PX
+			(APPRART im)
+			(NX august))[01;36m)[00m
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(LK gibt)
+		(MF
+			(NX es)
+			(ADVX da)
+			[01;36m(NX[00m
+				(NX einen romantischen termin)
+				(PX im august)[01;36m)[00m)[01;31m)[00m)
+
+
+Sentence 100:
+(TOP ja der achte und der neunte)
+
+
+Sentence 101:
+(TOP achte geht sehr schlecht)
+
+
+Sentence 102:
+(TOP neunter und zehnter)
+
+
+Sentence 103:
+(TOP das ginge sogar wochenende frau schmidt)
+
+
+Sentence 104:
+(TOP okay)
+
+
+Sentence 105:
+(TOP ich wuste sogar schon ein gutes hotel)
+
+
+Sentence 106:
+(TOP das konnte ich ubernehmen)
+
+
+Sentence 107:
+(TOP ja)
+
+
+Sentence 108:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(LK konnen)
+			(MF sie ja gleich ein doppelzimmer)
+			(VC nehmen)[01;36m)[00m
+		[01;36m(DM[00m [01;31m(NF[00m
+			(NX
+				(NN frau)
+				(NE schmidt))[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	(DM oder))
+
+
+Sentence 109:
+(TOP
+	(DM ha)
+	[01;36m(SIMPX[00m
+		(SIMPX wenn es denn sein soll)
+		(DM okay)[01;36m)[00m)
+
+
+Sentence 110:
+(TOP
+	(DM nein)
+	[01;31m(SIMPX[00m
+		(VF wir)
+		(LK konnen)
+		(MF auch einzelzimmer)
+		(VC nehmen)[01;31m)[00m
+	(SIMPX an dem soll es ja nicht liegen))
+
+
+Sentence 111:
+(TOP
+	[01;31m(ADVX[00m
+		(ADVX nicht)
+		(SIMPX das sie dann)[01;31m)[00m)
+
+
+Sentence 112:
+(TOP es past schon)
+
+
+Sentence 113:
+(TOP aha)
+
+
+Sentence 114:
+(TOP konnen sie sich dann bitte um den flug kummern oder wollen sie mit dem zug reisen)
+
+
+Sentence 115:
+(TOP ach frau schmidt da mus ich zuerst mal uberlegen was romantischer ist)
+
+
+Sentence 116:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK denke)
+		[01;36m(DM[00m [01;31m(MF[00m
+			[01;31m(ADVX[00m
+				(ADV ja)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		(NF im zug ist viel romantischer)))
+
+
+Sentence 117:
+(TOP brauchen wir viel langer habe ich mehr von ihnen)
+
+
+Sentence 118:
+(TOP ja gut dann lassen wir konnen wir uns besser unterhalten ja)
+
+
+Sentence 119:
+(TOP
+	(DM gut)
+	[01;31m(NX[00m
+		[01;36m(DM[00m
+			(ADVX
+				(ADV also))[01;36m)[00m
+		(NX den zug)[01;31m)[00m)
+
+
+Sentence 120:
+(TOP wir brauchen von munchen nach hannover viereinhalb stunden)
+
+
+Sentence 121:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK wurde)
+		(VC sagen)
+		[01;31m(NF[00m
+			[01;31m(P[00m
+				[01;36m(NF[00m
+					(SIMPX
+						(VF damit wir auch was von der zugfahrt haben)
+						(LK fahren)
+						(MF wir nicht zu fruh)
+						(VC los)) [01;33mSIMPX)[00m[01;36m)[00m
+				(KOUS weil)
+				[01;31m(SIMPX[00m
+					(VF sonst)
+					(LK bin)
+					(MF
+						(NX ich)
+						[01;36m(ADVX[00m [01;31m(ADJX[00m
+							(ADJD unausgeschlafen)[01;31m)[00m[01;36m)[00m)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;36m(NF[00m
+		(SIMPX
+			(VF da)
+			(LK haben)
+			(MF sie dann von mir nix))[01;36m)[00m)
+
+
+Sentence 122:
+(TOP
+	(SIMPX
+		(LK wurde)
+		(MF ich)
+		(VC sagen)
+		(NF
+			(NX
+				(NX
+					(ADVX so)
+					[01;36m(NX[00m
+						(ADJX elf)
+						(NN uhr)[01;36m)[00m)
+				(PX mit dem zug)))))
+
+
+Sentence 123:
+(TOP ja)
+
+
+Sentence 124:
+(TOP okay)
+
+
+Sentence 125:
+(TOP dann schaue ich mal wann ein zug geht)
+
+
+Sentence 126:
+(TOP ja das ware dann elf uhr und funfundzwanzig minuten)
+
+
+Sentence 127:
+(TOP past das)
+
+
+Sentence 128:
+(TOP ja das ist mir recht)
+
+
+Sentence 129:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF sie)
+			(LK horen)
+			(MF sich heute so formlich)
+			(VC an)[01;36m)[00m
+		[01;36m(DM[00m [01;31m(NF[00m
+			(NX
+				(NN frau)
+				(NE schmidt))[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 130:
+(TOP
+	(SIMPX
+		(LK ist)
+		[01;36m(MF[00m
+			(MF
+				(NX ihnen)
+				[01;36m(NX[00m
+					(NX eine laus)
+					(PX uber die leber)[01;36m)[00m)
+			[01;36m(ADJX[00m [01;31m(VC[00m
+				[01;31m(VXINF[00m
+					(VVPP gelaufen)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+	[01;31m(SIMPX[00m
+		(KOORD oder)
+		(VF wie)
+		(LK sehe)
+		(MF ich das)[01;31m)[00m)
+
+
+Sentence 131:
+(TOP nein nein das past schon)
+
+
+Sentence 132:
+(TOP
+	(SIMPX wissen sie)
+	[01;36m(NF[00m
+		(SIMPX
+			(LK kommen)
+			(MF sie doch lieber)
+			(VC mit))[01;36m)[00m)
+
+
+Sentence 133:
+(TOP unternehmen abends noch was)
+
+
+Sentence 134:
+(TOP aha)
+
+
+Sentence 135:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF sie)
+			(LK wollen)
+			(MF abends noch was)
+			(VC unternehmen)[01;36m)[00m
+		[01;36m(DM[00m [01;31m(NF[00m
+			(NX
+				(NN frau)
+				(NE schmidt))[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 136:
+(TOP sie springen ja uber ihren schatten)
+
+
+Sentence 137:
+(TOP das ist mir ja ganz neu)
+
+
+Sentence 138:
+(TOP
+	(SIMPX
+		(VF bisher)
+		(LK haben)
+		[01;36m(MF[00m
+			[01;31m(MF[00m
+				(NX sie)
+				(ADVX immer)[01;31m)[00m
+			[01;36m(NX[00m [01;31m(VC[00m
+				[01;31m(VXINF[00m
+					(VVPP abgelehnt)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m))
+
+
+Sentence 139:
+(TOP sie machen mich noch ganz schwach)
+
+
+Sentence 140:
+(TOP denken sie sich doch mal was schones aus)
+
+
+Sentence 141:
+(TOP was schones)
+
+
+Sentence 142:
+(TOP
+	(DM ach)
+	(DM frau schmidt)
+	(SIMPX
+		(VF ich)
+		(LK denke)
+		(NF
+			(SIMPX
+				(VF ich)
+				(LK kenne)
+				(MF
+					(ADVX da)
+					(NX
+						[01;36m(DP[00m
+							(ADVX ganz)
+							(ART eine)[01;36m)[00m
+						(ADJX schone)
+						(NN bar)))))))
+
+
+Sentence 143:
+(TOP da gehen wir dann hin)
+
+
+Sentence 144:
+(TOP vor allem gibt es da ganz schone musik)
+
+
+Sentence 145:
+(TOP die gefallt mir immer sehr gut)
+
+
+Sentence 146:
+(TOP letzte mal muste ich immer alleine weggehen)
+
+
+Sentence 147:
+(TOP da waren sie ja dann nie dabei)
+
+
+Sentence 148:
+(TOP
+	(SIMPX und jetzt kann ich ihnen das gleich schon)
+	[01;31m(SIMPX[00m
+		[01;31m(KOORD[00m
+			(KON oder)[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(LK habe)
+			[01;36m(MF[00m
+				[01;31m(MF[00m
+					(NX ich)
+					(NX das)
+					(ADVX schon)[01;31m)[00m
+				(NX erfahrung)[01;36m)[00m
+			(VC gebracht)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 149:
+(TOP ich reserviere dann dort zwei platze zum essen)
+
+
+Sentence 150:
+(TOP past ihnen das so)
+
+
+Sentence 151:
+(TOP ja das past mir sehr gut)
+
+
+Sentence 152:
+(TOP also ich freue mich)
+
+
+Sentence 153:
+(TOP
+	(PX
+		(APPR bis)
+		(NX august)))
+
+
+Sentence 154:
+(TOP auf wiedersehen herr doll)
+
+
+Sentence 155:
+(TOP
+	(DM auf wiedersehen)
+	(DM
+		(NX
+			[01;36m(NX[00m
+				(NN fraulein)[01;36m)[00m
+			[01;36m(NX[00m
+				(NE schmidt)[01;36m)[00m)))
+
+
+Sentence 156:
+(TOP ja grus gott frau jurkeit)
+
+
+Sentence 157:
+(TOP guten morgen frau schmitz)
+
+
+Sentence 158:
+(TOP
+	(DM ja)
+	(SIMPX
+		[01;36m(ADVX[00m
+			(MF
+				(PX seit langerer zeit)
+				(ADVX nicht mehr))[01;36m)[00m
+		(VC gesehen)))
+
+
+Sentence 159:
+(TOP jetzt ich wollte sie treffen um mit ihnen die geschaftsreise nach hannover zu planen)
+
+
+Sentence 160:
+(TOP ja genau)
+
+
+Sentence 161:
+(TOP haben sie sich schon schlau gemacht wann sie fahren konnten)
+
+
+Sentence 162:
+(TOP ich war ja grade im urlaub also mir ist ja eigentlich alles recht)
+
+
+Sentence 163:
+(TOP
+	(DM ja)
+	(DM also)
+	(SIMPX bei mir sieht es etwas eng aus)
+	(SIMPX
+		(VF ich)
+		(LK konnte)
+		(MF
+			(PX
+				[01;36m(PX[00m
+					(PX in der zweiten juniwoche)
+					(PX in der letzten juliwoche)[01;36m)[00m
+				(KON oder)
+				(PX in der ersten augustwoche)))))
+
+
+Sentence 164:
+(TOP zweite juniwoche)
+
+
+Sentence 165:
+(TOP ja)
+
+
+Sentence 166:
+(TOP ware mir am liebsten ja)
+
+
+Sentence 167:
+(TOP gut)
+
+
+Sentence 168:
+(TOP gut)
+
+
+Sentence 169:
+(TOP
+	[01;36m(LV[00m
+		(NX
+			(NX anfang)
+			(NX der woche))[01;36m)[00m
+	(SIMPX wir konnten ja sonntag abend losfahren oder montag fruh))
+
+
+Sentence 170:
+(TOP wie sie meinen)
+
+
+Sentence 171:
+(TOP ich habe nix gegen sonntag abend einzuwenden)
+
+
+Sentence 172:
+(TOP ja)
+
+
+Sentence 173:
+(TOP gut)
+
+
+Sentence 174:
+(TOP und wie wollen wir das machen)
+
+
+Sentence 175:
+(TOP mit dem zug wieder)
+
+
+Sentence 176:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(LK fahren)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX wir)
+			(ADVX wieder)
+			(PX mit dem zug)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(ADVX[00m
+				[01;36m(ADVX[00m
+					(ADVX vielleicht)
+					(ADVX abends)[01;36m)[00m
+				[01;31m(PX[00m
+					(PX so um achtzehn uhr) [01;33mMF)[00m
+					[01;31m(ADVX[00m
+						(ADVX so)
+						[01;36m(ADVX[00m
+							(ADV [01;33m(SIMPX[00m zirka)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(LK muste)
+		(MF ich dann noch mal)
+		(VC nachkucken) [01;33mSIMPX)[00m
+		[01;36m(DM[00m [01;31m(NF[00m
+			[01;31m(ADJX[00m
+				(ADJD genau)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	[01;31m(PX[00m
+		[01;36m(ADVX[00m
+			(KON aber)[01;36m)[00m
+		(ADVX so)
+		[01;36m(ADVX[00m
+			(ADV so)[01;36m)[00m
+		[01;31m(PX[00m
+			[01;31m(PX[00m
+				(APPR um)
+				[01;33m(NX[00m (NX den dreh)[01;31m)[00m
+			(ADVX rum)[01;31m)[00m[01;31m)[00m [01;33mNX)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX
+			(KOORD und)
+			(VF dann)
+			(LK waren)
+			(MF
+				(NX wir)
+				(PX
+					(ADVX so)
+					(APPR um)
+					[01;36m(PX[00m
+						(APPR um)
+						(NX halb elf)[01;36m)[00m)
+				(PX in hannover)))
+		(SIMPX da konnten wir noch was unternehmen)[01;36m)[00m)
+
+
+Sentence 177:
+(TOP ja)
+
+
+Sentence 178:
+(TOP irgendwie was essen oder so)
+
+
+Sentence 179:
+(TOP ja gut)
+
+
+Sentence 180:
+(TOP einverstanden)
+
+
+Sentence 181:
+(TOP ja)
+
+
+Sentence 182:
+(TOP und welches hotel wusten sie da)
+
+
+Sentence 183:
+(TOP ja machen wir es so)
+
+
+Sentence 184:
+(TOP ich bin fur das prinzenhof)
+
+
+Sentence 185:
+(TOP ja)
+
+
+Sentence 186:
+(TOP
+	(DM ja)
+	(DM ja)
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF das)
+			(LK war)
+			(MF sehr nett)[01;36m)[00m
+		[01;36m(VF[00m [01;31m(NF[00m [01;33m(SIMPX[00m
+			(NX
+				(ADJX letztes)
+				(NN mal))[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(LK mochte)
+		(MF ich ganz gerne wieder)
+		(VC hingehen)[01;31m)[00m)
+
+
+Sentence 187:
+(TOP nehmen wir wieder zwei einzelzimmer)
+
+
+Sentence 188:
+(TOP gut)
+
+
+Sentence 189:
+(TOP ja genau genau)
+
+
+Sentence 190:
+(TOP gut)
+
+
+Sentence 191:
+(TOP ja)
+
+
+Sentence 192:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK ware)
+		(MF
+			(NX es)
+			(ADVX dann)
+			[01;36m(ADJX[00m [01;31m(ADVX[00m
+				(ADV schon)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 193:
+(TOP okay)
+
+
+Sentence 194:
+(TOP auf wiedersehen frau schmitz)
+
+
+Sentence 195:
+(TOP auf wiedersehen frau jurkeit)
+
+
+Sentence 196:
+(TOP hallo peter)
+
+
+Sentence 197:
+(TOP hallo herr karger)
+
+
+Sentence 198:
+(TOP na wie geht es denn so)
+
+
+Sentence 199:
+(TOP ah ich kann nicht klagen)
+
+
+Sentence 200:
+(TOP ich kann gar nicht klagen)
+
+
+Sentence 201:
+(TOP wir wollten nach hannover fahren)
+
+
+Sentence 202:
+(TOP anderthalb tage nach hannover genau)
+
+
+Sentence 203:
+(TOP das wird schwierig einen gemeinsamen termin zu finden)
+
+
+Sentence 204:
+(TOP das befurchte ich schon jetzt)
+
+
+Sentence 205:
+(TOP
+	(DM also)
+	(SIMPX ich denke wir sollten es einfach mal ausprobieren)
+	(SIMPX [01;33m(SIMPX (SIMPX[00m
+		(KOORD und)
+		(VF wir)
+		(LK hatten)
+		(VC gesagt)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(VF anderthalb tage) [01;33mSIMPX)[00m
+				(LK fahren)
+				[01;31m(MF[00m
+					[01;36m(MF[00m
+						(NX wir)
+						(PX nach hannover) [01;33mSIMPX)[00m[01;36m)[00m
+					[01;36m(MVC[00m [01;31m(PX[00m
+						(APPRART im)
+						[01;31m(NX[00m [01;33m(NX (NX[00m
+							(NX zeitraum)
+							[01;31m(NX[00m
+								[01;31m(NX[00m
+									(NX januar) [01;33mNX)[00m
+									[01;36m(NX[00m
+										(NX februar)
+										(NX marz)[01;36m)[00m[01;31m)[00m [01;33mNX)[00m
+								(NX achtundneunzig)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 206:
+(TOP genau ja)
+
+
+Sentence 207:
+(TOP gut wie fangen wir jetzt an)
+
+
+Sentence 208:
+(TOP
+	(SIMPX
+		(VF wir)
+		(LK konnten)
+		(MF
+			[01;31m(PX[00m
+				(ADVX gleich)
+				[01;36m(PX[00m
+					(APPR zu)
+					(NX beginn des januar)[01;36m)[00m[01;31m)[00m)
+		(VC versuchen)
+		(NF einen termin zu finden)))
+
+
+Sentence 209:
+(TOP
+	(DM okay)
+	(NX januar)
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF ich in meinen terminkalender)
+				(VC schaue))[01;31m)[00m
+		(VF da)
+		(LK habe)
+		[01;31m(MF[00m
+			[01;36m(SIMPX[00m
+				[01;36m(VF[00m
+					(NX
+						(PPER ich))[01;36m)[00m
+				[01;36m(LK[00m [01;36m(VXFIN[00m [01;31m(ADVX[00m
+					(ADV absurderweise)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;36m)[00m
+			[01;36m(MF[00m
+				(NX
+					(NX freitag)
+					(KON und)
+					(NX samstag))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX aber ich denke unsre geschaftspartner haben samstag kein interesse an unserm besuch))
+
+
+Sentence 210:
+(TOP
+	(SIMPX
+		(VF dann)
+		(VXFIN ware)
+		(LK hatte)
+		(MF
+			[01;36m(MF[00m
+				(NX ich)
+				(NX die erste moglichkeit)
+				(ADVX wieder)[01;36m)[00m
+			(NX zwolfter dreizehnter januar))))
+
+
+Sentence 211:
+(TOP ja dreizehnter ist schon wieder schlecht)
+
+
+Sentence 212:
+(TOP
+	(DM okay)
+	(SIMPX vierzehnter ist bei mir schlecht)
+	(SIMPX
+		(VF anderthalb tage)
+		(LK kriegen)
+		(MF wir nicht)
+		[01;36m(ADVX[00m [01;31m(VC[00m
+			(PTKVZ rein)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 213:
+(TOP die nachste woche)
+
+
+Sentence 214:
+(TOP kannst du vergessen)
+
+
+Sentence 215:
+(TOP aha)
+
+
+Sentence 216:
+(TOP gut bei mir auch)
+
+
+Sentence 217:
+(TOP ende januar siebenundzwanzigster achtundzwanzigster)
+
+
+Sentence 218:
+(TOP
+	(SIMPX
+		[01;36m(ADVX[00m
+			(VF
+				[01;31m(NX[00m
+					(NN siebenundzwanzigster)[01;31m)[00m)[01;36m)[00m
+		(LK konnte)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX ich)
+			(ADVX naturlich)
+			[01;31m(PX[00m [01;33m(PX[00m
+				(APPR nach)
+				[01;31m(NX[00m
+					(NX meinem zahnarzttermin) [01;33mPX) MF)[00m
+					[01;36m(NF[00m
+						(R [01;33m(R (NF[00m
+							(C der)
+							(MF um acht uhr)
+							(VC stattfindet))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+			[01;33m(ADVX[00m (ADVX dann)[01;31m)[00m
+		[01;36m(ADVX[00m [01;31m(VC[00m
+			(PTKVZ weg)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 219:
+(TOP
+	[01;31m(PX[00m
+		(NX acht uhr morgens)
+		(PX zum zahnarzt)[01;31m)[00m)
+
+
+Sentence 220:
+(TOP das)
+
+
+Sentence 221:
+(TOP genau ja)
+
+
+Sentence 222:
+(TOP aha)
+
+
+Sentence 223:
+(TOP okay dann ja nee dann nehmen wir doch siebenundzwanzigsten und achtundzwanzigsten dienstag mittwoch)
+
+
+Sentence 224:
+(TOP okay)
+
+
+Sentence 225:
+(TOP konnen wir um zehn uhr etwa wegfahren wegfliegen je nachdem)
+
+
+Sentence 226:
+(TOP konnen wir also konnen wir probieren)
+
+
+Sentence 227:
+(TOP
+	[01;31m(SIMPX[00m
+		(C wenn)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX ich)
+				(NX die verbindung) [01;33mSIMPX)[00m[01;36m)[00m
+			[01;36m(DM[00m
+				(ADVX
+					(ADV also))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX wir konnen zug oder flugzeug nehmen))
+
+
+Sentence 228:
+(TOP was was ist dir lieber)
+
+
+Sentence 229:
+(TOP munchen hannover ach der ice muste doch eigentlich ganz zugig sein oder)
+
+
+Sentence 230:
+(TOP der muste ja der muste eigentlich reichen)
+
+
+Sentence 231:
+(TOP
+	(DM also)
+	[01;31m(SIMPX[00m
+		(LV munchen hannover)
+		(VF das)
+		(LK sind)
+		(MF knapp funf stunden)[01;31m)[00m
+	(DM ja)
+	(DM also)
+	[01;31m(DM[00m
+		[01;31m(ADVX[00m
+			(ADV also)[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			[01;31m(NX[00m
+				[01;31m(ADJX[00m
+					[01;36m(NX[00m [01;31m(ADJX[00m
+						(CARD vier)[01;31m)[00m[01;36m)[00m
+					[01;33m(SIMPX (VF (NX[00m (ADJX viereinhalb)[01;31m)[00m
+				(NN stunden)[01;31m)[00m[01;31m)[00m [01;33mNX) VF)[00m
+		(LK sehe)
+		(MF ich)[01;31m)[00m)
+
+
+Sentence 232:
+(TOP
+	(NX
+		[01;31m(NX[00m
+			(NX viereinhalb stunden)
+			[01;33m(NX[00m (NX fahrzeit)[01;31m)[00m
+		(PX nach hannover)))
+
+
+Sentence 233:
+(TOP
+	(SIMPX
+		(LK wird)
+		[01;36m(PX[00m
+			[01;36m(MF[00m
+				[01;31m(MF[00m
+					(ADJX
+						(ADJD knapp))[01;31m)[00m
+				[01;31m(NF[00m
+					(PX
+						(APPR ab)
+						(NX zehn uhr))[01;31m)[00m[01;36m)[00m[01;36m)[00m))
+
+
+Sentence 234:
+(TOP
+	[01;31m(NX[00m
+		(ADVX knapp)
+		[01;36m(NX[00m
+			[01;33m(NX[00m (ADJX zehn)
+			(NN uhr)[01;36m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		[01;36m(ADJX[00m [01;31m(NX[00m
+			(CARD elf)[01;31m)[00m [01;33mNX)[00m[01;36m)[00m
+		[01;36m(ADJX[00m [01;31m(NX[00m
+			(CARD zwolf)[01;31m)[00m[01;36m)[00m
+		(NX eins)
+		(NX zwei)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(LK sind)
+		(MF wir um drei uhr da)[01;31m)[00m)
+
+
+Sentence 235:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(NX[00m [01;31m(LK[00m
+			[01;31m(VXFIN[00m
+				(VVFIN genugt)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		[01;31m(MF[00m [01;33m(NX[00m
+			(NX
+				(PDS das))[01;31m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		(NX ein halber tag)
+		(ADVX dann)
+		(ADVX noch)[01;31m)[00m)
+
+
+Sentence 236:
+(TOP
+	(SIMPX das muste also)
+	[01;36m(SIMPX[00m
+		(SIMPX fur den ersten halben tag muste das eigentlich reichen)
+		(DM also)
+		(NX die)
+		(SIMPX dann quetschen wir die termine ein bischen zusammen)[01;36m)[00m
+	(DM also)
+	(SIMPX da mussen die leute jetzt auch mal etwas variabel sein)
+	(SIMPX
+		(VF ich)
+		(LK meine)
+		[01;31m(MF[00m
+			[01;31m(ADJX[00m
+				(ADJD flexibel)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 237:
+(TOP okay konnen wir gern machen)
+
+
+Sentence 238:
+(TOP also siebenundzwanzigster achtundzwanzigster)
+
+
+Sentence 239:
+(TOP
+	(DM okay)
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			(NX
+				(ADJX siebenundzwanzigster)
+				(NN januar))[01;31m)[00m
+		(VF dann)
+		[01;31m(FKOORD[00m
+			[01;31m(LKMVC[00m
+				(LK fahren)
+				(MF wir)
+				(VC los)[01;31m)[00m
+			(APPR um)
+			[01;36m(LKM[00m
+				[01;31m(LKM[00m
+					(LK nehmen)
+					[01;33m(MF (MF[00m (MF den ice um zehn uhr)[01;31m)[00m
+				[01;31m(LKM[00m
+					(LK sind)
+					(MF um funfzehn uhr in hannover)[01;31m)[00m [01;33mMF)[00m
+				[01;31m(LKM[00m
+					[01;36m(VXINF[00m [01;36m(VC[00m [01;31m(LK[00m
+						[01;31m(VXFIN[00m
+							(VVFIN nehmen)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+					[01;36m(NX[00m [01;36m(NF[00m [01;31m(MF[00m
+						(ADVX da)
+						(NX ein taxi)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m [01;33mMF)[00m[01;36m)[00m
+			(KON und)
+			(KON und)
+			(KON und)
+			[01;33m(LKMVC[00m (LKMVC kommen rechtzeitig an)[01;31m)[00m[01;31m)[00m
+	(SIMPX und dann wurden wir am achtundzwanzigsten abends einfach wieder zuruckfahren))
+
+
+Sentence 240:
+(TOP da wurde ich vielleicht sagen wir nehmen das flugzeug)
+
+
+Sentence 241:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF da)
+		(LK gibt)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX es)
+			[01;36m(NX[00m
+				[01;33m(NX[00m (NX einen flug)
+				(NX siebzehn uhr zwanzig)[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(ADJX[00m
+		(ADVX sogar)
+		(ADJX stundlich bis einundzwanzig uhr zwanzig)[01;31m)[00m [01;33mNX) MF)[00m
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK heist)
+		(NF
+			(SIMPX
+				(VF wir)
+				[01;31m(FKOORD[00m
+					[01;31m(LKMVC[00m
+						(LK konnen)
+						[01;31m(MF[00m
+							[01;36m(MF[00m
+								(ADVX auch)
+								(ADVX noch)
+								(PX um zwanzig nach acht)[01;36m)[00m
+							[01;31m(SIMPX[00m [01;33m(LKMVC[00m
+								(LK konnen)
+								[01;31m(MF[00m [01;33m(MF[00m
+									(NX
+										(PPER wir))[01;31m)[00m[01;31m)[00m
+							(PX in hannover)[01;31m)[00m [01;33mMF)[00m
+						(VC abfliegen)[01;31m)[00m [01;33mLKMVC)[00m
+					(KON und)
+					(LKM sind in siebzig minuten in munchen)[01;31m)[00m))[01;31m)[00m)
+
+
+Sentence 242:
+(TOP das ist doch toll)
+
+
+Sentence 243:
+(TOP he das ist gut)
+
+
+Sentence 244:
+(TOP das ist gut)
+
+
+Sentence 245:
+(TOP ja)
+
+
+Sentence 246:
+(TOP ja wie sieht es aus mit ubernachtung)
+
+
+Sentence 247:
+(TOP
+	[01;36m(VF[00m
+		(NX
+			(NN hotels))[01;36m)[00m
+	(DM ja)
+	(SIMPX mussen wir mal kucken))
+
+
+Sentence 248:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK habe)
+		[01;31m(MF[00m [01;33m(MF (MF[00m
+			(ADVX hier)
+			[01;33m(NX[00m (NX eine liste von meiner sekretarin)[01;31m)[00m[01;31m)[00m
+	(NX drei moglichkeiten) [01;33mNX) MF)[00m
+	[01;31m(NX[00m
+		[01;31m(NX[00m
+			[01;31m(NX[00m
+				[01;36m(ADJX[00m [01;31m(NX[00m
+					(NE maritimhotel)[01;31m)[00m[01;36m)[00m
+				(PX am hauptbahnhof)[01;31m)[00m [01;33mMF)[00m
+			(NX funfzehn minuten zum zentrum)[01;31m)[00m
+		(DM na ja)
+		[01;31m(SIMPX[00m
+			(VF garage)
+			(LK brauchen)
+			[01;31m(MF[00m [01;33m(MF (MF[00m
+				(NX wir)
+				(ADVX ja)
+				(ADVX nicht)[01;31m)[00m[01;31m)[00m
+		[01;31m(NX[00m
+			(NX ein hotel luisenhof) [01;33mMF)[00m
+			(NX funf minuten vom bahnhof) [01;33mMF)[00m
+			[01;31m(NX[00m
+				[01;36m(NX[00m
+					[01;31m(NX[00m
+						(NN bar)[01;31m)[00m
+					(NX restaurant)[01;36m)[00m
+				(NX garage)[01;31m)[00m[01;31m)[00m
+		[01;36m(NX[00m [01;31m(ADJX[00m
+			(NX alles)
+			[01;36m(NX[00m [01;31m(ADJX[00m
+				(ADJD uberflussig)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m
+		(KON und)
+		[01;36m(PX[00m [01;31m(NX[00m
+			(PX direkt beim hauptbahnhof)
+			(ADVX noch)
+			(NX
+				(NX ein hotel)
+				(PX
+					(APPR mit)
+					(NX
+						[01;36m(ADVX[00m
+							(TRUNC schwimm)[01;36m)[00m
+						(KON und)
+						(NN dampfbad))))[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 249:
+(TOP brauchen wir es)
+
+
+Sentence 250:
+(TOP hotels)
+
+
+Sentence 251:
+(TOP
+	(APPR mit)
+	[01;31m(PX[00m
+		[01;36m(NX[00m [01;31m(ADVX[00m
+			(ADV naturlich)[01;31m)[00m [01;33mPX)[00m[01;36m)[00m
+		[01;31m(PX[00m [01;33m(PX[00m
+			(APPR mit)
+			[01;33m(NX[00m (NX schwimm und dampfbad)[01;31m)[00m[01;31m)[00m
+	(PX direkt am hauptbahnhof) [01;33mNX) PX)[00m
+	(SIMPX das hort sich gut an))
+
+
+Sentence 252:
+(TOP ist ein bischen teurer)
+
+
+Sentence 253:
+(TOP
+	[01;31m(NX[00m
+		(NX einzelzimmer zwohundert achtundvierzig mark)
+		(KON und)
+		[01;33m(NX[00m (NX doppelzimmer)
+		[01;31m(PX[00m [01;33m(PX[00m
+			(APPRART im)
+			[01;31m(NX[00m
+				(NX doppelzimmer) [01;33mPX) NX) NX)[00m
+				(NX hundert dreiundvierzig)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 254:
+(TOP
+	(DM also)
+	[01;36m(SIMPX[00m
+		(SIMPX dann wurde ich lieber das einzelzimmer mal vorschlagen)
+		(SIMPX
+			(KOORD und)
+			(C da)
+			[01;31m(FKOORD[00m
+				(MVC wir es nicht selber bezahlen)
+				(KON und)
+				(MVC wir schon dann lange im zug gesessen haben)[01;31m)[00m)[01;36m)[00m
+	(DM also)
+	[01;36m(SIMPX[00m
+		(SIMPX ich wurde es also)
+		(SIMPX ich wurde es dann mal machen)[01;36m)[00m)
+
+
+Sentence 255:
+(TOP
+	(SIMPX ich denke auch)
+	[01;31m(DM[00m
+		[01;31m(NX[00m
+			(PPOSAT mein)
+			(NE gott)[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(C[00m
+			(NX
+				(PWS wer))[01;31m)[00m
+		[01;31m(MF[00m
+			(ADVX hier)
+			(ADVX schon)
+			(ADVX wieder)
+			(NX eine nacht)[01;31m)[00m
+		(VC opfert)[01;31m)[00m)
+
+
+Sentence 256:
+(TOP genau)
+
+
+Sentence 257:
+(TOP
+	(DM also)
+	(SIMPX dann haben wir einen termin)
+	[01;33m(VF (NX[00m (SIMPX wir haben einen zug)
+	[01;31m(SIMPX[00m
+		(VF wir) [01;33mNX) VF)[00m
+		(LK haben)
+		[01;33m(NX (MF[00m (MF einen flug fur die ruckfahrt)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(VF wir)
+		(LK haben)
+		(MF ein hotel fur die nacht)[01;31m)[00m [01;33mMF) NX)[00m
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF wir)
+			(LK haben)
+			(MF ein treffen)[01;31m)[00m
+		(SIMPX dann konnen wir uns jetzt noch uberlegen ob wir abends irgendwas machen wollen)[01;36m)[00m)
+
+
+Sentence 258:
+(TOP prinzipiell immer)
+
+
+Sentence 259:
+(TOP
+	(SIMPX
+		[01;36m(SIMPX[00m
+			[01;31m(PARORD[00m
+				(ADVX
+					(ADV nur))[01;31m)[00m
+			(VF wahrscheinlich)
+			(LK wird)
+			(MF es am dienstag etwas spater)[01;36m)[00m
+		(DM ja)
+		(PX am dienstag)
+		(ADJX etwas spater)
+		(NF [01;33m(SIMPX (NF[00m
+			(SIMPX
+				(C bis)
+				[01;31m(FKOORD[00m
+					(MVC wir uberhaupt loskommen) [01;33mNF) SIMPX)[00m
+					[01;36m(KOORD[00m
+						(KON und)[01;36m)[00m
+					(MVC was unternehmen konnen)[01;31m)[00m)))
+	(DM also)
+	(SIMPX fur viele veranstaltungen wird es eher zu spat werden))
+
+
+Sentence 260:
+(TOP
+	(DM also)
+	[01;31m(NX[00m
+		(NX kino)
+		[01;33m(ADVX[00m (ADVX nicht)[01;31m)[00m
+	[01;31m(NX[00m
+		(NX theater)
+		(ADVX nicht)[01;31m)[00m [01;33mADVX)[00m
+	(ADVX dann)
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			(ADVX
+				(ADV vielleicht))[01;31m)[00m
+		(NX wir)
+		(LK gehen)
+		(MF
+			(NX wir)
+			(ADVX einfach)
+			[01;31m(PX[00m
+				(APPR in)
+				[01;33m(NX[00m (NX eine kneipe)[01;31m)[00m
+			(APPR nach)
+			(ART der)
+			(PX nach dem meeting))[01;31m)[00m [01;33mNX)[00m
+	[01;36m(SIMPX[00m
+		[01;36m(KOORD[00m
+			(KON und)[01;36m)[00m
+		(DM ja)
+		[01;31m(SIMPX[00m
+			(VF dann)
+			(LK brauchen)
+			(MF
+				(NX wir)
+				(ADVX nicht)
+				(ADVX weiter)
+				[01;36m(NX[00m [01;31m(ADJX[00m
+					(ADJD grosartig)[01;31m)[00m[01;36m)[00m)
+			(VC planen)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 261:
+(TOP eben genau)
+
+
+Sentence 262:
+(TOP ja okay)
+
+
+Sentence 263:
+(TOP dann ja also von mir aus waren wir dann fertig)
+
+
+Sentence 264:
+(TOP machen wir das so)
+
+
+Sentence 265:
+(TOP ja)
+
+
+Sentence 266:
+(TOP okay tschus)
+
+
+Sentence 267:
+(TOP freut mich)
+
+
+Sentence 268:
+(TOP bis dann tschus)
+
+
+Sentence 269:
+(TOP hallo reinhard)
+
+
+Sentence 270:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(DM[00m [01;31m(LK[00m
+			[01;31m(VXFIN[00m
+				(VVFIN danke)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		[01;31m(NF[00m [01;33m(SIMPX[00m
+			[01;31m(SIMPX[00m
+				(C das)
+				(MF du so kurzfristig hier)
+				[01;31m(VC[00m
+					[01;36m(VXFIN[00m [01;36m(VC[00m [01;31m(VXINF[00m
+						(VVPP runtergeschaut)[01;31m)[00m [01;33mSIMPX)[00m[01;36m)[00m[01;36m)[00m
+					(VXFIN hast)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX wir mussen ja noch ein termin vereinbaren))
+
+
+Sentence 271:
+(TOP stimmt)
+
+
+Sentence 272:
+(TOP
+	(SIMPX hannover ist das ziel)
+	(NX anderthalb tage))
+
+
+Sentence 273:
+(TOP
+	(SIMPX
+		(VF in den nachsten drei monaten)
+		(LK gibt)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX es)
+				(ADVX ja)
+				[01;36m(ADJX[00m [01;31m(ADVX[00m
+					(ADV ofter)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			(NX diese ganzen feiertage)[01;31m)[00m)
+	[01;31m(NX[00m
+		(NX ostern)
+		(NX pfingsten)
+		(KON und)
+		(ADVX so weiter)[01;31m)[00m)
+
+
+Sentence 274:
+(TOP mal kucken wie wir da in die gange kommen)
+
+
+Sentence 275:
+(TOP wie schaut es denn bei dir aus)
+
+
+Sentence 276:
+(TOP also ich wurde mal sagen im april ist es ein bischen schlecht)
+
+
+Sentence 277:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK habe)
+		(MF
+			(PX
+				[01;31m(PX[00m
+					(APPR in)
+					[01;33m(NX[00m (NX der mitte)[01;31m)[00m
+				(PX vom april)) [01;33mNX)[00m
+			(NX urlaub)))
+	[01;31m(PX[00m
+		[01;36m(DM[00m
+			(ADVX
+				(ADV also))[01;36m)[00m
+		[01;33m(SIMPX[00m (PX uber ostern)[01;31m)[00m
+	(SIMPX wir fahren uber ostern weg))
+
+
+Sentence 278:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK wurde)
+		(MF
+			(ADJX am liebsten)
+			[01;36m(PX[00m
+				(ADVX direkt)
+				[01;31m(PX[00m
+					(APPR in)
+					(NX den mai)[01;31m)[00m[01;36m)[00m)
+		(VC gehen)))
+
+
+Sentence 279:
+(TOP
+	[01;36m(SIMPX[00m
+		(SIMPX und da ware bei mir die erste maiwoche)
+		(DM also)
+		(SIMPX dienstag funfter mai konnte ich)[01;36m)[00m
+	(DM also)
+	(SIMPX
+		(VF
+			(NX
+				(ADJX
+					[01;36m(ADVX[00m [01;31m(ADJX[00m
+						(ADJA funfter)[01;31m)[00m[01;36m)[00m
+					(ADJX sechster))
+				(NN mai)))
+		(LK hatte)
+		(MF ich zeit)))
+
+
+Sentence 280:
+(TOP da bin ich schon verplant)
+
+
+Sentence 281:
+(TOP bis)
+
+
+Sentence 282:
+(TOP siebter achter)
+
+
+Sentence 283:
+(TOP bis donnerstag bin ich verplant)
+
+
+Sentence 284:
+(TOP wann denn donnerstag)
+
+
+Sentence 285:
+(TOP da komme ich erst spat zuruck)
+
+
+Sentence 286:
+(TOP
+	(DM okay)
+	(SIMPX dann haben wir da keine chance)
+	(SIMPX
+		(VF wie)
+		(LK ware)
+		(MF [01;33m(MF[00m
+			(NX es)
+			[01;31m(PX[00m
+				(PX in der nachsten woche) [01;33mMF)[00m
+				(NX montag dienstag)[01;31m)[00m)))
+
+
+Sentence 287:
+(TOP das ist der elfte und zwolfte mai)
+
+
+Sentence 288:
+(TOP das klappt bei mir)
+
+
+Sentence 289:
+(TOP ja dann)
+
+
+Sentence 290:
+(TOP na gut dann nehmen wir dann nehmen wir montag dienstag elfter zwolfter mai)
+
+
+Sentence 291:
+(TOP wie fahren wir hin)
+
+
+Sentence 292:
+(TOP ice ist ja relativ zugig ab munchen dann)
+
+
+Sentence 293:
+(TOP ja wurde ich auch nehmen wurde ich sagen)
+
+
+Sentence 294:
+(TOP wurde ich auch vorschlagen das wir montag fruh losfahren)
+
+
+Sentence 295:
+(TOP vielleicht nicht allzu fruh)
+
+
+Sentence 296:
+(TOP
+	(SIMPX ab funf uhr drei konnte man abfahren)
+	[01;36m(SIMPX[00m
+		(SIMPX
+			(KOORD aber)
+			(LK ist)
+			(MF
+				(ADVX nicht)
+				[01;31m(NX[00m
+					(NX ziel)
+					(NX der sache)[01;31m)[00m))
+		[01;36m(PX[00m [01;31m(NX[00m
+			(KON sondern)
+			[01;36m(NX[00m
+				(ADVX lieber)
+				(NX
+					(ADVX so)
+					[01;36m(NX[00m
+						(CARD sieben)[01;36m)[00m)[01;36m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 297:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF ich)
+		(LK denke)
+		[01;36m(MF[00m
+			[01;31m(SIMPX[00m
+				(LK sagen)
+				[01;33m(MF (MF[00m (MF wir mal)[01;31m)[00m
+			[01;31m(MF[00m
+				[01;31m(NX[00m
+					(PX mit dem ice) [01;33mMF)[00m
+					[01;36m(NX[00m
+						(NX funf stunden)
+						(PX nach hannover)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m) [01;33mMF)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX und wir mussen)
+		(DM na ja)
+		(SIMPX funfzehn uhr mussen wir vielleicht da sein)[01;36m)[00m)
+
+
+Sentence 298:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(VF[00m [01;31m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF wir dann um neun oder zehn)
+				(VC fahren))[01;31m)[00m[01;36m)[00m
+		[01;31m(SIMPX[00m
+			(LK sagen)
+			(MF wir)
+			[01;31m(NF[00m
+				(SIMPX
+					(VF wir)
+					(LK konnten)
+					(MF um neun)
+					(VC fahren))[01;31m)[00m[01;31m)[00m
+		(VF dann)
+		(FKOORD
+			[01;31m(LKM[00m
+				(LK nehmen)
+				(MF wir ein zweites fruhstuck im ice)[01;31m)[00m
+			[01;36m(LKMVC[00m
+				[01;31m(LKM[00m
+					[01;36m(VXINF[00m [01;36m(VC[00m [01;31m(LK[00m
+						[01;31m(VXFIN[00m
+							(VVFIN lesen)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+					[01;36m(VF[00m
+						(NX
+							(ART ein)
+							(ADJX bischen)
+							(NN zeitung))[01;36m)[00m[01;31m)[00m
+				(LKMVC
+					(LK haben)
+					(MF
+						[01;31m(NX[00m
+							(ART das)
+							(NN meeting)[01;31m)[00m)
+					(VC vorbereitet))[01;36m)[00m
+			(KON und)
+			(LKMVC
+				(LK kommen)
+				(MF
+					(ADVX dann)
+					(PX
+						(APPR um)
+						(NX
+							[01;36m(ADJX[00m [01;31m(NX[00m
+								(CARD zwei)[01;31m)[00m[01;36m)[00m
+							(KON oder)
+							(NX drei)))
+					(PX in hannover))
+				(VC an)))[01;31m)[00m)
+
+
+Sentence 299:
+(TOP das ware doch das konnten wir noch machen)
+
+
+Sentence 300:
+(TOP das klingt ganz angenehm)
+
+
+Sentence 301:
+(TOP grade am montag)
+
+
+Sentence 302:
+(TOP grade am montag)
+
+
+Sentence 303:
+(TOP
+	[01;36m(SIMPX[00m
+		[01;31m(DM[00m
+			[01;31m(NX[00m
+				[01;36m(KOORD[00m
+					(KON und)[01;36m)[00m
+				[01;36m(DM[00m
+					(NX
+						(NN moment))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(SIMPX wir hatten)[01;36m)[00m
+	(SIMPX wir haben ein datum)
+	(SIMPX wir haben einen zug))
+
+
+Sentence 304:
+(TOP wie kommen wir denn zuruck)
+
+
+Sentence 305:
+(TOP hast du informationen uber eine ruckreise)
+
+
+Sentence 306:
+(TOP also es ist vollkommen wahlfrei)
+
+
+Sentence 307:
+(TOP
+	(SIMPX
+		[01;36m(SIMPX[00m
+			(VF fluge)
+			(LK gibt)
+			(MF es immer am abend)[01;36m)[00m
+		[01;36m(PX[00m [01;31m(NF[00m
+			(ADVX allerdings)
+			(PX erst ab achtzehn uhr funfunddreisig)[01;31m)[00m[01;36m)[00m)
+	(SIMPX
+		(KOORD und)
+		(VF zuge)
+		(LK gehen)
+		(MF [01;33m(MF[00m
+			(ADVX sowieso)
+			[01;31m(PX[00m
+				(NX den ganzen tag) [01;33mMF)[00m
+				(APPO uber)[01;31m)[00m)))
+
+
+Sentence 308:
+(TOP
+	(SIMPX
+		(VF wir)
+		(FKOORD
+			(LKMN
+				(LK waren)
+				(MF naturlich mit dem flugzeug etwas flexibler zum abend hin)
+				(NF
+					(SIMPX
+						(C weil)
+						(MF
+							(NX wir)
+							(NX den letzten flug)
+							[01;36m(PX[00m
+								(ADVX sogar)
+								[01;31m(PX[00m
+									(APPR um)
+									(NX neun uhr)[01;31m)[00m[01;36m)[00m
+							(ADVX noch))
+						(VC nehmen konnten))))
+			(KON und)
+			(LKM
+				(LK waren)
+				(MF
+					(ADVX dann)
+					(PX trotzdem)
+					[01;36m(ADVX[00m
+						(ADVX noch)
+						(PX vor elf)[01;36m)[00m
+					(PX zu hause))))))
+
+
+Sentence 309:
+(TOP na ja das stimmt)
+
+
+Sentence 310:
+(TOP
+	(DM ja)
+	(DM also)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(KOORD und)
+			(VF dann)
+			(LK konnen)
+			[01;31m(MF[00m [01;33m(MF[00m
+				(NX wir)
+				(ADVX einfach)[01;31m)[00m[01;31m)[00m
+		[01;36m(NX[00m
+			(ART den) [01;33mMF)[00m[01;36m)[00m[01;36m)[00m
+	(SIMPX [01;33m(SIMPX[00m
+		(VF dann)
+		[01;31m(FKOORD[00m
+			[01;31m(LKMVC[00m
+				(LK brauchen)
+				(MF wir uns jetzt vielleicht gar nicht)
+				(VC festlegen)[01;31m)[00m [01;33mSIMPX)[00m
+			[01;36m(SIMPX[00m
+				(KON und)
+				[01;31m(LKMN[00m
+					(LK sagen)
+					[01;31m(MF[00m
+						(ADVX
+							(ADV einfach))[01;31m)[00m
+					[01;31m(NF[00m
+						(SIMPX
+							(VF wir)
+							(LK fliegen)
+							[01;36m(MF[00m [01;36m(ADVX[00m [01;31m(VC[00m
+								(PTKVZ zuruck)[01;31m)[00m[01;36m)[00m[01;36m)[00m)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 311:
+(TOP
+	(DM gut)
+	(ADVX dann)
+	[01;31m(SIMPX[00m
+		(VF dann)
+		(LK denke)
+		(MF ich)
+		[01;31m(NF[00m [01;33m(SIMPX (NF[00m
+			[01;31m(SIMPX[00m
+				(VF dann)
+				(LK haben)
+				[01;31m(MF[00m
+					(NX wir)
+					(NX alles)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;36m(R[00m [01;36m(NF[00m [01;31m(PX[00m
+		(APPR auser)
+		[01;36m(NF[00m
+			(SIMPX
+				(C das)
+				(MF wir immer noch nicht)
+				(VC wissen)
+				(NF wo wir ubernachten konnen))[01;36m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 312:
+(TOP ich denke wir nehmen zusammen einfach ein hotel)
+
+
+Sentence 313:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF dann)
+		(LK konnen)
+		(MF wir abends noch ein bischen in der bar)
+		(VC sitzen)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(KOORD[00m
+			(KON oder)[01;31m)[00m
+		[01;31m(VF[00m
+			(PX
+				(APPR auf)
+				(NX alle falle))[01;31m)[00m [01;33mSIMPX)[00m
+		(LK treffen)
+		(MF wir uns dann da)[01;31m)[00m)
+
+
+Sentence 314:
+(TOP und ich habe hier eine liste vorbereitet mit hotels)
+
+
+Sentence 315:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK ist)
+		[01;31m(MF[00m
+			[01;31m(NX[00m
+				(NX das marriotthotel hannover) [01;33mSIMPX)[00m
+				[01;36m(NX[00m
+					(NX das parkhotel hannover)
+					(NX das hotel cristal hannover)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 316:
+(TOP
+	(SIMPX
+		(VF die)
+		(LK sind)
+		(MF
+			(NX alle)
+			[01;31m(ADVX[00m
+				(ADVX mehr)
+				(KON oder)
+				[01;36m(ADJX[00m [01;31m(ADVX[00m [01;33m(PX[00m
+					(ADV minder)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+			(PX in der nahe vom hauptbahnhof))))
+
+
+Sentence 317:
+(TOP ich kucke mir mal die preise an)
+
+
+Sentence 318:
+(TOP
+	(DM also)
+	[01;31m(SIMPX[00m
+		(VF das hotel cristal hannover)
+		(FKOORD
+			(LKM ist vielleicht ein bischen teuer)
+			(LKM
+				(LK hat)
+				[01;36m(NX[00m
+					(MF
+						[01;36m(NX[00m [01;31m(PX[00m
+							(PROP dafur)[01;31m)[00m[01;36m)[00m
+						(ADVX aber)
+						(NX sauna solarium bar und bistro))[01;36m)[00m))[01;31m)[00m)
+
+
+Sentence 319:
+(TOP sage mal)
+
+
+Sentence 320:
+(TOP
+	(SIMPX
+		(LK haben)
+		(MF
+			(NX wir)
+			[01;36m(NX[00m
+				(ADVX uberhaupt)
+				(NX zeit)[01;36m)[00m)
+		(NF in die sauna zu gehen)))
+
+
+Sentence 321:
+(TOP stimmt)
+
+
+Sentence 322:
+(TOP wir haben wahrscheinlich keine zeit in die sauna zu gehen)
+
+
+Sentence 323:
+(TOP also konnten wir auch das parkhotel hannover nehmen)
+
+
+Sentence 324:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK ist)
+		[01;36m(PX[00m
+			[01;36m(MF[00m
+				(APPR mit)
+				[01;31m(MF[00m
+					(NX
+						(NX das einzelzimmer)
+						(PX mit einhundert neunzehn mark))[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+	[01;31m(SIMPX[00m
+		(LK ware)
+		(MF das doch das doch annehmbar)[01;31m)[00m)
+
+
+Sentence 325:
+(TOP
+	(DM also)
+	(SIMPX
+		(LV ein hotel in hannover fur hundert neunzehn mark)
+		[01;36m(SIMPX[00m
+			(VF das)
+			(LK mus)
+			(MF schon eine absteige)
+			(VC sein)[01;36m)[00m)
+	(DM oder))
+
+
+Sentence 326:
+(TOP
+	(DM okay)
+	(SIMPX [01;33m(SIMPX[00m
+		(VF parkhotel)
+		[01;31m(SIMPX[00m
+			(LK sehe)
+			(MF ich) [01;33mSIMPX)[00m
+			[01;31m(VC[00m
+				(PTKVZ ein)[01;31m)[00m[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(LK ist)
+			(MF zu riskant)[01;36m)[00m)
+	(SIMPX nehmen wir das marriotthotel))
+
+
+Sentence 327:
+(TOP
+	(DM also)
+	[01;36m(SIMPX[00m
+		(SIMPX die konnen sich)
+		[01;36m(NX[00m
+			(ART die)[01;36m)[00m[01;36m)[00m
+	(SIMPX die konnen sich da auch in hannover keinen durchhanger erlauben))
+
+
+Sentence 328:
+(TOP also nehmen wir marriott)
+
+
+Sentence 329:
+(TOP das ist ein guter name ja)
+
+
+Sentence 330:
+(TOP okay machen wir das)
+
+
+Sentence 331:
+(TOP ist ein guter name)
+
+
+Sentence 332:
+(TOP einzelzimmer kostet hundert funfundachtzig mark)
+
+
+Sentence 333:
+(TOP die haben einen fitnesraum)
+
+
+Sentence 334:
+(TOP
+	(DM na ja)
+	(DM gut)
+	(SIMPX ich gehe auch nicht so oft ins fitnesstudio)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			[01;36m(KOORD[00m [01;31m(VF[00m
+				[01;31m(ADVX[00m
+					(ADV aber)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			(LK meine)[01;31m)[00m
+		[01;36m(NF[00m
+			(SIMPX
+				(VF ich)
+				(LK wollte)
+				(MF es jetzt nur mal)
+				(VC sagen)
+				(NF falls du da lust dazu hast))[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 335:
+(TOP ja dann konnen wir uns noch uberlegen machen wir abends was)
+
+
+Sentence 336:
+(TOP immer doch oder)
+
+
+Sentence 337:
+(TOP
+	[01;31m(DM[00m
+		(ADVX immer)
+		[01;36m(DM[00m [01;31m(ADVX[00m
+			(ADV doch)[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 338:
+(TOP kino theater restaurant)
+
+
+Sentence 339:
+(TOP
+	(DM also)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF theater)
+			(LK denke)
+			(MF ich)[01;31m)[00m
+		[01;36m(SIMPX[00m
+			[01;36m(NF[00m
+				[01;36m(C[00m
+					(KOUS das)[01;36m)[00m
+				[01;36m(MF[00m
+					(ADVX
+						(ADV da))[01;36m)[00m[01;36m)[00m[01;36m)[00m[01;36m)[00m
+	(SIMPX da kriegen wir keine karten mehr))
+
+
+Sentence 340:
+(TOP
+	(SIMPX
+		(KOORD und)
+		[01;36m(NX[00m
+			(VF
+				[01;31m(PX[00m
+					(PROP auserdem)[01;31m)[00m)[01;36m)[00m
+		(LK mussen)
+		(MF wir uns)
+		(VC kummern)))
+
+
+Sentence 341:
+(TOP
+	(PX vor allem)
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			(PX
+				(APPR in)
+				(NX munchen))[01;31m)[00m [01;33mPX) VF)[00m
+		(LK haben)
+		(MF wir eh alles)[01;31m)[00m)
+
+
+Sentence 342:
+(TOP ja dann gehen wir doch ins kino)
+
+
+Sentence 343:
+(TOP ja)
+
+
+Sentence 344:
+(TOP
+	(SIMPX
+		(VF wir)
+		(LK kucken)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX
+				(ADV einfach))[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(C was)
+				(MF dann) [01;33mMF)[00m
+				(VC gespielt wird)[01;31m)[00m[01;31m)[00m)
+	(SIMPX
+		[01;31m(VF[00m
+			[01;31m(SIMPX[00m
+				(KOORD und)
+				[01;36m(VF[00m
+					[01;36m(SIMPX[00m
+						(C wenn)
+						(MF
+							(NX
+								[01;36m(MF[00m
+									(NX
+										(PIS nix))[01;36m)[00m
+								(NX gescheites)))
+						(VC kommt)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(LK konnen)
+		(MF wir immer noch einfach nur eine kneipentour)
+		(VC machen)))
+
+
+Sentence 345:
+(TOP ja okay)
+
+
+Sentence 346:
+(TOP gut klar)
+
+
+Sentence 347:
+(TOP
+	(DM ja)
+	(DM nee)
+	(ADVX dann)
+	(NX das)
+	(NX das)
+	(SIMPX
+		(VF das)
+		(LK ware)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX es)
+				[01;36m(ADJX[00m [01;31m(ADVX[00m
+					(ADV vorerst)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			[01;36m(NF[00m
+				(PX
+					(APPR von)
+					(NX mir)
+					(APZR aus))[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 348:
+(TOP
+	[01;36m(SIMPX[00m
+		[01;31m(DM[00m
+			(ADVX dann)
+			[01;36m(VXFIN[00m
+				[01;36m(LK[00m
+					(PTKANT danke)[01;36m)[00m[01;36m)[00m[01;31m)[00m
+		[01;36m(MF[00m [01;31m(DM[00m
+			(NX
+				(NE peter))[01;31m)[00m[01;36m)[00m[01;36m)[00m
+	(SIMPX und wir sehen uns))
+
+
+Sentence 349:
+(TOP ging ja ganz schnell)
+
+
+Sentence 350:
+(TOP danke auch und bis dann)
+
+
+Sentence 351:
+(TOP tschus)
+
+
+Sentence 352:
+(TOP hallo peter gut das wir uns treffen)
+
+
+Sentence 353:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF es)
+		(LK geht)
+		(MF um termin)[01;31m)[00m
+	[01;36m(NX[00m
+		[01;31m(NX[00m
+			(ART eine)
+			(NN reise)[01;31m)[00m
+		[01;36m(MF[00m
+			[01;31m(NX[00m
+				[01;31m(NX[00m
+					(NX wir)
+					(NX beide)[01;31m)[00m
+				(ADVX zusammen)[01;31m)[00m
+			(PX von munchen nach hannover)[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 354:
+(TOP anderthalb tage in den nachsten drei monaten)
+
+
+Sentence 355:
+(TOP wann hast du zeit)
+
+
+Sentence 356:
+(TOP das klingt so euphorisch)
+
+
+Sentence 357:
+(TOP hannover)
+
+
+Sentence 358:
+(TOP na gut)
+
+
+Sentence 359:
+(TOP wenn es denn sein mus)
+
+
+Sentence 360:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF ich)
+			(LK sage)
+			[01;31m(MF[00m [01;33m(MF[00m
+				(NX es)
+				(NX dir)
+				(ADVX gleich)[01;31m)[00m[01;31m)[00m
+		[01;31m(SIMPX[00m
+			[01;31m(VF[00m
+				(NX
+					(NN urlaub))[01;31m)[00m [01;33mMF)[00m
+			(LK habe)
+			(MF ich vom neunzehnten juli bis mitte august)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 361:
+(TOP moment warte)
+
+
+Sentence 362:
+(TOP das war der neunzehnte juli)
+
+
+Sentence 363:
+(TOP bis funfzehnter august)
+
+
+Sentence 364:
+(TOP bis funfzehnter august)
+
+
+Sentence 365:
+(TOP aha)
+
+
+Sentence 366:
+(TOP
+	(SIMPX
+		(VF mein urlaub)
+		[01;36m(FKOORD[00m
+			(VXFIN ist)
+			(FKOORD
+				(LKMVC
+					[01;31m(LK[00m
+						[01;31m(VXFIN[00m
+							(VVFIN fangt)[01;31m)[00m[01;31m)[00m
+					(MF am neunten august)
+					(VC an))
+				(KON und)
+				(LKM geht bis zum einunddreisigsten august))[01;36m)[00m))
+
+
+Sentence 367:
+(TOP
+	(SIMPX und ich sage es dir gleich)
+	(SIMPX
+		[01;31m(VF[00m
+			[01;31m(PX[00m
+				(APPRART im)
+				(NX juli)[01;31m)[00m[01;31m)[00m
+		(LK wird)
+		(MF es etwas knapp)))
+
+
+Sentence 368:
+(TOP da ginge nur noch der neunte zehnte)
+
+
+Sentence 369:
+(TOP der geht bei mir aber auch)
+
+
+Sentence 370:
+(TOP nein)
+
+
+Sentence 371:
+(TOP ja)
+
+
+Sentence 372:
+(TOP am sechsten juli habe ich eine dienstbesprechung)
+
+
+Sentence 373:
+(TOP
+	[01;36m(SIMPX[00m
+		(PX am siebten)
+		(DM ah)
+		(SIMPX da hatte ich nur abends kino)[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(KOORD aber)
+		(VF am neunter zehnter juli)
+		(LK hattest)
+		(MF du)
+		(VC gesagt)[01;31m)[00m)
+
+
+Sentence 374:
+(TOP tja ist doch klasse)
+
+
+Sentence 375:
+(TOP machen wir das doch)
+
+
+Sentence 376:
+(TOP hannover)
+
+
+Sentence 377:
+(TOP gut)
+
+
+Sentence 378:
+(TOP okay dann haben wir termin)
+
+
+Sentence 379:
+(TOP das ist prima)
+
+
+Sentence 380:
+(TOP fahren wir zusammen dahin)
+
+
+Sentence 381:
+(TOP ja)
+
+
+Sentence 382:
+(TOP bietet sich an)
+
+
+Sentence 383:
+(TOP
+	(DM okay)
+	(SIMPX dann fahren wir zusammen dahin)
+	[01;31m(SIMPX[00m
+		[01;31m(KOORD[00m
+			(KON und)[01;31m)[00m
+		(DM also)
+		(VF ich)
+		(LK meine)
+		[01;31m(NF[00m [01;33m(SIMPX (NF[00m
+			(SIMPX
+				(VF wir)
+				(LK haben)
+				(MF jetzt die))[01;31m)[00m[01;31m)[00m
+	[01;36m(NF[00m
+		(SIMPX
+			(VF wir)
+			(LK brauchen)
+			[01;36m(NX[00m
+				(MF
+					(NX anderthalb tage)
+					(PX fur das treffen))[01;36m)[00m)[01;36m)[00m)
+
+
+Sentence 384:
+(TOP wir haben zwei tage zeit also konnten wir mit dem zug hinfahren zum beispiel)
+
+
+Sentence 385:
+(TOP
+	[01;31m(P[00m
+		(SIMPX konnen wir ruhig machen)
+		(KON denn)
+		[01;31m(SIMPX[00m
+			[01;31m(VF[00m
+				[01;31m(SIMPX[00m
+					[01;36m(SIMPX[00m
+						(C bis)
+						[01;31m(MF[00m [01;33m(MF[00m
+							(NX du)
+							(ADVX immer)
+							[01;31m(PX[00m
+								(PX am flughafen) [01;33mMF)[00m
+								[01;36m(VXFIN[00m
+									[01;36m(VC[00m
+										(PROP drausen)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m [01;33mSIMPX)[00m[01;36m)[00m
+					[01;36m(VF[00m [01;36m(NX[00m [01;31m(VC[00m [01;33m(SIMPX[00m
+						[01;31m(VXFIN[00m
+							(VAFIN bist)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+			(LK ist)
+			(MF schon die erste stunde vorbei)[01;31m)[00m[01;31m)[00m [01;33mSIMPX)[00m
+	(SIMPX und mit dem ice ist es bequem))
+
+
+Sentence 386:
+(TOP genau)
+
+
+Sentence 387:
+(TOP also ich kucke kurz mal nach)
+
+
+Sentence 388:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			[01;31m(PX[00m
+				(APPR bei)
+				[01;33m(NX[00m (NX den zugverbindungen die ich hier habe)[01;31m)[00m[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(VF das)
+			(LK sind)
+			[01;36m(MF[00m
+				[01;31m(MF[00m
+					[01;31m(NX[00m
+						(NX munchen)
+						(NX hannover)[01;31m)[00m[01;31m)[00m
+				[01;31m(NF[00m
+					(PX
+						(APPR mit)
+						(NX dem ice))[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m [01;33mNX)[00m
+	(SIMPX
+		(VF das)
+		(LK sind)
+		(MF
+			(NX
+				(NX stundliche verbindungen)
+				(PX
+					(APPR ab)
+					[01;36m(ADVX[00m [01;31m(PX[00m
+						(ADVX morgens)
+						(NX vier uhr dreiundvierzig)[01;31m)[00m[01;36m)[00m)))))
+
+
+Sentence 389:
+(TOP also ich mein das ist mir zu fruh)
+
+
+Sentence 390:
+(TOP du kennst mich doch)
+
+
+Sentence 391:
+(TOP das ist nicht meine zeit)
+
+
+Sentence 392:
+(TOP
+	(DM also)
+	[01;31m(SIMPX[00m
+		(VF also)
+		(LK wurden)
+		(MF wir)
+		(VC sagen)
+		(NF
+			(SIMPX
+				(VF wir)
+				(LK konnten)
+				[01;36m(NX[00m
+					(MF
+						[01;31m(ADJX[00m
+							[01;36m(ADVX[00m [01;31m(ADJX[00m
+								(ADJD stundlich)[01;31m)[00m[01;36m)[00m
+							(NX vier uhr dreiundvierzig)[01;31m)[00m)[01;36m)[00m))[01;31m)[00m
+	(SIMPX ich wurde sagen acht uhr dreiundvierzig))
+
+
+Sentence 393:
+(TOP das ist eine zivile zeit)
+
+
+Sentence 394:
+(TOP das ist eine zivile zeit)
+
+
+Sentence 395:
+(TOP genau)
+
+
+Sentence 396:
+(TOP
+	(SIMPX kommen wir am fruhen nachmittag an)
+	[01;36m(SIMPX[00m
+		(SIMPX haben den ganzen nachmittag zeit)
+		(SIMPX konnen dann abends noch was unternehmen)[01;36m)[00m)
+
+
+Sentence 397:
+(TOP konnen wir kucken)
+
+
+Sentence 398:
+(TOP brauchen wir nur noch ein hotel)
+
+
+Sentence 399:
+(TOP ach hotels habe ich)
+
+
+Sentence 400:
+(TOP ja)
+
+
+Sentence 401:
+(TOP zwei moglichkeiten)
+
+
+Sentence 402:
+(TOP
+	(NX hundert zweiundvierzig mark im zentrum)
+	[01;31m(NX[00m
+		(NX hundert funfunddreisig mark) [01;33mNX)[00m
+		[01;36m(NX[00m
+			[01;36m(NX[00m [01;31m(PX[00m
+				(NX funf minuten)
+				(PX vom bahnhof)[01;31m)[00m[01;36m)[00m
+			(PX mit garage)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 403:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK brauchen)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX wir)
+			(ADVX eh)
+			(ADVX nicht)[01;31m)[00m[01;31m)[00m
+	(NX
+		(ADVX so)
+		[01;31m(NX[00m
+			(ART ein)
+			(NN quatsch)[01;31m)[00m))
+
+
+Sentence 404:
+(TOP
+	(NX
+		(KON und)
+		(ADVX einmal)
+		[01;31m(NX[00m
+			(NX hundert sechsundachtzig mark)
+			(PX mit schwimmbad)[01;31m)[00m))
+
+
+Sentence 405:
+(TOP
+	(SIMPX
+		(LK hast)
+		(MF du aber eh keine zeit)
+		[01;36m(VXINF[00m [01;36m(VC[00m [01;31m(NF[00m
+			[01;31m(PX[00m
+				(PROP dafur)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m))
+
+
+Sentence 406:
+(TOP was steckt)
+
+
+Sentence 407:
+(TOP ja was sind denn was sind denn die namen)
+
+
+Sentence 408:
+(TOP hotel royal schloshotel und hotel amgeorgengarten)
+
+
+Sentence 409:
+(TOP
+	[01;31m(NX[00m
+		(NE schloshotel)[01;31m)[00m)
+
+
+Sentence 410:
+(TOP
+	(SIMPX
+		(VF
+			(SIMPX
+				(VF schloshotel)
+				(LK ist)
+				[01;36m(MF[00m
+					[01;36m(ADVX[00m [01;31m(DM[00m
+						(PTKANT ja)[01;31m)[00m[01;36m)[00m
+					[01;31m(MF[00m
+						(ADJX
+							(ADJD standesgemas))[01;31m)[00m[01;36m)[00m))
+		(LK wurde)
+		(MF ich)
+		(VC sagen)))
+
+
+Sentence 411:
+(TOP also schloshotel wird gebucht)
+
+
+Sentence 412:
+(TOP okay)
+
+
+Sentence 413:
+(TOP und neunter zehnter ist auch klar)
+
+
+Sentence 414:
+(TOP okay)
+
+
+Sentence 415:
+(TOP den ice nehmen wir)
+
+
+Sentence 416:
+(TOP
+	[01;36m(SIMPX[00m
+		(SIMPX
+			(VF wir)
+			(LK wissen)
+			(NF
+				(SIMPX
+					(C wann)
+					(MF wir)
+					[01;36m(ADVX[00m [01;31m(VC[00m
+						[01;31m(VXFIN[00m
+							(VVFIN fahren)[01;31m)[00m[01;31m)[00m[01;36m)[00m)))
+		(SIMPX wir wissen wohin wir fahren)[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(VF wir)
+		(LK wissen)
+		(NF wo wir schlafen)[01;31m)[00m
+	(SIMPX
+		(VF wir)
+		(LK wissen)
+		(MF
+			(ADVX aber)
+			[01;31m(ADVX[00m
+				(ADVX noch)
+				(PTKNEG nicht)[01;31m)[00m)
+		(NF was wir abends machen)))
+
+
+Sentence 417:
+(TOP
+	(SIMPX wir konnten mal kucken ob irgendwas im theater lauft)
+	[01;31m(SIMPX[00m
+		(KOORD aber)
+		(VF eigentlich)
+		(LK ist)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX das)
+			(ADVX doch)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;36m(PX[00m [01;31m(MF[00m
+					(NX eulen)
+					(PX nach athen)[01;31m)[00m [01;33mMF)[00m[01;36m)[00m
+				(VC tragen)[01;31m)[00m
+			[01;36m(NF[00m
+				(SIMPX
+					(C wenn)
+					(FKOORD
+						(MVC wir in hannover ins theater gehen)
+						(KON und)
+						(MVC
+							(MF
+								(PX in munchen)
+								[01;36m(NX[00m
+									(NX alles)
+									(PX vor der haustur)[01;36m)[00m)
+							(VC haben))))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	(DM oder))
+
+
+Sentence 418:
+(TOP am neunten juli)
+
+
+Sentence 419:
+(TOP ich mus uberlegen)
+
+
+Sentence 420:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK ist)
+		[01;36m(VF[00m [01;31m(MF[00m [01;33m(SIMPX[00m
+			(NX
+				(PDS das))[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		(LK gibt)
+		[01;36m(MF[00m
+			[01;31m(MF[00m
+				(NX es)
+				(ADVX da)
+				(ADVX irgendwie)
+				[01;33m(NX[00m (NX was)[01;31m)[00m
+			[01;31m(NF[00m
+				(NX
+					(ART einen)
+					(ADJX interessanten)
+					(NN feiertag))[01;31m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 421:
+(TOP nein)
+
+
+Sentence 422:
+(TOP
+	[01;31m(ADVX[00m
+		[01;36m(ADJX[00m [01;31m(ADVX[00m
+			(PTKNEG nicht)[01;31m)[00m[01;36m)[00m
+		(SIMPX das ich wuste)[01;31m)[00m)
+
+
+Sentence 423:
+(TOP
+	(DM okay)
+	(SIMPX
+		(VF dann)
+		(LK sage)
+		(MF ich einfach mal)
+		(NF
+			(SIMPX
+				(VF von mir aus)
+				(LK gehen)
+				[01;31m(MF[00m
+					(NX wir)
+					(PX ins kino)[01;31m)[00m
+				(KOUS wenn)
+				(APPR bei)
+				(KOUS wenn)
+				[01;31m(NF[00m
+					(SIMPX
+						(C wenn)
+						(MF die was)
+						(VC anbieten))[01;31m)[00m))))
+
+
+Sentence 424:
+(TOP oder wir gehen in eine kneipe)
+
+
+Sentence 425:
+(TOP also ich wurde sagen wir brauchen das gar nicht weiter planen)
+
+
+Sentence 426:
+(TOP
+	(SIMPX
+		(VF wir)
+		(FKOORD
+			[01;36m(LKM[00m [01;31m(LKMN[00m
+				(LK kucken)
+				(MF einfach)
+				[01;31m(NF[00m
+					[01;31m(SIMPX[00m
+						(C wie)
+						(MF die sache)
+						(VC lauft)
+						[01;31m(NF[00m
+							(ADVX
+								(ADV da))[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			(KON und)
+			(LKMVC gehen dann abends aus))))
+
+
+Sentence 427:
+(TOP ganz relaxed)
+
+
+Sentence 428:
+(TOP genau)
+
+
+Sentence 429:
+(TOP okay peter)
+
+
+Sentence 430:
+(TOP
+	(SIMPX
+		(VF von mir aus)
+		(LK hatte)
+		(MF ich alles)
+		[01;36m(NF[00m
+			[01;36m(R[00m
+				[01;36m(C[00m
+					(NX [01;33m(NX (C[00m
+						(PRELS was))[01;36m)[00m
+				[01;36m(MF[00m
+					(NX
+						(PPER ich))[01;36m)[00m
+				[01;31m(NF[00m
+					[01;31m(R[00m
+						(C was) [01;33mC) NX)[00m
+						(MF ich)
+						(VC brauchte)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+	[01;36m(DM[00m
+		(KON und)[01;36m)[00m)
+
+
+Sentence 431:
+(TOP haben wir es dann)
+
+
+Sentence 432:
+(TOP schonen tag noch)
+
+
+Sentence 433:
+(TOP okay)
+
+
+Sentence 434:
+(TOP dir auch)
+
+
+Sentence 435:
+(TOP tschau)
+
+
+Sentence 436:
+(TOP ja)
+
+
+Sentence 437:
+(TOP tschus)
+
+
+Sentence 438:
+(TOP grus gott herr myrda)
+
+
+Sentence 439:
+(TOP ja guten tag frau wesenick)
+
+
+Sentence 440:
+(TOP
+	(SIMPX
+		(VF wir)
+		(LK treffen)
+		(MF uns)
+		(NF
+			(SIMPX
+				[01;36m(PX[00m
+					[01;36m(MF[00m
+						(C um)
+						(MF eine geschaftsreise nach hannover)[01;36m)[00m[01;36m)[00m
+				(VC zu vereinbaren)))))
+
+
+Sentence 441:
+(TOP ja)
+
+
+Sentence 442:
+(TOP eineinhalb tage in den nachsten monaten)
+
+
+Sentence 443:
+(TOP past mir gut ja)
+
+
+Sentence 444:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK kann)
+		(MF ihnen gleich mal einen vorschlag)
+		(VC machen)
+		[01;31m(NF[00m
+			(PX
+				(APPR fur)
+				(NX einen termin))[01;31m)[00m)
+	(NX zwar die zweite juliwoche))
+
+
+Sentence 445:
+(TOP die zweite halfte)
+
+
+Sentence 446:
+(TOP die zweite halfte)
+
+
+Sentence 447:
+(TOP ja zweite halfte sieht es besser aus als in der ersten)
+
+
+Sentence 448:
+(TOP nicht vor mittwoch donnerstag)
+
+
+Sentence 449:
+(TOP also donnerstag freitag ware moglich)
+
+
+Sentence 450:
+(TOP donnerstag freitag ist bei mir auch in ordnung)
+
+
+Sentence 451:
+(TOP ja sollen wir dann gleich diesen termin nehmen)
+
+
+Sentence 452:
+(TOP nehmen wir gleich den termin ja)
+
+
+Sentence 453:
+(TOP gut)
+
+
+Sentence 454:
+(TOP wie fahren wir da hin)
+
+
+Sentence 455:
+(TOP haben sie da)
+
+
+Sentence 456:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF grundsatzlich)
+		(LK gabe)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX es)
+				(ADVX naturlich)[01;36m)[00m
+			[01;33m(SIMPX (NF (SIMPX (NF[00m (NX die moglichkeit)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(SIMPX[00m
+					(VC
+						(VXINF
+							(PTKZU zu)
+							(VVINF fliegen)))[01;31m)[00m [01;33mNF) SIMPX)[00m
+				(KON beziehungsweise)
+				[01;36m(MVC[00m [01;31m(SIMPX[00m
+					(MF den zug)
+					(VC zu nehmen)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 457:
+(TOP ich wurde vorschlagen wir fliegen da wir nur begrenzte zeit zur verfugung haben)
+
+
+Sentence 458:
+(TOP ich weis nicht ob ihnen das recht ist)
+
+
+Sentence 459:
+(TOP also da bin ich dagegen mus ich sagen)
+
+
+Sentence 460:
+(TOP also von munchen nach hannover kann man auch sehr gut mit dem zug fahren)
+
+
+Sentence 461:
+(TOP sonst)
+
+
+Sentence 462:
+(TOP sind sie dagegen ja)
+
+
+Sentence 463:
+(TOP
+	(DM gut)
+	[01;31m(P[00m
+		(SIMPX
+			(VF dann)
+			(LK gibt)
+			(MF es auch hervorragende zugverbindungen)
+			(NF [01;33m(NX[00m
+				(R
+					[01;31m(C[00m
+						[01;31m(NX[00m
+							(PRELS die)[01;31m)[00m[01;31m)[00m
+					[01;31m(MF[00m
+						[01;31m(ADJX[00m
+							[01;31m(ADJX[00m
+								(ADJD stundlich)[01;31m)[00m [01;33mNX)[00m
+							[01;33m(SIMPX[00m (PX ab vier uhr dreiundvierzig)[01;31m)[00m[01;31m)[00m
+					(VC bestehen)
+					(NF wie ich hier grade lese)))) [01;33mSIMPX)[00m
+		(KON denn)
+		(SIMPX ich habe den fahrplan vor mir liegen)[01;31m)[00m)
+
+
+Sentence 464:
+(TOP oh)
+
+
+Sentence 465:
+(TOP sehr gut)
+
+
+Sentence 466:
+(TOP aber es ware vielleicht etwas fruh)
+
+
+Sentence 467:
+(TOP na ja etwas spater)
+
+
+Sentence 468:
+(TOP also man mus schon so funf stunden rechnen fur die fahrt)
+
+
+Sentence 469:
+(TOP
+	[01;31m(PX[00m
+		(PX deswegen)
+		[01;36m(ADJX[00m
+			(ADVX vielleicht)
+			(PX so um sieben uhr dreiundvierzig)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 470:
+(TOP aha)
+
+
+Sentence 471:
+(TOP ja gleich in der fruh)
+
+
+Sentence 472:
+(TOP dann konnten wir die partner schon am nachmittag treffen)
+
+
+Sentence 473:
+(TOP ja das ware mir recht)
+
+
+Sentence 474:
+(TOP ja)
+
+
+Sentence 475:
+(TOP das ware gut)
+
+
+Sentence 476:
+(TOP gut dann nehmen wir gleich den)
+
+
+Sentence 477:
+(TOP ja)
+
+
+Sentence 478:
+(TOP zur unterkunft hatte ich vorschlage zu machen)
+
+
+Sentence 479:
+(TOP
+	(SIMPX es gabe hier drei moglichkeiten)
+	(DM also)
+	[01;31m(NX[00m
+		(NX ein hotel)
+		[01;36m(R[00m
+			[01;31m(R[00m
+				(C was)
+				(MF in der nahe des zentrums)
+				(VC liegt)[01;31m)[00m
+			[01;36m(MF[00m
+				[01;31m(PX[00m
+					(ADVX auch)
+					(PX mit cafeteria und terrasse)[01;31m)[00m
+				(ADJX etwas gunstiger)[01;36m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 480:
+(TOP nee ich sehe grade das ist in der mittleren preislage)
+
+
+Sentence 481:
+(TOP
+	[01;31m(NX[00m
+		(ADVX dann)
+		[01;31m(NX[00m [01;33m(SIMPX (VF (NX[00m
+			(NX das schloshotel)
+			[01;31m(R[00m
+				[01;31m(C[00m
+					(NX
+						(PRELS das))[01;31m)[00m
+				[01;31m(MF[00m
+					(PX
+						(APPR in)
+						(NX der nahe vom bahnhof))[01;31m)[00m [01;33mNX) VF)[00m
+				(VC ist)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX das fande ich auch nicht schlecht))
+
+
+Sentence 482:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(VF
+			(NX
+				[01;36m(LV[00m
+					(NX
+						(ART das)
+						(ADJX teuerste)
+						(NN hotel))[01;36m)[00m
+				(NX amgeorgengarten)))
+		(LK bietet)
+		(MF
+			(NX
+				(NX den luxus)
+				(NX
+					[01;36m(NX[00m
+						(ART eines)[01;36m)[00m
+					[01;36m(NX[00m
+						(NN schwimmbads)[01;36m)[00m)))
+		(NF
+			(R
+				(C was)
+				(MF
+					[01;36m(NX[00m [01;31m(ADVX[00m
+						(ADV naturlich)[01;31m)[00m[01;36m)[00m
+					(ADVX auch)
+					(ADVX nicht))
+				(VC zu verachten ist)))))
+
+
+Sentence 483:
+(TOP ja)
+
+
+Sentence 484:
+(TOP es mus nicht das teuerste sein)
+
+
+Sentence 485:
+(TOP zentrale lage ware naturlich ganz gunstig)
+
+
+Sentence 486:
+(TOP
+	(SIMPX
+		(VF deswegen)
+		(LK ware)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX vielleicht)
+			[01;31m(NX[00m
+				(NX das zweite)
+				[01;31m(NX[00m
+					(PX von ihnen) [01;33mMF) SIMPX)[00m
+					[01;36m(ADVX[00m [01;31m(NX[00m
+						(NN genannte)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+		(VC vorzuziehen)))
+
+
+Sentence 487:
+(TOP ja)
+
+
+Sentence 488:
+(TOP gut das schloshotel hannover)
+
+
+Sentence 489:
+(TOP schloshotel hannover ja)
+
+
+Sentence 490:
+(TOP dann kummere ich mich um zwei einzelzimmer)
+
+
+Sentence 491:
+(TOP ja das ware gut)
+
+
+Sentence 492:
+(TOP und am abend konnten wir auch noch was unternehmen)
+
+
+Sentence 493:
+(TOP konnten mal wieder ins kino gehen)
+
+
+Sentence 494:
+(TOP gute idee ja)
+
+
+Sentence 495:
+(TOP konnten wir mal wieder machen)
+
+
+Sentence 496:
+(TOP haben sie schon einen bestimmten film im auge oder)
+
+
+Sentence 497:
+(TOP
+	(DM nee)
+	(SIMPX
+		(VF ich)
+		(LK hatte)
+		[01;36m(MF[00m
+			[01;36m(PX[00m
+				(APPR in)
+				[01;31m(MF[00m
+					(NX
+						(DP so wenig)
+						(NN zeit))[01;31m)[00m[01;36m)[00m[01;36m)[00m
+		(NF das ich mich darum nicht gekummert habe))
+	(SIMPX aber es ware ein guter anlas))
+
+
+Sentence 498:
+(TOP das)
+
+
+Sentence 499:
+(TOP ja das da finden wir dann sicher was)
+
+
+Sentence 500:
+(TOP genau)
+
+
+Sentence 501:
+(TOP ja dann)
+
+
+Sentence 502:
+(TOP gut)
+
+
+Sentence 503:
+(TOP dann bis dann)
+
+
+Sentence 504:
+(TOP auf wiedersehen frau wesenick)
+
+
+Sentence 505:
+(TOP bis dann)
+
+
+Sentence 506:
+(TOP auf wiedersehen)
+
+
+Sentence 507:
+(TOP ja guten tag frau wesenick)
+
+
+Sentence 508:
+(TOP guten tag herr myrda)
+
+
+Sentence 509:
+(TOP
+	(SIMPX
+		(VF wir)
+		(LK wollten)
+		[01;31m(FKOORD[00m
+			(MVC uns ja fur ein meeting treffen)
+			(KON beziehungsweise)
+			[01;31m(MVC[00m
+				(MF eines)
+				(VC ausmachen)[01;31m)[00m[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(PX[00m
+				[01;36m(NF[00m
+					(PX
+						(APPR in)
+						(NX hannover)) [01;33mSIMPX)[00m[01;36m)[00m
+				(SIMPX
+					(C wenn)
+					(MF
+						(NX ich)
+						(NX mich)
+						[01;36m(ADVX[00m [01;31m(ADJX[00m
+							(ADJD recht)[01;31m)[00m[01;36m)[00m)
+					(VC entsinne))[01;31m)[00m
+			[01;36m(NF[00m
+				(SIMPX
+					(C weil)
+					[01;31m(MF[00m [01;33m(MF[00m
+						(ADVX da)
+						(NX die geschaftspartner)
+						(ADVX auch)
+						(NX eine filiale)
+						(ADVX jetzt)[01;31m)[00m
+					[01;31m(VC[00m
+						[01;36m(NX[00m [01;31m(VXINF[00m
+							(VVPP eroffnet)[01;31m)[00m [01;33mMF)[00m[01;36m)[00m
+						[01;36m(VC[00m
+							(VXFIN
+								(VAFIN haben))[01;36m)[00m[01;31m)[00m)[01;36m)[00m[01;31m)[00m)
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(KOORD und)
+			(DM ja)
+			[01;31m(SIMPX[00m
+				(VF ich)
+				(LK weis)
+				(MF nicht)[01;31m)[00m[01;36m)[00m
+		(VF es)
+		(LK sollte)
+		(MF auf alle falle noch in den nachsten drei monaten)
+		(VC geschehen)
+		[01;31m(NF[00m
+			(PX
+				(NX meiner ansicht)
+				(APPO nach))[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 510:
+(TOP wie sehen sie das)
+
+
+Sentence 511:
+(TOP ja)
+
+
+Sentence 512:
+(TOP ja gerne)
+
+
+Sentence 513:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK kann)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX nur)
+			(ADVX noch nicht)
+			[01;31m(PX[00m [01;33m(PX[00m
+				(APPR in)
+				[01;31m(NX[00m
+					(ART der)
+					(ADJX ersten) [01;33mPX) MF)[00m
+					[01;36m(VXINF[00m
+						[01;36m(VC[00m
+							(NN oktoberhalfte)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 514:
+(TOP da bin ich im urlaub)
+
+
+Sentence 515:
+(TOP aber ab dann finden wir sicherlich einen gemeinsamen termin)
+
+
+Sentence 516:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;36m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF ihnen oktober nicht so gut)
+				(VC past))[01;36m)[00m
+		[01;31m(SIMPX[00m
+			(VF da)
+			(LK habe)
+			(MF ich auch urlaub)
+			(NF ende oktober)[01;31m)[00m[01;36m)[00m
+	(DM also))
+
+
+Sentence 517:
+(TOP kommt erst der november in frage)
+
+
+Sentence 518:
+(TOP ja november kame dann in frage)
+
+
+Sentence 519:
+(TOP
+	[01;31m(SIMPX[00m
+		(C wenn)
+		(MF
+			(ADVX dann)
+			[01;31m(NX[00m
+				(ADVX so)
+				[01;36m(NX[00m
+					(ART die)
+					(ADJX zweite)
+					(NN woche)[01;36m)[00m[01;31m)[00m)[01;31m)[00m)
+
+
+Sentence 520:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK glaube)
+		(NF
+			(SIMPX
+				(VF die zweite woche)
+				(LK ware)
+				[01;36m(ADJX[00m
+					(MF
+						[01;36m(MF[00m
+							(ADJX
+								(ADVX ganz)
+								(ADJD gut))[01;36m)[00m
+						[01;31m(ADJX[00m
+							(ADJD machbar)[01;31m)[00m)[01;36m)[00m))))
+
+
+Sentence 521:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF wie)
+		(LK sieht)
+		(MF es da)[01;31m)[00m
+	[01;36m(VC[00m
+		(APPR bei)[01;36m)[00m)
+
+
+Sentence 522:
+(TOP ja in der ersten halfte geht es bei mir)
+
+
+Sentence 523:
+(TOP erste halfte ist in ordnung)
+
+
+Sentence 524:
+(TOP blos nicht am montag)
+
+
+Sentence 525:
+(TOP montag ist ausgeschlossen)
+
+
+Sentence 526:
+(TOP da ist namlich eine dienstbesprechung und die ist sehr wichtig)
+
+
+Sentence 527:
+(TOP ja da habe ich auch noch ein meeting)
+
+
+Sentence 528:
+(TOP also es ware auch bei mir nicht moglich)
+
+
+Sentence 529:
+(TOP aber wie ware es am dienstag und mittwoch)
+
+
+Sentence 530:
+(TOP dienstag und mittwoch past ausgezeichnet)
+
+
+Sentence 531:
+(TOP dann nehmen wir den termin)
+
+
+Sentence 532:
+(TOP elfter)
+
+
+Sentence 533:
+(TOP nehmen wir gleich den termin)
+
+
+Sentence 534:
+(TOP okay)
+
+
+Sentence 535:
+(TOP ja wie kommen wir da hin)
+
+
+Sentence 536:
+(TOP ich weis nicht ob sie sich da schon gedanken gemacht haben)
+
+
+Sentence 537:
+(TOP
+	(DM also)
+	(SIMPX wir konnten naturlich mit dem auto fahren)
+	(SIMPX
+		(KOORD aber)
+		(VF ich)
+		(LK wurde)
+		(MF
+			(ADVX hier)
+			[01;31m(NX[00m
+				(NX die bequemlichkeit)
+				(NX
+					[01;36m(NX[00m
+						(ART eines)[01;36m)[00m
+					[01;36m(NX[00m
+						(NN zuges)[01;36m)[00m)[01;31m)[00m)
+		(VC vorziehen)))
+
+
+Sentence 538:
+(TOP ist fur mich in ordnung ja)
+
+
+Sentence 539:
+(TOP
+	(SIMPX ab munchen dauert es nur etwas uber vier stunden)
+	[01;31m(SIMPX[00m
+		(KOORD und)
+		(VF wir)
+		(LK konnten)
+		(MF ab halb sechs schon)
+		(VC losfahren)
+		[01;36m(SIMPX[00m
+			(NF
+				[01;31m(SIMPX[00m
+					(C so das)
+					(MF wir mittags die geschaftspartner)
+					(VC treffen)[01;31m)[00m
+				[01;36m(NF[00m
+					(PX
+						(KON oder)
+						(PX am fruhen nachmittag))[01;36m)[00m)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 540:
+(TOP ab ab halb sechs ist in ordnung)
+
+
+Sentence 541:
+(TOP
+	[01;31m(NX[00m
+		[01;36m(ADVX[00m
+			(ADVX nur)
+			[01;31m(ADVX[00m
+				(PTKNEG nicht)[01;31m)[00m[01;36m)[00m
+		(ADVX gleich)
+		(NX halb sechs)[01;31m)[00m)
+
+
+Sentence 542:
+(TOP das ware mir etwas zu fruh)
+
+
+Sentence 543:
+(TOP
+	(ADJX
+		[01;31m(NX[00m
+			[01;36m(NX[00m [01;31m(ADVX[00m
+				(ADV fruhestens)[01;31m)[00m[01;36m)[00m
+			[01;36m(NX[00m
+				(ART [01;33m(ADJX[00m eine)
+				(NN stunde)[01;36m)[00m[01;31m)[00m
+		(ADJD spater)))
+
+
+Sentence 544:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF wir)
+		(LK konnen)
+		(MF auch gleich halb acht)
+		(VC sagen)
+		(NF [01;33m(NX[00m
+			(NX
+				(NX sieben uhr)
+				[01;31m(NX[00m
+					(NX sieben uhr) [01;33mNX)[00m
+					(ADJX funfundzwanzig)[01;31m)[00m))))
+
+
+Sentence 545:
+(TOP gut)
+
+
+Sentence 546:
+(TOP halb acht)
+
+
+Sentence 547:
+(TOP ja halb acht ist in ordnung)
+
+
+Sentence 548:
+(TOP gut)
+
+
+Sentence 549:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK weis)
+		(MF nicht)
+		(NF
+			(SIMPX
+				(C ob)
+				[01;31m(MF[00m [01;33m(MF[00m
+					(NX sie)
+					(NX sich)
+					(PX um die unterkunft)
+					(ADVX schon)[01;31m)[00m
+				[01;31m(VC[00m
+					[01;36m(NX[00m [01;31m(VXINF[00m
+						(VVPP gekummert)[01;31m)[00m [01;33mMF)[00m[01;36m)[00m
+					[01;36m(VC[00m
+						(VXFIN
+							(VAFIN haben))[01;36m)[00m[01;31m)[00m))))
+
+
+Sentence 550:
+(TOP wenn nicht hatte ich hier drei vorschlage)
+
+
+Sentence 551:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF es)
+		(LK gabe)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX da)
+			[01;31m(NX[00m
+				(NX das hotel zentral) [01;33mMF) SIMPX)[00m
+				(NX das hotel nohre)
+				(KON und)
+				[01;33m(SIMPX (NX[00m (NX das hotel prinzenhof)[01;31m)[00m
+			(PX in hannover)[01;31m)[00m[01;31m)[00m [01;33mNX)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			[01;31m(NX[00m
+				(NX beides sehr gute unterkunfte)
+				(KON und)
+				[01;33m(MVC[00m (ADJX auch ziemlich zentral gelegen)[01;31m)[00m[01;31m)[00m
+		(LK glaube)
+		(MF ich)[01;31m)[00m)
+
+
+Sentence 552:
+(TOP die unterscheiden sich dann wohl nur im preis)
+
+
+Sentence 553:
+(TOP
+	(SIMPX das eine liegt etwas uber zweihundert mark)
+	(NX
+		(NX die anderen)
+		(PX [01;33m(PX[00m
+			(ADVX so)
+			(APPR um)
+			[01;31m(NX[00m
+				(NX hundert vierzig mark) [01;33mPX)[00m
+				(NX hundert zwanzig mark)[01;31m)[00m)))
+
+
+Sentence 554:
+(TOP ich weis)
+
+
+Sentence 555:
+(TOP ja)
+
+
+Sentence 556:
+(TOP ja)
+
+
+Sentence 557:
+(TOP
+	(SIMPX das teuerste mus es vielleicht nicht sein)
+	[01;36m(ADVX[00m [01;31m(DM[00m
+		(KON aber)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 558:
+(TOP
+	(SIMPX
+		(LK nehmen)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX wir)
+				(ADVX dann)
+				(ADVX doch)
+				(NX das in der mitte)[01;36m)[00m
+			[01;36m(NF[00m
+				(ADVX
+					(ADV vielleicht))[01;36m)[00m[01;31m)[00m)
+	(SIMPX das ware das zentralhotel))
+
+
+Sentence 559:
+(TOP einverstanden)
+
+
+Sentence 560:
+(TOP ubernehmen sie die buchung)
+
+
+Sentence 561:
+(TOP ja)
+
+
+Sentence 562:
+(TOP zwei einzelzimmer)
+
+
+Sentence 563:
+(TOP gut)
+
+
+Sentence 564:
+(TOP ich kummere mich dann um die zugfahrkarten)
+
+
+Sentence 565:
+(TOP okay)
+
+
+Sentence 566:
+(TOP gerne)
+
+
+Sentence 567:
+(TOP ja)
+
+
+Sentence 568:
+(TOP
+	[01;36m(LV[00m
+		(SIMPX
+			(KOORD und)
+			(C ob)
+			(MF wir am abend noch was)
+			(VC unternehmen))[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK konnen)
+		(MF wir ja dort)
+		(VC absprechen)[01;31m)[00m)
+
+
+Sentence 569:
+(TOP ja)
+
+
+Sentence 570:
+(TOP aber)
+
+
+Sentence 571:
+(TOP haben sie schon irgendwelche vorschlage)
+
+
+Sentence 572:
+(TOP
+	(SIMPX ich weis nicht)
+	[01;31m(SIMPX[00m
+		(VF in die oper)
+		(LK mochte)
+		[01;33m(FKOORD[00m (MF ich grade nicht)
+		(VC gehen)
+		(NF oder ins konzert)[01;31m)[00m
+	[01;36m(SIMPX[00m
+		[01;31m(NX[00m [01;33m(NX[00m
+			[01;31m(ADVX[00m
+				(ADV aber)[01;31m)[00m
+			(ADVX vielleicht)
+			[01;33m(NX[00m (NX irgendwas)[01;31m)[00m
+		[01;31m(NX[00m
+			[01;36m(NX[00m
+				(ADJX kleines)
+				[01;31m(ADJX[00m
+					(ADJA gemutliches)[01;31m)[00m [01;33mNX) NX)[00m[01;36m)[00m
+			[01;36m(VC[00m
+				[01;36m(VXINF[00m
+					(NN treffen)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 573:
+(TOP ja)
+
+
+Sentence 574:
+(TOP vielleicht findet sich ja auch eine nette kneipe oder)
+
+
+Sentence 575:
+(TOP ja warum nicht)
+
+
+Sentence 576:
+(TOP ja)
+
+
+Sentence 577:
+(TOP gut)
+
+
+Sentence 578:
+(TOP ja dann bis dann)
+
+
+Sentence 579:
+(TOP dann bis dann ja)
+
+
+Sentence 580:
+(TOP auf wiedersehen)
+
+
+Sentence 581:
+(TOP wiedersehen)
+
+
+Sentence 582:
+(TOP guten tag frau brenner)
+
+
+Sentence 583:
+(TOP schon das ich sie wieder sehe)
+
+
+Sentence 584:
+(TOP grus gott frau stumpfecker)
+
+
+Sentence 585:
+(TOP das ist ja ein zufall)
+
+
+Sentence 586:
+(TOP da konnten wir ja gleich mal besprechen wann wir endlich unsere dienstreise zusammen auf die reihe kriegen)
+
+
+Sentence 587:
+(TOP ja das trifft sich sehr gut gell)
+
+
+Sentence 588:
+(TOP ich mus ihnen nur sagen das ich die letzten beiden juliwochen und die ersten beiden augustwochen im urlaub bin)
+
+
+Sentence 589:
+(TOP aber sonst habe ich eigentlich schon noch etliche termine frei)
+
+
+Sentence 590:
+(TOP dann schlage ich ihnen gleich die erste septemberwoche vor)
+
+
+Sentence 591:
+(TOP ja)
+
+
+Sentence 592:
+(TOP
+	(SIMPX
+		(VF
+			(NX
+				(ART der)
+				[01;31m(NX[00m
+					(NX dienstag) [01;33mNX)[00m
+					(KON und)
+					(NX mittwoch)[01;31m)[00m))
+		(LK wurde)
+		(MF bei mir sehr gut)
+		(VC passen)))
+
+
+Sentence 593:
+(TOP hervorragend)
+
+
+Sentence 594:
+(TOP
+	[01;31m(DM[00m
+		[01;31m(VXFIN[00m
+			(VVIMP sprich)[01;31m)[00m[01;31m)[00m
+	(NX der erste und zweite september))
+
+
+Sentence 595:
+(TOP ja)
+
+
+Sentence 596:
+(TOP
+	[01;31m(DM[00m
+		(ADVX
+			(ADV so))[01;31m)[00m
+	(SIMPX wie wollen wir denn hinkommen))
+
+
+Sentence 597:
+(TOP ja hatten sie lust auf eine zugfahrt)
+
+
+Sentence 598:
+(TOP ja dann konnten wir auch noch gewisse geschaftliche dinge gleich im zug besprechen)
+
+
+Sentence 599:
+(TOP das ware sehr angenehm)
+
+
+Sentence 600:
+(TOP ja dann einigen wir uns doch gleich)
+
+
+Sentence 601:
+(TOP wann wollen wir losfahren)
+
+
+Sentence 602:
+(TOP wir konnten auch schon um sechs uhr losfahren)
+
+
+Sentence 603:
+(TOP morgens)
+
+
+Sentence 604:
+(TOP ja)
+
+
+Sentence 605:
+(TOP
+	(DM ach)
+	(SIMPX
+		(VF das)
+		(LK ist)
+		(MF
+			(ADVX doch)
+			[01;36m(ADJX[00m
+				[01;33m(ADVX[00m (ADVX etwas)
+				[01;31m(ADJX[00m
+					(ADVX sehr) [01;33mADVX)[00m
+					(ADJD fruh)[01;31m)[00m[01;36m)[00m))
+	(DM oder))
+
+
+Sentence 606:
+(TOP wann geht denn der zweite zug in der fruh)
+
+
+Sentence 607:
+(TOP
+	(DM also)
+	(SIMPX es fahrt ab vier uhr dreiundvierzig stundlich ein zug)
+	(SIMPX
+		(KOORD und)
+		(VF die fahrtdauer)
+		(LK betragt)
+		[01;36m(NX[00m
+			(MF
+				(ADVX ubrigens)
+				[01;36m(MF[00m
+					(NX
+						(ADJX viereinhalb)
+						(NN stunden))[01;36m)[00m)[01;36m)[00m))
+
+
+Sentence 608:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK denke)
+		(NF
+			(SIMPX
+				(VF es)
+				(LK wird)
+				(MF doch)
+				(VC reichen)
+				(NF
+					(SIMPX
+						(C wenn)
+						(MF
+							(NX wir)
+							(PX
+								(ADVX
+									(ADVX so)
+									[01;36m(ADVX[00m
+										(ADV etwa)[01;36m)[00m)
+								(APPR um)
+								(NX acht uhr)))
+						(VC losfahren wurden)))))))
+
+
+Sentence 609:
+(TOP was meinen sie denn)
+
+
+Sentence 610:
+(TOP
+	(DM gut)
+	[01;31m(SIMPX[00m
+		(LK ist)
+		(MF in ordnung)[01;31m)[00m)
+
+
+Sentence 611:
+(TOP nachdem wir ja im zug auch schon arbeiten konnen durfte das kein problem sein)
+
+
+Sentence 612:
+(TOP eben)
+
+
+Sentence 613:
+(TOP sehr schon)
+
+
+Sentence 614:
+(TOP dann sollten wir auch gleich ein hotel in der nahe vom hauptbahnhof nehmen)
+
+
+Sentence 615:
+(TOP was wurden sie denn vom schloshotel hannover halten)
+
+
+Sentence 616:
+(TOP
+	(SIMPX
+		(VF es)
+		(LK ist)
+		(MF
+			(ADJX
+				(NX
+					(NX
+						[01;36m(ADVX[00m
+							(ADVX etwa)
+							(ADVX nur)[01;36m)[00m
+						(ADJX funf)
+						(NN minuten))
+					(PX vom hauptbahnhof))
+				(ADJD entfernt)))))
+
+
+Sentence 617:
+(TOP
+	(SIMPX
+		[01;31m(KOORD[00m
+			(KON und)[01;31m)[00m
+		(VF der preis fur das einzelzimmer)
+		[01;36m(NX[00m
+			[01;36m(ADVX[00m [01;31m(LK[00m
+				[01;31m(VXFIN[00m
+					(VVFIN betragt)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+			(MF hundert funfunddreisig mark)[01;36m)[00m))
+
+
+Sentence 618:
+(TOP klingt ganz annehmbar)
+
+
+Sentence 619:
+(TOP was haben die denn sonst noch so zu bieten)
+
+
+Sentence 620:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(VF die anderen beiden)
+		[01;31m(FKOORD[00m
+			[01;31m(LKMN[00m
+				(LK sind)
+				[01;36m(MF[00m
+					(MF zwar beide zentral)
+					[01;31m(NF[00m
+						[01;31m(PX[00m
+							(ADVX aber)
+							(ADVX nicht)
+							(PX in der nahe vom hauptbahnhof)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+			[01;36m(KOORD[00m
+				(KON und)[01;36m)[00m
+			[01;31m(LKM[00m
+				(LK liegen)
+				(MF auch etwas hoher)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX und ich weis nicht wie ihr budget aussieht)
+		(SIMPX aber mir wurde eigentlich dieses schloshotel hannover am besten passen)[01;36m)[00m)
+
+
+Sentence 621:
+(TOP gut)
+
+
+Sentence 622:
+(TOP gehen wir ins schloshotel)
+
+
+Sentence 623:
+(TOP sehr schon)
+
+
+Sentence 624:
+(TOP
+	(SIMPX und wie sieht es dann aus)
+	[01;31m(SIMPX[00m
+		(LK sollen)
+		(MF wir uns vielleicht irgendwelche theaterkarten)
+		(VC besorgen)
+		(NF
+			(SIMPX
+				(SIMPX wenn wir schon dort sind)
+				[01;36m(NF[00m
+					(SIMPX
+						(C das)
+						(MF
+							(NX wir)
+							(NX
+								[01;36m(ADJX[00m
+									(PIDAT bischen)[01;36m)[00m
+								(NN kultur)))
+						(VC mitnehmen))[01;36m)[00m))[01;31m)[00m)
+
+
+Sentence 625:
+(TOP ja oder gibt es in hannover nicht auch mal irgendein museum zu besichtigen)
+
+
+Sentence 626:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF da)
+		(LK musten)
+		(MF wir uns)
+		(VC erkundigen)
+		(NF
+			(SIMPX
+				(C ob)
+				(MF
+					(NX die)
+					(ADVX abends)
+					[01;36m(NX[00m [01;31m(ADJX[00m
+						(ADJD geoffnet)[01;31m)[00m[01;36m)[00m)
+				(VC haben))))
+	(SIMPX aber museumsbesuche finde ich auch sehr reizvoll))
+
+
+Sentence 627:
+(TOP ich werde meiner sekretarin bescheid sagen die soll sich da drum kummern)
+
+
+Sentence 628:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK werde)
+		(MF ich ihnen neues)
+		(VC erzahlen)
+		(NF [01;33m(PX[00m
+			(PX
+				(APPRART vom)
+				[01;31m(NX[00m
+					(NX kulturleben) [01;33mPX)[00m
+					(PX in hannover)[01;31m)[00m)))
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK konnen)
+		(MF
+			(NX wir)
+			(NX uns)
+			(ADVX ja)
+			[01;31m(ADVX[00m
+				(ADVX immer)
+				[01;36m(ADVX[00m
+					(ADV noch)[01;36m)[00m[01;31m)[00m)
+		(VC einigen)))
+
+
+Sentence 629:
+(TOP was halten sie davon)
+
+
+Sentence 630:
+(TOP ja ist eine sehr gute idee)
+
+
+Sentence 631:
+(TOP sie konnen mir ja ein fax schicken lassen)
+
+
+Sentence 632:
+(TOP genau)
+
+
+Sentence 633:
+(TOP das mache ich)
+
+
+Sentence 634:
+(TOP okay dann waren wir von meiner seite soweit fertig mit der planung)
+
+
+Sentence 635:
+(TOP ja finde ich auch)
+
+
+Sentence 636:
+(TOP
+	(SIMPX
+		(KOORD und)
+		[01;31m(LV[00m
+			[01;31m(SIMPX[00m
+				[01;31m(SIMPX[00m
+					(C falls)
+					[01;31m(MF[00m
+						(NX sich)
+						(NX irgendwas)[01;31m)[00m
+					[01;36m(PX[00m [01;31m(VC[00m
+						[01;31m(VXFIN[00m
+							(VVFIN andert)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+				(KON oder)
+				[01;36m(LV[00m
+					(SIMPX [01;33m(SIMPX[00m
+						(C wenn)
+						(MF
+							(NX wir)
+							(NX
+								[01;36m(ADVX[00m [01;31m(ADJX[00m
+									(ADJA nahere)[01;31m)[00m[01;36m)[00m
+								[01;36m(NX[00m
+									(NN einzelheiten)[01;36m)[00m))
+						(VC wissen))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(VF dann)
+		(LK kontaktieren)
+		(MF wir uns einfach noch mal)))
+
+
+Sentence 637:
+(TOP genau das machen wir)
+
+
+Sentence 638:
+(TOP gut)
+
+
+Sentence 639:
+(TOP frau stumpfecker einen schonen tag wunsche ich ihnen noch)
+
+
+Sentence 640:
+(TOP gut frau brenner ich ihnen auch)
+
+
+Sentence 641:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederschauen)[01;31m)[00m))
+
+
+Sentence 642:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederschauen)[01;31m)[00m))
+
+
+Sentence 643:
+(TOP guten tag frau heinicke)
+
+
+Sentence 644:
+(TOP
+	(SIMPX
+		(VF wie wir bereits ausgemacht haben)
+		(LK wollten)
+		(MF [01;33m(MF[00m
+			(NX wir)
+			[01;31m(PX[00m [01;33m(PX[00m
+				(APPR auf)
+				[01;31m(NX[00m
+					[01;36m(NX[00m
+						(ART eine)
+						[01;31m(ADJX[00m
+							(ADJA eineinhalbtagige)[01;31m)[00m [01;33mPX) MF)[00m[01;36m)[00m
+					[01;36m(VXINF[00m
+						[01;36m(VC[00m
+							(NN geschaftsreise)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+			(PX nach hamburg))
+		(VC fahren)))
+
+
+Sentence 645:
+(TOP ja grus gott herr nishimoto)
+
+
+Sentence 646:
+(TOP wir wollten jetzt glaube ich noch mal die termine besprechen)
+
+
+Sentence 647:
+(TOP ja genau)
+
+
+Sentence 648:
+(TOP haben sie ihren terminkalender jetzt gerade zur hand)
+
+
+Sentence 649:
+(TOP ja den habe ich)
+
+
+Sentence 650:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK hatte)
+		(MF jetzt am vierzehnten und funfzehnten januar zeit)
+		[01;31m(NF[00m
+			[01;31m(PX[00m
+				(KON oder)
+				[01;31m(PX[00m
+					[01;36m(PX[00m
+						(ADVX auch)
+						[01;31m(PX[00m
+							(APPRART am)
+							(NX wochenende)[01;31m)[00m[01;36m)[00m
+					(NX siebzehnter achtzehnter januar)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 651:
+(TOP und zwischen dem dreiundzwanzigsten und sechsundzwanzigsten januar und dem achtundzwanzigsten und neunundzwanzigsten januar)
+
+
+Sentence 652:
+(TOP
+	(DM ja)
+	(P
+		(SIMPX da wurde mir der letzte termin am besten passen)
+		(KOUS weil)
+		(SIMPX
+			(SIMPX am vierzehnten und funfzehnten ist eine messe)
+			[01;36m(SIMPX[00m
+				[01;36m(KOORD[00m
+					(KON und)[01;36m)[00m
+				(SIMPX in der letzten januarwoche ist bei mir bis auf montag eigentlich alles frei)[01;36m)[00m)))
+
+
+Sentence 653:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF da)
+		(LK wurde)
+		(MF ich doch)
+		(VC sagen)
+		(NF
+			(SIMPX
+				(C das)
+				(MF
+					(NX wir)
+					(PX [01;33m(PX[00m
+						(APPRART am)
+						[01;31m(NX[00m
+							(NX mittwoch) [01;33mPX)[00m
+							(KON und)
+							(NX donnerstag)[01;31m)[00m)
+					(PX nach hannover))
+				(VC fahren)))))
+
+
+Sentence 654:
+(TOP gut verbleiben wir beim achtundzwanzigsten und neunundzwanzigsten januar)
+
+
+Sentence 655:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			(PX
+				(APPR bezuglich)
+				(NX des verkehrsmittels))[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(VF was)
+			(LK haben)
+			(MF sie sich da)
+			(VC vorgestellt)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 656:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK habe)
+		(MF mir da einige zugverbindungen und fluge)
+		(VC
+			(VXINF geben)
+			[01;36m(VXFIN[00m [01;31m(VXINF[00m
+				(VVINF lassen)[01;31m)[00m[01;36m)[00m))
+	(SIMPX
+		(SIMPX und der zug fahrt stundlich ab vier uhr sechsundfunfzig am morgen)
+		[01;36m(SIMPX[00m
+			[01;36m(KOORD[00m
+				(KON und)[01;36m)[00m
+			[01;31m(SIMPX[00m
+				(VF er)
+				(LK braucht)
+				[01;31m(MF[00m
+					(NX viereinhalb stunden)
+					[01;36m(NF[00m
+						[01;36m(PX[00m
+							(PX bis hannover)
+							(PX von munchen aus)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 657:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(VF das flugzeug)
+		[01;31m(FKOORD[00m
+			[01;31m(LKMVC[00m
+				(LK wurde)
+				(MF stundlich ab sieben uhr bis achtzehn uhr)
+				(VXINF fahren)
+				[01;31m(VC[00m [01;33m(SIMPX[00m
+					(VXINF
+						(VVINF fliegen))[01;31m)[00m[01;31m)[00m
+			[01;36m(SIMPX[00m
+				(KON und)
+				(LKM braucht siebzig minuten)[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 658:
+(TOP ich weis nicht wie sie es sich das vorgestellt haben aber ich wurde doch eher fur einen flug pladieren)
+
+
+Sentence 659:
+(TOP ja ich ebenso)
+
+
+Sentence 660:
+(TOP
+	[01;31m(PX[00m
+		[01;36m(DM[00m [01;31m(ADVX[00m
+			(ADV eben)[01;31m)[00m[01;36m)[00m
+		(PX aus zeitgrunden)[01;31m)[00m)
+
+
+Sentence 661:
+(TOP ja genau)
+
+
+Sentence 662:
+(TOP jetzt habe ich mir auch schon einige hotelangebote herausgesucht)
+
+
+Sentence 663:
+(TOP die mus ich mit ihnen jetzt noch absprechen)
+
+
+Sentence 664:
+(TOP
+	[01;31m(NX[00m
+		(PX zum einen)
+		(NX
+			(NX das maritimhotel in hannover)
+			[01;36m(NF[00m
+				(R [01;33m(R[00m
+					(C welches)
+					[01;31m(FKOORD[00m
+						(MVC am bahnhof liegt) [01;33mR)[00m
+						(KON und)
+						(MVC
+							(MF
+								(PX zum zentrum)
+								(NX
+									(NX funfzehn minuten)
+									[01;36m(VXINF[00m [01;31m(NX[00m
+										(NN laufzeit)[01;31m)[00m[01;36m)[00m))
+							(VC hat))[01;31m)[00m)[01;36m)[00m)[01;31m)[00m)
+
+
+Sentence 665:
+(TOP es gibt dort eine cafeteria garage ist naturlich dann nicht nicht unbedingt so wichtig)
+
+
+Sentence 666:
+(TOP einzelzimmer kostet hundert einundfunfzig mark doppelzimmer hundert funf mark)
+
+
+Sentence 667:
+(TOP
+	(NX dann das hotel luisenhof)
+	[01;36m(ADJX[00m
+		(ADJX funf minuten vom bahnhof entfernt)
+		[01;31m(ADJX[00m
+			[01;36m(DM[00m
+				(ADVX
+					(ADV also))[01;36m)[00m
+			(ADJX etwas schneller)[01;31m)[00m[01;36m)[00m
+	(SIMPX es gibt eine bar ein restaurant und ebenfalls eine garage))
+
+
+Sentence 668:
+(TOP
+	(SIMPX und das hotel loccumerhof ist gleich beim bahnhof anscheinend)
+	(SIMPX und es gibt ein schwimm und dampfbad und eine pianobar))
+
+
+Sentence 669:
+(TOP
+	(SIMPX und das einzelzimmer kostet allerdings zweihundert achtundvierzig mark)
+	(NX
+		(KON und)
+		[01;36m(MF[00m [01;31m(NX[00m
+			(NX das doppelzimmer)
+			(NX hundert dreiundvierzig mark)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 670:
+(TOP
+	(SIMPX
+		(VF vom zeitangebot)
+		(LK ware)
+		(MF das hotel loccumerhof anscheinend besonders gunstig)
+		(NF
+			(SIMPX
+				(C weil)
+				(MF
+					(NX es)
+					(ADVX gleich)
+					[01;31m(PX[00m
+						(APPRART beim)
+						(NX bahnhof)[01;31m)[00m)
+				(VC liegt)))))
+
+
+Sentence 671:
+(TOP ja)
+
+
+Sentence 672:
+(TOP ja)
+
+
+Sentence 673:
+(TOP ja also dieses letzte hotel das hat mich auch am meisten interessiert)
+
+
+Sentence 674:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(VF da wir sowieso auf firmenkosten reisen werden)
+		(LK denke)
+		(MF
+			[01;36m(MF[00m
+				(NX
+					(PPER ich))[01;36m)[00m
+			(ADVX schon))
+		(NF das wir uns dort ein einzelzimmer auch nehmen konnen)))
+
+
+Sentence 675:
+(TOP gut nehmen wir dann die einzelzimmer)
+
+
+Sentence 676:
+(TOP und da ist ja eine pianobar dabei)
+
+
+Sentence 677:
+(TOP
+	(SIMPX
+		(VF insofern)
+		(LK ware)
+		(MF
+			(NX das abendprogramm)
+			(ADVX eigentlich)
+			(ADVX auch)
+			(ADVX schon)
+			[01;36m(ADVX[00m [01;31m(NX[00m
+				(PIS etwas)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 678:
+(TOP
+	[01;36m(NX[00m [01;31m(VXINF[00m
+		(VVPP abgedeckt)[01;31m)[00m[01;36m)[00m
+	(DM ja))
+
+
+Sentence 679:
+(TOP
+	[01;36m(NX[00m [01;31m(VXINF[00m
+		(VVPP abgedeckt)[01;31m)[00m[01;36m)[00m
+	(DM ja))
+
+
+Sentence 680:
+(TOP gut da bin ich einverstanden)
+
+
+Sentence 681:
+(TOP schon frau heinicke)
+
+
+Sentence 682:
+(TOP in ordnung herr nishimoto)
+
+
+Sentence 683:
+(TOP verbleiben wir dann bei unserm termin im januar)
+
+
+Sentence 684:
+(TOP im januar am achtundzwanzigsten)
+
+
+Sentence 685:
+(TOP gut)
+
+
+Sentence 686:
+(TOP wiedersehen herr nishimoto)
+
+
+Sentence 687:
+(TOP auf wiedersehen frau heinicke)
+
+
+Sentence 688:
+(TOP reiseburo bonn flammersfeld guten tag)
+
+
+Sentence 689:
+(TOP
+	(DM guten tag)
+	(DM
+		(NX
+			[01;36m(DM[00m
+				(NX
+					(NE krings))[01;36m)[00m
+			(ADVX hier))))
+
+
+Sentence 690:
+(TOP ich habe eine frage)
+
+
+Sentence 691:
+(TOP
+	(SIMPX
+		(VF vom vierundzwanzigsten bis zum funfundzwanzigsten juni)
+		(LK bin)
+		(MF
+			(NX ich)
+			[01;31m(PX[00m [01;33m(PX[00m
+				(APPR auf)
+				[01;31m(NX[00m
+					(NX einem kongres) [01;33mPX)[00m
+					(PX in hannover)[01;31m)[00m[01;31m)[00m))
+	(SIMPX
+		(KOORD und)
+		(VF ich)
+		(LK wurde)
+		(MF
+			(ADVX gern)
+			[01;31m(NX[00m
+				(ADVX einen tag vorher)
+				(PX am dreiundzwanzigsten)[01;31m)[00m)
+		(VC anreisen)))
+
+
+Sentence 692:
+(TOP herr krings mit welchem verkehrsmittel mochten sie anreisen)
+
+
+Sentence 693:
+(TOP gibt es eine gunstige zugverbindung)
+
+
+Sentence 694:
+(TOP ja die gibt es)
+
+
+Sentence 695:
+(TOP wann mochten sie denn ankommen)
+
+
+Sentence 696:
+(TOP um die mittagszeit etwa)
+
+
+Sentence 697:
+(TOP gut)
+
+
+Sentence 698:
+(TOP dann ware zu empfehlen um acht uhr dreisig und sie kamen an in hannover um ein uhr)
+
+
+Sentence 699:
+(TOP
+	(ADVX
+		(ADV etwa)))
+
+
+Sentence 700:
+(TOP ja das ware okay)
+
+
+Sentence 701:
+(TOP konnten sie mir da ein hotel buchen)
+
+
+Sentence 702:
+(TOP ja kleinen moment)
+
+
+Sentence 703:
+(TOP welche preiskategorie sollte das ungefahr sein)
+
+
+Sentence 704:
+(TOP so um die hundert mark pro ubernachtung)
+
+
+Sentence 705:
+(TOP da gibt es das hotel am thielenplatz das ist ganz in der nahe vom bahnhof)
+
+
+Sentence 706:
+(TOP das ist wohl am angenehmsten)
+
+
+Sentence 707:
+(TOP
+	(SIMPX
+		(VF das)
+		(VXFIN ist)
+		(LK liegt)
+		[01;36m(PX[00m
+			(MF
+				(ADVX so)
+				[01;31m(PX[00m
+					(APPR zwischen)
+					(NX funfundachtzig und einhundert dreisig mark)[01;31m)[00m)[01;36m)[00m))
+
+
+Sentence 708:
+(TOP ja)
+
+
+Sentence 709:
+(TOP kenne ich nicht aber hort sich gut an)
+
+
+Sentence 710:
+(TOP gut)
+
+
+Sentence 711:
+(TOP kann ich ihnen sonst noch irgendwie weiterhelfen)
+
+
+Sentence 712:
+(TOP
+	(SIMPX
+		(VF die reiseunterlagen)
+		(LK kann)
+		(MF
+			(NX ich)
+			(ADVX dann)
+			[01;36m(PX[00m [01;31m(ADVX[00m
+				(PX am tag)
+				[01;36m(ADVX[00m
+					(ADV vorher)[01;36m)[00m[01;31m)[00m[01;36m)[00m
+			(PX im buro))
+		(VC abholen)))
+
+
+Sentence 713:
+(TOP ja sicherlich)
+
+
+Sentence 714:
+(TOP gut)
+
+
+Sentence 715:
+(TOP vielen dank)
+
+
+Sentence 716:
+(TOP tschus)
+
+
+Sentence 717:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederhoren)[01;31m)[00m))
+
+
+Sentence 718:
+(TOP
+	(DM schonen guten tag)
+	(DM
+		(NX
+			[01;31m(NX[00m
+				(NN reiseburo)[01;31m)[00m
+			[01;36m(DM[00m [01;31m(NX[00m
+				(NE okpue)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 719:
+(TOP
+	(DM ja)
+	(DM guten tag)
+	(SIMPX
+		(VF hier)
+		(LK ist)
+		[01;31m(MF[00m
+			[01;31m(NX[00m
+				[01;31m(NX[00m
+					[01;36m(NX[00m
+						(NE gero)[01;36m)[00m
+					[01;36m(NX[00m
+						(NE muller)[01;36m)[00m[01;31m)[00m
+				(PX aus koln)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 720:
+(TOP
+	(SIMPX
+		(VF ich)
+		(FKOORD
+			(LKM
+				(LK plane)
+				[01;36m(NX[00m
+					(MF
+						[01;36m(MF[00m
+							(NX
+								(NX eine geschaftsreise)
+								(PX nach hannover))[01;36m)[00m
+						(NX anfang juli))[01;36m)[00m)
+			[01;36m(KOORD[00m
+				(KON und)[01;36m)[00m
+			[01;31m(LKMVCN[00m
+				(LK wurde)
+				(MF sie)
+				(VC bitten)
+				(NF mir dort ein entsprechendes hotel und ein verkehrsmittel zu buchen)[01;31m)[00m)))
+
+
+Sentence 721:
+(TOP tag herr muller)
+
+
+Sentence 722:
+(TOP ja kein problem herr muller)
+
+
+Sentence 723:
+(TOP wann mochten sie denn gerne nach hannover fahren)
+
+
+Sentence 724:
+(TOP
+	(DM also)
+	(SIMPX die termin der ware am samstag den funften juli)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(KOORD und)
+		(VF ich)
+		(LK dachte)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX da)
+			[01;31m(PX[00m
+				(PX an eine anreise) [01;33mMF) SIMPX)[00m
+				[01;33m(ADVX[00m (ADVX freitags den vierten juli)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		(KON und)
+		(NX die abreise)[01;31m)[00m [01;33mADVX)[00m
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK weis)
+		(MF ich noch nicht so genau)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;36m(SIMPX[00m
+					[01;36m(NF[00m
+						(C da)
+						(MF ich eventuell ein paar tage noch in hannover)
+						(VC verbringen will)[01;36m)[00m[01;36m)[00m
+				[01;31m(NF[00m
+					(PX
+						(ADVX so)
+						(APPR um)
+						(NX den siebten achten juli))[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 725:
+(TOP ja)
+
+
+Sentence 726:
+(TOP ja das durfte kein problem sein)
+
+
+Sentence 727:
+(TOP also die zugverbindungen sind wunderbar)
+
+
+Sentence 728:
+(TOP
+	(SIMPX naturlich konnen sie auch fliegen)
+	(DM wobei)
+	(SIMPX da wurde ich ihnen von abraten)
+	[01;36m(SIMPX[00m
+		(SIMPX das lohnt sich nicht bis hannover)
+		[01;31m(SIMPX[00m
+			[01;31m(KOORD[00m
+				(KON oder)[01;31m)[00m
+			[01;36m(SIMPX[00m
+				(LK mochten)
+				(MF sie das)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 729:
+(TOP
+	(DM ja)
+	(SIMPX ich habe mich ja)
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK habe)
+		(MF mich da auch schon)
+		(VC erkundigt)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			[01;31m(NX[00m
+				(NX der zug)
+				[01;36m(ADVX[00m [01;31m(PX[00m
+					(ADVX hier)
+					(PX in bonn)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(VF der)
+			(LK fahrt)
+			(MF um acht uhr neununddreisig)
+			(VC ab)[01;36m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX und das habe ich mir schon zurechtgelegt)
+		(SIMPX den wurde ich eigentlich ganz gerne nehmen)[01;36m)[00m)
+
+
+Sentence 730:
+(TOP konnten sie mir da was reservieren)
+
+
+Sentence 731:
+(TOP ja naturlich den kann ich ihnen buchen)
+
+
+Sentence 732:
+(TOP ich schaue mal nach da ist auch noch was frei)
+
+
+Sentence 733:
+(TOP und wo mochten sie denn wohnen)
+
+
+Sentence 734:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK haben)
+		[01;31m(MF[00m
+			(NX sie)
+			(ADVX da)
+			(ADVX schon)[01;31m)[00m
+		[01;36m(ADVX[00m [01;31m(VC[00m
+			[01;31m(VXINF[00m
+				(VVPP uberlegt)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		[01;31m(NF[00m
+			[01;31m(PX[00m
+				(APPR in)
+				[01;31m(NX[00m
+					(NX was)
+					[01;33m(PX (PX[00m (PX fur eine art von hotel)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(ADJX[00m
+		(ADJX teuer) [01;33mPX)[00m
+		[01;36m(ADVX[00m [01;31m(ADJX[00m
+			(ADJD billig)[01;31m)[00m [01;33mPX)[00m[01;36m)[00m
+		[01;31m(ADJX[00m
+			(ADJD zentral)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 735:
+(TOP ja gehobene kategorie in zentraler lage)
+
+
+Sentence 736:
+(TOP
+	(DM ja)
+	(DM also)
+	[01;31m(SIMPX[00m
+		(VF wir)
+		(LK haben)
+		(MF hier jetzt drei hotels)
+		[01;31m(NF[00m [01;33m(R (NF[00m
+			(R
+				(C die)
+				(MF wir wieder gerne)
+				(VC empfehlen))[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			[01;31m(NX[00m
+				(PX zum einen)
+				(NX das hotel am thielenplatz)[01;31m)[00m[01;31m)[00m [01;33mNF) R)[00m
+		[01;36m(SIMPX[00m
+			(VF das)
+			(LK liegt)
+			[01;36m(PX[00m
+				(MF [01;33m(PX[00m
+					(ADVX so)
+					[01;31m(PX[00m
+						[01;31m(PX[00m
+							(APPR bis)
+							(NX hundert dreisig mark)[01;31m)[00m [01;33mPX)[00m
+						(PX pro zimmer)[01;31m)[00m)[01;36m)[00m[01;36m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX und dann gibt es ein zentralhotel)
+		(SIMPX das ist wirklich auch sehr zentral)[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK geht)
+		[01;31m(MF[00m [01;33m(PX (MF (PX (ADVX (PX[00m
+			(ADVX so)
+			[01;31m(PX[00m
+				(APPR bis)
+				(NX zweihundert zwanzig)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		(KON und)
+		[01;31m(PX[00m
+			(ADVX naturlich) [01;33mPX)[00m
+			(ADVX jetzt) [01;33mADVX)[00m
+			(PX fur gehobene anspruche)[01;31m)[00m [01;33mPX)[00m
+		(NX das grandhotel)[01;31m)[00m
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF da)
+			(LK musten)
+			(MF
+				(NX sie)
+				(ADVX allerdings)
+				(ADVX schon)
+				[01;36m(PX[00m [01;31m(NX[00m
+					(ADJX funfhundert)
+					[01;36m(NX[00m
+						(NN mark)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+			(VC hinlegen)[01;31m)[00m
+		[01;36m(SIMPX[00m
+			[01;36m(C[00m [01;31m(DM[00m
+				(PWAV wobei)[01;31m)[00m[01;36m)[00m
+			(SIMPX
+				(VF ich)
+				(LK weis)
+				[01;36m(MF[00m
+					[01;31m(MF[00m
+						(ADVX ja)
+						[01;33m(ADVX[00m (ADVX nicht)[01;31m)[00m
+					(NF ob das)[01;36m)[00m)[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 737:
+(TOP das zweite hotel das war)
+
+
+Sentence 738:
+(TOP
+	(NX
+		(ART das)
+		[01;31m(NX[00m
+			[01;36m(ADJX[00m [01;31m(NX[00m
+				(NE zentralhotel)[01;31m)[00m[01;36m)[00m
+			[01;31m(NX[00m
+				(NE kaiserhof)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 739:
+(TOP
+	(DM ja)
+	(SIMPX das ist auch ein sehr schones hotel)
+	(DM also)
+	[01;31m(SIMPX[00m
+		(LK ist)
+		(MF
+			(ADVX auch)
+			(PX [01;33m(PX[00m
+				(APPR mit)
+				[01;31m(NX[00m
+					(NX aufenthaltsraumen) [01;33mPX)[00m
+					(KON und)
+					(NX konferenzraumen)[01;31m)[00m))
+		(NF
+			(SIMPX
+				(C wenn)
+				(MF
+					(NX sie)
+					[01;31m(ADVX[00m
+						[01;36m(ADVX[00m [01;31m(ADJX[00m
+							(ADJD geschaftlich)[01;31m)[00m[01;36m)[00m
+						[01;36m(ADVX[00m
+							(ADV unterwegs)[01;36m)[00m[01;31m)[00m)
+				(VC sind)))[01;31m)[00m)
+
+
+Sentence 740:
+(TOP
+	(SIMPX
+		(VF da)
+		(LK ist)
+		(MF
+			(ADVX auch)
+			(ADVX noch)
+			[01;36m(ADJX[00m
+				(NX etwas)
+				[01;31m(ADJX[00m
+					(ADJD frei)[01;31m)[00m[01;36m)[00m)
+		(NF zu dem termin)))
+
+
+Sentence 741:
+(TOP
+	(DM ja)
+	[01;36m(NX[00m
+		[01;31m(ADVX[00m
+			[01;36m(NX[00m [01;31m(ADVX[00m
+				(ADV naturlich)[01;31m)[00m[01;36m)[00m
+			(ADVX da)[01;31m)[00m
+		[01;31m(PX[00m
+			(ADVX grade)
+			(PX am wochenende)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 742:
+(TOP ja gut)
+
+
+Sentence 743:
+(TOP
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF dann)
+			(LK wurde)
+			(MF ich)
+			(VC sagen)
+			(NF [01;33m(SIMPX (NF[00m
+				(SIMPX
+					(VF dann)
+					[01;36m(LKM[00m
+						(LK nehme)
+						(MF ich das)[01;36m)[00m))[01;31m)[00m
+		[01;31m(SIMPX[00m
+			[01;31m(KOORD[00m
+				(KON und)[01;31m)[00m
+			(LK kann)
+			(MF ich)[01;31m)[00m [01;33mNF) SIMPX)[00m[01;36m)[00m
+	[01;31m(DM[00m
+		(ADVX
+			(ADV also))[01;31m)[00m
+	(DM wie gesagt)
+	(SIMPX [01;33m(SIMPX[00m
+		(VF ich)
+		(LK war)
+		(MF noch nicht ganz sicher)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(C was)
+				[01;36m(NX[00m
+					[01;36m(MF[00m
+						(ART den)
+						[01;31m(NX[00m
+							(NN ende)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+				(ART der) [01;33mSIMPX)[00m
+				[01;36m(C[00m
+					[01;36m(NX[00m
+						(PWS was)[01;36m)[00m[01;36m)[00m
+				(MF
+					[01;31m(NX[00m
+						[01;31m(NX[00m
+							[01;36m(NX[00m
+								(ART das)[01;36m)[00m
+							[01;36m(NX[00m
+								(NN [01;33m(NX[00m ende)[01;36m)[00m[01;31m)[00m
+						(NX der abreise)[01;31m)[00m) [01;33mNX)[00m
+				(VC anging)[01;31m)[00m[01;31m)[00m)
+	(SIMPX das ich mich im laufe der woche noch mal melde bei ihnen))
+
+
+Sentence 744:
+(TOP und dann)
+
+
+Sentence 745:
+(TOP soll ich ihnen denn schon mal im hotel ein zimmer reservieren)
+
+
+Sentence 746:
+(TOP ja das ware sehr nett)
+
+
+Sentence 747:
+(TOP gut)
+
+
+Sentence 748:
+(TOP
+	(SIMPX dann rufen sie mich noch mal an)
+	[01;31m(SIMPX[00m
+		[01;31m(KOORD[00m
+			(KON und)[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(VF ich)
+			(LK kann)
+			(MF dann ja das zugticket fur sie auch)
+			(VC bestellen)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 749:
+(TOP herr muller)
+
+
+Sentence 750:
+(TOP wunderbar)
+
+
+Sentence 751:
+(TOP wunderbar)
+
+
+Sentence 752:
+(TOP
+	(DM ja)
+	[01;31m(DM[00m
+		[01;31m(NX[00m
+			(ADVX dann)
+			(NX alles gute)[01;31m)[00m[01;31m)[00m
+	(SIMPX und ich melde mich dann in den nachsten wochen noch mal))
+
+
+Sentence 753:
+(TOP ja schonen dank fur den anruf)
+
+
+Sentence 754:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederhoren)[01;31m)[00m))
+
+
+Sentence 755:
+(TOP tschus)
+
+
+Sentence 756:
+(TOP guten tag)
+
+
+Sentence 757:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK bin)
+		[01;31m(MF[00m
+			[01;31m(NX[00m
+				[01;36m(MF[00m
+					(NX
+						(NN frau)
+						(NE bartels)) [01;33mSIMPX)[00m[01;36m)[00m
+				[01;36m(NF[00m
+					(PX [01;33m(PX[00m
+						(APPRART vom)
+						[01;31m(NX[00m
+							[01;31m(NX[00m
+								(NX reiseburo) [01;33mPX)[00m
+								[01;36m(ADJX[00m [01;31m(NX[00m [01;33m(ADJX[00m
+									(NE zentral)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+							(PX in hannover)[01;31m)[00m)[01;36m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 758:
+(TOP ja schonen guten tag)
+
+
+Sentence 759:
+(TOP hier spricht matthias oborski)
+
+
+Sentence 760:
+(TOP ich wollte sie fragen wegen einer geschaftsreise nach hannover)
+
+
+Sentence 761:
+(TOP
+	(SIMPX und zwar muste ich im august vom funfzehnten bis zum siebzehnten in hannover sein)
+	(SIMPX
+		(KOORD und)
+		(VF ich)
+		(LK hatte)
+		(VC vor)
+		(NF
+			(SIMPX
+				(MF
+					(PX mit dem zug)
+					(PX
+						[01;31m(PX[00m
+							(APPR ab)
+							[01;33m(NX[00m (NX bonn)[01;31m)[00m
+						(NX hannover))) [01;33mNX)[00m
+				(VC zu fahren)))))
+
+
+Sentence 762:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF da)
+			(LK fahren)
+			(MF erst mal verschiedene zuge)[01;36m)[00m
+		[01;36m(NX[00m [01;31m(NF[00m [01;33m(NX (NX[00m
+			[01;36m(ADJX[00m [01;31m(NX[00m
+				(CARD drei)[01;31m)[00m[01;36m)[00m
+			[01;31m(ADVX[00m
+				[01;31m(ADVX[00m
+					(ADV morgens)[01;31m)[00m [01;33mNX)[00m
+				(ADVX mittags) [01;33mNX)[00m
+				(KON und)
+				(ADVX abends)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	(SIMPX da konnten sie sich schon mal auswahlen))
+
+
+Sentence 763:
+(TOP morgens ware mir am liebsten)
+
+
+Sentence 764:
+(TOP
+	[01;31m(NX[00m
+		(KON und)
+		(ADVX dann)
+		(NX diese zwei nachte die sie da bleiben mochten)[01;31m)[00m
+	(SIMPX da wurde ich mal nachschauen)
+	(SIMPX da haben wir verschiedene preisklassen)
+	(SIMPX
+		(VF und zwar)
+		(LK gibt)
+		(MF
+			(NX es)
+			(APPR zwischen)
+			(PX
+				(PX von funfundachtzig)
+				(PX
+					[01;31m(PX[00m
+						(APPR bis)
+						[01;36m(ADJX[00m [01;31m(NX[00m [01;33m(NX[00m
+							(CARD funfhundert)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+					[01;31m(ADVX[00m
+						(ADV aufwarts)[01;31m)[00m)))))
+
+
+Sentence 765:
+(TOP
+	(SIMPX es kann schon eine gehobene preisklasse sein)
+	(SIMPX
+		(KOORD und)
+		(VF hauptsache)
+		(LK ist)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;36m(MF[00m
+					[01;36m(NX[00m [01;31m(C[00m
+						(KOUS das)[01;31m)[00m[01;36m)[00m
+					[01;36m(NX[00m [01;31m(MF[00m
+						[01;31m(NX[00m
+							(ART das)
+							[01;36m(NX[00m
+								(NN [01;33m(NX[00m hotel)[01;36m)[00m[01;31m)[00m
+						[01;36m(NX[00m [01;31m(ADJX[00m
+							(ADJD zentral)[01;31m)[00m[01;36m)[00m[01;31m)[00m [01;33mNX)[00m[01;36m)[00m[01;36m)[00m
+				(VC liegt)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 766:
+(TOP ja)
+
+
+Sentence 767:
+(TOP eines der hotels ist das grandhotel musmann das liegt sehr zentral)
+
+
+Sentence 768:
+(TOP
+	(SIMPX und platze haben die auch noch sehe ich)
+	(DM ja)
+	(SIMPX
+		(LK kostet)
+		(MF
+			(ADVX dann)
+			[01;36m(NX[00m
+				(NX einzelzimmer)
+				(NX dreihundert funfzig die nacht)[01;36m)[00m)))
+
+
+Sentence 769:
+(TOP das ist in ordnung)
+
+
+Sentence 770:
+(TOP
+	(PX
+		[01;31m(PX[00m
+			(APPR mit)
+			[01;33m(NX[00m (NX bad)[01;31m)[00m
+		[01;36m(NX[00m [01;31m(ADVX[00m
+			(ADV naturlich)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 771:
+(TOP ja)
+
+
+Sentence 772:
+(TOP soll ich das jetzt fur sie buchen)
+
+
+Sentence 773:
+(TOP dann)
+
+
+Sentence 774:
+(TOP ja)
+
+
+Sentence 775:
+(TOP
+	(SIMPX
+		[01;36m(PX[00m
+			[01;31m(KOORD[00m
+				(KON und)[01;31m)[00m
+			[01;31m(LV[00m
+				(PX
+					(APPR mit)
+					(NX der zugverbindung))[01;31m)[00m[01;36m)[00m
+		(VF wie lange)
+		(LK wird)
+		(MF das)
+		(VC dauern)))
+
+
+Sentence 776:
+(TOP dreieinhalb stunden fahren sie)
+
+
+Sentence 777:
+(TOP
+	[01;31m(SIMPX[00m
+		(SIMPX kommen dann am hauptbahnhof an)
+		[01;36m(SIMPX[00m
+			[01;36m(SIMPX[00m
+				[01;36m(KOORD[00m
+					(KON und)[01;36m)[00m
+				[01;31m(SIMPX[00m
+					(LK konnen)
+					(MF ja dann ein taxi)
+					(VC nehmen)[01;31m)[00m[01;36m)[00m
+			[01;36m(SIMPX[00m
+				[01;36m(KOORD[00m
+					(KON und)[01;36m)[00m
+				[01;31m(SIMPX[00m
+					(LK kommen)
+					(MF direkt zum hotel)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 778:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		(SIMPX dann buche ich das fur sie)
+		[01;31m(DM[00m [01;33m(NX (DM[00m
+			[01;31m(NX[00m
+				(NN herr)
+				[01;31m(NX[00m
+					(NE obrowski) [01;33mDM) NX)[00m
+					(KON und)
+					[01;36m(NX[00m
+						(NE oborski)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;36m)[00m
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK muste)
+		(MF
+			(NX ich)
+			[01;36m(PX[00m
+				(ADVX nur)
+				[01;31m(PX[00m
+					(APPR von)
+					(NX ihnen)[01;31m)[00m[01;36m)[00m
+			(ADVX noch)
+			(NX die kontonummer))
+		(VC haben)
+		[01;31m(NF[00m
+			(NX
+				(KON und)
+				(NX die formalitaten))[01;31m)[00m))
+
+
+Sentence 779:
+(TOP ja)
+
+
+Sentence 780:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NE oborski)[01;31m)[00m))
+
+
+Sentence 781:
+(TOP
+	(DM ja)
+	(DM einen moment)
+	(SIMPX da mus ich erst mal mein portemonnaie aufmachen)
+	(SIMPX
+		[01;36m(SIMPX[00m [01;31m(VF[00m
+			[01;31m(NX[00m
+				(ART die)
+				(NN kontonummer)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		[01;36m(SIMPX[00m
+			(LK ist)
+			(MF neun vier sechs zwo drei acht)[01;36m)[00m))
+
+
+Sentence 782:
+(TOP ja)
+
+
+Sentence 783:
+(TOP
+	[01;31m(NX[00m
+		(NX neun)
+		(NX vier)
+		(NX sechs)
+		(NX zwei)
+		(NX drei)
+		(NX acht)[01;31m)[00m)
+
+
+Sentence 784:
+(TOP und die bank das ist die raiffeisenbank in bonn)
+
+
+Sentence 785:
+(TOP ja raiffeisenbank bonn)
+
+
+Sentence 786:
+(TOP ja)
+
+
+Sentence 787:
+(TOP
+	[01;31m(NX[00m
+		(KON und)
+		(NX der name)
+		(ADVX noch)
+		(ADVX mal)[01;31m)[00m
+	[01;36m(NX[00m
+		(NX o b o r s k i)
+		(NX matthias mit t t h)[01;36m)[00m)
+
+
+Sentence 788:
+(TOP brauchen sie sonst noch etwas)
+
+
+Sentence 789:
+(TOP gut das)
+
+
+Sentence 790:
+(TOP
+	(DM nein)
+	(SIMPX
+		(VF jetzt)
+		(LK habe)
+		[01;31m(MF[00m
+			(NX ich)
+			[01;31m(NX[00m [01;33m(NX[00m
+				(PDS das)[01;31m)[00m[01;31m)[00m
+		[01;31m(VC[00m
+			[01;31m(VXINF[00m
+				(VVPP vermerkt)[01;31m)[00m[01;31m)[00m) [01;33mNX)[00m
+	(SIMPX [01;33m(SIMPX[00m
+		(KOORD und)
+		(VF ich)
+		(LK schicke)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX ihnen)
+				(ADVX dann)[01;36m)[00m
+			[01;36m(NF[00m
+				(SIMPX
+					(C wenn)
+					(MF sie mir ihre adresse grade noch)
+					(VC geben wurden)) [01;33mSIMPX)[00m[01;36m)[00m
+			(NX das)[01;31m)[00m))
+
+
+Sentence 791:
+(TOP
+	(DM ja)
+	(SIMPX [01;33m(SIMPX[00m
+		(VF da)
+		(LK ist)
+		[01;31m(MF[00m
+			[01;31m(NX[00m
+				[01;31m(NX[00m
+					[01;31m(NX[00m
+						[01;36m(NX[00m [01;36m(MF[00m [01;31m(ADJX[00m
+							(ADJA hirschberger)[01;31m)[00m [01;33mSIMPX)[00m[01;36m)[00m[01;36m)[00m
+						[01;36m(DM[00m
+							[01;36m(NX[00m
+								(NN [01;33m(NX[00m strase)[01;36m)[00m[01;36m)[00m[01;31m)[00m
+					(NX vierundsechzig)[01;31m)[00m
+				(PX
+					(APPR in)
+					(NX
+						[01;31m(NX[00m
+							(NX funf)
+							(NX drei)
+							(NX eins)
+							(NX eins)
+							(NX neun)[01;31m)[00m
+						(NE bonn)))[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 792:
+(TOP
+	(SIMPX dann schicke ich ihnen die quittung zu)
+	[01;31m(DM[00m
+		(KON und)
+		[01;36m(DM[00m
+			(PTKANT ja)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 793:
+(TOP dann verbleibe ich so)
+
+
+Sentence 794:
+(TOP
+	[01;31m(DM[00m
+		[01;31m(NX[00m
+			(NX vielen dank)
+			[01;33m(PX[00m (PX fur die buchung)[01;31m)[00m[01;31m)[00m
+	[01;31m(DM[00m
+		[01;31m(PX[00m
+			(KON und)
+			(PX auf wiederhoren)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 795:
+(TOP ja)
+
+
+Sentence 796:
+(TOP klein guten tag)
+
+
+Sentence 797:
+(TOP
+	[01;31m(NX[00m
+		[01;31m(NX[00m
+			[01;36m(NX[00m [01;31m(ADJX[00m
+				(FM first)[01;31m)[00m[01;36m)[00m
+			[01;36m(NX[00m
+				(FM class)[01;36m)[00m[01;31m)[00m
+		[01;36m(NX[00m
+			(NN reiseburo)[01;36m)[00m[01;31m)[00m
+	[01;31m(DM[00m
+		(NX
+			(NE schmidt))[01;31m)[00m
+	(DM guten tag))
+
+
+Sentence 798:
+(TOP womit kann ich ihnen helfen)
+
+
+Sentence 799:
+(TOP
+	(DM ja)
+	(SIMPX ich wurde ganz gern eine reise buchen bei ihnen)
+	(SIMPX
+		(VF und zwar)
+		(LK mochte)
+		(MF
+			(NX ich)
+			[01;36m(PX[00m
+				(PX im august)
+				(PX fur ein paar tage)[01;36m)[00m)
+		(VC wegfahren)
+		(NF nach hannover)))
+
+
+Sentence 800:
+(TOP und zwar wurde das am montag dienstag sein das ist der vierte funfte august)
+
+
+Sentence 801:
+(TOP was konnen sie mir da anbieten)
+
+
+Sentence 802:
+(TOP
+	[01;31m(NX[00m
+		[01;36m(NX[00m
+			(ADVX erst)
+			(ADVX mal)
+			(NX die frage)[01;36m)[00m
+		[01;31m(SIMPX[00m [01;33m(SIMPX (NF[00m
+			(C wie)
+			(MF sie)
+			(VC anreisen mochten)[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m [01;33m(SIMPX (NF[00m
+		(C ob)
+		(MF sie mit der bahn)
+		(VC fahren)
+		[01;31m(NF[00m
+			[01;31m(PX[00m
+				[01;36m(NF[00m
+					[01;36m(PX[00m
+						(KON oder)
+						(PX mit dem bus) [01;33mNF) SIMPX) NF) SIMPX)[00m[01;36m)[00m[01;36m)[00m
+				[01;36m(DM[00m
+					(KON oder)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 803:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK dachte)
+		(MF
+			(NX mir)
+			[01;31m(PX[00m
+				(ADVX moglichst)
+				[01;36m(PX[00m
+					(APPR mit)
+					(NX der bahn)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 804:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(LK hatten)
+		(MF sie sich schon)
+		(VC uberlegt)
+		(NF
+			(SIMPX
+				(C wann)
+				(MF sie)
+				(VC ankommen mochten)
+				(NF
+					(ADVX
+						[01;36m(NF[00m
+							(ADVX
+								(ADV morgens))[01;36m)[00m
+						(KON oder)
+						(ADVX abends)))))))
+
+
+Sentence 805:
+(TOP
+	(ADVX
+		[01;36m(ADVX[00m [01;31m(ADJX[00m
+			(ADJD lieber)[01;31m)[00m[01;36m)[00m
+		(ADVX gern)
+		(ADVX morgens)))
+
+
+Sentence 806:
+(TOP morgens)
+
+
+Sentence 807:
+(TOP was hatten sie denn da fur eine fur eine zugverbindung)
+
+
+Sentence 808:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(VF da)
+		(LK ware)
+		[01;31m(MF[00m
+			(ADVX noch)
+			[01;36m(NX[00m
+				[01;36m(NX[00m
+					(NX die frage)
+					[01;31m(ADVX[00m
+						(ADV naturlich)[01;31m)[00m[01;36m)[00m
+				(PX nach dem hotel)[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(C ob)
+			[01;31m(MF[00m [01;33m(MF[00m
+				(NX sie)
+				[01;33m(NX[00m (NX was)[01;31m)[00m[01;31m)[00m
+		[01;31m(SIMPX[00m
+			[01;31m(C[00m
+				[01;31m(NX[00m
+					(NX was) [01;33mNX)[00m
+					[01;33m(PX[00m (PX fur einen hotelwunsch)[01;31m)[00m[01;31m)[00m
+			[01;31m(MF[00m
+				(NX
+					(PPER sie))[01;31m)[00m [01;33mPX) MF)[00m
+			(VC haben)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 809:
+(TOP
+	[01;31m(SIMPX[00m
+		(C ob)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX sie)
+			[01;31m(ADJX[00m
+				[01;36m(ADJX[00m
+					(ADJX zentral)
+					(KON oder)
+					(PX am flughafen) [01;33mMF) SIMPX)[00m[01;36m)[00m
+				(KON oder)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(C wenn)
+			(MF sie mit der bahn)
+			(VC kommen)[01;31m)[00m
+		[01;31m(PX[00m
+			(ADVX dann)
+			[01;36m(ADVX[00m
+				(ADVX naturlich)
+				(ADVX nicht)[01;36m)[00m
+			(PX am flughafen)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 810:
+(TOP ach so)
+
+
+Sentence 811:
+(TOP stimmt)
+
+
+Sentence 812:
+(TOP
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(LK habe)
+			[01;31m(MF[00m [01;33m(MF[00m
+				(NX ich)
+				(NX mir)
+				(ADVX noch)[01;31m)[00m[01;31m)[00m
+		[01;36m(NX[00m
+			(PIAT keine) [01;33mMF)[00m[01;36m)[00m[01;36m)[00m
+	(DM ja)
+	(SIMPX habe ich mir noch keine gedanken drum gemacht))
+
+
+Sentence 813:
+(TOP ja es sollte schon relativ zentral gelegen sein denke ich)
+
+
+Sentence 814:
+(TOP es mus auch nicht eines der schlechteren sein)
+
+
+Sentence 815:
+(TOP
+	(SIMPX
+		(LK hatten)
+		(MF sie da eines)
+		[01;36m(SIMPX[00m
+			(NF
+				[01;31m(R[00m
+					(C
+						[01;31m(NX[00m
+							(PRELS das)[01;31m)[00m)
+					(MF sie mir)
+					(VC empfehlen konnten)[01;31m)[00m)[01;36m)[00m))
+
+
+Sentence 816:
+(TOP ja)
+
+
+Sentence 817:
+(TOP ja sicher)
+
+
+Sentence 818:
+(TOP
+	(SIMPX
+		(VF sie)
+		(LK sagten)
+		(MF
+			(ADVX gerade)
+			[01;31m(NX[00m
+				(ADVX nicht)
+				(ADVX gerade)
+				[01;36m(NX[00m
+					(ART das)
+					(NN billigste)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 819:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF dann)
+		(LK wurde)
+		(MF ich vielleicht das hotel schweizerhof)
+		(VC empfehlen)
+		[01;31m(NF[00m [01;33m(R (NF (R (NF[00m
+			(R
+				(C was)
+				(MF ziemlich zentral)
+				(VC ist))[01;31m)[00m[01;31m)[00m
+	(PX mit konferenzraum und garage) [01;33mNF) R)[00m
+	(SIMPX falls sie vielleicht doch mit dem wagen kommen wollen))
+
+
+Sentence 820:
+(TOP
+	[01;31m(SIMPX[00m
+		(KOORD und)
+		(VF das)
+		(LK hatte)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX halt)
+			[01;31m(NX[00m [01;33m(NX[00m
+				(NX eine preisklasse)
+				[01;31m(PX[00m
+					(APPR von)
+					[01;31m(NX[00m
+						(PX pro ubernachtung) [01;33mNX) MF) SIMPX)[00m
+						[01;33m(NX[00m (NX einzelzimmer zweihundert funfundvierzig bis zweihundert funfundneunzig mark)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	(PX je nachdem))
+
+
+Sentence 821:
+(TOP ja okay)
+
+
+Sentence 822:
+(TOP nee das ist in ordnung)
+
+
+Sentence 823:
+(TOP das ware ihnen angenehm)
+
+
+Sentence 824:
+(TOP ja)
+
+
+Sentence 825:
+(TOP ja ich denke da konnen sie ruhig schon mal buchen)
+
+
+Sentence 826:
+(TOP
+	(DM wie gesagt)
+	(SIMPX was war das jetzt)
+	(SIMPX
+		[01;31m(VF[00m
+			(NX
+				(NN montag)
+				(NX der vierte august))[01;31m)[00m
+		(LK wollte)
+		(MF ich dann)
+		(VC los))
+	[01;31m(PX[00m
+		(KON und)
+		(ADVX dann)
+		[01;31m(ADJX[00m
+			[01;31m(NX[00m
+				[01;31m(ADJX[00m
+					(ADJX drei)
+					(ADJX vier)[01;31m)[00m
+				(NN tage)[01;31m)[00m
+			[01;36m(ADJX[00m
+				(ADJD spater)[01;36m)[00m[01;31m)[00m
+		(ADVX wieder)
+		(PX nach hause)[01;31m)[00m
+	(SIMPX
+		(VF dann)
+		(LK ist)
+		[01;36m(MF[00m
+			[01;36m(NX[00m
+				(ART das)[01;36m)[00m
+			[01;31m(MF[00m
+				(NX die ausstellung)
+				(ADVX vorbei)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 827:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK ware)
+		(MF [01;33m(MF[00m
+			(ADVX also)
+			(ADVX dann)
+			[01;31m(PX[00m
+				(ADVX spatestens) [01;33mMF)[00m
+				(APPRART am)
+				(NX achten august)[01;31m)[00m)))
+
+
+Sentence 828:
+(TOP ja sie sagten sie wollten morgens ankommen)
+
+
+Sentence 829:
+(TOP
+	(SIMPX
+		(LK ware)
+		(MF
+			(NX ihnen)
+			(NX [01;33m(NX[00m
+				(NX die abfahrt)
+				[01;31m(PX[00m
+					(PX von bonn) [01;33mNX)[00m
+					(NX sechs uhr funfundvierzig)[01;31m)[00m)
+			(ADJX zu fruh))))
+
+
+Sentence 830:
+(TOP oder ginge das)
+
+
+Sentence 831:
+(TOP ja ein bischen spater ware schon nicht schlecht)
+
+
+Sentence 832:
+(TOP
+	(SIMPX
+		(VF
+			(ADJX
+				[01;36m(ADVX[00m [01;31m(NX[00m
+					(PIS bischen)[01;31m)[00m[01;36m)[00m
+				(ADJD spater)))
+		(LK ware)
+		(MF nicht schlecht)))
+
+
+Sentence 833:
+(TOP halb acht)
+
+
+Sentence 834:
+(TOP ja)
+
+
+Sentence 835:
+(TOP ja okay)
+
+
+Sentence 836:
+(TOP halb acht dann waren sie um zwei minuten nach elf in hannover)
+
+
+Sentence 837:
+(TOP und ja)
+
+
+Sentence 838:
+(TOP ja okay)
+
+
+Sentence 839:
+(TOP wie ist das mit dem gepack)
+
+
+Sentence 840:
+(TOP
+	(SIMPX wird das gepack nachgesendet)
+	[01;31m(SIMPX[00m
+		(LK mus)
+		(MF ich das selber)
+		(VC schleppen)[01;31m)[00m)
+
+
+Sentence 841:
+(TOP ich habe so ein ruckenleiden)
+
+
+Sentence 842:
+(TOP deswegen)
+
+
+Sentence 843:
+(TOP
+	(DM nee)
+	(SIMPX das musten sie)
+	(SIMPX
+		(VF das)
+		(LK musten)
+		[01;31m(FKOORD[00m
+			(MVC sie schon selber zum zum bahnhof bringen)
+			(KON und)
+			(MVCN
+				(MF
+					(PX von da aus)
+					[01;31m(ADVX[00m
+						(ADV dann)[01;31m)[00m
+					(ADVX halt))
+				(VC
+					(VXINF transportieren)
+					[01;36m(VXFIN[00m [01;31m(VXINF[00m
+						(VVINF lassen)[01;31m)[00m[01;36m)[00m)
+				(NF vielleicht))[01;31m)[00m))
+
+
+Sentence 844:
+(TOP ja okay ja okay werde ich mich drum kummern)
+
+
+Sentence 845:
+(TOP
+	(DM ja)
+	(DM prima)
+	(SIMPX
+		(VF dann)
+		(LK bitte)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX ich)
+			(NX sie)
+			(ADVX doch)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(MF[00m
+					(NX
+						(PDS das))[01;31m)[00m [01;33mMF)[00m
+				(VC zu buchen)[01;31m)[00m[01;31m)[00m)
+	(DM ja))
+
+
+Sentence 846:
+(TOP ja)
+
+
+Sentence 847:
+(TOP
+	(DM ja)
+	(DM sicher)
+	(DM herr klein)
+	[01;36m(SIMPX[00m
+		(SIMPX ich mache das fertig)
+		[01;31m(SIMPX[00m
+			[01;31m(KOORD[00m
+				(KON und)[01;31m)[00m
+			[01;36m(SIMPX[00m
+				(VF dann)
+				(LK werde)
+				(MF ich sie noch mal)
+				(VC anrufen)[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 848:
+(TOP okay)
+
+
+Sentence 849:
+(TOP dann bedanke ich mich)
+
+
+Sentence 850:
+(TOP ja)
+
+
+Sentence 851:
+(TOP ich bedanke mich auch)
+
+
+Sentence 852:
+(TOP ja)
+
+
+Sentence 853:
+(TOP tschus)
+
+
+Sentence 854:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederhoren)[01;31m)[00m))
+
+
+Sentence 855:
+(TOP hallo herr klein gut das wir uns treffen)
+
+
+Sentence 856:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK habe)
+		(VC gehort)
+		(NF
+			(SIMPX
+				(VF wir)
+				[01;36m(LKMVC[00m
+					(LK sollen)
+					(MF zusammen)
+					(VC verreisen)
+					[01;31m(NF[00m
+						(PX nach hannover)
+						[01;36m(VC[00m [01;36m(VXINF[00m [01;31m(ADJX[00m
+							(ADJD geschaftlich)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)))
+	[01;31m(SIMPX[00m
+		(KOORD und)
+		(LK ware)
+		(MF doch gut)
+		(NF
+			(SIMPX
+				(C wenn)
+				(FKOORD
+					(MVC wir uns eben zusammensetzen)
+					(KON und)
+					(MVC
+						(MF die sache)
+						[01;36m(VXINF[00m
+							(VC
+								[01;31m(VXFIN[00m
+									(VVFIN klaren)[01;31m)[00m)[01;36m)[00m))))[01;31m)[00m)
+
+
+Sentence 857:
+(TOP ja okay frau schmidt)
+
+
+Sentence 858:
+(TOP
+	(SIMPX musten uns das zu machen)
+	(DM also)
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF ich)
+			(LK habe)
+			(MF hier schon eine liste)
+			(VC liegen)[01;36m)[00m
+		(DM und zwar)
+		[01;31m(NF[00m
+			(NX
+				(NX der zugverbindungen)
+				(PX von bonn nach hannover))[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 859:
+(TOP was meinen sie denn wann sollten wir fahren)
+
+
+Sentence 860:
+(TOP ja mochten sie auf jeden fall mit der bahn fahren oder sollen wir nicht lieber fliegen)
+
+
+Sentence 861:
+(TOP also von mir aus ist es egal ich wurde mich da nach ihnen richten)
+
+
+Sentence 862:
+(TOP obwohl die zugfahrt ware ja billiger)
+
+
+Sentence 863:
+(TOP dann fahren wir lieber mit dem zug)
+
+
+Sentence 864:
+(TOP ja)
+
+
+Sentence 865:
+(TOP ja denke ich schon das ware vielleicht vernunftig)
+
+
+Sentence 866:
+(TOP ja)
+
+
+Sentence 867:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF ich)
+		(LK wurde)
+		(VC sagen)
+		(NF
+			(SIMPX
+				(VF wir)
+				(LK wurden)
+				(MF
+					[01;36m(ADVX[00m [01;31m(ADJX[00m
+						(ADJD besser)[01;31m)[00m[01;36m)[00m
+					(ADJX ziemlich fruh))
+				(VC fahren)
+				(NF
+					(SIMPX
+						(C damit)
+						(FKOORD
+							(MVC wir morgens direkt da sind)
+							(KON und)
+							(MVC
+								(MF
+									(ADVX dann)
+									(ADVX direkt)
+									[01;31m(PX[00m
+										(APPR auf)
+										(NX die messe)[01;31m)[00m)
+								(VC losgehen konnen)))))))))
+
+
+Sentence 868:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(LK denke)
+			[01;33m(MF[00m (MF ich auch)[01;31m)[00m
+		[01;31m(ADJX[00m
+			(ADVX aber)
+			(ADVX nicht)
+			(ADJX zu fruh)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 869:
+(TOP ich schaue mal gerade ja acht uhr zwanzig ist mir ganz recht)
+
+
+Sentence 870:
+(TOP acht uhr zwanzig)
+
+
+Sentence 871:
+(TOP ja das ist das ist okay)
+
+
+Sentence 872:
+(TOP was halten sie davon)
+
+
+Sentence 873:
+(TOP ja okay)
+
+
+Sentence 874:
+(TOP
+	(DM ja)
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK habe)
+		(MF
+			(NX ich)
+			[01;36m(NX[00m
+				(NX mir)
+				(ADVX da)
+				(NX mich)[01;36m)[00m
+			(ADVX da)
+			(ADVX auch)
+			(ADVX noch)
+			[01;31m(ADJX[00m
+				(NX so ein bischen)
+				(ADJD schlau)[01;31m)[00m)
+		(VC gemacht)))
+
+
+Sentence 875:
+(TOP konnte ja auch nach der veranstaltung noch was unternehmen)
+
+
+Sentence 876:
+(TOP was halten sie davon)
+
+
+Sentence 877:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK dachte)
+		[01;31m(MF[00m
+			(ADVX mehr)
+			(PX an theaterbesuch im ballhof)[01;31m)[00m)
+	(SIMPX da kommen auch die andern kollegen mit))
+
+
+Sentence 878:
+(TOP ja dann ist das in ordnung)
+
+
+Sentence 879:
+(TOP ich meine das schutzenfest hatte mich naturlich auch gereizt aber der theaterbesuch ist okay)
+
+
+Sentence 880:
+(TOP ja)
+
+
+Sentence 881:
+(TOP ja sicher)
+
+
+Sentence 882:
+(TOP ja okay das wurde mich freuen)
+
+
+Sentence 883:
+(TOP und was fur ein hotel wurden sie so vorziehen)
+
+
+Sentence 884:
+(TOP bitte)
+
+
+Sentence 885:
+(TOP das was fur ein hotel wurden sie vorziehen)
+
+
+Sentence 886:
+(TOP ach so ach gott)
+
+
+Sentence 887:
+(TOP haben sie eine liste da)
+
+
+Sentence 888:
+(TOP konnen sie mir die eben reichen)
+
+
+Sentence 889:
+(TOP ja habe ich)
+
+
+Sentence 890:
+(TOP habe ich dabei ja)
+
+
+Sentence 891:
+(TOP ah ja)
+
+
+Sentence 892:
+(TOP danke)
+
+
+Sentence 893:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(VF ich)
+		(LK denke)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(LV das hotel savoy) [01;33mSIMPX)[00m
+				[01;36m(SIMPX[00m
+					(VF das)
+					(LK ist)
+					(MF ganz nett)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 894:
+(TOP da war ein kollege letztens drin gewesen)
+
+
+Sentence 895:
+(TOP
+	(SIMPX
+		(VF der)
+		(LK meinte)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(VF das)
+				(LK ware)
+				(MF in ordnung)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 896:
+(TOP ja)
+
+
+Sentence 897:
+(TOP savoy)
+
+
+Sentence 898:
+(TOP ja das ist auch preislich in ordnung)
+
+
+Sentence 899:
+(TOP da bin ich mit einverstanden)
+
+
+Sentence 900:
+(TOP auf jeden fall ja)
+
+
+Sentence 901:
+(TOP ja)
+
+
+Sentence 902:
+(TOP ja nehmen wir das doch ne)
+
+
+Sentence 903:
+(TOP okay)
+
+
+Sentence 904:
+(TOP
+	(SIMPX
+		(VF dann)
+		(LK mache)
+		[01;36m(MF[00m
+			(MF ich die sache)
+			[01;36m(ADJX[00m
+				[01;36m(NX[00m [01;31m(VC[00m
+					(PTKVZ feste)[01;31m)[00m[01;36m)[00m
+				[01;31m(NF[00m
+					(PX
+						(APPRART im)
+						(NX reiseburo))[01;31m)[00m[01;36m)[00m[01;36m)[00m))
+
+
+Sentence 905:
+(TOP ja)
+
+
+Sentence 906:
+(TOP ja)
+
+
+Sentence 907:
+(TOP okay dann kummern sie sich drum ne)
+
+
+Sentence 908:
+(TOP
+	[01;31m(DM[00m
+		(ADVX dann)
+		[01;36m(DM[00m
+			(PTKANT ja)[01;36m)[00m[01;31m)[00m
+	(SIMPX ich habe ja noch eine telefonnummer von dem hotel))
+
+
+Sentence 909:
+(TOP ich denke mal da konnte ich das dann festmachen)
+
+
+Sentence 910:
+(TOP weil das mit dem reiseburo das ist immer so ein hinundher so ein hickhack das mus nicht sein)
+
+
+Sentence 911:
+(TOP ja)
+
+
+Sentence 912:
+(TOP okay gut)
+
+
+Sentence 913:
+(TOP okay)
+
+
+Sentence 914:
+(TOP verbleiben wir so)
+
+
+Sentence 915:
+(TOP
+	(DM ja)
+	[01;36m(NX[00m
+		(DM
+			[01;36m(DM[00m
+				(ITJ tschus)[01;36m)[00m
+			(ADVX dann))[01;36m)[00m)
+
+
+Sentence 916:
+(TOP tschus)
+
+
+Sentence 917:
+(TOP
+	(DM reiseagentur maritim)
+	[01;31m(DM[00m
+		[01;31m(NX[00m
+			[01;36m(VXFIN[00m [01;36m(LK[00m [01;31m(NX[00m
+				(NE fischenbeck)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			(PX am apparat)[01;31m)[00m[01;31m)[00m
+	(DM guten tag))
+
+
+Sentence 918:
+(TOP
+	(DM guten tag)
+	(SIMPX
+		(VF hier)
+		(LK ist)
+		(MF
+			(NX
+				[01;36m(MF[00m
+					(NX
+						(NE meurer))[01;36m)[00m
+				(PX aus bonn)))))
+
+
+Sentence 919:
+(TOP ich brauche eine verbindung nach hannover)
+
+
+Sentence 920:
+(TOP
+	(DM und zwar)
+	(PX fur den funfzehnten juli)
+	(SIMPX
+		(KOORD und)
+		(VF ich)
+		(LK muste)
+		(MF
+			[01;31m(PX[00m
+				(PX um neun uhr morgens)
+				(ADVX ungefahr)[01;31m)[00m
+			(ADVX da))
+		(VC sein)))
+
+
+Sentence 921:
+(TOP wollen sie denn fliegen oder mit dem zug fahren)
+
+
+Sentence 922:
+(TOP das kommt drauf an wann ich ankomme)
+
+
+Sentence 923:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF
+			(SIMPX
+				(C wenn)
+				(MF
+					(NX ich)
+					[01;31m(NX[00m
+						(PX mit dem flug)
+						[01;36m(NX[00m
+							(PDS [01;33m(NX[00m das)[01;36m)[00m[01;31m)[00m
+					(PX an demselben tag)) [01;33mNX)[00m
+				(VC packe)))
+		(LK ginge)
+		(MF das eigentlich auch)))
+
+
+Sentence 924:
+(TOP
+	(SIMPX
+		(LK ist)
+		[01;36m(MF[00m
+			[01;31m(MF[00m
+				(NX es)
+				(ADVX denn)
+				[01;31m(NX[00m [01;33m(NX[00m
+					(NX ein termin)
+					[01;31m(PX[00m [01;33m(PX[00m
+						(APPR unter)
+						[01;33m(NX[00m (NX der woche)[01;31m)[00m[01;31m)[00m[01;31m)[00m
+			[01;31m(NF[00m
+				(NX
+					(ART der)
+					(ADJX funfzehnte)
+					(NN juli))[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 925:
+(TOP lassen sie mich mal gucken)
+
+
+Sentence 926:
+(TOP es muste ein dienstag sein)
+
+
+Sentence 927:
+(TOP
+	(DM ja)
+	(DM also)
+	[01;31m(SIMPX[00m
+		(LV wenn sie fliegen mochten)
+		[01;36m(SIMPX[00m
+			(VF es)
+			(LK gibt)
+			(MF [01;33m(NX[00m
+				(NX einen flug)
+				[01;31m(NX[00m
+					[01;31m(NX[00m
+						(NX jeden tag) [01;33mNX)[00m
+						[01;33m(PX[00m (PX von montag bis freitag)[01;31m)[00m
+					[01;33m(PX[00m (PX um sieben uhr zehn)[01;31m)[00m
+				(PX von kolnbonn))[01;36m)[00m[01;31m)[00m [01;33mPX) PX)[00m
+	(SIMPX und dann kommen sie in hannover um acht uhr zehn an))
+
+
+Sentence 928:
+(TOP wurde ihnen das reichen)
+
+
+Sentence 929:
+(TOP das ware knapp aber es muste eigentlich auch)
+
+
+Sentence 930:
+(TOP
+	(SIMPX
+		(LK geht)
+		(MF
+			(ADVX auch)
+			(ADVX irgendwie)
+			(ADVX noch)
+			[01;31m(NX[00m
+				(NX ein nachtexpres)
+				(KON oder)
+				[01;33m(ADJX[00m (ADVX so)[01;31m)[00m
+			[01;31m(PX[00m
+				(PROP dahin)[01;31m)[00m)))
+
+
+Sentence 931:
+(TOP moment ich gucke mal nach)
+
+
+Sentence 932:
+(TOP nachts konnen sie nicht fahren)
+
+
+Sentence 933:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF sie)
+		(LK konnen)
+		(MF
+			[01;31m(ADVX[00m
+				(ADVX nur)
+				(ADV tagsuber)[01;31m)[00m)
+		(VC fahren))
+	(SIMPX
+		(VF der erste zug)
+		(LK geht)
+		(MF um funf uhr zehn)
+		[01;31m(VC[00m
+			(PTKVZ ab)[01;31m)[00m
+		[01;31m(NF[00m
+			(PX
+				(APPR von)
+				(NX bonn))[01;31m)[00m)
+	(SIMPX
+		(VF da)
+		(FKOORD
+			(LKMVCN musten sie allerdings umsteigen in dusseldorf hauptbahnhof)
+			(KON und)
+			[01;36m(LKM[00m [01;31m(LKVCN[00m
+				(LK kamen)
+				(VC an)
+				[01;36m(MF[00m [01;31m(NF[00m
+					(PX um sechs uhr zehn)
+					(PX in hannover)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 934:
+(TOP das ist ein ic)
+
+
+Sentence 935:
+(TOP
+	(DM oh)
+	[01;31m(DM[00m
+		[01;36m(DM[00m
+			(NX
+				(NN moment))[01;36m)[00m
+		(ADVX mal)[01;31m)[00m
+	(SIMPX
+		(VF sie)
+		(FKOORD
+			(LKMVC kommen in dusseldorf um sechs uhr sechs an)
+			(KON und)
+			[01;36m(LKMVCN[00m
+				[01;31m(LKMVC[00m
+					(LK mussen)
+					(MF da)
+					[01;31m(VC[00m [01;33m(VC[00m
+						(VXINF
+							(VVINF umsteigen))[01;31m)[00m[01;31m)[00m
+				[01;31m(LKMVCN[00m
+					(LK kommen) [01;33mVC)[00m
+					(MF in hannover)
+					(VC an)
+					(NF um neun uhr zwei)[01;31m)[00m[01;36m)[00m)))
+
+
+Sentence 936:
+(TOP oh nein)
+
+
+Sentence 937:
+(TOP
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(VF der)
+			(LK fahrt)[01;31m)[00m
+		(DM ah)[01;36m)[00m
+	(DM entschuldigung)
+	(SIMPX
+		(VF der)
+		(LK fahrt)
+		(MF
+			[01;31m(NX[00m
+				(ADVX nur)
+				[01;36m(NX[00m
+					(NX samstag)
+					(NX sonntag)[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 938:
+(TOP
+	(SIMPX
+		[01;36m(ADVX[00m
+			(VF
+				[01;31m(ADJX[00m
+					(ADJD taglich)[01;31m)[00m)[01;36m)[00m
+		(LK fahrt)
+		(MF
+			[01;36m(MF[00m
+				(ADVX dann)
+				(PX um sechs uhr funf)[01;36m)[00m
+			(NX der erste zug))))
+
+
+Sentence 939:
+(TOP kommen sie an um zehn uhr neunzehn)
+
+
+Sentence 940:
+(TOP
+	[01;31m(ADJX[00m
+		[01;36m(DM[00m
+			(ADVX
+				(ADV also))[01;36m)[00m
+		[01;36m(ADJX[00m
+			(ADVX auch)
+			(ADJX zu spat)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 941:
+(TOP
+	[01;36m(DM[00m
+		[01;31m(DM[00m
+			(ITJ ah)[01;31m)[00m
+		[01;31m(DM[00m
+			(PTKANT nee)[01;31m)[00m[01;36m)[00m
+	(SIMPX das ist ja)
+	(SIMPX das ist zu spat))
+
+
+Sentence 942:
+(TOP wie teuer ist ungefahr der flug)
+
+
+Sentence 943:
+(TOP
+	(NX
+		[01;36m(NX[00m [01;31m(ADVX[00m
+			(ADV ungefahr)[01;31m)[00m[01;36m)[00m
+		[01;36m(NX[00m
+			(ADJX zweihundert dreisig)
+			(NN mark)[01;36m)[00m))
+
+
+Sentence 944:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF ich)
+		(LK bleibe)
+		[01;36m(MF[00m
+			[01;31m(MF[00m
+				(ADVX sowieso)
+				(NX einige tage)[01;31m)[00m
+			[01;36m(ADVX[00m [01;31m(VC[00m
+				(PTKVZ da)[01;31m)[00m[01;36m)[00m[01;36m)[00m))
+
+
+Sentence 945:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK bleibe)
+		[01;36m(MF[00m
+			[01;31m(MF[00m
+				(NX
+					(ADJX drei)
+					(NN tage))[01;31m)[00m
+			[01;36m(ADVX[00m [01;31m(VC[00m
+				(PTKVZ da)[01;31m)[00m[01;36m)[00m[01;36m)[00m)
+	(SIMPX das waren auf jeden fall dann mal drei nachte))
+
+
+Sentence 946:
+(TOP
+	(SIMPX
+		(VF wieviel)
+		(LK kostet)
+		(MF
+			(ADVX denn)
+			[01;36m(NX[00m
+				(NX ein hotel)
+				(PX in hannover)[01;36m)[00m)))
+
+
+Sentence 947:
+(TOP so mittelklasse)
+
+
+Sentence 948:
+(TOP mittelklasse)
+
+
+Sentence 949:
+(TOP wollen sie denn eher eine zentrale lage)
+
+
+Sentence 950:
+(TOP am bahnhof oder am flughafen direkt kann ich ihnen eines anbieten)
+
+
+Sentence 951:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK ist)
+		[01;31m(MF[00m
+			[01;31m(ADVX[00m
+				(ADVX so)
+				[01;36m(NX[00m
+					(ADV ungefahr)[01;36m)[00m[01;31m)[00m [01;33mSIMPX)[00m
+			[01;31m(NX[00m
+				[01;31m(NX[00m
+					(ADJX mittlere)
+					(NN preisklasse)[01;31m)[00m [01;33mSIMPX)[00m
+				(PX mit restaurant konferenzraum garage und sauna)[01;31m)[00m[01;31m)[00m
+		[01;31m(NF[00m [01;33m(SIMPX (VF (NX[00m
+			[01;31m(NX[00m
+				(ART das)
+				[01;36m(NX[00m
+					(NN [01;33m(NX[00m hotel)[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(VF[00m
+			(NX
+				(NE forahotel))[01;31m)[00m [01;33mNX) NX) VF)[00m
+		(LK heist)
+		(MF das)[01;31m)[00m)
+
+
+Sentence 952:
+(TOP die kategorie fur ein einzelzimmer liegt bei hundert dreisig bis zweihundert funfunddreisig mark)
+
+
+Sentence 953:
+(TOP und wieviel wurde die zugfahrt nach hannover kosten mit einem ic)
+
+
+Sentence 954:
+(TOP fahren sie mit bahncard oder ohne bahncard)
+
+
+Sentence 955:
+(TOP mit bahncard)
+
+
+Sentence 956:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK macht)
+		(MF [01;33m(MF[00m
+			(ADVX dann)
+			[01;31m(NX[00m
+				(NX achtundsiebzig mark) [01;33mMF)[00m
+				(ADVX einfach)[01;31m)[00m)))
+
+
+Sentence 957:
+(TOP plus iczuschlag)
+
+
+Sentence 958:
+(TOP den mussen sie noch extra nehmen)
+
+
+Sentence 959:
+(TOP sechs mark)
+
+
+Sentence 960:
+(TOP was ware denn das nachstbilligere hotel)
+
+
+Sentence 961:
+(TOP
+	(NX
+		(ADVX auch)
+		[01;36m(NX[00m
+			(ADVX so)
+			[01;31m(NX[00m
+				(ADJX zentrale)
+				(NN lage)[01;31m)[00m[01;36m)[00m
+		(ADVX eher)))
+
+
+Sentence 962:
+(TOP zentrale lage)
+
+
+Sentence 963:
+(TOP
+	(SIMPX da kann ich ihnen das grandhotel musmann anbieten)
+	[01;36m(NX[00m
+		(ART [01;33m(NX[00m das)
+		[01;31m(NX[00m
+			[01;31m(NX[00m
+				(ADJX zentrale)
+				(NN lage)[01;31m)[00m [01;33mNX)[00m
+			(PX mit garage)[01;31m)[00m[01;36m)[00m
+	(SIMPX die brauchen sie zwar nicht)
+	(SIMPX
+		(VF da)
+		(LK liegt)
+		(MF
+			(NX die preiskategorie fur ein einzelzimmer)
+			(PX
+				(APPR bei)
+				(NX [01;33m(ADJX[00m
+					(NX hundert achtundsiebzig mark)
+					(APPR bis)
+					[01;31m(NX[00m
+						(ADJX funfhundert achtzehn) [01;33mADJX)[00m
+						(NN mark)[01;31m)[00m)))))
+
+
+Sentence 964:
+(TOP
+	(SIMPX
+		[01;31m(VF[00m
+			[01;31m(SIMPX[00m
+				(KOORD oder)
+				[01;36m(VF[00m
+					[01;36m(SIMPX[00m
+						(C was)
+						(MF
+							[01;31m(ADJX[00m
+								[01;31m(ADVX[00m
+									(ADVX noch)
+									[01;36m(ADVX[00m
+										(ADV [01;33m(ADJX[00m etwas)[01;36m)[00m[01;31m)[00m
+								(ADJD preiswerter)[01;31m)[00m) [01;33mADJX)[00m
+						(VC ware)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(LK ware)
+		(MF hotel loccumerhof))
+	(ADJX
+		(ADJX
+			(ADVX auch)
+			[01;36m(ADJX[00m
+				(ADVX zentral)
+				(ADJD gelegen)[01;36m)[00m)
+		(PX mit konferenzraum)))
+
+
+Sentence 965:
+(TOP
+	(NX
+		(NX die preislage)
+		(NX [01;33m(ADJX[00m
+			(NX hundert funfundvierzig mark)
+			(APPR bis)
+			[01;31m(NX[00m
+				(ADJX hundert achtzig) [01;33mADJX)[00m
+				(NN mark)[01;31m)[00m)))
+
+
+Sentence 966:
+(TOP
+	(SIMPX
+		[01;31m(VF[00m
+			[01;31m(SIMPX[00m
+				(KOORD aber)
+				[01;36m(SIMPX[00m
+					[01;36m(VF[00m
+						(C wenn)
+						(MF man es)
+						(VC zusammenrechnet)[01;36m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(LK ware)
+		(MF ja eigentlich der flug doch noch gunstiger)))
+
+
+Sentence 967:
+(TOP wenn ich einfach am selben tag fliegen wurde)
+
+
+Sentence 968:
+(TOP wann wollen sie denn zuruckfliegen)
+
+
+Sentence 969:
+(TOP ja)
+
+
+Sentence 970:
+(TOP moment das muste der neunzehnte sein)
+
+
+Sentence 971:
+(TOP ist das auch unter der woche)
+
+
+Sentence 972:
+(TOP nee das ist samstags)
+
+
+Sentence 973:
+(TOP da mus ich dann halt auf jeden fall mit dem zug fahren)
+
+
+Sentence 974:
+(TOP
+	(DM ja)
+	(DM ja)
+	(SIMPX [01;33m(SIMPX[00m
+		(VF dann)
+		(LK wurde)
+		[01;31m(MF[00m
+			(NX ich) [01;33mSIMPX)[00m
+			[01;33m(SIMPX[00m (ADVX aber)[01;31m)[00m
+		(VC sagen)
+		(NF ich nehme auf jeden fall mal den hinflug einfach)) [01;33mSIMPX)[00m
+	(SIMPX [01;33m(SIMPX[00m
+		(VF das)
+		(LK waren)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(ADVX
+					(ADV dann)) [01;33mSIMPX)[00m[01;36m)[00m
+			[01;36m(SIMPX[00m
+				[01;31m(SIMPX[00m
+					(VF wieviel)
+					(LK sagten)
+					[01;31m(MF[00m [01;33m(MF[00m
+						(NX
+							(PPER sie))[01;31m)[00m[01;31m)[00m
+				[01;36m(ADJX[00m [01;31m(NX[00m
+					(CARD zweihundert)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;31m)[00m))
+
+
+Sentence 975:
+(TOP ja zweihundert dreisig mark)
+
+
+Sentence 976:
+(TOP
+	[01;36m(ADVX[00m
+		(NX zweihundert dreisig mark)
+		[01;31m(NX[00m
+			(KON und)
+			(NX eine einfache fahrt zuruck)[01;31m)[00m[01;36m)[00m
+	(DM ja))
+
+
+Sentence 977:
+(TOP ja soll ich ihnen einen platz reservieren)
+
+
+Sentence 978:
+(TOP ja)
+
+
+Sentence 979:
+(TOP fur die zugverbindung zuruck)
+
+
+Sentence 980:
+(TOP ja)
+
+
+Sentence 981:
+(TOP raucher oder nichtraucher)
+
+
+Sentence 982:
+(TOP nichtraucher)
+
+
+Sentence 983:
+(TOP fenster)
+
+
+Sentence 984:
+(TOP ja)
+
+
+Sentence 985:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK sagen)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX sie)
+			(NX mir)
+			(NX ihren namen)
+			(ADVX noch)
+			(ADVX mal)[01;31m)[00m[01;31m)[00m
+	[01;36m(ADVX[00m [01;31m(DM[00m
+		(PTKANT bitte)[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 986:
+(TOP meurer)
+
+
+Sentence 987:
+(TOP ja)
+
+
+Sentence 988:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(LK wurden)
+		(MF
+			(NX sie)
+			(NX mir)
+			(ADVX bitte)
+			(ADVX noch)
+			(PX [01;33m(PX[00m
+				(APPR fur)
+				[01;31m(NX[00m
+					(NX die nachte) [01;33mPX)[00m
+					[01;36m(PX[00m
+						(APPRART vom)
+						(DM also)
+						(NX
+							(NX dienstag nacht)
+							[01;36m(PX[00m
+								(APPR bis)
+								(NX freitag nacht)[01;36m)[00m)[01;36m)[00m[01;31m)[00m)
+			(ADVX noch)
+			(NX das hotel))
+		(VC buchen)))
+
+
+Sentence 989:
+(TOP
+	(SIMPX
+		(VF
+			(PX
+				(APPR fur)
+				[01;36m(PX[00m [01;31m(NX[00m
+					(PWS welches)[01;31m)[00m[01;36m)[00m))
+		(LK hatten)
+		(MF sie sich jetzt)
+		(VC entschieden)))
+
+
+Sentence 990:
+(TOP fur das mit konferenzraum)
+
+
+Sentence 991:
+(TOP hotel loccumerhof)
+
+
+Sentence 992:
+(TOP ja genau)
+
+
+Sentence 993:
+(TOP fur hundert funfundvierzig mark das einzelzimmer)
+
+
+Sentence 994:
+(TOP ja)
+
+
+Sentence 995:
+(TOP genau)
+
+
+Sentence 996:
+(TOP gut das ist dann vom vierzehnten juli bis zum siebzehnten juli einzelzimmer hotel loccumerhof)
+
+
+Sentence 997:
+(TOP ja genau)
+
+
+Sentence 998:
+(TOP ja)
+
+
+Sentence 999:
+(TOP
+	(SIMPX
+		(VF wann)
+		(LK kann)
+		[01;36m(FKOORD[00m
+			[01;31m(MF[00m [01;33m(MVC (MF[00m
+				(NX ich)
+				(PX bei ihnen)
+				[01;31m(NX[00m
+					[01;31m(NX[00m
+						[01;36m(NX[00m
+							(ART das) [01;33mMF)[00m[01;36m)[00m
+						[01;36m(VXINF[00m
+							[01;36m(VC[00m
+								(NN flugticket)[01;36m)[00m[01;36m)[00m[01;31m)[00m [01;33mMVC)[00m
+					(KON und)
+					[01;33m(MVC[00m (NX die hotelbuchung)
+					(KON und)
+					[01;33m(ADVX[00m (ADVX so weiter)[01;31m)[00m[01;31m)[00m
+			(VC abholen)[01;36m)[00m))
+
+
+Sentence 1000:
+(TOP
+	(SIMPX ich mache ihnen das jetzt fertig)
+	(SIMPX konnen sie)
+	[01;36m(SIMPX[00m
+		(SIMPX
+			[01;31m(VF[00m
+				(ADVX
+					(ADV morgen))[01;31m)[00m
+			(LK kommt)
+			(MF die bestatigung))
+		(SIMPX
+			(LK konnen)
+			[01;36m(MF[00m
+				[01;31m(MF[00m
+					(NX sie)
+					(NX es)[01;31m)[00m
+				(NX ticket)[01;36m)[00m
+			(VC abholen))[01;36m)[00m)
+
+
+Sentence 1001:
+(TOP okay gut)
+
+
+Sentence 1002:
+(TOP vielen dank)
+
+
+Sentence 1003:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederhoren)[01;31m)[00m))
+
+
+Sentence 1004:
+(TOP
+	(DM
+		[01;31m(NX[00m
+			(NN wiederhoren)[01;31m)[00m))
+
+
+Sentence 1005:
+(TOP guten tag hier ist sabine meurer)
+
+
+Sentence 1006:
+(TOP tag frau meurer hier ist fischenbeck)
+
+
+Sentence 1007:
+(TOP guten tag)
+
+
+Sentence 1008:
+(TOP
+	(SIMPX
+		(VF wir)
+		(LK wollten)
+		(MF
+			(PX in den nachsten drei monaten)
+			(ADVX doch)
+			(ADVX noch)
+			(ADVX mal)
+			(APPR nach)
+			(PX
+				[01;31m(PX[00m
+					(APPR nach)
+					[01;33m(NX[00m (NX hannover)[01;31m)[00m
+				(PX zu unserer filiale))) [01;33mNX)[00m
+		(VC fahren)))
+
+
+Sentence 1009:
+(TOP haben sie jetzt einen freien termin gefunden)
+
+
+Sentence 1010:
+(TOP wie lang soll denn die reise dauern eigentlich)
+
+
+Sentence 1011:
+(TOP ja also ich denke mal drei tage sind bestimmt mal notig)
+
+
+Sentence 1012:
+(TOP wie ware es denn in zwei wochen)
+
+
+Sentence 1013:
+(TOP
+	(SIMPX
+		(LV in zwei wochen)
+		[01;36m(SIMPX[00m
+			(VF das)
+			(LK ware)
+			(MF der wievielte)[01;36m)[00m))
+
+
+Sentence 1014:
+(TOP vom siebzehnten bis zum vierundzwanzigsten)
+
+
+Sentence 1015:
+(TOP also in in der woche meinten sie)
+
+
+Sentence 1016:
+(TOP irgendwann ja in der woche)
+
+
+Sentence 1017:
+(TOP wir konnen ja am vielleicht fahren wir einfach montag schon los dann sind wir vorm wochenende wieder zuruck)
+
+
+Sentence 1018:
+(TOP
+	[01;31m(SIMPX[00m
+		(KOORD und)
+		(C wenn)
+		(FKOORD
+			(MVC wir sonntags fahren)
+			(KON und)
+			(MVC
+				(MF
+					(ADVX noch)
+					[01;31m(ADVX[00m
+						(ADV vorher)[01;31m)[00m
+					(PX ins theater))
+				[01;36m(VXINF[00m
+					(VC
+						[01;31m(VXFIN[00m
+							(VVFIN gehen)[01;31m)[00m)[01;36m)[00m))[01;31m)[00m
+	(ADVX oder so))
+
+
+Sentence 1019:
+(TOP ja konnen wir auch machen)
+
+
+Sentence 1020:
+(TOP gut)
+
+
+Sentence 1021:
+(TOP fahren wir sonntag)
+
+
+Sentence 1022:
+(TOP
+	(DM okay)
+	[01;31m(PX[00m
+		[01;36m(DM[00m
+			(ADVX
+				(ADV also))[01;36m)[00m
+		(PX am zwanzigsten)[01;31m)[00m)
+
+
+Sentence 1023:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF was)
+		(LK meinen)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX
+				(PPER sie))[01;31m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		(ADVX eher)
+		(NX flug)[01;31m)[00m)
+
+
+Sentence 1024:
+(TOP ach ich finde mit dem zug konnen wir auch fahren)
+
+
+Sentence 1025:
+(TOP so weit ist das ja nicht bis hannover)
+
+
+Sentence 1026:
+(TOP
+	(SIMPX
+		(VF da)
+		(LK fahren)
+		(MF
+			(NX wir)
+			(PX mit dem zug)
+			(ADVX ja)
+			(NX
+				(ADVX nur)
+				[01;31m(ADJX[00m
+					(ADJX zwei)
+					(ADJX drei)[01;31m)[00m
+				(NN stunden)))))
+
+
+Sentence 1027:
+(TOP ja gut)
+
+
+Sentence 1028:
+(TOP haben sie zufalligerweise einen fahrplan da)
+
+
+Sentence 1029:
+(TOP moment ich gucke mal nach)
+
+
+Sentence 1030:
+(TOP ja)
+
+
+Sentence 1031:
+(TOP ich habe einen hier)
+
+
+Sentence 1032:
+(TOP soll ich uns einen zug raussuchen)
+
+
+Sentence 1033:
+(TOP ja)
+
+
+Sentence 1034:
+(TOP ich mus mal gucken was samstag sonntag fahrt)
+
+
+Sentence 1035:
+(TOP
+	(SIMPX
+		(VF wann)
+		(LK wollen)
+		(MF
+			(NX sie)
+			(ADVX denn)
+			[01;36m(ADJX[00m [01;31m(ADVX[00m
+				(ADV ungefahr)[01;31m)[00m[01;36m)[00m)
+		(VC fahren)))
+
+
+Sentence 1036:
+(TOP mittags reicht eigentlich)
+
+
+Sentence 1037:
+(TOP ja ja denke ich auch)
+
+
+Sentence 1038:
+(TOP wenn wir mittags fahren)
+
+
+Sentence 1039:
+(TOP da konnten wir den nehmen um zwolf uhr funfundvierzig zum beispiel)
+
+
+Sentence 1040:
+(TOP dann sind wir um sechzehn uhr vier in hannover)
+
+
+Sentence 1041:
+(TOP ja das ware okay)
+
+
+Sentence 1042:
+(TOP soll ich die karten schon mal kaufen)
+
+
+Sentence 1043:
+(TOP ja am besten)
+
+
+Sentence 1044:
+(TOP wahrscheinlich brauchen wir auch eine reservierung)
+
+
+Sentence 1045:
+(TOP ja)
+
+
+Sentence 1046:
+(TOP ja ich kann ja schon mal zwei platze reservieren lassen)
+
+
+Sentence 1047:
+(TOP sie rauchen glaube ich auch nicht frau meurer)
+
+
+Sentence 1048:
+(TOP nee nee)
+
+
+Sentence 1049:
+(TOP ja)
+
+
+Sentence 1050:
+(TOP gut)
+
+
+Sentence 1051:
+(TOP gut)
+
+
+Sentence 1052:
+(TOP
+	(DM ja)
+	(SIMPX
+		[01;36m(KOORD[00m [01;31m(VF[00m
+			[01;31m(ADVX[00m
+				(ADV aber)[01;31m)[00m[01;31m)[00m[01;36m)[00m
+		(LK gehen)
+		(MF wir doch dann sonntag abend noch ins theater)))
+
+
+Sentence 1053:
+(TOP
+	(DM ja)
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK kann)
+		(MF ja mal im reiseburo)
+		(VC anrufen)[01;31m)[00m
+	(KON oder)
+	(APPRART im)
+	[01;31m(SIMPX[00m
+		(VF wir)
+		(LK mussen)
+		(MF uns eh noch)
+		(VC uberlegen)
+		(NF
+			(SIMPX
+				[01;36m(NF[00m
+					(SIMPX
+						(C wo)
+						(MF wir)
+						(VC schlafen wollen))[01;36m)[00m
+				(SIMPX
+					[01;36m(SIMPX[00m
+						(C ob)
+						(MF wir ein hotel)
+						(VC nehmen)[01;36m)[00m
+					(NF oder pension))))[01;31m)[00m)
+
+
+Sentence 1054:
+(TOP
+	(SIMPX
+		(VF da)
+		(LK kann)
+		(MF ich ja mal)
+		[01;31m(FKOORD[00m [01;33m(VXINF (VC[00m
+			(VC anrufen)
+			(KON und)
+			[01;31m(VCN[00m
+				[01;36m(LK[00m [01;36m(VXFIN[00m [01;31m(VC[00m
+					[01;31m(VXINF[00m
+						(VVINF fragen)[01;31m)[00m[01;31m)[00m [01;33mVC) VXINF)[00m[01;36m)[00m[01;36m)[00m
+				(NF ob die ein programm haben fur theater)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 1055:
+(TOP ja)
+
+
+Sentence 1056:
+(TOP ich war das letzte mal war ich im intercityhotel)
+
+
+Sentence 1057:
+(TOP
+	[01;31m(SIMPX[00m
+		(SIMPX das ist ziemlich zentral)
+		(KON und)
+		(DM ja)
+		(DM okay)
+		(SIMPX es hat einen konferenzraum)[01;31m)[00m
+	(SIMPX aber das brauchen wir eigentlich nicht))
+
+
+Sentence 1058:
+(TOP da war das einzelzimmer hat ungefahr zweihundert mark gekostet)
+
+
+Sentence 1059:
+(TOP ah das ist nicht schlecht)
+
+
+Sentence 1060:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF vielleicht)
+		(LK konnen)
+		(MF
+			(NX sie)
+			(ADVX dann)
+			(ADVX auch)
+			(ADVX direkt)
+			[01;31m(PX[00m
+				(APPR nach)
+				(NX dem intercityhotel)[01;31m)[00m)
+		(VC fragen)))
+
+
+Sentence 1061:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK meinen)
+		[01;33m(MF[00m (MF sie)
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				(VF die) [01;33mMF)[00m
+				(LK wissen)
+				[01;31m(MF[00m
+					(NX das)
+					(PX bei der bahn)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		[01;36m(NF[00m
+			[01;31m(SIMPX[00m
+				(C wenn)
+				[01;33m(MF[00m (MF ich da)[01;31m)[00m
+			[01;31m(SIMPX[00m
+				(KOORD oder)
+				(VF ich) [01;33mMF)[00m
+				(LK gehe)
+				(MF ins reiseburo)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+	(SIMPX und da kann ich ja auch bahntickets kaufen))
+
+
+Sentence 1062:
+(TOP und dann frage ich da gleich wegen der hotelbuchung)
+
+
+Sentence 1063:
+(TOP
+	[01;31m(SIMPX[00m
+		(C das)
+		[01;31m(MF[00m
+			(NX die)
+			(NX mir)
+			(ADVX da)[01;31m)[00m[01;31m)[00m
+	[01;36m(NF[00m
+		(SIMPX
+			(C das)
+			[01;31m(FKOORD[00m
+				[01;31m(MVCN[00m
+					(MF die da)
+					(VC anrufen)
+					(NF vielleicht)[01;31m)[00m
+				(KON und)
+				(MVCN zwei zimmer reservieren fur eine termine)[01;31m)[00m)[01;36m)[00m)
+
+
+Sentence 1064:
+(TOP ja)
+
+
+Sentence 1065:
+(TOP ja das ist bestimmt nicht schlecht)
+
+
+Sentence 1066:
+(TOP ich kenne ein theater in hannover das heist ballhof oder so)
+
+
+Sentence 1067:
+(TOP
+	(P
+		(SIMPX vielleicht haben die auch eine gute inszenierung)
+		(KOUS weil)
+		(SIMPX
+			(VF das letzte mal)
+			(LK haben)
+			(MF
+				(NX die)
+				[01;31m(ADJX[00m
+					(ADVX wirklich)
+					[01;36m(ADJX[00m
+						(ADJD gut)[01;36m)[00m[01;31m)[00m)
+			(VC gespielt))))
+
+
+Sentence 1068:
+(TOP
+	(SIMPX
+		(VF ansonsten)
+		(LK weis)
+		(MF ich gar nicht)
+		(NF
+			(SIMPX
+				(C was)
+				(MF
+					[01;36m(PX[00m
+						(PX im moment)
+						(PX in hannover)[01;36m)[00m
+					(ADVX so)
+					(ADVX los))
+				(VC ist)))))
+
+
+Sentence 1069:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK wissen)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX
+					(PPER sie))[01;36m)[00m
+			(NX was)[01;31m)[00m[01;31m)[00m
+	[01;36m(SIMPX[00m
+		(SIMPX
+			(VF ich)
+			(FKOORD
+				(LKMVC rufe im reiseburo an)
+				(KON und)
+				[01;36m(LKM[00m
+					[01;31m(LKM[00m
+						(LK klare)
+						[01;31m(MF[00m
+							[01;31m(NX[00m
+								(NX das)
+								[01;36m(VF[00m
+									(NX [01;33m(SIMPX[00m
+										(PIS alles))[01;36m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m
+					[01;31m(LKM[00m
+						(LK kaufe)
+						(MF die tickets)[01;31m)[00m[01;36m)[00m)) [01;33mSIMPX)[00m
+		(SIMPX und dann rufe ich sie noch mal an wegen dem programm im ballhaus)[01;36m)[00m)
+
+
+Sentence 1070:
+(TOP sollen wir so verbleiben)
+
+
+Sentence 1071:
+(TOP da rufe ich sie ein paar tage vorher noch mal an ansonsten sehen wir uns ja vielleicht im in der firma)
+
+
+Sentence 1072:
+(TOP
+	[01;31m(P[00m
+		(SIMPX
+			(VF wir)
+			(LK brauchten)
+			(MF
+				(ADVX vielleicht)
+				(ADVX vorher)
+				(ADVX noch)
+				[01;31m(NX[00m
+					(ADVX ungefahr)
+					[01;36m(NX[00m
+						(ART einen)
+						(NN zug)[01;36m)[00m[01;31m)[00m)
+			(NF mit dem wir zuruckfahren))
+		(KOUS weil)
+		(SIMPX
+			(VF ich)
+			(LK mus)
+			(APPRART am)
+			(DM nee)
+			(DM nee)
+			[01;31m(MF[00m
+				[01;31m(PX[00m
+					[01;31m(PX[00m
+						(APPRART am)
+						[01;36m(ADJX[00m [01;31m(NX[00m [01;33m(NX[00m
+							(NN vierundzwanzigsten)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+					[01;31m(PX[00m
+						(ADVX ungefahr) [01;33mNX)[00m
+						(APPR um)
+						(NX vier uhr)[01;31m)[00m[01;31m)[00m
+				(ADVX wieder)
+				(ADVX hier)[01;31m)[00m
+			(VC sein)
+			(NF weil ich einen termin habe))[01;31m)[00m)
+
+
+Sentence 1073:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK sehe)
+		(MF grade)
+		(NF
+			(SIMPX
+				(VF ab hannover)
+				(LK geht)
+				[01;31m(MF[00m
+					[01;36m(MF[00m
+						[01;36m(ADVX[00m [01;31m(ADJX[00m
+							(ADJD stundlich)[01;31m)[00m[01;36m)[00m
+						(NX ein zug)[01;36m)[00m
+					(ADVX zuruck)
+					[01;33m(NF (PX[00m (PX von bonn)[01;31m)[00m
+				[01;31m(NF[00m
+					[01;31m(PX[00m
+						(ADVX immer) [01;33mPX)[00m
+						[01;36m(PX[00m
+							(APPR um)
+							(NX achtundfunfzig)[01;36m)[00m[01;31m)[00m[01;31m)[00m))))
+
+
+Sentence 1074:
+(TOP das heist wir konnten jede stunde fahren)
+
+
+Sentence 1075:
+(TOP ich weis gar nicht ob wir da unbedingt reservieren sollen)
+
+
+Sentence 1076:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK konnen)
+		[01;31m(MF[00m
+			(NX wir)
+			(NX uns)
+			(ADVX dann)
+			[01;31m(PX[00m
+				(ADVX ganz)
+				(APPR nach)
+				(NX lust und laune)[01;31m)[00m[01;31m)[00m)
+	(SIMPX vielleicht haben wir noch lust irgendwie vormittags zu bummeln))
+
+
+Sentence 1077:
+(TOP
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK konnen)
+		(MF
+			[01;36m(MVC[00m
+				(NX wir)
+				[01;36m(PX[00m
+					(PX ganz nach lust und laune)
+					[01;36m(VXINF[00m [01;36m(VC[00m [01;31m(ADJX[00m
+						(ADJD stundlich)[01;31m)[00m[01;36m)[00m[01;36m)[00m[01;36m)[00m[01;36m)[00m
+			[01;36m(MF[00m
+				(NX uns)
+				(NX einen zug)[01;36m)[00m)
+		(VC aussuchen)
+		(NF fur die ruckfahrt)))
+
+
+Sentence 1078:
+(TOP ja okay prima)
+
+
+Sentence 1079:
+(TOP ja)
+
+
+Sentence 1080:
+(TOP ich rufe sie dann noch mal an)
+
+
+Sentence 1081:
+(TOP gut)
+
+
+Sentence 1082:
+(TOP
+	[01;36m(NX[00m
+		(DM
+			(ITJ tschus))[01;36m)[00m
+	(DM frau meurer))
+
+
+Sentence 1083:
+(TOP
+	[01;36m(NX[00m
+		(DM
+			(ITJ tschus))[01;36m)[00m
+	(DM frau fischenbeck))
+
+
+Sentence 1084:
+(TOP ja so)
+
+
+Sentence 1085:
+(TOP
+	(DM guten tag)
+	(SIMPX [01;33m(SIMPX (SIMPX[00m
+		(VF hier)
+		(LK ist)
+		[01;31m(MF[00m
+			[01;31m(NX[00m
+				[01;36m(NX[00m
+					(ART das)
+					[01;36m(ADVX[00m [01;31m(ADJX[00m
+						(ADJA stadtische)[01;31m)[00m [01;33mSIMPX)[00m[01;36m)[00m[01;36m)[00m
+				[01;31m(NX[00m
+					(NX reiseburo) [01;33mSIMPX)[00m
+					(NX bonn)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+	[01;31m(DM[00m
+		(NX
+			[01;36m(ADJX[00m [01;31m(NX[00m
+				(NE bergmann)[01;31m)[00m[01;36m)[00m
+			[01;31m(NX[00m
+				(NN apparat)[01;31m)[00m)[01;31m)[00m
+	(SIMPX wie kann ich ihnen helfen))
+
+
+Sentence 1086:
+(TOP
+	(DM guten tag)
+	[01;36m(NX[00m
+		[01;36m(DM[00m
+			(DM frau bergmann)
+			(DM offergeld)[01;36m)[00m[01;36m)[00m
+	(NX mein name))
+
+
+Sentence 1087:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK habe)
+		[01;31m(MF[00m [01;33m(NX (MF[00m
+			[01;31m(NX[00m
+				(ART ein)
+				(ADJX paar)
+				[01;31m(NX[00m
+					[01;31m(NX[00m
+						(NN fragen) [01;33mMF) NX)[00m
+						(PX
+							[01;36m(VC[00m
+								(APPR an)[01;36m)[00m
+							(NX sie))[01;31m)[00m
+					[01;31m(PX[00m
+						[01;36m(LK[00m
+							[01;36m(VXFIN[00m
+								(APPR bezuglich)[01;36m)[00m[01;36m)[00m
+						(NX einer geschaftsreise nach hannover)[01;31m)[00m[01;31m)[00m[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 1088:
+(TOP
+	[01;36m(VF[00m
+		(ADVX
+			(ADVX erst)
+			(ADVX mal))[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(LK ist)
+		(MF
+			[01;36m(MF[00m
+				(NX es)
+				(ADVX grundsatzlich)[01;36m)[00m
+			[01;31m(ADJX[00m
+				(ADJD moglich)[01;31m)[00m)
+		(NF mit dem flugzeug nach hannover zu fliegen)[01;31m)[00m)
+
+
+Sentence 1089:
+(TOP ja selbstverstandlich)
+
+
+Sentence 1090:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK mus)
+		(MF nur dazu)
+		(VC sagen)
+		[01;31m(NF[00m [01;33m(SIMPX (NF[00m
+			[01;31m(SIMPX[00m
+				(C das)
+				[01;31m(MF[00m
+					[01;36m(NX[00m
+						[01;36m(MF[00m
+							(NX das)
+							(PX von kolnbonn) [01;33mNF) SIMPX) SIMPX)[00m[01;36m)[00m[01;36m)[00m
+					(SIMPX wenn sie von kolnbonn fliegen wollen)
+					[01;36m(MF[00m [01;31m(ADVX[00m
+						[01;31m(ADVX[00m
+							(ADVX nur)
+							[01;36m(ADVX[00m
+								(ADV einmal)[01;36m)[00m[01;31m)[00m
+						(PX am tag)[01;31m)[00m[01;36m)[00m
+					[01;36m(VXINF[00m [01;31m(ADJX[00m [01;33m(VXFIN (VC[00m
+						(ADJD moglich)[01;31m)[00m[01;36m)[00m[01;31m)[00m
+				(VC ist)[01;31m)[00m[01;31m)[00m[01;31m)[00m [01;33mVC) VXFIN)[00m
+	(DM und zwar)
+	(PX [01;33m(PX[00m
+		[01;31m(PX[00m
+			(APPR um)
+			[01;33m(NX[00m (NX sieben uhr zehn)[01;31m)[00m
+		(KON und)
+		[01;31m(PX[00m
+			(PX am wochenende) [01;33mNX) PX)[00m
+			(ADVX leider)
+			(ADVX gar nicht)[01;31m)[00m))
+
+
+Sentence 1091:
+(TOP
+	[01;31m(PX[00m
+		(PX am wochenende)
+		(ADVX gar nicht)[01;31m)[00m)
+
+
+Sentence 1092:
+(TOP ja nee ich mochte montags fliegen sieben uhr zehn past mir auch sehr gut ich mus um zehn uhr bei einer konferenz sein)
+
+
+Sentence 1093:
+(TOP
+	(SIMPX ware die frage)
+	[01;36m(NF[00m
+		(SIMPX
+			(VF ich)
+			(LK brauchte)
+			(MF ein hotel)
+			(NF
+				(R
+					(C was)
+					(MF
+						[01;31m(ADJX[00m
+							[01;31m(ADVX[00m
+								(ADVX moglichst)
+								[01;36m(ADVX[00m
+									(ADV [01;33m(ADJX[00m zentral)[01;36m)[00m[01;31m)[00m
+							(ADJD gelegen)[01;31m)[00m) [01;33mADJX)[00m
+					(VC ist))))[01;36m)[00m)
+
+
+Sentence 1094:
+(TOP
+	(SIMPX
+		(VF wie lange)
+		(LK ware)
+		(MF
+			(ADVX ungefahr)
+			(NX [01;33m(NX[00m
+				(NX die transferzeit)
+				[01;31m(PX[00m
+					(PX vom flughafen) [01;33mNX)[00m
+					(PX zum hotel)[01;31m)[00m))))
+
+
+Sentence 1095:
+(TOP also ich denke das wird in einer halben stunde machbar sein)
+
+
+Sentence 1096:
+(TOP halbe stunde)
+
+
+Sentence 1097:
+(TOP ja sehr gut)
+
+
+Sentence 1098:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF dann)
+		(LK ware)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(NX
+				(PPER ich))[01;31m)[00m[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			[01;31m(VF[00m
+				(PX
+					(APPR um)
+					(NX sieben uhr zehn))[01;31m)[00m [01;33mMF)[00m
+			(LK wurde)
+			(MF ich)
+			(VC losfliegen)[01;31m)[00m [01;33mSIMPX)[00m
+		[01;36m(SIMPX[00m
+			[01;36m(KOORD[00m
+				(KON und)[01;36m)[00m
+			[01;31m(SIMPX[00m
+				(VF acht uhr zehn)
+				(LK ware)
+				[01;31m(MF[00m
+					(NX ich)
+					(ADVX dann)
+					(PX in hannover am flughafen)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m
+	(DM richtig))
+
+
+Sentence 1099:
+(TOP ja genau eine stunde dauert der flug)
+
+
+Sentence 1100:
+(TOP gut)
+
+
+Sentence 1101:
+(TOP wie sieht das mit den buchungsterminen aus)
+
+
+Sentence 1102:
+(TOP ist das generell moglich)
+
+
+Sentence 1103:
+(TOP
+	[01;36m(LV[00m
+		(SIMPX
+			(C das)
+			(MF ich am siebten juli))[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK ist)
+		(MF montags)[01;31m)[00m)
+
+
+Sentence 1104:
+(TOP
+	(DM ja)
+	(DM also)
+	(SIMPX
+		(VF eigentlich)
+		(LK ist)
+		(MF
+			(ADVX da)
+			(ADVX immer)
+			[01;36m(ADJX[00m
+				(NX relativ viel)
+				(ADJX frei)[01;36m)[00m)))
+
+
+Sentence 1105:
+(TOP ich konnte sie da mal vormerken)
+
+
+Sentence 1106:
+(TOP ich mus im computer gucken ob das geht)
+
+
+Sentence 1107:
+(TOP ja)
+
+
+Sentence 1108:
+(TOP also es ist aber eigentlich immer moglich)
+
+
+Sentence 1109:
+(TOP
+	(SIMPX
+		[01;36m(ADVX[00m
+			(VF
+				[01;31m(ADJX[00m
+					(ADVX so)
+					(ADJD uberfullt)[01;31m)[00m)[01;36m)[00m
+		(LK sind)
+		(MF die fluge nicht)))
+
+
+Sentence 1110:
+(TOP sehr gut)
+
+
+Sentence 1111:
+(TOP sehr gut)
+
+
+Sentence 1112:
+(TOP vier tage mochte ich bleiben das ware dann bis zum zehnten juli)
+
+
+Sentence 1113:
+(TOP konnen sie da fur mich eine buchung vornehmen)
+
+
+Sentence 1114:
+(TOP das ware dann vom sechsten bis zum zehnten juni)
+
+
+Sentence 1115:
+(TOP nein vom siebten bis zum zehnten ja)
+
+
+Sentence 1116:
+(TOP
+	(NX
+		(NX
+			(ADJX siebten)
+			[01;36m(NX[00m
+				(NN siebten)[01;36m)[00m)
+		(APPR bis)
+		(PX zum zehnten juli)))
+
+
+Sentence 1117:
+(TOP ja das kann ich machen)
+
+
+Sentence 1118:
+(TOP
+	[01;36m(PX[00m [01;36m(VF[00m [01;31m(ADJX[00m
+		(PX am zehnten juli)
+		[01;31m(ADJX[00m
+			(PX von hannover) [01;33mPX)[00m
+			(ADVX zuruck)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(LK ginge)
+		(MF das denn dann ab achtzehn uhr)[01;31m)[00m)
+
+
+Sentence 1119:
+(TOP
+	(DM tja)
+	[01;31m(P[00m
+		(SIMPX
+			(VF da)
+			(LK bin)
+			(MF
+				(NX ich)
+				(ADVX gerade)
+				(ADVX ja)
+				(ADVX nicht)
+				(ADJX
+					(ADJX so gut)
+					[01;36m(VXINF[00m
+						[01;36m(VC[00m
+							(ADJD informiert)[01;36m)[00m[01;36m)[00m)))
+		[01;36m(KOORD[00m
+			(KON [01;33m(SIMPX[00m aber)[01;36m)[00m
+		[01;31m(SIMPX[00m
+			(VF da)
+			(LK wird)
+			(MF es einen flug)
+			(VC geben)[01;31m)[00m[01;31m)[00m
+	(SIMPX
+		(KOORD und)
+		[01;36m(SIMPX[00m
+			(VF ich)
+			(LK denke)
+			(MF auch)
+			(NF das der vielleicht abends ist)[01;36m)[00m))
+
+
+Sentence 1120:
+(TOP werde ich noch nachgucken)
+
+
+Sentence 1121:
+(TOP das ich dann abends wieder zuruckfliegen kann)
+
+
+Sentence 1122:
+(TOP
+	[01;31m(ADVX[00m
+		(ADVX ansonsten)
+		(ADVX vielleicht)
+		(ADVX auch)
+		[01;36m(PX[00m
+			(PX mit dem zug)
+			(ADVX abends)[01;36m)[00m
+		(ADVX zuruck)[01;31m)[00m
+	[01;36m(NF[00m
+		(SIMPX
+			(C wenn)
+			(MF das mit dem flugzeug))[01;36m)[00m)
+
+
+Sentence 1123:
+(TOP ja mit dem zug ist es moglich)
+
+
+Sentence 1124:
+(TOP
+	(SIMPX das ist)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			[01;36m(ADVX[00m
+				(VF
+					[01;31m(ADJX[00m
+						(ADJD stundlich)[01;31m)[00m)[01;36m)[00m
+			(LK fahrt)
+			[01;31m(MF[00m [01;33m(MF[00m
+				(NX ein zug)
+				[01;33m(PX[00m (PX um achtundfunfzig)[01;31m)[00m[01;31m)[00m
+		[01;31m(NX[00m
+			[01;31m(NX[00m
+				(NX die volle stunde) [01;33mPX)[00m
+				(ADVX immer)[01;31m)[00m
+			[01;36m(ADJX[00m [01;31m(NX[00m
+				(CARD achtundfunfzig)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;36m)[00m)
+
+
+Sentence 1125:
+(TOP der dauert dann drei stunden und zwanzig)
+
+
+Sentence 1126:
+(TOP man mus da aber bedenken das man in dortmund umsteigen muste)
+
+
+Sentence 1127:
+(TOP ja)
+
+
+Sentence 1128:
+(TOP ja)
+
+
+Sentence 1129:
+(TOP mit umsteigen)
+
+
+Sentence 1130:
+(TOP
+	(DM also)
+	(SIMPX
+		(VF es)
+		(LK ware)
+		(MF
+			(ADVX ja)
+			[01;31m(ADJX[00m
+				[01;31m(ADJX[00m
+					(ADVX dreimal)
+					[01;36m(ADJX[00m
+						[01;33m(ADJX[00m (ADVX so)
+						(ADJD lang)[01;36m)[00m[01;31m)[00m
+				[01;36m(ADJX[00m [01;31m(NX[00m
+					(KOKOM wie)
+					(NN fliegen)[01;31m)[00m[01;36m)[00m[01;31m)[00m)))
+
+
+Sentence 1131:
+(TOP ah ist naturlich sehr kompliziert)
+
+
+Sentence 1132:
+(TOP
+	(SIMPX
+		(VF wann)
+		(LK konnten)
+		(MF sie denn genau)
+		(VC sagen)
+		(NF
+			(SIMPX
+				(C ob)
+				(MF
+					(NX ich)
+					(PX an dem abend)
+					[01;36m(ADVX[00m [01;31m(ADJX[00m
+						(ADJD exakt)[01;31m)[00m[01;36m)[00m
+					(PX nach hause))
+				(VC fahren kann)))))
+
+
+Sentence 1133:
+(TOP fliegen)
+
+
+Sentence 1134:
+(TOP
+	(DM also)
+	(SIMPX ich werde jetzt gleich noch mal nachgucken)
+	[01;31m(SIMPX[00m
+		(LK konnte)
+		(MF sie dann)
+		(VC zuruckrufen)[01;31m)[00m)
+
+
+Sentence 1135:
+(TOP
+	(PX in zehn minuten)
+	(ADVX oder so))
+
+
+Sentence 1136:
+(TOP
+	(SIMPX sieht das mit dem hotel aus)
+	(SIMPX konnen sie das auch buchen fur mich))
+
+
+Sentence 1137:
+(TOP ja selbstverstandlich)
+
+
+Sentence 1138:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF sie)
+			(LK sagten)
+			(MF jetzt eben)[01;36m)[00m
+		[01;31m(NF[00m
+			(SIMPX
+				(VF sie)
+				(LK mochten)
+				(MF zentral))[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 1139:
+(TOP ja genau)
+
+
+Sentence 1140:
+(TOP zentral zum stadtzentrum oder zu ihrem kongresort)
+
+
+Sentence 1141:
+(TOP zentral zum stadtzentrum bitte)
+
+
+Sentence 1142:
+(TOP
+	(DM ja)
+	(SIMPX
+		(KOORD und)
+		(LK wissen)
+		(MF sie schon)
+		(NF
+			(SIMPX
+				[01;31m(MF[00m
+					[01;36m(C[00m
+						(PX
+							(APPR in)
+							(NX welcher preiskategorie))[01;36m)[00m
+					[01;36m(MF[00m
+						(NX
+							(PDS das))[01;36m)[00m[01;31m)[00m
+				(VC liegen sollte)))))
+
+
+Sentence 1143:
+(TOP
+	(DM ja)
+	(DM also)
+	(SIMPX
+		(VF es)
+		(LK sollte)
+		(MF
+			(NX
+				(NX
+					(ADVX
+						(ADVX so)
+						[01;36m(ADVX[00m
+							(ADV ungefahr)[01;36m)[00m)
+					(ADJX hundert)
+					(NN mark))
+				(PX pro ubernachtung mit fruhstuck)))))
+
+
+Sentence 1144:
+(TOP hundert mark)
+
+
+Sentence 1145:
+(TOP
+	(DM also)
+	(SIMPX ich sehe jetzt hier gerade)
+	(SIMPX habe ich einmal das hotel am thielenplatz)
+	(SIMPX
+		(VF das)
+		[01;36m(FKOORD[00m [01;31m(LKMN[00m
+			(LKM liegt sehr zentral)
+			(KON und)
+			(LKM hat auch einen konferenzraum)[01;31m)[00m[01;36m)[00m)
+	(SIMPX und da ware die preiskategorie fur ein einzelzimmer zwischen funfundachtzig und hundert dreisig mark))
+
+
+Sentence 1146:
+(TOP ja)
+
+
+Sentence 1147:
+(TOP ja das hort sich ja schon sehr gut an)
+
+
+Sentence 1148:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF das)
+		(LK ware)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(ADVX
+					(ADV jetzt)) [01;33mSIMPX)[00m[01;36m)[00m
+			[01;36m(DM[00m [01;31m(ADVX[00m
+				(ADV ja)[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX das ist das billigste was ich ihnen jetzt gerade im moment anbieten konnte))
+
+
+Sentence 1149:
+(TOP ich notiere mir das mal eben)
+
+
+Sentence 1150:
+(TOP wie hies das hotel)
+
+
+Sentence 1151:
+(TOP
+	(SIMPX
+		(VF das hotel)
+		(LK heist)
+		(MF
+			(NX
+				[01;31m(NX[00m
+					(NX hotel)
+					(PX am thielenplatz)[01;31m)[00m
+				(PX [01;33m(PX (PX[00m
+					(APPR mit)
+					[01;31m(NX[00m
+						[01;31m(NX[00m
+							[01;36m(NX[00m
+								(BS t) [01;33mPX)[00m[01;36m)[00m
+							[01;36m(NX[00m
+								(BS h)[01;36m)[00m[01;31m)[00m [01;33mPX)[00m
+						(KON und)
+						(NX
+							[01;36m(NX[00m
+								(BS i)[01;36m)[00m
+							[01;36m(NX[00m
+								(BS e)[01;36m)[00m)[01;31m)[00m)))))
+
+
+Sentence 1152:
+(TOP ja danke)
+
+
+Sentence 1153:
+(TOP ja)
+
+
+Sentence 1154:
+(TOP kann ich das direkt bei ihnen festmachen)
+
+
+Sentence 1155:
+(TOP ja ich rufe dann da an und erledige das fur sie)
+
+
+Sentence 1156:
+(TOP sie mussen mir nur personalien geben und dann)
+
+
+Sentence 1157:
+(TOP ja)
+
+
+Sentence 1158:
+(TOP gut)
+
+
+Sentence 1159:
+(TOP dann machen wir das doch)
+
+
+Sentence 1160:
+(TOP
+	[01;36m(VF[00m [01;31m(DM[00m
+		(ADVX
+			(ADV also))[01;31m)[00m[01;36m)[00m
+	[01;31m(SIMPX[00m
+		(LK soll)
+		(MF
+			(NX ich)
+			(ADVX jetzt)
+			(PX fur sie)
+			[01;36m(NX[00m
+				(NX den flug vom kolnbonner flughafen)
+				(PX am siebten juli)[01;36m)[00m)
+		(VC buchen)
+		(NF um sieben uhr zehn)[01;31m)[00m
+	(SIMPX sie sind dann um acht uhr zehn in hannover)
+	(SIMPX
+		(KOORD und)
+		(VF dann)
+		(LK informiere)
+		(MF ich mich noch)
+		(NF
+			(SIMPX
+				(C ob)
+				(MF
+					(NX sie)
+					[01;31m(PX[00m
+						(ADVX abends)
+						[01;36m(PX[00m
+							(APPRART am)
+							(NX zehnten juli)[01;36m)[00m[01;31m)[00m)
+				(VC zuruckfliegen konnten)))))
+
+
+Sentence 1161:
+(TOP genau)
+
+
+Sentence 1162:
+(TOP sehr gut)
+
+
+Sentence 1163:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK wurde)
+		[01;31m(MF[00m
+			[01;36m(MF[00m
+				(NX sie)
+				(ADVX dann) [01;33mSIMPX)[00m[01;36m)[00m
+			[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+				(VF ich)
+				(LK sage)
+				[01;31m(MF[00m [01;33m(MF[00m
+					(ADVX
+						(ADV mal))[01;31m)[00m[01;31m)[00m
+			(ADVX morgen)[01;31m)[00m [01;33mMF)[00m
+		(VC zuruckrufen)
+		(NF das wir alles festmachen)[01;31m)[00m)
+
+
+Sentence 1164:
+(TOP gucke ich dann wie das funktioniert mit dem hotel ob noch was frei ist)
+
+
+Sentence 1165:
+(TOP alles klar)
+
+
+Sentence 1166:
+(TOP gut dann bedanke ich mich erst mal)
+
+
+Sentence 1167:
+(TOP ich rufe dann morgen wieder an)
+
+
+Sentence 1168:
+(TOP sie sind im haus)
+
+
+Sentence 1169:
+(TOP ja)
+
+
+Sentence 1170:
+(TOP bin ich)
+
+
+Sentence 1171:
+(TOP alles klar)
+
+
+Sentence 1172:
+(TOP danke schon frau berit)
+
+
+Sentence 1173:
+(TOP ja)
+
+
+Sentence 1174:
+(TOP einen schonen tag noch)
+
+
+Sentence 1175:
+(TOP auf wiedersehen frau offergeld)
+
+
+Sentence 1176:
+(TOP wiedersehen)
+
+
+Sentence 1177:
+(TOP
+	(DM hallo)
+	(DM frau offergeld)
+	(SIMPX
+		(VF wie)
+		(LK machen)
+		(MF wir das denn jetzt)
+		(NF
+			(SIMPX
+				(C wenn)
+				[01;31m(FKOORD[00m
+					[01;31m(MVC[00m
+						(MF wir im am ersten juliwochenende nach hannover)
+						[01;33m(VC[00m (VC fliegen wollen)[01;31m)[00m
+					(KON oder)
+					(MVC nach hannover fahren wollen)[01;31m)[00m))))
+
+
+Sentence 1178:
+(TOP ja hallo frau bergmann)
+
+
+Sentence 1179:
+(TOP am ersten juliwochenende wollen sie fahren)
+
+
+Sentence 1180:
+(TOP
+	(DM ja)
+	[01;36m(SIMPX[00m
+		[01;31m(SIMPX[00m
+			(LK ware)
+			(MF vielleicht gar nicht so schlecht)[01;31m)[00m
+		[01;36m(NF[00m
+			(PX
+				(PX wegen der expo)
+				(ADVX dann))[01;36m)[00m[01;36m)[00m)
+
+
+Sentence 1181:
+(TOP
+	(DM ja)
+	(SIMPX
+		(VF da)
+		(LK mussen)
+		(MF
+			(NX wir)
+			(NX uns)
+			(ADVX noch)
+			[01;36m(ADVX[00m [01;31m(PX[00m
+				(PROP daruber)[01;31m)[00m[01;36m)[00m)
+		(VC unterhalten))
+	(SIMPX wollen sie mit dem zug fahren oder wollen sie fliegen))
+
+
+Sentence 1182:
+(TOP also fliegen ist naturlich wesentlich angenehmer)
+
+
+Sentence 1183:
+(TOP ja richtig)
+
+
+Sentence 1184:
+(TOP sehe ich auch so)
+
+
+Sentence 1185:
+(TOP und zugfahren dauert mir vielleicht auch ein bischen zu lange)
+
+
+Sentence 1186:
+(TOP
+	[01;31m(SIMPX[00m
+		(VF ich)
+		(LK habe)
+		(MF jetzt hier den plan vor mir)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;36m(VXINF[00m [01;36m(VC[00m [01;31m(VF[00m
+			[01;31m(NX[00m
+				(NN zugdauer)[01;31m)[00m[01;31m)[00m [01;33mSIMPX)[00m[01;36m)[00m[01;36m)[00m
+		[01;36m(SIMPX[00m
+			[01;33m(FKOORD[00m (LK dauert)
+			(MF drei stunden zwanzig minuten)[01;36m)[00m[01;31m)[00m
+	[01;31m(NX[00m
+		(KON und)
+		[01;36m(LKM[00m
+			[01;36m(VXFIN[00m [01;36m(LK[00m [01;31m(NX[00m
+				(NN fliegen)[01;31m)[00m[01;36m)[00m[01;36m)[00m
+			[01;36m(MF[00m
+				(NX
+					(ART eine)
+					(NN stunde))[01;36m)[00m[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 1187:
+(TOP ja ist auch eine sehr unbequeme)
+
+
+Sentence 1188:
+(TOP ja)
+
+
+Sentence 1189:
+(TOP
+	(SIMPX
+		(VF da)
+		(LK geht)
+		(MF uns auch nicht soviel zeit)
+		[01;36m(VXINF[00m
+			(VC
+				(PTKVZ verloren))[01;36m)[00m))
+
+
+Sentence 1190:
+(TOP ja)
+
+
+Sentence 1191:
+(TOP wie machen wir das)
+
+
+Sentence 1192:
+(TOP rufen sie beim reiseburo an oder soll ich es machen)
+
+
+Sentence 1193:
+(TOP wegen der flugverbindung)
+
+
+Sentence 1194:
+(TOP genau)
+
+
+Sentence 1195:
+(TOP
+	(DM ja)
+	(DM also)
+	(SIMPX ich kann beim reiseburo anrufen)
+	[01;31m(SIMPX[00m
+		[01;36m(SIMPX[00m
+			(VF dann)
+			(SIMPX gucke ich)[01;36m)[00m
+		[01;31m(FKOORD[00m
+			[01;31m(LKMN[00m
+				(LK erkundige)
+				[01;36m(MF[00m
+					[01;31m(MF[00m
+						(NX ich)
+						(NX mich)[01;31m)[00m
+					[01;36m(ADVX[00m [01;31m(DM[00m
+						(ITJ ah)[01;31m)[00m[01;36m)[00m
+					[01;31m(NX[00m
+						(ADVX hier)
+						(NX die fluge)[01;31m)[00m[01;36m)[00m
+				[01;36m(R[00m
+					(NF [01;33m(R (NF[00m
+						[01;31m(SIMPX[00m
+							(C wann)
+							(MF die fluge)
+							(VC stattfinden)[01;31m)[00m)[01;36m)[00m[01;31m)[00m
+			(KON und)
+			(LKM buche dann fur uns beiden)[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 1196:
+(TOP ja)
+
+
+Sentence 1197:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK meine)
+		[01;31m(SIMPX[00m
+			(VF wir)
+			(LK hatten)[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(VF[00m
+					[01;31m(NX[00m
+						[01;36m(MF[00m
+							(NX
+								(ADJX letztes)
+								(NN mal)) [01;33mSIMPX)[00m[01;36m)[00m
+						[01;36m(VF[00m
+							(PX
+								(APPR bei)
+								(NX der expo))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+				(LK hatten)
+				(MF
+					(NX wir)
+					[01;36m(PX[00m [01;31m(NX[00m
+						[01;36m(ADVX[00m [01;31m(NX[00m
+							(NN flugmoglichkeiten)[01;31m)[00m[01;36m)[00m
+						[01;31m(PX[00m
+							(APPR um)
+							(NX sieben uhr zehn und acht uhr zehn)[01;31m)[00m[01;31m)[00m[01;36m)[00m)
+				(VC gehabt)[01;31m)[00m[01;31m)[00m))
+
+
+Sentence 1198:
+(TOP
+	(DM ja)
+	(NX wir)
+	[01;31m(SIMPX[00m
+		(SIMPX ich hatte mich auch informiert)
+		(KON und)
+		[01;31m(SIMPX[00m
+			(VF das)
+			(LK ist)
+			[01;36m(MF[00m
+				[01;31m(MF[00m [01;33m(MF[00m
+					(ADVX immer)
+					(ADVX noch)
+					(ADVX so)[01;31m)[00m
+				[01;31m(NF[00m
+					[01;31m(PX[00m
+						[01;31m(PX[00m
+							(ADVX nur)
+							(APPRART am)
+							(NX wochenende)[01;31m)[00m [01;33mMF)[00m
+						(ADVX nicht)[01;31m)[00m[01;31m)[00m[01;36m)[00m[01;31m)[00m[01;31m)[00m
+	(SIMPX aber wir mussen ja auch sowieso nicht am wochenende fliegen))
+
+
+Sentence 1199:
+(TOP ja)
+
+
+Sentence 1200:
+(TOP sollen wir montags starten)
+
+
+Sentence 1201:
+(TOP konnen wir machen)
+
+
+Sentence 1202:
+(TOP der wievielte ist das)
+
+
+Sentence 1203:
+(TOP sie haben ja grade einen plan vor sich liegen)
+
+
+Sentence 1204:
+(TOP ja moment ich gucke mal eben nach)
+
+
+Sentence 1205:
+(TOP erstes juliwochenende)
+
+
+Sentence 1206:
+(TOP
+	(DM ja)
+	(DM also)
+	(SIMPX
+		[01;36m(VF[00m [01;31m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF es ihnen da nicht)
+				(VC past))[01;31m)[00m[01;36m)[00m
+		(LK konnen)
+		(MF wir auch am zweiten juliwochenende)
+		(VC fahren)))
+
+
+Sentence 1207:
+(TOP ich bin da flexibler)
+
+
+Sentence 1208:
+(TOP nee das ware okay)
+
+
+Sentence 1209:
+(TOP
+	(DM also)
+	[01;31m(SIMPX[00m
+		(VF das wochenende)
+		(LK ware)
+		(MF der funfte sechste)[01;31m)[00m
+	[01;31m(SIMPX[00m
+		[01;36m(NF[00m [01;31m(LV[00m
+			(SIMPX
+				(C wenn)
+				(MF wir dann am montag)
+				(VC starten))[01;31m)[00m[01;36m)[00m
+		(DM genau)
+		(LK ware)
+		(MF das der siebte juli)[01;31m)[00m)
+
+
+Sentence 1210:
+(TOP ja ist dann der siebte)
+
+
+Sentence 1211:
+(TOP gut)
+
+
+Sentence 1212:
+(TOP ja mussen wir uns auf das hotel einigen)
+
+
+Sentence 1213:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK wurde)
+		(VC sagen)
+		(NF
+			(ADJX
+				(ADJX am besten)
+				[01;36m(DM[00m
+					(ADJD zentral)[01;36m)[00m))))
+
+
+Sentence 1214:
+(TOP ja auf jeden fall)
+
+
+Sentence 1215:
+(TOP
+	[01;31m(SIMPX[00m
+		(LK mochte)
+		(MF
+			(ADVX auch)
+			[01;36m(NX[00m
+				[01;33m(NX[00m (ADVX so)
+				[01;31m(NX[00m
+					[01;31m(NX[00m
+						(ART ein)
+						(ADJX bischen)
+						(PIS was)[01;31m)[00m [01;33mNX)[00m
+					(PX von hannover)[01;31m)[00m[01;36m)[00m)
+		(VC sehen)[01;31m)[00m
+	[01;36m(NF[00m
+		(SIMPX
+			(VF das wir vielleicht auch ein paar sehenswurdigkeiten uns anschauen)
+			(LK wurde)
+			(MF ich)
+			(VC sagen))[01;36m)[00m)
+
+
+Sentence 1216:
+(TOP wenn sie da interesse dran haben)
+
+
+Sentence 1217:
+(TOP ja)
+
+
+Sentence 1218:
+(TOP ware ich auch einverstanden)
+
+
+Sentence 1219:
+(TOP ja)
+
+
+Sentence 1220:
+(TOP ich kenne von einem fruheren aufenthalt noch das maritimstadthotel das fand ich also sehr angenehm)
+
+
+Sentence 1221:
+(TOP es liegt sehr zentral hat einen konferenzraum)
+
+
+Sentence 1222:
+(TOP da konnen wir vielleicht noch nach der messe ein bischen was besprechen)
+
+
+Sentence 1223:
+(TOP
+	[01;31m(ADVX[00m
+		(ADVX auch)
+		(SIMPX
+			(C wenn)
+			(MF
+				(NX wir)
+				(ADVX noch)
+				(NX
+					[01;36m(NX[00m
+						(ART ein)
+						[01;31m(ADJX[00m
+							(PIDAT paar)[01;31m)[00m[01;36m)[00m
+					[01;36m(PX[00m
+						(APPR mit)
+						(NX
+							[01;36m(NX[00m
+								(NN teilnehmer)[01;36m)[00m
+							(NX der messe))[01;36m)[00m)
+				(ADVX mit))
+			(VC einladen))[01;31m)[00m)
+
+
+Sentence 1224:
+(TOP ja)
+
+
+Sentence 1225:
+(TOP das ware vielleicht sehr gut)
+
+
+Sentence 1226:
+(TOP
+	[01;31m(SIMPX[00m
+		[01;31m(LV[00m
+			(SIMPX
+				(KOORD und)
+				(C was)
+				(MF naturlich auch sehr komfortabel)
+				(VC ist))[01;31m)[00m
+		[01;36m(SIMPX[00m
+			(VF es)
+			(LK hat)
+			(MF eine eigene sauna)[01;36m)[00m[01;31m)[00m)
+
+
+Sentence 1227:
+(TOP
+	(NX und ein hallenbad)
+	(SIMPX wie ich grade sehe))
+
+
+Sentence 1228:
+(TOP ja)
+
+
+Sentence 1229:
+(TOP
+	[01;31m(NX[00m
+		[01;36m(NX[00m
+			[01;36m(VF[00m
+				(ART die)[01;36m)[00m[01;36m)[00m
+		(NN kosten)[01;31m)[00m
+	(ART der)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(VF die frage der kosten)
+		[01;31m(SIMPX[00m
+			(LK konnen)
+			[01;31m(MF[00m
+				[01;36m(MF[00m
+					(NX
+						(PPER wir)) [01;33mSIMPX) SIMPX)[00m[01;36m)[00m
+				[01;36m(VF[00m
+					(ADVX [01;33m(SIMPX[00m
+						(ADV dann))[01;36m)[00m[01;31m)[00m[01;31m)[00m
+		(LK kann)
+		(MF ich mit unserem vorgesetzten)
+		(VC abchecken)[01;31m)[00m)
+
+
+Sentence 1230:
+(TOP das ubernehmen sie)
+
+
+Sentence 1231:
+(TOP ja)
+
+
+Sentence 1232:
+(TOP
+	(SIMPX
+		[01;36m(SIMPX[00m
+			(VF die buchung)
+			(LK mache)
+			(MF ich dann auch)[01;36m)[00m
+		[01;36m(DM[00m [01;31m(VC[00m
+			(PTKVZ klar)[01;31m)[00m[01;36m)[00m))
+
+
+Sentence 1233:
+(TOP gut)
+
+
+Sentence 1234:
+(TOP machen sie)
+
+
+Sentence 1235:
+(TOP
+	(SIMPX
+		(VF ich)
+		(LK weis)
+		(MF nicht)
+		(NF
+			(SIMPX
+				(C ob)
+				(MF
+					[01;36m(MF[00m
+						(NX es)
+						(ADVX vielleicht)
+						(ADVX auch)
+						(PX
+							(APPR uber)
+							[01;31m(NX[00m
+								(ART das)
+								[01;36m(ADVX[00m
+									(NN reiseburo)[01;36m)[00m[01;31m)[00m)[01;36m)[00m
+					[01;36m(NX[00m [01;31m(ADJX[00m
+						(ADJD moglich)[01;31m)[00m[01;36m)[00m)
+				(VC ware)))))
+
+
+Sentence 1236:
+(TOP
+	(SIMPX ich konnte ja mal nachfragen)
+	(SIMPX
+		[01;31m(VF[00m
+			[01;31m(SIMPX[00m
+				(KOORD und)
+				(C wenn)
+				(MF nicht)[01;31m)[00m[01;31m)[00m
+		(LK konnen)
+		(MF wir ja)
+		(VC weitersehen))
+	(DM ja))
+
+
+Sentence 1237:
+(TOP das ware vielleicht das beste)
+
+
+Sentence 1238:
+(TOP ja dann setzen wir uns am besten noch mal in verbindung)
+
+
+Sentence 1239:
+(TOP
+	(DM ja)
+	(PX mit den veranstaltungen)
+	[01;31m(SIMPX[00m [01;33m(SIMPX[00m
+		(VF ich)
+		(LK sehe)
+		[01;31m(MF[00m [01;33m(MF[00m
+			(ADVX
+				(ADV gerade))[01;31m)[00m
+		[01;31m(NF[00m
+			[01;31m(SIMPX[00m
+				[01;31m(VF[00m
+					[01;31m(PX[00m
+						[01;31m(PX[00m
+							(ADVX genau)
+							[01;36m(PX[00m
+								(APPR in)
+								(NX der woche)[01;36m)[00m[01;31m)[00m [01;33mMF)[00m
+						(R in der wir da sein werden)[01;31m)[00m[01;31m)[00m [01;33mSIMPX)[00m
+				(LK ist)
+				(MF
+					[01;31m(NX[00m
+						[01;36m(NX[00m
+							(ART das)[01;36m)[00m
+						[01;36m(ADJX[00m
+							(NN schutzenfest)[01;36m)[00m[01;31m)[00m)[01;31m)[00m[01;31m)[00m[01;31m)[00m)
+
+
+Sentence 1240:
+(TOP
+	(SIMPX
+		(VF das)
+		(LK wird)
+		(MF [01;33m(NX[00m
+			(NX
+				(KOKOM als)
+				[01;31m(NX[00m
+					[01;31m(ADJX[00m
+						(ADJA grostes)[01;31m)[00m [01;33mNX)[00m
+					(NN schutzenfest)[01;31m)[00m
+				(NX der welt)))
+		(VC deklariert)))
+
+
+Sentence 1241:
+(TOP da konnten wir mal vorbeischauen)
+
+
+Sentence 1242:
+(TOP ja)
+
+
+Sentence 1243:
+(TOP wie ware es denn mit einem theaterbesuch)
+
+

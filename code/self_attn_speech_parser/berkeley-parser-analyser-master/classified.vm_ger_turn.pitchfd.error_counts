@@ -1,0 +1,18 @@
+# Time of run:
+# Tue Jul  6 16:03:05 2021
+# Command:
+# ./berkeley_parse_analyser/classify_german_vm.py sample_data/turn_vm_ger_pitchfd_output_dev.txt sample_data/turn_dev_ger.trees classified.vm_ger_turn.pitchfd
+#
+264 264 Unary
+194 273 Single Word Phrase
+194 194 UNSET remove
+147 232 Modifier Attachment
+109 163 PP Attachment
+90 134 Clause Attachment
+84 231 UNSET move
+78 78 UNSET add
+69 138 Different label
+53 154 NP Attachment
+39 80 Co-ordination
+29 29 NP Internal Structure
+4 15 VP Attachment

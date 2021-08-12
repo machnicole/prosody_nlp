@@ -1,0 +1,9 @@
+# Time of run:
+# Sun Jul  4 15:28:38 2021
+# Command:
+# ./berkeley_parse_analyser/classify_english_vm.py sample_data/test.txt sample_data/test_gold.txt classified.test
+#
+1 8 UNSET move
+1 4 PP Attachment
+1 2 Clause Attachment
+1 1 Single Word Phrase
